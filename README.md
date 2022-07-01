@@ -8,6 +8,8 @@ Please [file an issue](https://github.com/WebKit/standards-positions/issues/new)
 
 ### Possible positions
 
+**Please note:** Only once a label is assigned to an issue does it represent WebKit's position. Individual responses to issues do not represent the WebKit team's position on a standard or feature. 
+
 - `support` - WebKit sees this specification as conceptually good, and worth prototyping, getting feedback on its value, and iterating.
 - `neutral` - WebKit does not see this specification as harmful, but is not convinced that it is a good approach or worth working on.
 - `oppose` - WebKit considers this specification to be harmful in its current state.
