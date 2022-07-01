@@ -8,7 +8,7 @@ Please [file an issue](https://github.com/WebKit/standards-positions/issues/new)
 
 ### Possible positions
 
-**Please note:** Only once a label is assigned to an issue does it represent WebKit's position.
+Only once a label is assigned to an issue does it represent WebKit's position.
 Individual responses to issues do not represent the WebKit team's position on a standard or feature.
 Positions are not final. We are happy to revisit postions as new information becomes available.
 
