@@ -6,6 +6,8 @@ The [WebKit Open Source Project](https://webkit.org) uses [this GitHub repositor
 
 Please [file an issue](https://github.com/WebKit/standards-positions/issues/new) if you'd like us to generate a position on some web-facing API.
 
+For previous positions see the [webkit-dev mailing list archives](https://lists.webkit.org/pipermail/webkit-dev/).
+
 ### Possible positions
 
 Only once a label is assigned to an issue does it represent WebKit's position.
