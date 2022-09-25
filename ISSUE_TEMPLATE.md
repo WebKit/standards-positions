@@ -25,3 +25,7 @@
 ### Anything else we need to know
 
 Brief summary of the issue or the subject of the spec.
+
+### After filing the issue
+
+Please consider adding appropriate `venue:` and `topic:` labels.
