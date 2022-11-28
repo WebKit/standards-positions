@@ -24,3 +24,8 @@ Positions are not final. We are happy to revisit positions as new information be
 
 - `invalid` - The issue is not about a specification which would be implemented in a browser engine such as WebKit.
 - `duplicate` - The issue is a duplicate of another issue.
+
+### Filter issues
+
+- [All issues with a position](https://github.com/WebKit/standards-positions/issues?q=is%3Aopen+is%3Aissue+label%3A%22position%3A+neutral%22%2C%22position%3A+not+considering%22%2C%22position%3A+oppose%22%2C%22position%3A+support%22%2C%22position%3A+under+consideration%22).
+- [All issues without a position](https://github.com/WebKit/standards-positions/issues?q=is%3Aopen+is%3Aissue+-label%3A%22position%3A+neutral%22+-label%3A%22position%3A+not+considering%22+-label%3A%22position%3A+oppose%22+-label%3A%22position%3A+support%22+-label%3A%22position%3A+under+consideration%22+-label%3Ameta).
