@@ -25,7 +25,7 @@ Note that positions on this repository do not reflect implementation status. We 
 
 - `blocked` - Coming to a position is blocked on issues identified with the spec or proposal.
 - `duplicate` - The issue is a duplicate of another issue.
-- `invalid` - The issue is not about a specification which would be implemented in a browser engine such as WebKit.
+- `invalid` - The issue is not about a specification that would be implemented in a browser engine such as WebKit.
 
 ### Resolving an issue with a position
 
