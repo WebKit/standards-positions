@@ -17,15 +17,15 @@ Positions are not final. We are happy to revisit positions as new information be
 - `support` - WebKit sees this specification as conceptually good, and worth prototyping, getting feedback on its value, and iterating.
 - `neutral` - WebKit does not see this specification as harmful, but is not convinced that it is a good approach or worth working on.
 - `oppose` - WebKit considers this specification to be harmful in its current state.
-- `under consideration` - WebKit's position on this specification is being worked out and is not yet settled.
 - `not considering` - WebKit does not intend to look at this specification in the near future.
 
 Note that positions on this repository do not reflect implementation status. We might like something we do not get around to implement for one reason or another. And we might dislike something we nevertheless have to implement.
 
 #### Other possible issue states
 
-- `invalid` - The issue is not about a specification which would be implemented in a browser engine such as WebKit.
+- `blocked` - Assigning a position is blocked on issues identified with the spec or proposal.
 - `duplicate` - The issue is a duplicate of another issue.
+- `invalid` - The issue is not about a specification that would be implemented in a browser engine such as WebKit.
 
 ### Resolving an issue with a position
 
