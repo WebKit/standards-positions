@@ -1,10 +1,19 @@
-## Request for position on an emerging web specification
+---
+name: Request for position
+about: Solicit WebKit's position on an emerging web specification
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+## Request for a WebKit position on an emerging web specification
 
 **(Please delete inapplicable rows.)**
 
 * WebKittens who can provide input:
 
-### Information about the specification
+### Information about the specification or proposal
 
 * Title:
 * URL:
