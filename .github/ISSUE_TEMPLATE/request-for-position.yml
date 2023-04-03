@@ -1,68 +1,77 @@
 name: Request for position
 description: Solicit WebKit's position on an emerging web specification
 body:
+  - type: markdown
+    attributes:
+      value: "## WebKittens who can provide input"
   - type: input
     id: webkittens
     attributes:
-      label: "WebKittens who can provide input"
+      label: "WebKittens"
+      placeholder: "@annevk @hober @marcoscaceres"
   - type: markdown
     attributes:
-      value: "### Information about the specification or proposal"
+      value: "## Information about the specification or proposal"
   - type: input
     id: spec-title
     attributes:
-      label: "Title"
+      label: "Title of the spec"
     validations:
       required: true
   - type: input
     id: spec-link
     attributes:
-      label: "URL"
+      label: "URL to the spec"
     validations:
       required: true
   - type: input
     id: spec-repo
     attributes:
-      label: "GitHub repository"
+      label: "URL to the spec's GitHub repository"
   - type: input
     id: spec-issues
     attributes:
-      label: "Issue Tracker"
-      placeholder: "If the spec doesn't use GitHub for issue tracking"
+      label: "Issue Tracker URL"
+      placeholder: "Only if the spec doesn't use GitHub for issue tracking"
   - type: input
     id: spec-explainer
     attributes:
-      label: "Explainer"
-      placeholder: "If the explainer isn't README.md in the GitHub repo"
+      label: "Explainer URL"
+      placeholder: "Only if the explainer isn't README.md in the GitHub repo"
   - type: markdown
     attributes:
-      value: "### Design reviews and vendor positions"
+      value: "## Design reviews and vendor positions"
   - type: input
     id: tag-review
     attributes:
-      label: "TAG Design Review"
+      label: "URL to the spec's TAG Design Review"
   - type: input
     id: moz-position
     attributes:
-      label: "Mozilla standards-positions issue"
+      label: "Mozilla standards-positions issue URL"
   - type: markdown
     attributes:
-      value: "### Bugs tracking this feature"
+      value: "## Bugs tracking this feature"
   - type: input
     id: webkit-bugzilla
     attributes:
       label: "WebKit Bugzilla"
+      placeholder: "https://bugs.webkit.org/show_bug.cgi?id=NNNNNN"
   - type: input
     id: radar
     attributes:
       label: "Radar"
+      placeholder: "rdar://NNNNNNNNN"
   - type: markdown
     attributes:
-      value: "### Anything else we need to know"
+      value: "## Anything else we need to know"
   - type: textarea
     id: description
     attributes:
       label: "Description"
-      placeholder: "Please summarize the subject of the proposal or specification."
+      placeholder: |
+        Please summarize the proposal or specification.
+        Include any details or salient information you think will aid us
+        in coming to a position.
     validations:
       required: true
