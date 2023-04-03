@@ -1,5 +1,5 @@
-name: Request for position
-description: Solicit WebKit's position on an emerging web specification
+name: Request for WebKit's position on an emerging web specification
+description: If you're working on a spec and would like to know the WebKit Open Source Projet's position on it, this is the form for you!
 body:
   - type: markdown
     attributes:
@@ -8,6 +8,7 @@ body:
     id: webkittens
     attributes:
       label: "WebKittens"
+      description: "Who from the WebKit community do you think is best positioned to review this spec? It's okay if you don't know."
       placeholder: "@annevk @hober @marcoscaceres"
   - type: markdown
     attributes:
@@ -29,25 +30,26 @@ body:
   - type: input
     id: spec-repo
     attributes:
-      label: "URL to the spec's GitHub repository"
+      label: "URL to the spec's repository"
+      description: "On GitHub or whatever repository hosting provider the spec uses."
       placeholder: "https://github.com/ORG/REPO"
   - type: input
     id: spec-issues
     attributes:
       label: "Issue Tracker URL"
-      description: "Only if the spec doesn't use GitHub for issue tracking"
+      description: "Only supply this if the spec doesn't use GitHub for issue tracking"
   - type: input
     id: spec-explainer
     attributes:
       label: "Explainer URL"
-      description: "Only if the explainer isn't README.md in the GitHub repo"
+      description: "Only supply this if the explainer isn't the README.md in the GitHub repo"
   - type: markdown
     attributes:
       value: "## Design reviews and vendor positions"
   - type: input
     id: tag-review
     attributes:
-      label: "URL to the spec's TAG Design Review"
+      label: "TAG Design Review URL"
       placeholder: "https://github.com/w3ctag/design-reviews/issues/NNN"
   - type: input
     id: moz-position
@@ -75,7 +77,7 @@ body:
     attributes:
       label: "Description"
       placeholder: |
-        Please summarize the proposal or specification.
+        Please tell us what the proposal or specification is.
         
         Include any details or salient information you think will aid us in coming to a position.
     validations:
