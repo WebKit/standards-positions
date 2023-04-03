@@ -1,0 +1,61 @@
+name: Request for position
+description: Solicit WebKit's position on an emerging web specification
+body:
+  - type: input
+    id: webkittens
+    attributes:
+      label: "WebKittens who can provide input"
+  - type: markdown
+    value: "### Information about the specification or proposal"
+  - type: input
+    id: spec-title
+    attributes:
+      label: "Title"
+      required: true
+  - type: input
+    id: spec-link
+    attributes:
+      label: "URL"
+      required: true
+  - type: input
+    id: spec-repo
+    attributes:
+      label: "GitHub repository"
+  - type: input
+    id: spec-issues
+    attributes:
+      label: "Issue Tracker"
+      placeholder: "If the spec doesn't use GitHub for issue tracking"
+  - type: input
+    id: spec-explainer
+    attributes:
+      label: "Explainer"
+      placeholder: "If the explainer isn't README.md in the GitHub repo"
+  - type: markdown
+    value: "### Design reviews and vendor positions"
+  - type: input
+    id: tag-review
+    attributes:
+      label: "TAG Design Review"
+  - type: input
+    id: moz-position
+    attributes:
+      label: "Mozilla standards-positions issue"
+  - type: markdown
+    value: "### Bugs tracking this feature"
+  - type: input
+    id: webkit-bugzilla
+    attributes:
+      label: "WebKit Bugzilla"
+  - type: input
+    id: radar
+    attributes:
+      label: "Radar"
+  - type: markdown
+    value: "### Anything else we need to know"
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      placeholder: "Please summarize the subject of the proposal or specification."
+      required: true
