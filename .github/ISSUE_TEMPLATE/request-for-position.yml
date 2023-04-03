@@ -6,7 +6,8 @@ body:
     attributes:
       label: "WebKittens who can provide input"
   - type: markdown
-    value: "### Information about the specification or proposal"
+    attributes:
+      value: "### Information about the specification or proposal"
   - type: input
     id: spec-title
     attributes:
@@ -34,7 +35,8 @@ body:
       label: "Explainer"
       placeholder: "If the explainer isn't README.md in the GitHub repo"
   - type: markdown
-    value: "### Design reviews and vendor positions"
+    attributes:
+      value: "### Design reviews and vendor positions"
   - type: input
     id: tag-review
     attributes:
@@ -44,7 +46,8 @@ body:
     attributes:
       label: "Mozilla standards-positions issue"
   - type: markdown
-    value: "### Bugs tracking this feature"
+    attributes:
+      value: "### Bugs tracking this feature"
   - type: input
     id: webkit-bugzilla
     attributes:
@@ -54,7 +57,8 @@ body:
     attributes:
       label: "Radar"
   - type: markdown
-    value: "### Anything else we need to know"
+    attributes:
+      value: "### Anything else we need to know"
   - type: textarea
     id: description
     attributes:
