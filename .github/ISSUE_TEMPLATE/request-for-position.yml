@@ -16,28 +16,31 @@ body:
     id: spec-title
     attributes:
       label: "Title of the spec"
+      placeholder: "CSS Frobnication Module, Level 5"
     validations:
       required: true
   - type: input
     id: spec-link
     attributes:
       label: "URL to the spec"
+      placeholder: "https://www.w3.org/TR/SHORTNAME"
     validations:
       required: true
   - type: input
     id: spec-repo
     attributes:
       label: "URL to the spec's GitHub repository"
+      placeholder: "https://github.com/ORG/REPO"
   - type: input
     id: spec-issues
     attributes:
       label: "Issue Tracker URL"
-      placeholder: "Only if the spec doesn't use GitHub for issue tracking"
+      description: "Only if the spec doesn't use GitHub for issue tracking"
   - type: input
     id: spec-explainer
     attributes:
       label: "Explainer URL"
-      placeholder: "Only if the explainer isn't README.md in the GitHub repo"
+      description: "Only if the explainer isn't README.md in the GitHub repo"
   - type: markdown
     attributes:
       value: "## Design reviews and vendor positions"
@@ -45,22 +48,24 @@ body:
     id: tag-review
     attributes:
       label: "URL to the spec's TAG Design Review"
+      placeholder: "https://github.com/w3ctag/design-reviews/issues/NNN"
   - type: input
     id: moz-position
     attributes:
       label: "Mozilla standards-positions issue URL"
+      placeholder: "https://github.com/mozilla/standards-positions/issues/NNN"
   - type: markdown
     attributes:
       value: "## Bugs tracking this feature"
   - type: input
     id: webkit-bugzilla
     attributes:
-      label: "WebKit Bugzilla"
-      placeholder: "https://bugs.webkit.org/show_bug.cgi?id=NNNNNN"
+      label: "WebKit Bugzilla URL"
+      placeholder: "https://webkit.org/b/NNNNNN"
   - type: input
     id: radar
     attributes:
-      label: "Radar"
+      label: "Radar URL"
       placeholder: "rdar://NNNNNNNNN"
   - type: markdown
     attributes:
@@ -71,7 +76,7 @@ body:
       label: "Description"
       placeholder: |
         Please summarize the proposal or specification.
-        Include any details or salient information you think will aid us
-        in coming to a position.
+        
+        Include any details or salient information you think will aid us in coming to a position.
     validations:
       required: true
