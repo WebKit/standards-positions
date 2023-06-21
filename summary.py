@@ -25,7 +25,7 @@ def is_ignorable_issue(issue):
     if "pull_request" in issue:
         return True
     for label in issue["labels"]:
-        if label["name"] in ("invalid", "meta", "proposal withdrawn"):
+        if label["name"] in ("duplicate", "invalid", "meta", "proposal withdrawn"):
             return True
     return False
 

@@ -601,12 +601,12 @@
     "id": "https://github.com/WebKit/standards-positions/issues/54",
     "position": null,
     "title": "Prefetch / Prerendering Revamped / Speculation Rules",
-    "url": "https://wicg.github.io/nav-speculation/prefetch.html / https://wicg.github.io/nav-speculation/prerendering.html / https://wicg.github.io/nav-speculation/speculation-rules.html",
+    "url": "https://wicg.github.io/nav-speculation/prefetch.html",
     "github": "https://github.com/WICG/nav-speculation",
     "issues": null,
     "explainer": null,
-    "tag": "mostly seems to have coalesced into https://github.com/w3ctag/design-reviews/issues/721",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/620 / https://github.com/mozilla/standards-positions/issues/613",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/721",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/620",
     "bugzilla": null,
     "radar": null
   },
@@ -617,7 +617,7 @@
     "url": "https://aomedia.org/av1/specification/",
     "github": "https://github.com/AOMediaCodec/av1-spec",
     "issues": null,
-    "explainer": "n/a",
+    "explainer": null,
     "tag": null,
     "mozilla": null,
     "bugzilla": null,
@@ -644,21 +644,8 @@
     "github": null,
     "issues": "https://github.com/w3c/csswg-drafts/labels/css-contain-3",
     "explainer": "https://github.com/oddbird/css-sandbox/blob/main/src/rwd/query/explainer.md",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/592 (but might need to open a separate one for style())",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/592",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/686",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/58",
-    "position": null,
-    "title": null,
-    "url": null,
-    "github": null,
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
@@ -670,10 +657,10 @@
     "github": "https://wicg.github.io/deprecation-reporting/",
     "issues": null,
     "explainer": null,
-    "tag": "Unknown.",
-    "mozilla": "Mozilla has partially implemented, but no official standards position.",
+    "tag": null,
+    "mozilla": null,
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=244899",
-    "radar": "<rdar://problem/99654496>"
+    "radar": "rdar://99654496"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/61",
@@ -683,23 +670,10 @@
     "github": "https://github.com/WICG/urlpattern",
     "issues": null,
     "explainer": null,
-    "tag": "Unknown.",
-    "mozilla": "Unknown.",
-    "bugzilla": "None.",
-    "radar": "None."
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/62",
-    "position": null,
-    "title": "Web Share Target API",
-    "url": "https://w3c.github.io/web-share-target/",
-    "github": "https://github.com/w3c/web-share-target/",
-    "issues": "https://github.com/w3c/web-share-target/issues/",
-    "explainer": "https://github.com/w3c/web-share-target/blob/main/docs/explainer.md",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/554 (this is for Web Share, not the Web Share Target API)",
-    "mozilla": "https://mozilla.github.io/standards-positions/#web-share-target",
-    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=194593",
-    "radar": "`<rdar://problem/48080757>`"
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/63",
@@ -710,7 +684,7 @@
     "issues": null,
     "explainer": "https://github.com/w3c/screen-wake-lock/blob/gh-pages/explainer.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/126",
-    "mozilla": "https://mozilla.github.io/standards-positions/#screen-wake-lock.",
+    "mozilla": "https://mozilla.github.io/standards-positions/#screen-wake-lock",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=205104",
     "radar": "rdar://71618179"
   },
@@ -723,7 +697,7 @@
     "issues": null,
     "explainer": null,
     "tag": null,
-    "mozilla": "Implementing, https://bugzilla.mozilla.org/show_bug.cgi?id=1532642",
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
@@ -788,14 +762,14 @@
     "issues": null,
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/640",
-    "mozilla": "https://mozilla.github.io/standards-positions/#ua-client-hints (https://github.com/mozilla/standards-positions/issues/202)",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/202",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=241749",
-    "radar": "rdar://problem/95454627"
+    "radar": "rdar://95454627"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/71",
     "position": null,
-    "title": null,
+    "title": "WebUSB on extension service workers",
     "url": null,
     "github": null,
     "issues": null,
@@ -822,7 +796,7 @@
     "id": "https://github.com/WebKit/standards-positions/issues/73",
     "position": null,
     "title": "Conditional Focus",
-    "url": null,
+    "url": "https://www.w3.org/TR/screen-capture/#dom-capturecontroller-setfocusbehavior",
     "github": "https://github.com/w3c/mediacapture-screen-share/",
     "issues": null,
     "explainer": "https://github.com/WICG/conditional-focus/blob/main/README.md",
@@ -836,10 +810,10 @@
     "position": "support",
     "title": "The Popover API",
     "url": "https://github.com/whatwg/html/pull/8221",
-    "github": "N/A",
-    "issues": "https://crbug.com (https://crbug.com/1307772)",
-    "explainer": null,
-    "tag": "[#599](https://github.com/w3ctag/design-reviews/issues/599) (closed waiting for anchor positioning), [#680](https://github.com/w3ctag/design-reviews/issues/680) (closed recommending change from <popup> to popup attribute), [#743](https://github.com/w3ctag/design-reviews/issues/743) (open).",
+    "github": null,
+    "issues": null,
+    "explainer": "https://open-ui.org/components/popover.research.explainer/",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/743",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/698",
     "bugzilla": null,
     "radar": null
@@ -886,13 +860,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/78",
     "position": "support",
-    "title": null,
+    "title": "Improving event dispatching on disabled form controls",
     "url": null,
     "github": null,
     "issues": null,
     "explainer": null,
-    "tag": "none",
-    "mozilla": "none, but I believe that mozilla is supportive",
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
@@ -918,7 +892,7 @@
     "issues": null,
     "explainer": null,
     "tag": null,
-    "mozilla": "Position based on discussions during TPAC and work on spec.",
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
@@ -933,13 +907,13 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/213",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/635",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=180574",
-    "radar": "rdar://problem/88670991"
+    "radar": "rdar://88670991"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/82",
     "position": null,
-    "title": null,
-    "url": null,
+    "title": "Error handling in key import of secure curves in Web Crypto",
+    "url": "https://github.com/WICG/webcrypto-secure-curves/issues/10",
     "github": null,
     "issues": null,
     "explainer": null,
@@ -951,12 +925,12 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/83",
     "position": null,
-    "title": "[Federated Credential Management API](https://github.com/fedidcg/FedCM)",
-    "url": "Permissions Policy specifically [here](https://fedidcg.github.io/FedCM/#permissions-policy-integration)",
+    "title": "Federated Credential Management API Permissions Policy",
+    "url": "https://fedidcg.github.io/FedCM/#permissions-policy-integration",
     "github": null,
     "issues": null,
-    "explainer": "[explainer](https://github.com/fedidcg/FedCM/blob/main/explorations/iframe_support.md)",
-    "tag": "We haven't filed one since this just uses permissions policy directly, and is a fairly small addition.",
+    "explainer": "https://github.com/fedidcg/FedCM/blob/main/explorations/iframe_support.md",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/701",
     "bugzilla": null,
     "radar": null
@@ -969,16 +943,16 @@
     "github": "https://github.com/WICG/element-timing",
     "issues": null,
     "explainer": null,
-    "tag": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/395",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/192",
-    "bugzilla": "None found",
-    "radar": "None found"
+    "bugzilla": null,
+    "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/85",
     "position": "support",
     "title": "Pending Beacon",
-    "url": "(still under development) https://wicg.github.io/pending-beacon",
+    "url": "https://wicg.github.io/pending-beacon",
     "github": "https://github.com/WICG/pending-beacon",
     "issues": null,
     "explainer": "https://github.com/WICG/pending-beacon/blob/main/README.md",
@@ -990,7 +964,7 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/86",
     "position": null,
-    "title": null,
+    "title": "Sanitizer API",
     "url": "https://wicg.github.io/sanitizer-api/",
     "github": "https://github.com/WICG/sanitizer-api",
     "issues": null,
@@ -1003,7 +977,7 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/87",
     "position": "support",
-    "title": null,
+    "title": "Priority Hints",
     "url": "https://wicg.github.io/priority-hints/",
     "github": "https://github.com/WICG/priority-hints",
     "issues": null,
@@ -1011,7 +985,7 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/704",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/606",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=247291",
-    "radar": "rdar://problem/102058327"
+    "radar": "rdar://102058327"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/88",
@@ -1060,7 +1034,7 @@
     "github": "https://github.com/w3c/ColorWeb-CG/",
     "issues": null,
     "explainer": null,
-    "tag": "Not filed yet",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/708",
     "bugzilla": null,
     "radar": null
@@ -1081,7 +1055,7 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/93",
     "position": "oppose",
-    "title": null,
+    "title": "First-Party Sets",
     "url": null,
     "github": "https://github.com/WICG/first-party-sets",
     "issues": null,
@@ -1125,7 +1099,7 @@
     "github": null,
     "issues": null,
     "explainer": null,
-    "tag": "N/A for now (to be updated)",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/712",
     "bugzilla": null,
     "radar": null
@@ -1150,8 +1124,8 @@
     "url": "https://w3c.github.io/webrtc-extensions/#dom-rtcrtptransceiver-setofferedrtpheaderextensions",
     "github": "https://github.com/w3c/webrtc-extensions",
     "issues": null,
-    "explainer": "there is an ancient one [here](https://docs.google.com/document/d/1y1hTsMeav5ijPvoqu1R6U4YC564i1QzgkMeIqWhgiis/edit#heading=h.o92j6jwzea4x)",
-    "tag": "n/a",
+    "explainer": "https://docs.google.com/document/d/1y1hTsMeav5ijPvoqu1R6U4YC564i1QzgkMeIqWhgiis/edit",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/713",
     "bugzilla": null,
     "radar": null
@@ -1198,7 +1172,7 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/104",
     "position": "support",
-    "title": null,
+    "title": "FileSystemHandle Remove Self",
     "url": "whatwg/fs#9",
     "github": "[whatwg/fs](https://github.com/whatwg/fs/)",
     "issues": null,
@@ -1393,8 +1367,8 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/121",
     "position": "oppose",
-    "title": null,
-    "url": "https://github.com/whatwg/fs/pull/10 (though that currently specifies directory moves, too)",
+    "title": "FileSystemFileHandle.move() for local files",
+    "url": "https://github.com/whatwg/fs/pull/10",
     "github": "https://github.com/whatwg/fs/ and https://github.com/WICG/file-system-access",
     "issues": null,
     "explainer": null,
@@ -2075,7 +2049,7 @@
     "issues": null,
     "explainer": "https://github.com/WICG/storage-buckets/blob/main/explainer.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/562",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/792",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/475",
     "bugzilla": null,
     "radar": null
   },
@@ -2414,6 +2388,19 @@
     "explainer": "https://github.com/WICG/proposals/issues/97",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/829",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/209",
+    "position": null,
+    "title": "exclusive accordions with `<details name=\"\">`",
+    "url": "https://github.com/whatwg/html/pull/9400",
+    "github": "https://github.com/openui/open-ui",
+    "issues": null,
+    "explainer": "https://open-ui.org/components/accordion.explainer",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/831",
     "bugzilla": null,
     "radar": null
   }
