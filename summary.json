@@ -183,7 +183,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/15",
-    "position": null,
+    "position": "blocked",
     "title": "User Preference Media Features Client Hints Headers",
     "url": "https://wicg.github.io/user-preference-media-features-headers/",
     "github": "https://github.com/wicg/user-preference-media-features-headers/",
@@ -378,7 +378,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/36",
-    "position": null,
+    "position": "blocked",
     "title": "Cookie Store API",
     "url": "https://wicg.github.io/cookie-store/",
     "github": "https://github.com/WICG/cookie-store",
@@ -404,7 +404,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/38",
-    "position": null,
+    "position": "blocked",
     "title": "Scoped Custom Element Registries",
     "url": "https://github.com/WICG/webcomponents/issues/716",
     "github": "WICG",
@@ -690,7 +690,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/61",
-    "position": null,
+    "position": "blocked",
     "title": "URLPattern API",
     "url": "https://wicg.github.io/urlpattern/",
     "github": "https://github.com/WICG/urlpattern",
@@ -794,7 +794,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/70",
-    "position": null,
+    "position": "blocked",
     "title": "User-Agent Client Hints",
     "url": "https://wicg.github.io/ua-client-hints/",
     "github": "https://github.com/WICG/ua-client-hints",
@@ -885,7 +885,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/77",
-    "position": null,
+    "position": "blocked",
     "title": "CSS module scripts",
     "url": "https://html.spec.whatwg.org/multipage/webappapis.html#creating-a-css-module-script",
     "github": "https://github.com/whatwg/html/pull/4898",
@@ -1613,7 +1613,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/137",
-    "position": null,
+    "position": "blocked",
     "title": "Capability Delegation for getDisplayMedia()",
     "url": "https://wicg.github.io/capability-delegation/spec.html#monkey-patch-to-screen-capture",
     "github": "https://github.com/WICG/capability-delegation",
@@ -1652,7 +1652,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/140",
-    "position": null,
+    "position": "blocked",
     "title": "User Locale Preferences",
     "url": null,
     "github": "https://github.com/romulocintra/user-locale-client-hints",
@@ -1834,7 +1834,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/156",
-    "position": null,
+    "position": "blocked",
     "title": "Report Critical-CH caused restart in NavigationTiming",
     "url": "https://github.com/w3c/navigation-timing/pull/188",
     "github": "https://github.com/w3c/navigation-timing/",
@@ -2003,7 +2003,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/173",
-    "position": null,
+    "position": "blocked",
     "title": "Fenced frames",
     "url": "https://wicg.github.io/fenced-frame/",
     "github": "https://github.com/wicg/fenced-frame",
@@ -2237,7 +2237,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/191",
-    "position": null,
+    "position": "blocked",
     "title": "Standardizing Security Semantics of Cross-Site Cookies",
     "url": "https://github.com/DCtheTall/standardizing-cross-site-cookie-semantics",
     "github": null,
@@ -2302,7 +2302,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/196",
-    "position": null,
+    "position": "support",
     "title": "Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2",
     "url": "https://www.rfc-editor.org/rfc/rfc9155.html",
     "github": null,
@@ -2432,7 +2432,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/206",
-    "position": null,
+    "position": "blocked",
     "title": "ServiceWorker static routing API",
     "url": "no spec written yet",
     "github": "n/a",

@@ -33,7 +33,9 @@ def is_ignorable_issue(issue):
 
 def get_position(issue):
     for label in issue["labels"]:
-        if label["name"].startswith("position: "):
+        if label["name"] == "blocked":
+            return "blocked"
+        elif label["name"].startswith("position: "):
             return label["name"][len("position: "):]
     return None
 
@@ -118,15 +120,20 @@ def main():
         data = []
         page = 1
         while True:
-            temp_data = json.loads(requests.get(f"https://api.github.com/repos/WebKit/standards-positions/issues?direction=asc&state=all&per_page=100&page={page}").text)
+            try:
+                response = requests.get(f"https://api.github.com/repos/WebKit/standards-positions/issues?direction=asc&state=all&per_page=100&page={page}", timeout=5)
+            except:
+                print("Updated failed, network failure or request timed out.")
+                exit(1)       
+            temp_data = json.loads(response.text)
             if len(temp_data) > 0:
                 data.extend(temp_data)
                 page += 1
-            else:
-                break
+                continue
+            break
         write_json("summary-data.json", data)
         print("Done, thanks for updating!")
-        exit(1)
+        exit(0)
     
     if args.process:
         if not os.path.exists("summary-data.json"):

@@ -1241,6 +1241,15 @@
         "color": "ffffff",
         "default": false,
         "description": "Proposed, edited, or co-edited by Google."
+      },
+      {
+        "id": 5331864968,
+        "node_id": "LA_kwDOHk513M8AAAABPc3NiA",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20dependencies",
+        "name": "concerns: dependencies",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "Some of this proposal's dependencies are unstable, immature, or lack widespread support."
       }
     ],
     "state": "open",
@@ -1308,9 +1317,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 8,
     "created_at": "2022-06-29T01:30:41Z",
-    "updated_at": "2023-03-27T16:37:45Z",
+    "updated_at": "2023-06-20T20:11:57Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "active_lock_reason": null,
@@ -22868,6 +22877,15 @@
         "description": "Proposal is incubated in the Web Incubator Community Group"
       },
       {
+        "id": 4299437316,
+        "node_id": "LA_kwDOHk513M8AAAABAEQ1BA",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20Fetch%20Workstream",
+        "name": "venue: WHATWG Fetch Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4575933697,
         "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
@@ -22875,6 +22893,15 @@
         "color": "ffffff",
         "default": false,
         "description": "Proposed, edited, or co-edited by Google."
+      },
+      {
+        "id": 5331458318,
+        "node_id": "LA_kwDOHk513M8AAAABPceZDg",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20fetch",
+        "name": "topic: fetch",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Relates to the Fetch API"
       }
     ],
     "state": "open",
@@ -22944,7 +22971,7 @@
     "milestone": null,
     "comments": 3,
     "created_at": "2023-04-06T08:41:15Z",
-    "updated_at": "2023-06-20T10:13:23Z",
+    "updated_at": "2023-06-20T15:20:02Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -26601,9 +26628,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2023-05-11T21:32:33Z",
-    "updated_at": "2023-06-09T07:56:34Z",
+    "updated_at": "2023-06-20T20:28:10Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -27899,6 +27926,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278049802,
         "node_id": "LA_kwDOHk513M7-_dwK",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20security",
@@ -27962,9 +27998,9 @@
       }
     ],
     "milestone": null,
-    "comments": 1,
+    "comments": 4,
     "created_at": "2023-06-06T20:56:39Z",
-    "updated_at": "2023-06-09T17:13:58Z",
+    "updated_at": "2023-06-20T20:59:43Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -28681,7 +28717,35 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278049437,
+        "node_id": "LA_kwDOHk513M7-_dqd",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20performance",
+        "name": "topic: performance",
+        "color": "5bcefa",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4281706751,
+        "node_id": "LA_kwDOHk513M7_Naj_",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20Web%20Performance%20WG",
+        "name": "venue: W3C Web Performance WG",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -28689,7 +28753,7 @@
     "milestone": null,
     "comments": 2,
     "created_at": "2023-06-13T21:26:27Z",
-    "updated_at": "2023-06-14T14:13:13Z",
+    "updated_at": "2023-06-20T14:02:23Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -28937,6 +29001,15 @@
         "description": "Spec relates to HTML (Hypertext Markup Language)"
       },
       {
+        "id": 4281722881,
+        "node_id": "LA_kwDOHk513M7_NegB",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WICG",
+        "name": "venue: WICG",
+        "color": "0052cc",
+        "default": false,
+        "description": "Proposal is incubated in the Web Incubator Community Group"
+      },
+      {
         "id": 4628073716,
         "node_id": "LA_kwDOHk513M8AAAABE9rM9A",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20other",
@@ -28990,10 +29063,46 @@
         "site_admin": false
       }
     ],
-    "milestone": null,
-    "comments": 4,
+    "milestone": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/milestones/13",
+      "html_url": "https://github.com/WebKit/standards-positions/milestone/13",
+      "labels_url": "https://api.github.com/repos/WebKit/standards-positions/milestones/13/labels",
+      "id": 9218760,
+      "node_id": "MI_kwDOHk513M4AjKrI",
+      "number": 13,
+      "title": "2023 Week 26",
+      "description": "",
+      "creator": {
+        "login": "hober",
+        "id": 6235,
+        "node_id": "MDQ6VXNlcjYyMzU=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6235?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hober",
+        "html_url": "https://github.com/hober",
+        "followers_url": "https://api.github.com/users/hober/followers",
+        "following_url": "https://api.github.com/users/hober/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hober/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hober/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hober/subscriptions",
+        "organizations_url": "https://api.github.com/users/hober/orgs",
+        "repos_url": "https://api.github.com/users/hober/repos",
+        "events_url": "https://api.github.com/users/hober/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hober/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "open_issues": 1,
+      "closed_issues": 0,
+      "state": "open",
+      "created_at": "2023-03-28T18:11:31Z",
+      "updated_at": "2023-06-21T04:27:15Z",
+      "due_on": "2023-06-26T07:00:00Z",
+      "closed_at": null
+    },
+    "comments": 5,
     "created_at": "2023-06-19T00:33:17Z",
-    "updated_at": "2023-06-19T21:49:47Z",
+    "updated_at": "2023-06-21T04:28:54Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -29011,6 +29120,144 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/207/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/208",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/208/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/208/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/208/events",
+    "html_url": "https://github.com/WebKit/standards-positions/pull/208",
+    "id": 1765680238,
+    "node_id": "PR_kwDOHk513M5TdAK-",
+    "number": 208,
+    "title": "Meta: add infrastructure to generate summary.json",
+    "user": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 4285118482,
+        "node_id": "LA_kwDOHk513M7_abgS",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/meta",
+        "name": "meta",
+        "color": "000000",
+        "default": false,
+        "description": "For issues about this repo"
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": {
+      "login": "hober",
+      "id": 6235,
+      "node_id": "MDQ6VXNlcjYyMzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6235?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hober",
+      "html_url": "https://github.com/hober",
+      "followers_url": "https://api.github.com/users/hober/followers",
+      "following_url": "https://api.github.com/users/hober/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hober/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hober/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hober/subscriptions",
+      "organizations_url": "https://api.github.com/users/hober/orgs",
+      "repos_url": "https://api.github.com/users/hober/repos",
+      "events_url": "https://api.github.com/users/hober/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hober/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "hober",
+        "id": 6235,
+        "node_id": "MDQ6VXNlcjYyMzU=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6235?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hober",
+        "html_url": "https://github.com/hober",
+        "followers_url": "https://api.github.com/users/hober/followers",
+        "following_url": "https://api.github.com/users/hober/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hober/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hober/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hober/subscriptions",
+        "organizations_url": "https://api.github.com/users/hober/orgs",
+        "repos_url": "https://api.github.com/users/hober/repos",
+        "events_url": "https://api.github.com/users/hober/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hober/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      {
+        "login": "gsnedders",
+        "id": 176218,
+        "node_id": "MDQ6VXNlcjE3NjIxOA==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/176218?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gsnedders",
+        "html_url": "https://github.com/gsnedders",
+        "followers_url": "https://api.github.com/users/gsnedders/followers",
+        "following_url": "https://api.github.com/users/gsnedders/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gsnedders/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gsnedders/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gsnedders/subscriptions",
+        "organizations_url": "https://api.github.com/users/gsnedders/orgs",
+        "repos_url": "https://api.github.com/users/gsnedders/repos",
+        "events_url": "https://api.github.com/users/gsnedders/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gsnedders/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2023-06-20T15:44:42Z",
+    "updated_at": "2023-06-20T21:08:04Z",
+    "closed_at": null,
+    "author_association": "CONTRIBUTOR",
+    "active_lock_reason": null,
+    "draft": false,
+    "pull_request": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/pulls/208",
+      "html_url": "https://github.com/WebKit/standards-positions/pull/208",
+      "diff_url": "https://github.com/WebKit/standards-positions/pull/208.diff",
+      "patch_url": "https://github.com/WebKit/standards-positions/pull/208.patch",
+      "merged_at": null
+    },
+    "body": "The setup is as follows:\r\n\r\n1. We collect all the issue data from the repository through the GitHub API and store it in a JSON file. Storing the input allows us to monitor changes in it for bugs. We'll likely want to change some issues so they are more suitable for consumption by the script.\r\n2. The script takes this data and produces a JSON file with a summarized view of each issue. The bulk of the logic is in processing the body of the issue (the top comment) which is split between before and after the YAML change.\r\n\r\nThe idea is that the JSON file with the summarized view can be consumed and eventually displayed on webkit.org once we're happy with it.\r\n\r\nIt currently has some flaws due to the raw data, but it seems worthwhile to check this in and then improve the raw data to validate the entire process around updating the issue data.",
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/208/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/208/timeline",
     "performed_via_github_app": null,
     "state_reason": null
   }
