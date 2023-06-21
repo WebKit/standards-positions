@@ -6,7 +6,7 @@
     "url": "https://w3c.github.io/gamepad/extensions.html",
     "github": "https://github.com/w3c/gamepad",
     "issues": "https://github.com/w3c/gamepad/issues/138",
-    "explainer": "[MSEdgeExplainers/explainer.md at main \u00b7 MicrosoftEdge/MSEdgeExplainers (github.com)](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/GamepadHapticsActuatorTriggerRumble/explainer.md#:~:text=The%20trigger-rumble%20effect%20could%20be%20activated%20for%20both,should%20be%20capable%20to%20fallback%20to%20dual%20rumble.)",
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/GamepadHapticsActuatorTriggerRumble/explainer.md",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/656",
     "bugzilla": null,
@@ -15,15 +15,15 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/2",
     "position": "support",
-    "title": "HTML",
-    "url": null,
+    "title": "import.meta.resolve()",
+    "url": "https://html.spec.whatwg.org/multipage/webappapis.html#hostgetimportmetaproperties",
     "github": null,
     "issues": null,
     "explainer": null,
     "tag": null,
     "mozilla": null,
-    "bugzilla": null,
-    "radar": null
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=242163",
+    "radar": "rdar://96569044"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/3",
@@ -41,7 +41,7 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/4",
     "position": "neutral",
-    "title": null,
+    "title": "WebAssembly Relaxed SIMD",
     "url": "https://github.com/WebAssembly/relaxed-simd/tree/main/document/core",
     "github": null,
     "issues": null,
@@ -80,10 +80,10 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/7",
     "position": "support",
-    "title": null,
-    "url": null,
+    "title": "Deprecating Non-ASCII characters in cookie domain attributes",
+    "url": "https://github.com/httpwg/http-extensions/pull/1969",
     "github": null,
-    "issues": null,
+    "issues": "https://github.com/httpwg/http-extensions/issues/1707",
     "explainer": null,
     "tag": null,
     "mozilla": null,
@@ -93,15 +93,15 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/8",
     "position": "support",
-    "title": "css-overflow-3",
-    "url": "The edits to the spec for this change are: [define overflow on replaced elements](https://github.com/w3c/csswg-drafts/commit/a679cd100dcf479af23b33b033bbe4c959d78258) and [new UA CSS](https://github.com/tabatkins/html/commit/16943c6e9231a4f5fab89c65ae7ddbe49f40f01b).",
-    "github": "[csswg-drafts](https://github.com/w3c/csswg-drafts).",
+    "title": "CSS overflow for replaced elements",
+    "url": null,
+    "github": "https://github.com/w3c/csswg-drafts",
     "issues": null,
-    "explainer": "[explainer](https://github.com/WICG/shared-element-transitions/blob/main/overflow-on-replaced-elements.md)",
-    "tag": "[Issue](https://github.com/w3ctag/design-reviews/issues/750)",
-    "mozilla": "[Issue](https://github.com/mozilla/standards-positions/issues/659)",
-    "bugzilla": "none",
-    "radar": "none"
+    "explainer": "https://github.com/WICG/shared-element-transitions/blob/main/overflow-on-replaced-elements.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/750",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/659",
+    "bugzilla": null,
+    "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/9",
@@ -133,7 +133,7 @@
     "id": "https://github.com/WebKit/standards-positions/issues/11",
     "position": "neutral",
     "title": "Web Share Target API",
-    "url": "https://w3c.github.io/web-share-target/  _(Unofficial Draft)_",
+    "url": "https://w3c.github.io/web-share-target/",
     "github": "https://github.com/w3c/web-share-target",
     "issues": null,
     "explainer": null,
@@ -147,13 +147,13 @@
     "position": "support",
     "title": "Declarative Shadow DOM",
     "url": "https://github.com/whatwg/dom/issues/831",
-    "github": "WHATWG",
+    "github": null,
     "issues": "https://github.com/whatwg/dom/issues/831",
     "explainer": "https://github.com/mfreed7/declarative-shadow-dom/blob/master/README.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/494",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/335",
-    "bugzilla": "[Prototype declarative shadow DOM](https://bugs.webkit.org/show_bug.cgi?id=245556)",
-    "radar": "_"
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=245556",
+    "radar": "rdar://100515573"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/13",
@@ -165,8 +165,8 @@
     "explainer": "https://css.oddbird.net/scope/explainer/",
     "tag": "https://github.com/w3ctag/design-reviews/issues/593",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/625",
-    "bugzilla": "N/A",
-    "radar": "N/A"
+    "bugzilla": null,
+    "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/14",
@@ -192,7 +192,7 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/632",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/526",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=242102",
-    "radar": "`<rdar://problem/96504765>`"
+    "radar": "rdar://96504765"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/16",
@@ -205,7 +205,7 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/498#issuecomment-726454753",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/531",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=230225",
-    "radar": "rdar://problem/83154723"
+    "radar": "rdar://83154723"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/17",
@@ -230,17 +230,17 @@
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/669",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/167",
-    "bugzilla": "?",
-    "radar": "?"
+    "bugzilla": null,
+    "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/19",
     "position": "oppose",
-    "title": null,
+    "title": "Controlling screen brightness",
     "url": null,
     "github": null,
     "issues": null,
-    "explainer": null,
+    "explainer": "https://github.com/w3c/screen-wake-lock/blob/gh-pages/brightness-mode-explainer.md",
     "tag": null,
     "mozilla": null,
     "bugzilla": null,
@@ -250,11 +250,11 @@
     "id": "https://github.com/WebKit/standards-positions/issues/20",
     "position": null,
     "title": "HTTP Client Hints + Client Hints Infrastructure",
-    "url": "https://www.rfc-editor.org/rfc/rfc8942.html + https://wicg.github.io/client-hints-infrastructure/",
-    "github": "https://github.com/httpwg/http-extensions + https://github.com/WICG/client-hints-infrastructure",
-    "issues": "https://github.com/httpwg/http-extensions/labels/client-hints + https://github.com/WICG/client-hints-infrastructure/issues/",
+    "url": "https://www.rfc-editor.org/rfc/rfc8942.html",
+    "github": "https://github.com/httpwg/http-extensions",
+    "issues": "https://github.com/httpwg/http-extensions/labels/client-hints",
     "explainer": null,
-    "tag": "Various (not sure what to pick for the actual HTTP spec!)",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/79",
     "bugzilla": null,
     "radar": null
@@ -268,22 +268,22 @@
     "issues": null,
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/402",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/93 \u2014 Worth Prototyping",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/93",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=189692",
     "radar": "rdar://30061591"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/24",
     "position": "support",
-    "title": "Fetch",
+    "title": "Fetch streaming upload",
     "url": "https://fetch.spec.whatwg.org/",
     "github": "https://github.com/whatwg/fetch/",
     "issues": "https://github.com/whatwg/fetch/issues/1438",
     "explainer": "https://github.com/yutakahirano/fetch-with-streams/blob/master/streaming-upload.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/754",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/663",
-    "bugzilla": "N/A",
-    "radar": "N/A"
+    "bugzilla": null,
+    "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/28",
@@ -296,7 +296,7 @@
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/154",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=231706",
-    "radar": "`<rdar://problem/84484202>`"
+    "radar": "rdar://84484202"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/29",
@@ -333,7 +333,7 @@
     "issues": null,
     "explainer": null,
     "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/36 (harmful)",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/36",
     "bugzilla": null,
     "radar": null
   },
@@ -397,9 +397,9 @@
     "github": "https://github.com/immersive-web/raw-camera-access",
     "issues": null,
     "explainer": "https://github.com/immersive-web/raw-camera-access/blob/main/explainer.md",
-    "tag": "w3ctag/design-reviews#652",
-    "mozilla": "mozilla/standards-positions#667",
-    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=208988 (the Raw Camera Access Module extends WebXR Device API)",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/652",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/667",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=208988",
     "radar": null
   },
   {
@@ -407,10 +407,10 @@
     "position": "blocked",
     "title": "Scoped Custom Element Registries",
     "url": "https://github.com/WICG/webcomponents/issues/716",
-    "github": "WICG",
+    "github": null,
     "issues": "https://github.com/WICG/webcomponents/issues/716",
     "explainer": "https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Scoped-Custom-Element-Registries.md",
-    "tag": "Not sure if it counts, but here is an excerpt from the WCCG on the topic - https://w3c.github.io/webcomponents-cg/#scoped-element-registries",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/424",
     "bugzilla": null,
     "radar": null
@@ -426,15 +426,15 @@
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/pull/454",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=220823",
-    "radar": "rdar://problem/73478498"
+    "radar": "rdar://73478498"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/40",
     "position": null,
     "title": "Media Source Extensions, specifically the sub-feature in MSEv2, \"MSE-in-Workers\"",
     "url": "https://www.w3.org/TR/media-source-2/",
-    "github": "https://github.com/w3c/media-source/, issue tracking this sub-feature: https://github.com/w3c/media-source/issues/175",
-    "issues": null,
+    "github": "https://github.com/w3c/media-source/",
+    "issues": "https://github.com/w3c/media-source/issues/175",
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/656",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/547",
@@ -444,10 +444,10 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/41",
     "position": null,
-    "title": "Document Picture in Picture",
-    "url": null,
+    "title": "Document Picture-in-Picture Specification",
+    "url": "https://wicg.github.io/document-picture-in-picture/",
     "github": null,
-    "issues": "https://chromestatus.com/feature/5755179560337408",
+    "issues": "https://github.com/WICG/document-picture-in-picture/issues",
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/670",
@@ -471,25 +471,12 @@
     "id": "https://github.com/WebKit/standards-positions/issues/43",
     "position": null,
     "title": "Web Custom formats for Async Clipboard API",
-    "url": "[PR for addition to clipboard spec](https://github.com/w3c/clipboard-apis/pull/175)",
+    "url": "https://github.com/w3c/clipboard-apis/pull/175",
     "github": "https://github.com/w3c/editing",
     "issues": null,
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/525",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/44",
-    "position": null,
-    "title": "Align Timers (including DOM timers) at 125 Hz",
-    "url": "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
-    "github": null,
-    "issues": "https://crbug.com/1153139",
-    "explainer": null,
-    "tag": null,
-    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
@@ -503,8 +490,8 @@
     "explainer": "https://wicg.github.io/anonymous-iframe/#explainer",
     "tag": "https://github.com/w3ctag/design-reviews/issues/639",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/628",
-    "bugzilla": "To be added.",
-    "radar": "To be added."
+    "bugzilla": null,
+    "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/46",
@@ -553,7 +540,7 @@
     "github": "https://github.com/w3c/manifest-app-info",
     "issues": "https://github.com/w3c/manifest-app-info/issues",
     "explainer": "https://github.com/w3c/manifest-app-info/blob/main/explainer.md",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/30 (`screenshots` was included in the original app manifest tag review)",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/30",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/492",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=222356",
     "radar": null
@@ -580,7 +567,7 @@
     "issues": null,
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/765",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/679, https://github.com/mozilla/standards-positions/issues/760",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/760",
     "bugzilla": null,
     "radar": null
   },
@@ -1154,19 +1141,6 @@
     "tag": null,
     "mozilla": null,
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=182671",
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/99",
-    "position": null,
-    "title": "Didn't find really a spec but many descriptions",
-    "url": "https://web.dev/learn/pwa/capabilities/",
-    "github": null,
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": null,
-    "bugzilla": null,
     "radar": null
   },
   {
@@ -1842,19 +1816,6 @@
     "explainer": null,
     "tag": "FYI only https://github.com/w3ctag/design-reviews/issues/833",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/767",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/157",
-    "position": null,
-    "title": "[css-overflow-3] Make `overflow: overlay` a legacy alias of `auto`",
-    "url": "https://drafts.csswg.org/css-overflow-3/#valdef-overflow-auto",
-    "github": null,
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/768",
     "bugzilla": null,
     "radar": null
   },
