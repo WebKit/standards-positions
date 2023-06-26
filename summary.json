@@ -1138,7 +1138,7 @@
     "github": "https://github.com/bradtriebwasser/fullscreen-popup",
     "issues": null,
     "explainer": "https://github.com/bradtriebwasser/fullscreen-popup/blob/main/EXPLAINER.md",
-    "tag": "Not created yet (Will be updated)",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/840",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/714",
     "bugzilla": null,
     "radar": null
@@ -1173,8 +1173,8 @@
     "id": "https://github.com/WebKit/standards-positions/issues/104",
     "position": "support",
     "title": "FileSystemHandle Remove Self",
-    "url": "whatwg/fs#9",
-    "github": "[whatwg/fs](https://github.com/whatwg/fs/)",
+    "url": "https://github.com/whatwg/fs/pull/9",
+    "github": "https://github.com/whatwg/fs",
     "issues": null,
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/773",
@@ -1191,7 +1191,7 @@
     "issues": null,
     "explainer": null,
     "tag": null,
-    "mozilla": "(implemented)",
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
@@ -1203,7 +1203,7 @@
     "github": "https://github.com/WICG/nav-speculation",
     "issues": null,
     "explainer": "https://github.com/WICG/nav-speculation/blob/main/no-vary-search.md",
-    "tag": "w3ctag/design-reviews#797",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/797",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/717",
     "bugzilla": null,
     "radar": null
@@ -1218,8 +1218,8 @@
     "explainer": "https://gpuweb.github.io/gpuweb/explainer/",
     "tag": "https://github.com/gpuweb/gpuweb/issues/2531",
     "mozilla": "https://mozilla.github.io/standards-positions/#webgpu",
-    "bugzilla": "Not sure",
-    "radar": "Note sure"
+    "bugzilla": null,
+    "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/108",
@@ -1310,7 +1310,7 @@
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/723",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=194539",
-    "radar": "rdar://problem/3176096"
+    "radar": "rdar://3176096"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/117",
@@ -1346,7 +1346,7 @@
     "github": "https://github.com/w3c/webrtc-extensions",
     "issues": null,
     "explainer": null,
-    "tag": "(to be determined if this is necessary)",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/728",
     "bugzilla": null,
     "radar": null
@@ -1355,10 +1355,10 @@
     "id": "https://github.com/WebKit/standards-positions/issues/120",
     "position": null,
     "title": "FedCM with multiple IDP support",
-    "url": "Spec not yet updated to allow multiple IDP support.",
+    "url": null,
     "github": "https://github.com/fedidcg/FedCM",
     "issues": null,
-    "explainer": "https://github.com/fedidcg/FedCM/blob/main/proposals/multi-idp-api.md (thanks @tttzach!)",
+    "explainer": "https://github.com/fedidcg/FedCM/blob/main/proposals/multi-idp-api.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/803",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/730",
     "bugzilla": null,
@@ -1369,7 +1369,7 @@
     "position": "oppose",
     "title": "FileSystemFileHandle.move() for local files",
     "url": "https://github.com/whatwg/fs/pull/10",
-    "github": "https://github.com/whatwg/fs/ and https://github.com/WICG/file-system-access",
+    "github": "https://github.com/whatwg/fs",
     "issues": null,
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/805",
@@ -1398,7 +1398,7 @@
     "github": "https://github.com/whatwg/html",
     "issues": null,
     "explainer": "https://github.com/whatwg/html/wiki/dialog--initial-focus,-a-proposal",
-    "tag": "none",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/734",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=250795",
     "radar": null
@@ -1450,9 +1450,9 @@
     "github": "https://github.com/tc39/proposal-import-attributes",
     "issues": null,
     "explainer": null,
-    "tag": "https://github.com/w3ctag/design-reviews/issues/535 (looks like an earlier iteration)",
-    "mozilla": null,
-    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=243622, https://bugs.webkit.org/show_bug.cgi?id=251600",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/535",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/373",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=243622",
     "radar": null
   },
   {
@@ -1485,12 +1485,12 @@
     "id": "https://github.com/WebKit/standards-positions/issues/131",
     "position": null,
     "title": "FedCM: Auto re-authentication",
-    "url": "spec not ready",
+    "url": null,
     "github": "https://github.com/fedidcg/FedCM",
     "issues": null,
     "explainer": "https://github.com/fedidcg/FedCM/issues/429",
     "tag": "https://github.com/w3ctag/design-reviews/issues/813",
-    "mozilla": "Agreed on the feature itself but need more work to align on the API shape: https://github.com/fedidcg/FedCM/issues/429#issuecomment-1426162273",
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
@@ -1502,10 +1502,10 @@
     "github": "https://github.com/whatwg/html/pull/7908",
     "issues": "https://github.com/whatwg/html/pull/7908",
     "explainer": "https://github.com/whatwg/html/pull/7908",
-    "tag": "N/A",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/745",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=pattern-v",
-    "radar": "rdar://problem/105268069"
+    "radar": "rdar://105268069"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/133",
@@ -1516,9 +1516,9 @@
     "issues": null,
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/563",
-    "mozilla": "There isn't one but Mozilla are the only ones who have implemented this property so far. (Chromium has a WIP implementation)",
+    "mozilla": null,
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=231588",
-    "radar": "rdar://problem/84417387"
+    "radar": "rdar://84417387"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/134",
@@ -1529,9 +1529,9 @@
     "issues": null,
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/563",
-    "mozilla": "There isn't one but Mozilla are the only ones who have implemented this property so far. (Chromium might have a WIP implementation)",
+    "mozilla": null,
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=231590",
-    "radar": "rdar://problem/84418022"
+    "radar": "rdar://84418022"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/135",
@@ -1544,7 +1544,7 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/520",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/488",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=167335",
-    "radar": "rdar://problem/30153666"
+    "radar": "rdar://30153666"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/136",
@@ -1555,9 +1555,9 @@
     "issues": null,
     "explainer": null,
     "tag": null,
-    "mozilla": "No issue but have shipped to stable release",
+    "mozilla": null,
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=241866",
-    "radar": "rdar://problem/96163997"
+    "radar": "rdar://96163997"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/137",
@@ -1589,14 +1589,14 @@
     "id": "https://github.com/WebKit/standards-positions/issues/139",
     "position": "support",
     "title": "Web Authentication large blob extension",
-    "url": "[Spec](https://w3c.github.io/webauthn/#sctn-large-blob-extension)",
-    "github": null,
+    "url": "https://w3c.github.io/webauthn/#sctn-large-blob-extension",
+    "github": "https://github.com/w3c/webauthn",
     "issues": null,
-    "explainer": null,
+    "explainer": "https://github.com/w3c/webauthn/wiki/Explainer:-WebAuthn-Large-Blob-Extension",
     "tag": "https://github.com/w3ctag/design-reviews/issues/820",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/750",
-    "bugzilla": "None",
-    "radar": "None"
+    "bugzilla": null,
+    "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/140",
@@ -1606,10 +1606,10 @@
     "github": "https://github.com/romulocintra/user-locale-client-hints",
     "issues": null,
     "explainer": null,
-    "tag": "None",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/751",
-    "bugzilla": "None",
-    "radar": "None"
+    "bugzilla": null,
+    "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/141",
@@ -2250,7 +2250,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/197",
-    "position": null,
+    "position": "support",
     "title": "Snapshotting initiator base URL",
     "url": "https://github.com/whatwg/html/issues/421#issuecomment-1260360824",
     "github": null,
@@ -2414,6 +2414,19 @@
     "explainer": "https://github.com/chrishtr/rendering/blob/master/entry-exit-animations.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/829",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/833",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/212",
+    "position": null,
+    "title": "RFC 7616 Digest auth: Support SHA-256, SHA-512-256 and user hashing",
+    "url": "https://datatracker.ietf.org/doc/html/rfc7616",
+    "github": null,
+    "issues": "https://bugs.chromium.org/p/chromium/issues/detail?id=1160478",
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   }
