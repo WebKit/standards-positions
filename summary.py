@@ -2,9 +2,12 @@
 
 import argparse, json, os, requests
 
+
 # Utilities
 def write_json(filename, data):
-    open(filename, "w").write(json.dumps(data, indent=2, separators=(',', ': ')) + "\n")
+    with open(filename, "w") as f:
+        json.dump(data, f, indent=2, separators=(",", ": "))
+        f.write("\n")
 
 
 # General processing
@@ -13,13 +16,13 @@ def process(issues):
     for issue in issues:
         if is_ignorable_issue(issue):
             continue
-            
-        summary_item = { "id": issue["html_url"],
-                         "position": get_position(issue) }
+
+        summary_item = {"id": issue["html_url"], "position": get_position(issue)}
         summary_item.update(process_body(issue))
 
         summary.append(summary_item)
     write_json("summary.json", summary)
+
 
 def is_ignorable_issue(issue):
     if "pull_request" in issue:
@@ -29,48 +32,56 @@ def is_ignorable_issue(issue):
             return True
     return False
 
+
 def get_position(issue):
     for label in issue["labels"]:
         if label["name"] == "blocked":
             return "blocked"
         elif label["name"].startswith("position: "):
-            return label["name"][len("position: "):]
+            return label["name"][len("position: ") :]
     return None
+
 
 def process_body(issue):
     lines = issue["body"].splitlines()
-    
-    body = { "title": None,
-             "url": None,
-             "github": None,
-             "issues": None,
-             "explainer": None,
-             "tag": None,
-             "mozilla": None,
-             "bugzilla": None,
-             "radar": None }
 
-    legacy_mapping = { "Spec Title": "title",
-                       "Title": "title",
-                       "Spec URL": "url",
-                       "URL": "url",
-                       "GitHub repository": "github",
-                       "Issue Tracker (if not the repository's issue tracker)": "issues",
-                       "Explainer (if not README.md in the repository)": "explainer",
-                       "TAG Design Review": "tag",
-                       "Mozilla standards-positions issue": "mozilla",
-                       "WebKit Bugzilla": "bugzilla",
-                       "Radar": "radar" }
-    
-    yaml_mapping = { "Title of the spec": "title",
-                     "URL to the spec": "url",
-                     "URL to the spec's repository": "github",
-                     "Issue Tracker URL": "issues",
-                     "Explainer URL": "explainer",
-                     "TAG Design Review URL": "tag",
-                     "Mozilla standards-positions issue URL": "mozilla",
-                     "WebKit Bugzilla URL": "bugzilla",
-                     "Radar URL": "radar" }
+    body = {
+        "title": None,
+        "url": None,
+        "github": None,
+        "issues": None,
+        "explainer": None,
+        "tag": None,
+        "mozilla": None,
+        "bugzilla": None,
+        "radar": None,
+    }
+
+    legacy_mapping = {
+        "Spec Title": "title",
+        "Title": "title",
+        "Spec URL": "url",
+        "URL": "url",
+        "GitHub repository": "github",
+        "Issue Tracker (if not the repository's issue tracker)": "issues",
+        "Explainer (if not README.md in the repository)": "explainer",
+        "TAG Design Review": "tag",
+        "Mozilla standards-positions issue": "mozilla",
+        "WebKit Bugzilla": "bugzilla",
+        "Radar": "radar",
+    }
+
+    yaml_mapping = {
+        "Title of the spec": "title",
+        "URL to the spec": "url",
+        "URL to the spec's repository": "github",
+        "Issue Tracker URL": "issues",
+        "Explainer URL": "explainer",
+        "TAG Design Review URL": "tag",
+        "Mozilla standards-positions issue URL": "mozilla",
+        "WebKit Bugzilla URL": "bugzilla",
+        "Radar URL": "radar",
+    }
 
     # Legacy mapping applies until the YAML change
     if issue["number"] < 162:
@@ -79,7 +90,7 @@ def process_body(issue):
                 text_prefix = f"* {prefix}: "
                 if line.startswith(text_prefix):
                     assert body[key] is None
-                    value = line[len(text_prefix):].strip()
+                    value = line[len(text_prefix) :].strip()
                     if value:
                         body[key] = value
     else:
@@ -108,7 +119,12 @@ def process_body(issue):
 # Setup
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-u", "--update", action="store_true", help="get the latest issue data from GitHub")
+    parser.add_argument(
+        "-u",
+        "--update",
+        action="store_true",
+        help="get the latest issue data from GitHub",
+    )
     parser.add_argument("-p", "--process", action="store_true", help="process the data")
     args = parser.parse_args()
 
@@ -119,11 +135,15 @@ def main():
         page = 1
         while True:
             try:
-                response = requests.get(f"https://api.github.com/repos/WebKit/standards-positions/issues?direction=asc&state=all&per_page=100&page={page}", timeout=5)
-            except:
+                response = requests.get(
+                    f"https://api.github.com/repos/WebKit/standards-positions/issues?direction=asc&state=all&per_page=100&page={page}",
+                    timeout=5,
+                )
+                response.raise_for_status()
+            except Exception:
                 print("Updated failed, network failure or request timed out.")
-                exit(1)       
-            temp_data = json.loads(response.text)
+                exit(1)
+            temp_data = response.json()
             if len(temp_data) > 0:
                 data.extend(temp_data)
                 page += 1
@@ -132,14 +152,16 @@ def main():
         write_json("summary-data.json", data)
         print("Done, thanks for updating!")
         exit(0)
-    
+
     if args.process:
         if not os.path.exists("summary-data.json"):
             print("Sorry, you have to update first.")
             exit(1)
 
-        data = json.load(open("summary-data.json", "r"))
+        with open("summary-data.json", "rb") as f:
+            data = json.load(f)
         process(data)
-    
+
+
 if __name__ == "__main__":
     main()

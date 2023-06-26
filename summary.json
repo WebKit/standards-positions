@@ -2403,5 +2403,18 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/831",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/210",
+    "position": null,
+    "title": "CSS Transitions Level 2",
+    "url": "https://drafts.csswg.org/css-transitions-2/#defining-before-change-style-the-starting-style-rule",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/chrishtr/rendering/blob/master/entry-exit-animations.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/829",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/833",
+    "bugzilla": null,
+    "radar": null
   }
 ]

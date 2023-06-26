@@ -955,7 +955,7 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "closed",
+    "state": "open",
     "locked": false,
     "assignee": {
       "login": "smfr",
@@ -1000,10 +1000,10 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 6,
     "created_at": "2022-06-29T01:20:08Z",
-    "updated_at": "2023-06-21T09:46:48Z",
-    "closed_at": "2023-04-26T20:53:01Z",
+    "updated_at": "2023-06-22T16:20:29Z",
+    "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "active_lock_reason": null,
     "body": "* WebKittens who can provide input: @smfr. They had input in the CSSWG discussion captured on the [issue](https://github.com/w3c/csswg-drafts/issues/7144#issuecomment-1090933632).\r\n\r\n### Information about the spec\r\n\r\n* Spec Title: CSS overflow for replaced elements\r\n* Spec URL:\r\n* GitHub repository: https://github.com/w3c/csswg-drafts\r\n* Issue Tracker (if not the repository's issue tracker):\r\n* Explainer (if not README.md in the repository): https://github.com/WICG/shared-element-transitions/blob/main/overflow-on-replaced-elements.md\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: https://github.com/w3ctag/design-reviews/issues/750\r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/659\r\n\r\n### Bugs tracking this feature\r\n\r\n* WebKit Bugzilla:\r\n* Radar:\r\n\r\n### Anything else we need to know\r\nThis [issue](https://github.com/w3c/csswg-drafts/issues/7058) has relevant context for the motivation to introduce this functionality for replaced elements. The first resolution was to introduce a new property (`object-overflow`) but we pivoted to use the existing `overflow` property based on feedback [here](https://github.com/w3c/csswg-drafts/issues/7144).\r\n\r\n### Anything else we need to know\r\n\r\nOn [WebKit-dev](https://lists.webkit.org/pipermail/webkit-dev/2022-June/032317.html), @khushalsagar wrote:\r\n\r\nHello WebKit!\r\n\r\nThis is a follow up to previous [RFP](https://lists.webkit.org/pipermail/webkit-dev/2022-March/032166.html) which introduced the object-overflow property to allow replaced elements to paint with ink overflow. Based on feedback in the CSSWG, the proposal has been updated to use the existing `overflow` property to provide the same functionality.\r\n\r\nThe issue capturing the discussion is [here](https://github.com/w3c/csswg-drafts/issues/7144).  We'd appreciate your feedback on the updated proposal.\r\n\r\nThanks.\r\nKhushal Sagar\r\nGoogle Chrome team\r\n",
@@ -1021,7 +1021,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/8/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "reopened"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/9",
@@ -4598,9 +4598,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2022-07-12T19:44:12Z",
-    "updated_at": "2023-05-22T19:10:43Z",
+    "updated_at": "2023-06-26T10:07:44Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -27569,7 +27569,35 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4281829961,
+        "node_id": "LA_kwDOHk513M7_N4pJ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20Web%20Apps%20WG",
+        "name": "venue: W3C Web Apps WG",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4331626343,
+        "node_id": "LA_kwDOHk513M8AAAABAi9fZw",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20events",
+        "name": "topic: events",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to DOM events"
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": {
@@ -27615,9 +27643,9 @@
       }
     ],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2023-05-25T22:54:28Z",
-    "updated_at": "2023-06-05T20:04:27Z",
+    "updated_at": "2023-06-23T22:47:24Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -28271,9 +28299,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 2,
+    "comments": 3,
     "created_at": "2023-06-07T22:09:10Z",
-    "updated_at": "2023-06-08T18:13:43Z",
+    "updated_at": "2023-06-24T18:27:31Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -28399,9 +28427,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2023-06-08T08:42:51Z",
-    "updated_at": "2023-06-19T18:59:55Z",
+    "updated_at": "2023-06-22T13:50:04Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -29239,9 +29267,9 @@
       }
     ],
     "milestone": null,
-    "comments": 0,
+    "comments": 2,
     "created_at": "2023-06-20T15:44:42Z",
-    "updated_at": "2023-06-21T15:05:15Z",
+    "updated_at": "2023-06-26T12:53:27Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "active_lock_reason": null,
@@ -29301,7 +29329,44 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278046994,
+        "node_id": "LA_kwDOHk513M7-_dES",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20html",
+        "name": "topic: html",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to HTML (Hypertext Markup Language)"
+      },
+      {
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      },
+      {
+        "id": 4671960406,
+        "node_id": "LA_kwDOHk513M8AAAABFnh1Vg",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20Open%20UI%20CG",
+        "name": "venue: Open UI CG",
+        "color": "0052CC",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -29309,7 +29374,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2023-06-21T15:16:40Z",
-    "updated_at": "2023-06-21T15:16:56Z",
+    "updated_at": "2023-06-22T09:07:26Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -29329,5 +29394,163 @@
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/209/timeline",
     "performed_via_github_app": null,
     "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/210",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/210/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/210/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/210/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/210",
+    "id": 1769815880,
+    "node_id": "I_kwDOHk513M5pfT9I",
+    "number": 210,
+    "title": "@starting-style CSS Rule",
+    "user": {
+      "login": "lilles",
+      "id": 889557,
+      "node_id": "MDQ6VXNlcjg4OTU1Nw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/889557?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lilles",
+      "html_url": "https://github.com/lilles",
+      "followers_url": "https://api.github.com/users/lilles/followers",
+      "following_url": "https://api.github.com/users/lilles/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lilles/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lilles/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lilles/subscriptions",
+      "organizations_url": "https://api.github.com/users/lilles/orgs",
+      "repos_url": "https://api.github.com/users/lilles/repos",
+      "events_url": "https://api.github.com/users/lilles/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lilles/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 4278046366,
+        "node_id": "LA_kwDOHk513M7-_c6e",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
+        "name": "topic: css",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to CSS (Cascading Style Sheets)"
+      },
+      {
+        "id": 4281727357,
+        "node_id": "LA_kwDOHk513M7_Nfl9",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20CSS%20WG",
+        "name": "venue: W3C CSS WG",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575575744,
+        "node_id": "LA_kwDOHk513M8AAAABELm-wA",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20animation",
+        "name": "topic: animation",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to animation (including transitions)"
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2023-06-22T14:35:02Z",
+    "updated_at": "2023-06-22T14:58:28Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "active_lock_reason": null,
+    "body": "### WebKittens\n\n_No response_\n\n### Title of the spec\n\nCSS Transitions Level 2\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-transitions-2/#defining-before-change-style-the-starting-style-rule\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/chrishtr/rendering/blob/master/entry-exit-animations.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/829\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/833\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThe explainer is outdated since it uses the :initial pseudo class that was later made into an @initial rule, and later renamed @starting-style  by the CSSWG.\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/210/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/210/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/211",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/211/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/211/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/211/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/211",
+    "id": 1773554387,
+    "node_id": "I_kwDOHk513M5ptkrT",
+    "number": 211,
+    "title": "Webkit",
+    "user": {
+      "login": "cacahuates11111",
+      "id": 135437948,
+      "node_id": "U_kgDOCBKefA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/135437948?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cacahuates11111",
+      "html_url": "https://github.com/cacahuates11111",
+      "followers_url": "https://api.github.com/users/cacahuates11111/followers",
+      "following_url": "https://api.github.com/users/cacahuates11111/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cacahuates11111/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cacahuates11111/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cacahuates11111/subscriptions",
+      "organizations_url": "https://api.github.com/users/cacahuates11111/orgs",
+      "repos_url": "https://api.github.com/users/cacahuates11111/repos",
+      "events_url": "https://api.github.com/users/cacahuates11111/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cacahuates11111/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 4278032572,
+        "node_id": "LA_kwDOHk513M7-_Zi8",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/invalid",
+        "name": "invalid",
+        "color": "750787",
+        "default": true,
+        "description": "Not an actionable request"
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2023-06-25T23:14:59Z",
+    "updated_at": "2023-06-26T09:33:51Z",
+    "closed_at": "2023-06-26T09:33:51Z",
+    "author_association": "NONE",
+    "active_lock_reason": null,
+    "body": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/211/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/211/timeline",
+    "performed_via_github_app": null,
+    "state_reason": "completed"
   }
 ]
