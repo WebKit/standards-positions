@@ -1632,7 +1632,7 @@
     "github": "https://github.com/patcg-individual-drafts/ipa",
     "issues": null,
     "explainer": null,
-    "tag": "TBD",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/753",
     "bugzilla": null,
     "radar": null
@@ -1648,7 +1648,7 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/822",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/755",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=249840",
-    "radar": "rdar://problem/103663513"
+    "radar": "rdar://103663513"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/144",
@@ -1658,7 +1658,7 @@
     "github": "https://github.com/w3c/editing/issues/417",
     "issues": null,
     "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/DelayedClipboard/DelayedClipboardRenderingExplainer.md",
-    "tag": "Not applicable. No Web API changes are needed at the moment.",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/758",
     "bugzilla": null,
     "radar": null
@@ -1672,7 +1672,7 @@
     "issues": null,
     "explainer": null,
     "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/393 (inactive?)",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/393",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=175497",
     "radar": null
   },
@@ -1685,7 +1685,7 @@
     "issues": null,
     "explainer": null,
     "tag": null,
-    "mozilla": "Shipped",
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
@@ -1699,8 +1699,8 @@
     "explainer": "https://github.com/w3c/csswg-drafts/issues/6429#issuecomment-1318933547",
     "tag": "https://github.com/w3ctag/design-reviews/issues/824",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/762",
-    "bugzilla": "none filed yet",
-    "radar": "none filed yet"
+    "bugzilla": null,
+    "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/148",
@@ -1712,8 +1712,8 @@
     "explainer": "https://github.com/w3c/csswg-drafts/issues/4441#issuecomment-1329749962",
     "tag": "https://github.com/w3ctag/design-reviews/issues/825",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/763",
-    "bugzilla": "none yet",
-    "radar": "none yet"
+    "bugzilla": null,
+    "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/149",
@@ -1722,11 +1722,11 @@
     "url": "https://wicg.github.io/background-fetch/",
     "github": "https://github.com/WICG/background-fetch/issues/",
     "issues": null,
-    "explainer": "https://github.com/WICG/background-fetch#readme and https://developer.chrome.com/blog/background-fetch/",
+    "explainer": "https://github.com/WICG/background-fetch#readme",
     "tag": "https://github.com/w3ctag/design-reviews/issues/279",
     "mozilla": null,
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=251980",
-    "radar": "[rdar://problem/105213321](rdar://problem/105213321)"
+    "radar": "rdar://105213321"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/150",
@@ -1737,9 +1737,9 @@
     "issues": null,
     "explainer": "https://github.com/argyleink/scrollend-explainer/blob/main/README.md",
     "tag": null,
-    "mozilla": "https://github.com/mdn/content/issues/22814 (already shipped in firefox, see https://bugzilla.mozilla.org/show_bug.cgi?id=1803435)",
+    "mozilla": null,
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=201556",
-    "radar": "rdar://problem/69443508"
+    "radar": "rdar://69443508"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/152",
@@ -1749,7 +1749,7 @@
     "github": "https://github.com/w3c/csswg-drafts/tree/main/scroll-animations-1",
     "issues": null,
     "explainer": null,
-    "tag": "Previous review at https://github.com/w3ctag/design-reviews/issues/521, re-review not yet filed.",
+    "tag": "Previous review at https://github.com/w3ctag/design-reviews/issues/521",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/347",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=222295",
     "radar": null
@@ -1788,7 +1788,7 @@
     "github": "https://github.com/w3c/navigation-timing/",
     "issues": null,
     "explainer": null,
-    "tag": "FYI only https://github.com/w3ctag/design-reviews/issues/833",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/833",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/767",
     "bugzilla": null,
     "radar": null
@@ -1797,7 +1797,7 @@
     "id": "https://github.com/WebKit/standards-positions/issues/158",
     "position": null,
     "title": "FLEDGE API",
-    "url": "Partial spec is [here](https://wicg.github.io/turtledove/), but recommend deferring to the explainer.",
+    "url": "https://wicg.github.io/turtledove/",
     "github": "https://github.com/WICG/turtledove",
     "issues": null,
     "explainer": "https://github.com/WICG/turtledove/blob/main/FLEDGE.md",
@@ -1814,14 +1814,14 @@
     "github": "https://github.com/WICG/compression-dictionary-transport",
     "issues": null,
     "explainer": null,
-    "tag": "None yet",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/771",
     "bugzilla": null,
     "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/163",
-    "position": null,
+    "position": "support",
     "title": "Local Network Access (aka Private Network Access, CORS-RFC1918)",
     "url": "https://wicg.github.io/local-network-access",
     "github": "https://github.com/wicg/local-network-access",
@@ -1830,7 +1830,7 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/572",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/143",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=250607",
-    "radar": "rdar://problem/104246665"
+    "radar": "rdar://104246665"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/164",
@@ -1839,7 +1839,7 @@
     "url": "https://drafts.csswg.org/css-display-3/#box-generation",
     "github": "https://github.com/w3c/csswg-drafts",
     "issues": null,
-    "explainer": "None",
+    "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/772",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=255149",
@@ -1879,7 +1879,7 @@
     "github": null,
     "issues": null,
     "explainer": "https://docs.google.com/document/d/1aDyUw4mAzRdLyZyXpVgWvO-eLpc4ERz7I_7VDIPo9Hc/edit?usp=sharing",
-    "tag": "None yet",
+    "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/775",
     "bugzilla": null,
     "radar": "rdar://28546450"
@@ -1900,13 +1900,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/170",
     "position": null,
-    "title": "None",
+    "title": "Removing the zoom CSS property",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/zoom",
-    "github": "None",
+    "github": null,
     "issues": "https://github.com/w3c/csswg-drafts/issues/5623",
-    "explainer": "None",
-    "tag": "None",
-    "mozilla": "None (Gecko doesn't support this feature)",
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
@@ -1921,7 +1921,7 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/732",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/631",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=255482",
-    "radar": "<rdar://problem/108403002>"
+    "radar": "rdar://108403002"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/172",
@@ -1965,20 +1965,20 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/175",
     "position": null,
-    "title": "Federated Credential Management API",
-    "url": "https://fedidcg.github.io/FedCM/ but a PR for these features has not been created yet",
+    "title": "FedCM bundle: LoginHint, Context, and User Info extensions",
+    "url": "https://fedidcg.github.io/FedCM/",
     "github": "https://github.com/fedidcg/FedCM",
     "issues": null,
-    "explainer": "We have an explainer for each of the three extensions: https://github.com/fedidcg/FedCM/issues/382 https://github.com/fedidcg/FedCM/issues/426 https://github.com/fedidcg/FedCM/issues/456",
+    "explainer": "https://github.com/fedidcg/FedCM/issues/382",
     "tag": "https://github.com/w3ctag/design-reviews/issues/839",
-    "mozilla": "Mozilla has asked us not to file standards-position and instead they will provide their feedback in the spec PR",
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/176",
     "position": "support",
-    "title": "HTML",
+    "title": "Detect UA Transitions on Same-Document Navigations",
     "url": "https://github.com/whatwg/html/issues/8782",
     "github": null,
     "issues": null,
@@ -1991,7 +1991,7 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/177",
     "position": null,
-    "title": "CSS (The exact spec where this will go is TBD)",
+    "title": "Disabling UA transitions for same-document navigations",
     "url": "https://github.com/w3c/csswg-drafts/issues/8747",
     "github": null,
     "issues": null,
@@ -2095,7 +2095,7 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/185",
     "position": null,
-    "title": "Fetch",
+    "title": "HTTPS Upgrades",
     "url": "https://fetch.spec.whatwg.org/",
     "github": "https://github.com/whatwg/fetch",
     "issues": null,
@@ -2148,7 +2148,7 @@
     "id": "https://github.com/WebKit/standards-positions/issues/189",
     "position": null,
     "title": "Private Aggregation API",
-    "url": "https://patcg-individual-drafts.github.io/private-aggregation-api/ (WIP)",
+    "url": "https://patcg-individual-drafts.github.io/private-aggregation-api/",
     "github": "https://github.com/patcg-individual-drafts/private-aggregation-api",
     "issues": null,
     "explainer": null,
@@ -2211,8 +2211,8 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/194",
-    "position": null,
-    "title": "Fetch",
+    "position": "support",
+    "title": "BYOB support for Fetch",
     "url": "https://fetch.spec.whatwg.org/#http-network-fetch",
     "github": "https://github.com/whatwg/fetch",
     "issues": null,
@@ -2283,7 +2283,7 @@
     "issues": "https://github.com/WICG/serial/issues",
     "explainer": "https://github.com/WICG/serial/blob/main/EXPLAINER.md",
     "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/336, https://github.com/mozilla/standards-positions/issues/687",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/687",
     "bugzilla": null,
     "radar": null
   },
@@ -2369,8 +2369,8 @@
     "id": "https://github.com/WebKit/standards-positions/issues/206",
     "position": "blocked",
     "title": "ServiceWorker static routing API",
-    "url": "no spec written yet",
-    "github": "n/a",
+    "url": null,
+    "github": null,
     "issues": "https://github.com/w3c/ServiceWorker/issues/1373",
     "explainer": "https://github.com/yoshisatoyanagisawa/service-worker-static-routing-api",
     "tag": "https://github.com/w3ctag/design-reviews/issues/863",
@@ -2380,7 +2380,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/207",
-    "position": null,
+    "position": "oppose",
     "title": "Web Charts",
     "url": "https://github.com/WICG/proposals/issues/97",
     "github": null,
