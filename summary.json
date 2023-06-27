@@ -1364,8 +1364,7 @@
     "position": "support",
     "venues": [
       "WHATWG",
-      "Other",
-      "WHATWG"
+      "Other"
     ],
     "concerns": [],
     "title": "Priority Hints",
@@ -1544,7 +1543,6 @@
     "id": "https://github.com/WebKit/standards-positions/issues/97",
     "position": null,
     "venues": [
-      "WHATWG",
       "WHATWG"
     ],
     "concerns": [],
@@ -2938,7 +2936,6 @@
     "id": "https://github.com/WebKit/standards-positions/issues/187",
     "position": null,
     "venues": [
-      "W3C",
       "W3C"
     ],
     "concerns": [],
@@ -3195,7 +3192,6 @@
     "id": "https://github.com/WebKit/standards-positions/issues/202",
     "position": "support",
     "venues": [
-      "W3C",
       "W3C"
     ],
     "concerns": [],

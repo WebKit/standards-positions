@@ -35,34 +35,40 @@ def is_ignorable_issue(issue):
 
 
 def process_labels(labels):
-    output = {"position": None, "venues": [], "concerns": []}
+    position = None
+    venues = []
+    concerns = []
 
     for label in labels:
         # Position
         if label["name"] == "blocked":
-            assert output["position"] is None
-            output["position"] = "blocked"
+            assert position is None
+            position = "blocked"
         elif label["name"].startswith("position: "):
-            assert output["position"] is None
-            output["position"] = label["name"][len("position: ") :]
+            assert position is None
+            position = label["name"][len("position: ") :]
         # Venue
         elif label["name"] == "venue: AOM":
-            output["venues"].append("AOM")
+            venues.append("AOM")
         elif label["name"] == "venue: Ecma TC39":
-            output["venues"].append("TC39")
+            venues.append("TC39")
         elif label["name"].startswith("venue: IETF"):
-            output["venues"].append("IETF")
+            venues.append("IETF")
         elif label["name"].startswith("venue: WHATWG"):
-            output["venues"].append("WHATWG")
+            venues.append("WHATWG")
         elif label["name"].startswith("venue: W3C"):
-            output["venues"].append("W3C")
+            venues.append("W3C")
         elif label["name"].startswith("venue: "):
-            output["venues"].append("Other")
+            venues.append("Other")
         # Concerns
         elif label["name"].startswith("concerns: "):
-            output["concerns"].append(label["name"][len("concerns: ") :])
+            concerns.append(label["name"][len("concerns: ") :])
 
-    return output
+    return {
+        "position": position,
+        "venues": list(dict.fromkeys(venues)),
+        "concerns": concerns,
+    }
 
 
 def process_body(issue):
