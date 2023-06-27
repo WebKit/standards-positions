@@ -17,7 +17,8 @@ def process(issues):
         if is_ignorable_issue(issue):
             continue
 
-        summary_item = {"id": issue["html_url"], "position": get_position(issue)}
+        summary_item = {"id": issue["html_url"]}
+        summary_item.update(process_labels(issue["labels"]))
         summary_item.update(process_body(issue))
 
         summary.append(summary_item)
@@ -33,13 +34,35 @@ def is_ignorable_issue(issue):
     return False
 
 
-def get_position(issue):
-    for label in issue["labels"]:
+def process_labels(labels):
+    output = {"position": None, "venues": [], "concerns": []}
+
+    for label in labels:
+        # Position
         if label["name"] == "blocked":
-            return "blocked"
+            assert output["position"] is None
+            output["position"] = "blocked"
         elif label["name"].startswith("position: "):
-            return label["name"][len("position: ") :]
-    return None
+            assert output["position"] is None
+            output["position"] = label["name"][len("position: ") :]
+        # Venue
+        elif label["name"] == "venue: AOM":
+            output["venues"].append("AOM")
+        elif label["name"] == "venue: Ecma TC39":
+            output["venues"].append("TC39")
+        elif label["name"].startswith("venue: IETF"):
+            output["venues"].append("IETF")
+        elif label["name"].startswith("venue: WHATWG"):
+            output["venues"].append("WHATWG")
+        elif label["name"].startswith("venue: W3C"):
+            output["venues"].append("W3C")
+        elif label["name"].startswith("venue: "):
+            output["venues"].append("Other")
+        # Concerns
+        elif label["name"].startswith("concerns: "):
+            output["concerns"].append(label["name"][len("concerns: ") :])
+
+    return output
 
 
 def process_body(issue):
