@@ -173,11 +173,10 @@ def main():
                 print("Updated failed, network failure or request timed out.")
                 exit(1)
             temp_data = response.json()
-            if len(temp_data) > 0:
-                data.extend(temp_data)
-                page += 1
-                continue
-            break
+            if not temp_data:
+                break
+            data.extend(temp_data)
+            page += 1
         write_json("summary-data.json", data)
         print("Done, thanks for updating!")
         exit(0)

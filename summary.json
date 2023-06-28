@@ -3341,5 +3341,54 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/213",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "title": "`dialogmodaltarget` attribute",
+    "url": "https://github.com/whatwg/html/pull/9456",
+    "github": "https://github.com/whatwg/html/pull/9456",
+    "issues": null,
+    "explainer": "https://github.com/whatwg/html/pull/9456",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=258562",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/214",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "title": "Bounce Tracking Mitigations",
+    "url": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations",
+    "github": "https://github.com/privacycg/nav-tracking-mitigations/",
+    "issues": "https://github.com/privacycg/nav-tracking-mitigations/issues",
+    "explainer": "https://github.com/privacycg/nav-tracking-mitigations/blob/main/bounce-tracking-explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/862",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/835",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/215",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "title": "Close signals and close watchers",
+    "url": "https://whatpr.org/html/9462/interaction.html#close-signals-and-close-watchers",
+    "github": "https://github.com/WICG/close-watcher",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/594",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/604",
+    "bugzilla": null,
+    "radar": null
   }
 ]
