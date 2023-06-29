@@ -72,7 +72,7 @@ def process_labels(labels):
         "position": position,
         "venues": list(dict.fromkeys(venues)),
         "concerns": concerns,
-        "topics": topics
+        "topics": topics,
     }
 
 
