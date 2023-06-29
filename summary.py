@@ -38,6 +38,7 @@ def process_labels(labels):
     position = None
     venues = []
     concerns = []
+    topics = []
 
     for label in labels:
         # Position
@@ -63,11 +64,15 @@ def process_labels(labels):
         # Concerns
         elif label["name"].startswith("concerns: "):
             concerns.append(label["name"][len("concerns: ") :])
+        # Topics
+        elif label["name"].startswith("topic: "):
+            topics.append(label["name"][len("topic: ") :])
 
     return {
         "position": position,
         "venues": list(dict.fromkeys(venues)),
         "concerns": concerns,
+        "topics": topics
     }
 
 
