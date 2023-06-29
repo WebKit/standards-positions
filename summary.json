@@ -8,6 +8,10 @@
     "concerns": [
       "integration"
     ],
+    "topics": [
+      "web apis",
+      "device apis"
+    ],
     "title": "Gamepad API Trigger-Rumble Extension",
     "url": "https://w3c.github.io/gamepad/extensions.html",
     "github": "https://github.com/w3c/gamepad",
@@ -25,6 +29,11 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "html",
+      "javascript",
+      "loading"
+    ],
     "title": "import.meta.resolve()",
     "url": "https://html.spec.whatwg.org/multipage/webappapis.html#hostgetimportmetaproperties",
     "github": null,
@@ -42,6 +51,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "web apis"
+    ],
     "title": "CSS Custom Highlight API Module Level 1",
     "url": "https://drafts.csswg.org/css-highlight-api-1/",
     "github": null,
@@ -59,6 +72,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "web assembly"
+    ],
     "title": "WebAssembly Relaxed SIMD",
     "url": "https://github.com/WebAssembly/relaxed-simd/tree/main/document/core",
     "github": null,
@@ -76,6 +92,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "media",
+      "webrtc"
+    ],
     "title": "Media Capture and Streams Extensions",
     "url": "https://w3c.github.io/mediacapture-extensions/#exposing-mediastreamtrack-source-background-blur-support",
     "github": null,
@@ -93,6 +113,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "media",
+      "webrtc"
+    ],
     "title": "Introduce DisplayMediaStreamConstraints.surfaceSwitching",
     "url": "https://github.com/w3c/mediacapture-screen-share/pull/225/ (merged)",
     "github": null,
@@ -110,6 +134,12 @@
       "IETF"
     ],
     "concerns": [],
+    "topics": [
+      "privacy",
+      "security",
+      "storage",
+      "http"
+    ],
     "title": "Deprecating Non-ASCII characters in cookie domain attributes",
     "url": "https://github.com/httpwg/http-extensions/pull/1969",
     "github": null,
@@ -127,6 +157,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "rendering"
+    ],
     "title": "CSS overflow for replaced elements",
     "url": null,
     "github": "https://github.com/w3c/csswg-drafts",
@@ -144,6 +178,12 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "html",
+      "layout",
+      "loading",
+      "images"
+    ],
     "title": "Add sizes=auto to lazy-loaded `<img>`",
     "url": "https://github.com/whatwg/html/pull/8008",
     "github": null,
@@ -166,6 +206,10 @@
       "privacy",
       "dependencies"
     ],
+    "topics": [
+      "privacy",
+      "storage"
+    ],
     "title": "Shared Storage API",
     "url": "https://wicg.github.io/shared-storage/",
     "github": "https://github.com/WICG/shared-storage",
@@ -186,6 +230,10 @@
       "security",
       "integration"
     ],
+    "topics": [
+      "web apis",
+      "app-like capabilities"
+    ],
     "title": "Web Share Target API",
     "url": "https://w3c.github.io/web-share-target/",
     "github": "https://github.com/w3c/web-share-target",
@@ -205,6 +253,10 @@
     "concerns": [
       "integration"
     ],
+    "topics": [
+      "dom",
+      "web components"
+    ],
     "title": "Declarative Shadow DOM",
     "url": "https://github.com/whatwg/dom/issues/831",
     "github": null,
@@ -222,6 +274,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Cascading and Inheritance Level 6 (`@scope`)",
     "url": "https://drafts.csswg.org/css-cascade-6/#scope-atrule",
     "github": "https://github.com/w3c/csswg-drafts/labels/css-cascade-6",
@@ -242,6 +297,12 @@
       "privacy",
       "power"
     ],
+    "topics": [
+      "web apis",
+      "app-like capabilities",
+      "service workers",
+      "workers"
+    ],
     "title": "Web Background Synchronization",
     "url": "https://wicg.github.io/background-sync/spec/",
     "github": "https://github.com/WICG/BackgroundSync",
@@ -259,6 +320,13 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "networking",
+      "privacy",
+      "http",
+      "client hints"
+    ],
     "title": "User Preference Media Features Client Hints Headers",
     "url": "https://wicg.github.io/user-preference-media-features-headers/",
     "github": "https://github.com/wicg/user-preference-media-features-headers/",
@@ -278,6 +346,11 @@
     "concerns": [
       "device independence"
     ],
+    "topics": [
+      "editing",
+      "web apis",
+      "device apis"
+    ],
     "title": "VirtualKeyboard API",
     "url": "https://www.w3.org/TR/virtual-keyboard/",
     "github": "https://github.com/w3c/virtual-keyboard/",
@@ -295,6 +368,11 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "rendering",
+      "loading",
+      "performance"
+    ],
     "title": "Render blocking status in Resource Timing",
     "url": "https://github.com/w3c/resource-timing/pull/327",
     "github": "https://github.com/w3c/resource-timing",
@@ -312,6 +390,11 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "networking",
+      "web apis",
+      "http"
+    ],
     "title": "WebTransport",
     "url": "https://www.w3.org/TR/webtransport/",
     "github": "https://github.com/w3c/webtransport",
@@ -331,6 +414,10 @@
     "concerns": [
       "power",
       "annoyance"
+    ],
+    "topics": [
+      "web apis",
+      "device apis"
     ],
     "title": "Controlling screen brightness",
     "url": null,
@@ -354,6 +441,11 @@
       "privacy",
       "security"
     ],
+    "topics": [
+      "networking",
+      "http",
+      "client hints"
+    ],
     "title": "HTTP Client Hints + Client Hints Infrastructure",
     "url": "https://www.rfc-editor.org/rfc/rfc8942.html",
     "github": "https://github.com/httpwg/http-extensions",
@@ -371,6 +463,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "houdini"
+    ],
     "title": "CSS Properties and Values API Level 1",
     "url": "https://www.w3.org/TR/css-properties-values-api-1/",
     "github": "https://github.com/w3c/css-houdini-drafts",
@@ -388,6 +484,11 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "networking",
+      "loading",
+      "web apis"
+    ],
     "title": "Fetch streaming upload",
     "url": "https://fetch.spec.whatwg.org/",
     "github": "https://github.com/whatwg/fetch/",
@@ -405,6 +506,10 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "storage",
+      "app-like capabilities"
+    ],
     "title": "File System Access",
     "url": "https://wicg.github.io/file-system-access/",
     "github": "https://github.com/WICG/file-system-access",
@@ -423,6 +528,10 @@
     ],
     "concerns": [
       "API design"
+    ],
+    "topics": [
+      "web apis",
+      "app-like capabilities"
     ],
     "title": "Eyedropper API",
     "url": "https://wicg.github.io/eyedropper-api/",
@@ -443,6 +552,9 @@
     "concerns": [
       "integration"
     ],
+    "topics": [
+      "payments"
+    ],
     "title": "Secure Payment Confirmation (SPC)",
     "url": "https://w3c.github.io/secure-payment-confirmation/",
     "github": "https://github.com/w3c/secure-payment-confirmation/",
@@ -462,6 +574,9 @@
     "concerns": [
       "duplication"
     ],
+    "topics": [
+      "device apis"
+    ],
     "title": "Geolocation Sensor",
     "url": "https://w3c.github.io/geolocation-sensor/",
     "github": "https://github.com/w3c/geolocation-sensor/",
@@ -479,6 +594,12 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "layout",
+      "rendering",
+      "events"
+    ],
     "title": "CSS Contain: Content Visibility",
     "url": "This will be an amendment to https://drafts.csswg.org/css-contain-2/",
     "github": null,
@@ -497,6 +618,10 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "html",
+      "loading"
+    ],
     "title": "Navigation API",
     "url": "https://wicg.github.io/navigation-api/",
     "github": "https://github.com/WICG/navigation-api",
@@ -514,6 +639,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "performance",
+      "http"
+    ],
     "title": "HTTP response status code in Resource Timing",
     "url": "https://github.com/w3c/resource-timing/pull/335",
     "github": "https://github.com/w3c/resource-timing",
@@ -536,6 +665,11 @@
       "integration",
       "API design"
     ],
+    "topics": [
+      "storage",
+      "web apis",
+      "http"
+    ],
     "title": "Cookie Store API",
     "url": "https://wicg.github.io/cookie-store/",
     "github": "https://github.com/WICG/cookie-store",
@@ -555,6 +689,11 @@
     "concerns": [
       "privacy"
     ],
+    "topics": [
+      "augmented reality",
+      "device apis",
+      "meaningful user consent"
+    ],
     "title": "WebXR Raw Camera Access Module",
     "url": "https://immersive-web.github.io/raw-camera-access/",
     "github": "https://github.com/immersive-web/raw-camera-access",
@@ -572,6 +711,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "web components"
+    ],
     "title": "Scoped Custom Element Registries",
     "url": "https://github.com/WICG/webcomponents/issues/716",
     "github": null,
@@ -590,6 +732,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "html"
+    ],
     "title": "Import Maps",
     "url": "https://wicg.github.io/import-maps/",
     "github": "https://github.com/WICG/import-maps",
@@ -607,6 +752,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "media"
+    ],
     "title": "Media Source Extensions, specifically the sub-feature in MSEv2, \"MSE-in-Workers\"",
     "url": "https://www.w3.org/TR/media-source-2/",
     "github": "https://github.com/w3c/media-source/",
@@ -627,6 +775,9 @@
       "portability",
       "device independence"
     ],
+    "topics": [
+      "media"
+    ],
     "title": "Document Picture-in-Picture Specification",
     "url": "https://wicg.github.io/document-picture-in-picture/",
     "github": null,
@@ -646,6 +797,10 @@
     "concerns": [
       "interoperability"
     ],
+    "topics": [
+      "css",
+      "web components"
+    ],
     "title": "Constructable Stylesheet Objects",
     "url": "https://wicg.github.io/construct-stylesheets/",
     "github": "https://github.com/WICG/construct-stylesheets",
@@ -663,6 +818,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "editing",
+      "app-like capabilities"
+    ],
     "title": "Web Custom formats for Async Clipboard API",
     "url": "https://github.com/w3c/clipboard-apis/pull/175",
     "github": "https://github.com/w3c/editing",
@@ -680,6 +839,13 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "loading",
+      "privacy",
+      "security",
+      "storage",
+      "frames"
+    ],
     "title": "Iframe credentialless",
     "url": "https://wicg.github.io/anonymous-iframe/#specification",
     "github": "https://github.com/WICG/anonymous-iframe",
@@ -697,6 +863,11 @@
       "IETF"
     ],
     "concerns": [],
+    "topics": [
+      "networking",
+      "privacy",
+      "security"
+    ],
     "title": "TLS Encrypted Client Hello",
     "url": "https://datatracker.ietf.org/doc/html/draft-ietf-tls-esni",
     "github": "https://github.com/tlswg/draft-ietf-tls-esni",
@@ -714,6 +885,10 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "web components",
+      "forms"
+    ],
     "title": "Form-associated custom elements",
     "url": "https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example",
     "github": "https://github.com/whatwg/html/issues",
@@ -731,6 +906,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "animation"
+    ],
     "title": "CSS Shared Element Transitions",
     "url": "https://drafts.csswg.org/css-shared-element-transitions-1/",
     "github": "https://github.com/WICG/shared-element-transitions",
@@ -751,6 +930,9 @@
       "security",
       "use cases"
     ],
+    "topics": [
+      "web manifest"
+    ],
     "title": "Web App Manifest - Application Information",
     "url": "https://www.w3.org/TR/manifest-app-info/#screenshots-member",
     "github": "https://github.com/w3c/manifest-app-info",
@@ -770,6 +952,11 @@
     "concerns": [
       "performance"
     ],
+    "topics": [
+      "privacy",
+      "storage",
+      "http"
+    ],
     "title": "CHIPS (Cookies Having Independent Partitioned State)",
     "url": null,
     "github": "https://github.com/privacycg/CHIPS",
@@ -787,6 +974,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "security"
+    ],
     "title": "Wildcards in Permissions Policy Origins",
     "url": "https://github.com/w3c/webappsec-permissions-policy/issues/479",
     "github": "https://github.com/w3c/webappsec-permissions-policy/",
@@ -804,6 +994,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "performance",
+      "web apis"
+    ],
     "title": "Long Tasks API",
     "url": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
     "github": "https://github.com/w3c/longtasks/",
@@ -821,6 +1015,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "media",
+      "web apis"
+    ],
     "title": "AudioContext.setSinkId()",
     "url": "https://github.com/WebAudio/web-audio-api/pull/2498",
     "github": "https://github.com/WebAudio/web-audio-api",
@@ -838,6 +1036,10 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "loading",
+      "performance"
+    ],
     "title": "Prefetch / Prerendering Revamped / Speculation Rules",
     "url": "https://wicg.github.io/nav-speculation/prefetch.html",
     "github": "https://github.com/WICG/nav-speculation",
@@ -855,6 +1057,9 @@
       "AOM"
     ],
     "concerns": [],
+    "topics": [
+      "media"
+    ],
     "title": "AV1 Bitstream & Decoding Process Specification",
     "url": "https://aomedia.org/av1/specification/",
     "github": "https://github.com/AOMediaCodec/av1-spec",
@@ -872,6 +1077,11 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "web apis",
+      "web components"
+    ],
     "title": "Exposing custom element states",
     "url": "https://wicg.github.io/custom-state-pseudo-class/#customstateset",
     "github": null,
@@ -889,6 +1099,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Containment Module Level 3",
     "url": "https://drafts.csswg.org/css-contain-3/#style-container",
     "github": null,
@@ -908,6 +1121,9 @@
     "concerns": [
       "privacy",
       "security"
+    ],
+    "topics": [
+      "networking"
     ],
     "title": "Deprecation Reporting",
     "url": "https://wicg.github.io/deprecation-reporting/",
@@ -929,6 +1145,10 @@
       "venue",
       "maintenance"
     ],
+    "topics": [
+      "web apis",
+      "service workers"
+    ],
     "title": "URLPattern API",
     "url": "https://wicg.github.io/urlpattern/",
     "github": "https://github.com/WICG/urlpattern",
@@ -948,6 +1168,11 @@
     "concerns": [
       "power"
     ],
+    "topics": [
+      "web apis",
+      "device apis",
+      "app-like capabilities"
+    ],
     "title": "Screen Wake Lock API",
     "url": "https://www.w3.org/TR/screen-wake-lock/",
     "github": "https://github.com/w3c/screen-wake-lock/",
@@ -966,6 +1191,11 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "loading",
+      "security",
+      "http"
+    ],
     "title": "Opaque Response Blocking (ORB, aka CORB++)",
     "url": null,
     "github": "https://github.com/annevk/orb",
@@ -983,6 +1213,11 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "layout",
+      "markup",
+      "device apis"
+    ],
     "title": "Virtual keyboard resizes visual viewport",
     "url": null,
     "github": null,
@@ -1001,6 +1236,10 @@
     ],
     "concerns": [
       "venue"
+    ],
+    "topics": [
+      "security",
+      "web apis"
     ],
     "title": "Curve25519 in WebCrypto",
     "url": "https://wicg.github.io/webcrypto-secure-curves/",
@@ -1023,6 +1262,11 @@
       "security",
       "device independence"
     ],
+    "topics": [
+      "web apis",
+      "device apis",
+      "app-like capabilities"
+    ],
     "title": "WebUSB API",
     "url": "https://wicg.github.io/webusb/",
     "github": "https://github.com/WICG/webusb",
@@ -1040,6 +1284,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Nesting Module Level 1",
     "url": "https://drafts.csswg.org/css-nesting-1/",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -1059,6 +1306,12 @@
     "concerns": [
       "interoperability",
       "privacy"
+    ],
+    "topics": [
+      "networking",
+      "privacy",
+      "http",
+      "client hints"
     ],
     "title": "User-Agent Client Hints",
     "url": "https://wicg.github.io/ua-client-hints/",
@@ -1082,6 +1335,7 @@
       "venue",
       "device independence"
     ],
+    "topics": [],
     "title": "WebUSB on extension service workers",
     "url": null,
     "github": null,
@@ -1099,6 +1353,11 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "networking",
+      "privacy",
+      "web apis"
+    ],
     "title": "Trust Token API",
     "url": "https://wicg.github.io/trust-token-api/",
     "github": "https://github.com/WICG/trust-token-api",
@@ -1116,6 +1375,11 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "media",
+      "device apis",
+      "webrtc"
+    ],
     "title": "Conditional Focus",
     "url": "https://www.w3.org/TR/screen-capture/#dom-capturecontroller-setfocusbehavior",
     "github": "https://github.com/w3c/mediacapture-screen-share/",
@@ -1134,6 +1398,11 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "html",
+      "markup",
+      "web apis"
+    ],
     "title": "The Popover API",
     "url": "https://github.com/whatwg/html/pull/8221",
     "github": null,
@@ -1151,6 +1420,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Values and Units Module Level 4",
     "url": "https://www.w3.org/TR/css-values-4/#lh",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -1168,6 +1440,9 @@
       "TC39"
     ],
     "concerns": [],
+    "topics": [
+      "javascript"
+    ],
     "title": "Decorators",
     "url": "https://github.com/tc39/proposal-decorators",
     "github": "https://github.com/tc39/proposal-decorators",
@@ -1186,6 +1461,10 @@
     ],
     "concerns": [
       "integration"
+    ],
+    "topics": [
+      "javascript",
+      "loading"
     ],
     "title": "CSS module scripts",
     "url": "https://html.spec.whatwg.org/multipage/webappapis.html#creating-a-css-module-script",
@@ -1206,6 +1485,10 @@
     "concerns": [
       "compatibility"
     ],
+    "topics": [
+      "html",
+      "forms"
+    ],
     "title": "Improving event dispatching on disabled form controls",
     "url": null,
     "github": null,
@@ -1223,6 +1506,11 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "layout",
+      "fonts and/or text"
+    ],
     "title": "CSS Text level 4",
     "url": "https://w3c.github.io/csswg-drafts/css-text-4/#hyphenate-char-limits",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -1240,6 +1528,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "media"
+    ],
     "title": "AudioRenderCapacity",
     "url": "https://webaudio.github.io/web-audio-api/#AudioRenderCapacity",
     "github": "https://github.com/WebAudio/web-audio-api",
@@ -1257,6 +1548,9 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "html"
+    ],
     "title": "Link Type \"modulepreload\"",
     "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-modulepreload",
     "github": null,
@@ -1274,6 +1568,10 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "security",
+      "web apis"
+    ],
     "title": "Error handling in key import of secure curves in Web Crypto",
     "url": "https://github.com/WICG/webcrypto-secure-curves/issues/10",
     "github": null,
@@ -1291,6 +1589,10 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "authentication",
+      "permissions"
+    ],
     "title": "Federated Credential Management API Permissions Policy",
     "url": "https://fedidcg.github.io/FedCM/#permissions-policy-integration",
     "github": null,
@@ -1308,6 +1610,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "performance"
+    ],
     "title": "Element Timing API",
     "url": "https://wicg.github.io/element-timing/",
     "github": "https://github.com/WICG/element-timing",
@@ -1332,6 +1637,10 @@
       "API design",
       "maintenance"
     ],
+    "topics": [
+      "loading",
+      "web apis"
+    ],
     "title": "Pending Beacon",
     "url": "https://wicg.github.io/pending-beacon",
     "github": "https://github.com/WICG/pending-beacon",
@@ -1349,6 +1658,10 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "html",
+      "dom"
+    ],
     "title": "Sanitizer API",
     "url": "https://wicg.github.io/sanitizer-api/",
     "github": "https://github.com/WICG/sanitizer-api",
@@ -1367,6 +1680,11 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "html",
+      "networking",
+      "http"
+    ],
     "title": "Priority Hints",
     "url": "https://wicg.github.io/priority-hints/",
     "github": "https://github.com/WICG/priority-hints",
@@ -1386,6 +1704,9 @@
     "concerns": [
       "privacy"
     ],
+    "topics": [
+      "performance"
+    ],
     "title": "Content-type in Resource Timing",
     "url": "https://github.com/w3c/resource-timing/pull/341",
     "github": "https://github.com/w3c/resource-timing",
@@ -1403,6 +1724,10 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "webrtc",
+      "app-like capabilities"
+    ],
     "title": "Incoming Call Notifications",
     "url": "https://notifications.spec.whatwg.org/",
     "github": "https://github.com/whatwg/notifications",
@@ -1420,6 +1745,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "app-like capabilities"
+    ],
     "title": "Web App Launch Handling",
     "url": "https://wicg.github.io/web-app-launch/",
     "github": "https://github.com/WICG/web-app-launch/blob/main/launch_handler.md",
@@ -1440,6 +1768,9 @@
       "integration",
       "venue"
     ],
+    "topics": [
+      "graphics"
+    ],
     "title": "Canvas Floating Point Color Types",
     "url": "https://github.com/w3c/ColorWeb-CG/blob/master/canvas_float.md",
     "github": "https://github.com/w3c/ColorWeb-CG/",
@@ -1457,6 +1788,10 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "networking",
+      "security"
+    ],
     "title": "TLS ClientHello extension permutation",
     "url": "https://www.rfc-editor.org/rfc/rfc8446#section-4.2",
     "github": null,
@@ -1474,6 +1809,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "privacy"
+    ],
     "title": "First-Party Sets",
     "url": null,
     "github": "https://github.com/WICG/first-party-sets",
@@ -1491,6 +1829,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "layout"
+    ],
     "title": "CSS Inline Layout Module Level 3",
     "url": "https://drafts.csswg.org/css-inline/#initial-letter-styling",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -1508,6 +1850,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css"
+    ],
     "title": "**CSS Pseudo-Elements Module Level 4** \u00a7 Highlight Pseudo-elements",
     "url": "https://drafts.csswg.org/css-pseudo-4/#highlight-pseudos",
     "github": null,
@@ -1529,6 +1874,9 @@
       "integration",
       "annoyance"
     ],
+    "topics": [
+      "app-like capabilities"
+    ],
     "title": "Additional Windowing Controls",
     "url": null,
     "github": null,
@@ -1546,6 +1894,12 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "html",
+      "markup",
+      "dom",
+      "web components"
+    ],
     "title": "Customized built-in elements",
     "url": "https://html.spec.whatwg.org/multipage/custom-elements.html#customized-built-in-element",
     "github": null,
@@ -1563,6 +1917,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "webrtc"
+    ],
     "title": "RTCRtpTransceiver.setOfferedRtpHeaderExtensions()",
     "url": "https://w3c.github.io/webrtc-extensions/#dom-rtcrtptransceiver-setofferedrtpheaderextensions",
     "github": "https://github.com/w3c/webrtc-extensions",
@@ -1580,6 +1937,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "web apis"
+    ],
     "title": "Fullscreen Popup Windows",
     "url": null,
     "github": "https://github.com/bradtriebwasser/fullscreen-popup",
@@ -1595,6 +1955,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
+    "topics": [
+      "web apis"
+    ],
     "title": "Extending the PointerEvent with Unique DeviceId Attribute",
     "url": null,
     "github": null,
@@ -1612,6 +1975,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "media",
+      "webrtc"
+    ],
     "title": "WebRTC-SVC",
     "url": "https://www.w3.org/TR/webrtc-svc/",
     "github": "https://github.com/w3c/webrtc-svc/",
@@ -1629,6 +1996,9 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "storage"
+    ],
     "title": "FileSystemHandle Remove Self",
     "url": "https://github.com/whatwg/fs/pull/9",
     "github": "https://github.com/whatwg/fs",
@@ -1646,6 +2016,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "layout"
+    ],
     "title": "CSS Grid Layout Module Level 3",
     "url": "https://drafts.csswg.org/css-grid-3/",
     "github": null,
@@ -1665,6 +2038,10 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "networking",
+      "http"
+    ],
     "title": "No-Vary-Search",
     "url": "https://wicg.github.io/nav-speculation/no-vary-search.html",
     "github": "https://github.com/WICG/nav-speculation",
@@ -1682,6 +2059,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "graphics"
+    ],
     "title": "WebGPU and WGSL",
     "url": "https://www.w3.org/TR/webgpu/ and https://www.w3.org/TR/WGSL/",
     "github": "https://github.com/gpuweb/gpuweb",
@@ -1699,6 +2079,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "security",
+      "svg"
+    ],
     "title": "Remove support for data: URL in SVGUseElement",
     "url": "https://github.com/w3c/svgwg/pull/901",
     "github": null,
@@ -1716,6 +2100,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "performance"
+    ],
     "title": "Resource Timing: Add interim response timings",
     "url": "https://github.com/w3c/resource-timing/pull/366 and https://github.com/whatwg/fetch/pull/1483",
     "github": "https://github.com/w3c/resource-timing/",
@@ -1736,6 +2123,10 @@
       "privacy",
       "integration",
       "maintenance"
+    ],
+    "topics": [
+      "device apis",
+      "events"
     ],
     "title": "GamepadTouch Interface",
     "url": "https://knyg.github.io/gamepad/extensions.html#gamepadtouch-interface",
@@ -1758,6 +2149,9 @@
       "interoperability",
       "privacy"
     ],
+    "topics": [
+      "privacy"
+    ],
     "title": "The Topics API",
     "url": null,
     "github": "https://github.com/patcg-individual-drafts/topics",
@@ -1775,6 +2169,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Values and Units Module",
     "url": "https://drafts.csswg.org/css-values/#font-relative-lengths",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -1790,6 +2187,9 @@
     "position": "support",
     "venues": [],
     "concerns": [],
+    "topics": [
+      "media"
+    ],
     "title": "Autoplay Policy Detection",
     "url": "https://w3c.github.io/autoplay/",
     "github": "https://github.com/w3c/autoplay/",
@@ -1807,6 +2207,7 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [],
     "title": "Prefetch processing model",
     "url": "https://github.com/whatwg/html/pull/8111",
     "github": "https://github.com/whatwg",
@@ -1827,6 +2228,9 @@
       "privacy",
       "annoyance"
     ],
+    "topics": [
+      "app-like capabilities"
+    ],
     "title": "Multi-Screen Window Placement API",
     "url": "https://www.w3.org/TR/window-placement/",
     "github": null,
@@ -1844,6 +2248,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Inline 3",
     "url": "https://drafts.csswg.org/css-inline-3/#baseline-source",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -1865,6 +2272,11 @@
       "privacy",
       "power"
     ],
+    "topics": [
+      "media",
+      "performance",
+      "webrtc"
+    ],
     "title": "(part of webrtc-extensions)",
     "url": "https://w3c.github.io/webrtc-extensions/#disable-hardware",
     "github": "https://github.com/w3c/webrtc-extensions",
@@ -1882,6 +2294,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "security"
+    ],
     "title": "FedCM with multiple IDP support",
     "url": null,
     "github": "https://github.com/fedidcg/FedCM",
@@ -1899,6 +2314,10 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "storage",
+      "app-like capabilities"
+    ],
     "title": "FileSystemFileHandle.move() for local files",
     "url": "https://github.com/whatwg/fs/pull/10",
     "github": "https://github.com/whatwg/fs",
@@ -1916,6 +2335,11 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "graphics",
+      "html",
+      "fonts and/or text"
+    ],
     "title": "Canvas Formatted Text",
     "url": null,
     "github": "https://github.com/WICG/canvas-formatted-text/",
@@ -1933,6 +2357,9 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "html"
+    ],
     "title": "New dialog initial focus algorithm",
     "url": "https://github.com/whatwg/html/pull/8199",
     "github": "https://github.com/whatwg/html",
@@ -1950,6 +2377,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "security"
+    ],
     "title": "Mixed Content",
     "url": "https://w3c.github.io/webappsec-mixed-content/",
     "github": "https://github.com/w3c/webappsec-mixed-content/",
@@ -1967,6 +2397,10 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "privacy",
+      "storage"
+    ],
     "title": "requestStorageAccessFor",
     "url": null,
     "github": "https://github.com/privacycg/requestStorageAccessForOrigin",
@@ -1986,6 +2420,10 @@
     "concerns": [
       "compatibility"
     ],
+    "topics": [
+      "markup",
+      "mathml"
+    ],
     "title": "MathML Core (mtd@colspan)",
     "url": "https://w3c.github.io/mathml-core/#entry-in-table-or-matrix-mtd",
     "github": null,
@@ -2003,6 +2441,7 @@
       "TC39"
     ],
     "concerns": [],
+    "topics": [],
     "title": "Import Attributes",
     "url": "https://tc39.es/proposal-import-attributes/",
     "github": "https://github.com/tc39/proposal-import-attributes",
@@ -2020,6 +2459,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "service workers"
+    ],
     "title": "Skip service worker no-op fetch handler",
     "url": "https://github.com/w3c/ServiceWorker/issues/1671",
     "github": "https://github.com/yoshisatoyanagisawa/service-worker-skip-no-op-fetch-handler/",
@@ -2037,6 +2479,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css"
+    ],
     "title": "Request for linear() easing function",
     "url": "https://w3c.github.io/csswg-drafts/css-easing/#the-linear-easing-function",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -2054,6 +2499,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "authentication"
+    ],
     "title": "FedCM: Auto re-authentication",
     "url": null,
     "github": "https://github.com/fedidcg/FedCM",
@@ -2071,6 +2519,10 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "html",
+      "javascript"
+    ],
     "title": "Use `v` flag instead of `u` for HTML `pattern` attribute RegExps",
     "url": "https://github.com/whatwg/html/pull/7908",
     "github": "https://github.com/whatwg/html/pull/7908",
@@ -2088,6 +2540,11 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "layout",
+      "scrolling"
+    ],
     "title": "CSS Scrollbars Styling Level 1",
     "url": "https://www.w3.org/TR/css-scrollbars-1/#scrollbar-width",
     "github": "https://github.com/w3c/csswg-drafts/tree/main/css-scrollbars-1",
@@ -2105,6 +2562,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "scrolling"
+    ],
     "title": "CSS Scrollbars Styling Level 1",
     "url": "https://www.w3.org/TR/css-scrollbars-1/#scrollbar-color",
     "github": "https://github.com/w3c/csswg-drafts/tree/main/css-scrollbars-1",
@@ -2122,6 +2583,11 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "layout",
+      "scrolling"
+    ],
     "title": "CSS Overflow Level 3",
     "url": "https://drafts.csswg.org/css-overflow-3/#scrollbar-gutter",
     "github": "https://github.com/w3c/csswg-drafts/tree/main/css-overflow-3",
@@ -2139,6 +2605,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Color Module Level 4",
     "url": "https://www.w3.org/TR/css-color-4/#valdef-system-color-accentcolor",
     "github": "https://github.com/w3c/csswg-drafts/tree/main/css-color-4",
@@ -2157,6 +2626,9 @@
     ],
     "concerns": [
       "maintenance"
+    ],
+    "topics": [
+      "media"
     ],
     "title": "Capability Delegation for getDisplayMedia()",
     "url": "https://wicg.github.io/capability-delegation/spec.html#monkey-patch-to-screen-capture",
@@ -2179,6 +2651,13 @@
       "integration",
       "API design"
     ],
+    "topics": [
+      "accessibility",
+      "html",
+      "markup",
+      "app-like capabilities",
+      "dom"
+    ],
     "title": "Document Subtitle",
     "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/DocumentSubtitle/explainer.md",
     "github": null,
@@ -2196,6 +2675,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "authentication"
+    ],
     "title": "Web Authentication large blob extension",
     "url": "https://w3c.github.io/webauthn/#sctn-large-blob-extension",
     "github": "https://github.com/w3c/webauthn",
@@ -2215,6 +2697,9 @@
     "concerns": [
       "privacy"
     ],
+    "topics": [
+      "client hints"
+    ],
     "title": "User Locale Preferences",
     "url": null,
     "github": "https://github.com/romulocintra/user-locale-client-hints",
@@ -2232,6 +2717,11 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "html",
+      "payments",
+      "forms"
+    ],
     "title": "Eligibility for autofill",
     "url": "https://github.com/whatwg/html/pull/8801",
     "github": null,
@@ -2249,6 +2739,10 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "privacy",
+      "advertising"
+    ],
     "title": "Interoperable Private Attribution (IPA)",
     "url": "https://github.com/patcg-individual-drafts/ipa/blob/main/IPA-End-to-End.md",
     "github": "https://github.com/patcg-individual-drafts/ipa",
@@ -2266,6 +2760,11 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "layout",
+      "fonts and/or text"
+    ],
     "title": "CSS Text Level 4",
     "url": "https://w3c.github.io/csswg-drafts/css-text-4/#valdef-text-wrap-balance",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -2286,6 +2785,9 @@
       "privacy",
       "device independence"
     ],
+    "topics": [
+      "editing"
+    ],
     "title": "Delayed clipboard rendering for Async Clipboard API",
     "url": null,
     "github": "https://github.com/w3c/editing/issues/417",
@@ -2305,6 +2807,9 @@
     "concerns": [
       "privacy"
     ],
+    "topics": [
+      "css"
+    ],
     "title": "Media Queries Level 5 - `prefers-reduced-transparency`",
     "url": "https://www.w3.org/TR/mediaqueries-5/#descdef-media-prefers-reduced-transparency",
     "github": null,
@@ -2322,6 +2827,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css"
+    ],
     "title": "Request for update and overflow media features",
     "url": "https://drafts.csswg.org/mediaqueries-4/#descdef-media-update, https://w3c.github.io/csswg-drafts/mediaqueries/#mf-overflow-block",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -2339,6 +2847,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "animation"
+    ],
     "title": "Display and content-visibility animations",
     "url": "https://github.com/w3c/csswg-drafts/issues/6429",
     "github": null,
@@ -2356,6 +2868,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "animation"
+    ],
     "title": "Transitions on specified discrete properties",
     "url": "https://github.com/w3c/csswg-drafts/issues/4441",
     "github": null,
@@ -2376,6 +2892,7 @@
       "privacy",
       "maintenance"
     ],
+    "topics": [],
     "title": "Background Fetch",
     "url": "https://wicg.github.io/background-fetch/",
     "github": "https://github.com/WICG/background-fetch/issues/",
@@ -2393,6 +2910,11 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "events",
+      "scrolling"
+    ],
     "title": "Scrollend Events",
     "url": "https://drafts.csswg.org/cssom-view/#scrolling-events",
     "github": null,
@@ -2410,6 +2932,11 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "animation",
+      "scrolling"
+    ],
     "title": "Scroll-driven animations",
     "url": "https://drafts.csswg.org/scroll-animations-1/",
     "github": "https://github.com/w3c/csswg-drafts/tree/main/scroll-animations-1",
@@ -2429,6 +2956,10 @@
     "concerns": [
       "venue"
     ],
+    "topics": [
+      "loading",
+      "performance"
+    ],
     "title": "Back/forward cache NotRestoredReasons API",
     "url": "https://github.com/rubberyuzu/bfcache-not-retored-reason/blob/main/NotRestoredReason.md",
     "github": "https://github.com/rubberyuzu/bfcache-not-retored-reason/",
@@ -2446,6 +2977,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "augmented reality"
+    ],
     "title": "WebXR Device API",
     "url": "https://immersive-web.github.io/webxr/",
     "github": "https://github.com/immersive-web/webxr",
@@ -2463,6 +2997,12 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "networking",
+      "performance",
+      "http",
+      "client hints"
+    ],
     "title": "Report Critical-CH caused restart in NavigationTiming",
     "url": "https://github.com/w3c/navigation-timing/pull/188",
     "github": "https://github.com/w3c/navigation-timing/",
@@ -2480,6 +3020,10 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "privacy",
+      "advertising"
+    ],
     "title": "FLEDGE API",
     "url": "https://wicg.github.io/turtledove/",
     "github": "https://github.com/WICG/turtledove",
@@ -2497,6 +3041,12 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "networking",
+      "loading",
+      "http",
+      "fetch"
+    ],
     "title": "Compression Dictionary Transport",
     "url": "https://github.com/WICG/compression-dictionary-transport",
     "github": "https://github.com/WICG/compression-dictionary-transport",
@@ -2515,6 +3065,10 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "networking",
+      "fetch"
+    ],
     "title": "Local Network Access (aka Private Network Access, CORS-RFC1918)",
     "url": "https://wicg.github.io/local-network-access",
     "github": "https://github.com/wicg/local-network-access",
@@ -2534,6 +3088,10 @@
     "concerns": [
       "accessibility"
     ],
+    "topics": [
+      "accessibility",
+      "css"
+    ],
     "title": "focusability of elements with CSS display:contents",
     "url": "https://drafts.csswg.org/css-display-3/#box-generation",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -2552,6 +3110,11 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "javascript",
+      "performance",
+      "dom"
+    ],
     "title": "AbortSignal.any()",
     "url": "https://github.com/whatwg/dom/pull/1152",
     "github": "https://github.com/whatwg/dom",
@@ -2569,6 +3132,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "layout"
+    ],
     "title": "CSS Anchor Positioning",
     "url": "https://drafts.csswg.org/css-anchor-position-1/",
     "github": null,
@@ -2586,6 +3153,10 @@
       "IETF"
     ],
     "concerns": [],
+    "topics": [
+      "networking",
+      "http"
+    ],
     "title": "Zstd Content-Encoding",
     "url": "https://datatracker.ietf.org/doc/html/rfc8878",
     "github": null,
@@ -2603,6 +3174,11 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "layout",
+      "animation"
+    ],
     "title": "CSS Positioned Layout Module Level 4",
     "url": "https://drafts.csswg.org/css-position-4/#overlay",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -2621,6 +3197,9 @@
     ],
     "concerns": [
       "compatibility"
+    ],
+    "topics": [
+      "css"
     ],
     "title": "Removing the zoom CSS property",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/zoom",
@@ -2641,6 +3220,12 @@
     "concerns": [
       "venue"
     ],
+    "topics": [
+      "accessibility",
+      "html",
+      "markup",
+      "forms"
+    ],
     "title": "focusgroup attribute",
     "url": "https://open-ui.org/components/focusgroup.explainer/",
     "github": "https://github.com/openui/open-ui/blob/main/site/src/pages/components/focusgroup.explainer.mdx",
@@ -2660,6 +3245,10 @@
     "concerns": [
       "venue"
     ],
+    "topics": [
+      "javascript",
+      "performance"
+    ],
     "title": "Explicit compile hints",
     "url": "https://docs.google.com/document/d/19xTAM4A75tz0xUq_velMzGA4JHEgXpyflUxXTcuNiyE/edit?usp=sharing",
     "github": null,
@@ -2677,6 +3266,13 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "html",
+      "markup",
+      "loading",
+      "privacy",
+      "security"
+    ],
     "title": "Fenced frames",
     "url": "https://wicg.github.io/fenced-frame/",
     "github": "https://github.com/wicg/fenced-frame",
@@ -2697,6 +3293,10 @@
       "duplication",
       "use cases"
     ],
+    "topics": [
+      "artificial intelligence",
+      "graphics"
+    ],
     "title": "Accelerated Shape Detection in Images",
     "url": "https://wicg.github.io/shape-detection-api/",
     "github": "https://github.com/WICG/shape-detection-api",
@@ -2714,6 +3314,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "authentication"
+    ],
     "title": "FedCM bundle: LoginHint, Context, and User Info extensions",
     "url": "https://fedidcg.github.io/FedCM/",
     "github": "https://github.com/fedidcg/FedCM",
@@ -2732,6 +3335,11 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "html",
+      "animation"
+    ],
     "title": "Detect UA Transitions on Same-Document Navigations",
     "url": "https://github.com/whatwg/html/issues/8782",
     "github": null,
@@ -2750,6 +3358,11 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "html",
+      "animation"
+    ],
     "title": "Disabling UA transitions for same-document navigations",
     "url": "https://github.com/w3c/csswg-drafts/issues/8747",
     "github": null,
@@ -2769,6 +3382,11 @@
     "concerns": [
       "maintenance"
     ],
+    "topics": [
+      "loading",
+      "security",
+      "permissions"
+    ],
     "title": "Capability Delegation: Initiating",
     "url": "https://wicg.github.io/capability-delegation/spec.html#initiating-delegation",
     "github": "https://github.com/WICG/capability-delegation",
@@ -2786,6 +3404,11 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "media",
+      "device apis",
+      "webrtc"
+    ],
     "title": "WebRTC Codec selection API",
     "url": "https://w3c.github.io/webrtc-extensions/#dom-rtcrtpencodingparameters-codec",
     "github": "https://github.com/w3c/webrtc-extensions/",
@@ -2806,6 +3429,10 @@
       "interoperability",
       "venue"
     ],
+    "topics": [
+      "privacy",
+      "advertising"
+    ],
     "title": "Attribution Reporting",
     "url": "https://wicg.github.io/attribution-reporting-api/",
     "github": "https://github.com/WICG/attribution-reporting-api",
@@ -2824,6 +3451,10 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "privacy",
+      "storage"
+    ],
     "title": "Storage Buckets",
     "url": "https://wicg.github.io/storage-buckets/",
     "github": "https://github.com/WICG/storage-buckets",
@@ -2852,6 +3483,7 @@
       "accessibility",
       "dependencies"
     ],
+    "topics": [],
     "title": "Keyboard Lock",
     "url": "https://wicg.github.io/keyboard-lock/",
     "github": "https://github.com/wicg/keyboard-lock/",
@@ -2869,6 +3501,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "authentication"
+    ],
     "title": "WebAuthn PRF extension",
     "url": "https://w3c.github.io/webauthn/#prf-extension",
     "github": "https://github.com/w3c/webauthn",
@@ -2886,6 +3521,12 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "security",
+      "device apis",
+      "app-like capabilities",
+      "permissions"
+    ],
     "title": "Isolated Web Apps",
     "url": "https://github.com/WICG/isolated-web-apps/blob/main/README.md",
     "github": "https://github.com/WICG/isolated-web-apps",
@@ -2903,6 +3544,10 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "networking",
+      "fetch"
+    ],
     "title": "HTTPS Upgrades",
     "url": "https://fetch.spec.whatwg.org/",
     "github": "https://github.com/whatwg/fetch",
@@ -2922,6 +3567,10 @@
     "concerns": [
       "complexity"
     ],
+    "topics": [
+      "javascript",
+      "security"
+    ],
     "title": "Trusted Types",
     "url": "https://www.w3.org/TR/trusted-types/",
     "github": "https://github.com/w3c/trusted-types/tree/main/spec",
@@ -2939,6 +3588,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "animation"
+    ],
     "title": "Motion Path",
     "url": "https://drafts.fxtf.org/motion/",
     "github": null,
@@ -2956,6 +3609,11 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "html",
+      "markup",
+      "security"
+    ],
     "title": "Ignore target names which contain both `\\n` and `<` characters",
     "url": "https://github.com/whatwg/html/pull/9309",
     "github": null,
@@ -2973,6 +3631,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "privacy"
+    ],
     "title": "Private Aggregation API",
     "url": "https://patcg-individual-drafts.github.io/private-aggregation-api/",
     "github": "https://github.com/patcg-individual-drafts/private-aggregation-api",
@@ -2990,6 +3651,9 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "media"
+    ],
     "title": "HTML Video Element: Proposal For Reintroduction of Media (and srcset/sizes) in Source Elements",
     "url": "https://html.spec.whatwg.org/",
     "github": "https://github.com/whatwg/html",
@@ -3006,6 +3670,10 @@
     "venues": [],
     "concerns": [
       "venue"
+    ],
+    "topics": [
+      "privacy",
+      "security"
     ],
     "title": "Standardizing Security Semantics of Cross-Site Cookies",
     "url": "https://github.com/DCtheTall/standardizing-cross-site-cookie-semantics",
@@ -3024,6 +3692,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "events"
+    ],
     "title": "Mutation Events",
     "url": "https://w3c.github.io/uievents/#legacy-event-types",
     "github": "https://github.com/w3c/uievents",
@@ -3042,6 +3713,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "animation"
+    ],
     "title": "CSS View Transitions, Level 2",
     "url": "https://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -3059,6 +3734,9 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "fetch"
+    ],
     "title": "BYOB support for Fetch",
     "url": "https://fetch.spec.whatwg.org/#http-network-fetch",
     "github": "https://github.com/whatwg/fetch",
@@ -3076,6 +3754,10 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "app-like capabilities",
+      "web manifest"
+    ],
     "title": "Tabbed web apps",
     "url": "https://github.com/WICG/manifest-incubations/blob/gh-pages/tabbed-mode-explainer.md",
     "github": null,
@@ -3093,6 +3775,9 @@
       "IETF"
     ],
     "concerns": [],
+    "topics": [
+      "security"
+    ],
     "title": "Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2",
     "url": "https://www.rfc-editor.org/rfc/rfc9155.html",
     "github": null,
@@ -3110,6 +3795,9 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "html"
+    ],
     "title": "Snapshotting initiator base URL",
     "url": "https://github.com/whatwg/html/issues/421#issuecomment-1260360824",
     "github": null,
@@ -3129,6 +3817,9 @@
     "concerns": [
       "device independence"
     ],
+    "topics": [
+      "app-like capabilities"
+    ],
     "title": "Device Attributes API",
     "url": "https://wicg.github.io/WebApiDevice/device_attributes/",
     "github": "https://github.com/WICG/WebApiDevice",
@@ -3146,6 +3837,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "device apis"
+    ],
     "title": "Web Serial API",
     "url": "https://wicg.github.io/serial/",
     "github": "https://github.com/wicg/serial/",
@@ -3163,6 +3857,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "permissions"
+    ],
     "title": "Disable unload handlers by default and add Permissions-Policy to opt-in to enabling them.",
     "url": "https://github.com/fergald/docs/blob/master/explainers/permissions-policy-deprecate-unload.md",
     "github": "https://github.com/fergald/docs/",
@@ -3178,6 +3875,9 @@
     "position": "not considering",
     "venues": [],
     "concerns": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Round Display 1 Module",
     "url": "https://www.w3.org/TR/css-round-display-1/#border-boundary-property",
     "github": null,
@@ -3195,6 +3895,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "svg"
+    ],
     "title": "CSS Fill and Stroke Module Level 3",
     "url": "https://drafts.fxtf.org/fill-stroke-3/#fill-paint",
     "github": null,
@@ -3212,6 +3916,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "images"
+    ],
     "title": "CSS Images Module",
     "url": "https://drafts.csswg.org/css-images-4/#the-image-resolution",
     "github": null,
@@ -3229,6 +3937,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "performance"
+    ],
     "title": "ResourceTiming - deliveryType",
     "url": "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-deliverytype",
     "github": "https://github.com/w3c/resource-timing",
@@ -3246,6 +3957,9 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Sizing, Level 4",
     "url": "https://drafts.csswg.org/css-sizing-4/#propdef-contain-intrinsic-size",
     "github": "https://github.com/w3c/csswg-drafts/",
@@ -3262,6 +3976,9 @@
     "venues": [],
     "concerns": [
       "dependencies"
+    ],
+    "topics": [
+      "service workers"
     ],
     "title": "ServiceWorker static routing API",
     "url": null,
@@ -3280,6 +3997,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "html"
+    ],
     "title": "Web Charts",
     "url": "https://github.com/WICG/proposals/issues/97",
     "github": null,
@@ -3298,6 +4018,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "html"
+    ],
     "title": "exclusive accordions with `<details name=\"\">`",
     "url": "https://github.com/whatwg/html/pull/9400",
     "github": "https://github.com/openui/open-ui",
@@ -3315,6 +4038,10 @@
       "W3C"
     ],
     "concerns": [],
+    "topics": [
+      "css",
+      "animation"
+    ],
     "title": "CSS Transitions Level 2",
     "url": "https://drafts.csswg.org/css-transitions-2/#defining-before-change-style-the-starting-style-rule",
     "github": null,
@@ -3332,6 +4059,9 @@
       "IETF"
     ],
     "concerns": [],
+    "topics": [
+      "authentication"
+    ],
     "title": "RFC 7616 Digest auth: Support SHA-256, SHA-512-256 and user hashing",
     "url": "https://datatracker.ietf.org/doc/html/rfc7616",
     "github": null,
@@ -3349,6 +4079,9 @@
       "WHATWG"
     ],
     "concerns": [],
+    "topics": [
+      "html"
+    ],
     "title": "`dialogmodaltarget` attribute",
     "url": "https://github.com/whatwg/html/pull/9456",
     "github": "https://github.com/whatwg/html/pull/9456",
@@ -3366,6 +4099,9 @@
       "Other"
     ],
     "concerns": [],
+    "topics": [
+      "privacy"
+    ],
     "title": "Bounce Tracking Mitigations",
     "url": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations",
     "github": "https://github.com/privacycg/nav-tracking-mitigations/",
@@ -3379,8 +4115,15 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/215",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG",
+      "Other"
+    ],
     "concerns": [],
+    "topics": [
+      "html",
+      "web apis"
+    ],
     "title": "Close signals and close watchers",
     "url": "https://whatpr.org/html/9462/interaction.html#close-signals-and-close-watchers",
     "github": "https://github.com/WICG/close-watcher",
@@ -3388,6 +4131,26 @@
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/594",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/604",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/216",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [
+      "html"
+    ],
+    "title": "WHATWG HTML spec",
+    "url": "https://github.com/whatwg/html/pull/9144",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/848",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/836",
     "bugzilla": null,
     "radar": null
   }
