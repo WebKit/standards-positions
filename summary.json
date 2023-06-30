@@ -3952,7 +3952,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/205",
-    "position": null,
+    "position": "neutral",
     "venues": [
       "W3C"
     ],
@@ -4144,13 +4144,33 @@
     "topics": [
       "html"
     ],
-    "title": "WHATWG HTML spec",
+    "title": "HTML anchor attribute",
     "url": "https://github.com/whatwg/html/pull/9144",
     "github": "https://github.com/whatwg/html",
     "issues": null,
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/848",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/836",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/218",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "media"
+    ],
+    "title": "WebCodecs AudioEncoder bitrateMode",
+    "url": "https://w3c.github.io/webcodecs/#dom-audioencoderconfig-bitratemode",
+    "github": "https://github.com/w3c/webcodecs",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   }

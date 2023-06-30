@@ -6687,7 +6687,7 @@
     "body": "## Request for position on an emerging web specification\r\n\r\n### Information about the spec\r\n\r\n* Spec Title: CSS Shared Element Transitions\r\n* Spec URL: https://drafts.csswg.org/css-shared-element-transitions-1/\r\n* GitHub repository: https://github.com/WICG/shared-element-transitions\r\n* Issue Tracker (if not the repository's issue tracker): \r\n* Explainer (if not README.md in the repository): https://github.com/WICG/shared-element-transitions/blob/main/explainer.md\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: https://github.com/w3ctag/design-reviews/issues/748\r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/677\r\n\r\n### Bugs tracking this feature\r\n\r\n* WebKit Bugzilla: \r\n* Radar: \r\n\r\n### Anything else we need to know\r\n\r\nThe spec still has some open issues but the overall feature design is concrete at this point. Also [here](https://chromestatus.com/feature/5193009714954240) is the chrome status entry.\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/48/reactions",
-      "total_count": 38,
+      "total_count": 39,
       "+1": 37,
       "-1": 0,
       "laugh": 0,
@@ -6695,7 +6695,7 @@
       "confused": 0,
       "heart": 0,
       "rocket": 0,
-      "eyes": 1
+      "eyes": 2
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/48/timeline",
     "performed_via_github_app": null,
@@ -8047,8 +8047,8 @@
     "body": "## Request for position on an emerging web specification\r\n\r\n* WebKittens who can provide input: @anttijk @jensimmons \r\n\r\n### Information about the spec\r\n\r\n* Spec Title: CSS Containment Module Level 3\r\n* Spec URL: https://drafts.csswg.org/css-contain-3/#style-container\r\n* Issue Tracker (if not the repository's issue tracker): https://github.com/w3c/csswg-drafts/labels/css-contain-3\r\n* Explainer (if not README.md in the repository): https://github.com/oddbird/css-sandbox/blob/main/src/rwd/query/explainer.md\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: https://github.com/w3ctag/design-reviews/issues/592\r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/686\r\n\r\n### Anything else we need to know\r\n\r\nStyle queries can be used to style an element based on querying the computed style values of a parent element or a named ancestor element.\r\n\r\nChrome currently has an implementation for custom property queries behind a flag, and it would be good to have separate positions on custom and standard property queries if applicable.\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/57/reactions",
-      "total_count": 6,
-      "+1": 4,
+      "total_count": 7,
+      "+1": 5,
       "-1": 0,
       "laugh": 0,
       "hooray": 2,
@@ -17869,7 +17869,7 @@
         "description": "Proposed, edited, or co-edited by Microsoft."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "Constellation",
@@ -17982,18 +17982,18 @@
         "type": "User",
         "site_admin": false
       },
-      "open_issues": 2,
-      "closed_issues": 0,
+      "open_issues": 0,
+      "closed_issues": 2,
       "state": "open",
       "created_at": "2023-03-28T18:09:23Z",
-      "updated_at": "2023-04-28T15:05:27Z",
+      "updated_at": "2023-06-30T10:34:14Z",
       "due_on": "2023-05-01T07:00:00Z",
       "closed_at": null
     },
     "comments": 3,
     "created_at": "2023-02-06T09:01:57Z",
-    "updated_at": "2023-06-26T15:31:04Z",
-    "closed_at": null,
+    "updated_at": "2023-06-30T10:33:49Z",
+    "closed_at": "2023-06-30T10:33:49Z",
     "author_association": "CONTRIBUTOR",
     "active_lock_reason": null,
     "body": "## Request for position on an emerging web specification\r\n\r\n### Information about the specification\r\n\r\n* Title: Import Attributes\r\n* URL: https://tc39.es/proposal-import-attributes/\r\n* GitHub repository: https://github.com/tc39/proposal-import-attributes\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: https://github.com/w3ctag/design-reviews/issues/535\r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/373\r\n\r\n### Bugs tracking this feature\r\n\r\n* WebKit Bugzilla: https://bugs.webkit.org/show_bug.cgi?id=243622\r\n\r\nAlso https://bugs.webkit.org/show_bug.cgi?id=251600.\r\n\r\n### Anything else we need to know\r\n\r\nThere's a somewhat late outstanding host-integration issue: https://github.com/whatwg/html/issues/7233#issuecomment-1407049226.",
@@ -18011,7 +18011,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/128/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/129",
@@ -22922,7 +22922,7 @@
         "description": "Relates to the Fetch API"
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "johnwilander",
@@ -22989,8 +22989,8 @@
     "milestone": null,
     "comments": 3,
     "created_at": "2023-04-06T08:41:15Z",
-    "updated_at": "2023-06-27T11:37:13Z",
-    "closed_at": null,
+    "updated_at": "2023-06-30T10:34:01Z",
+    "closed_at": "2023-06-30T10:34:01Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@annevk\r\n\r\n### Title of the spec\r\n\r\nLocal Network Access (aka Private Network Access, CORS-RFC1918)\r\n\r\n### URL to the spec\r\n\r\nhttps://wicg.github.io/local-network-access\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/wicg/local-network-access\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/WICG/local-network-access/blob/main/explainer.md\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/572\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/143\r\n\r\n### WebKit Bugzilla URL\r\n\r\nhttps://bugs.webkit.org/show_bug.cgi?id=250607\r\n\r\n### Radar URL\r\n\r\nrdar://104246665\r\n\r\n### Description\r\n\r\nLocal Network Access aims to prevent CSRF attacks against insecure devices on the local network. This is achieved by deprecating direct access to private IP addresses from public websites, and instead requiring that:\r\n\r\n - the initiator website be served over HTTPS\r\n - the target website respond affirmatively to an augmented CORS preflight request\r\n\r\nNote that we are working on adding a path for HTTPS initiators to bypass mixed content restrictions when talking to the local network, since HTTPS communications on the local network are difficult to set up and operate.\r\n\r\nPrevious requests for positions, from back in 2021:\r\n\r\n- secure context restriction: https://lists.webkit.org/pipermail/webkit-dev/2021-May/031837.html, tentative interest from @youennf \r\n- preflights: https://lists.webkit.org/pipermail/webkit-dev/2021-November/032040.html, no answer\r\n\r\n",
@@ -23008,7 +23008,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/163/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/164",
@@ -23361,7 +23361,7 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "annevk",
@@ -23434,18 +23434,18 @@
         "type": "User",
         "site_admin": false
       },
-      "open_issues": 2,
-      "closed_issues": 0,
+      "open_issues": 0,
+      "closed_issues": 2,
       "state": "open",
       "created_at": "2023-03-28T18:09:23Z",
-      "updated_at": "2023-04-28T15:05:27Z",
+      "updated_at": "2023-06-30T10:34:14Z",
       "due_on": "2023-05-01T07:00:00Z",
       "closed_at": null
     },
     "comments": 1,
     "created_at": "2023-04-11T22:20:23Z",
-    "updated_at": "2023-05-28T14:54:30Z",
-    "closed_at": null,
+    "updated_at": "2023-06-30T10:34:13Z",
+    "closed_at": "2023-06-30T10:34:13Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\n\n@annevk\n\n### Title of the spec\n\nAbortSignal.any()\n\n### URL to the spec\n\nhttps://github.com/whatwg/dom/pull/1152\n\n### URL to the spec's repository\n\nhttps://github.com/whatwg/dom\n\n### Issue Tracker URL\n\nhttps://github.com/shaseley/abort-signal-any/issues\n\n### Explainer URL\n\nhttps://github.com/shaseley/abort-signal-any\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/737\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/774\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\n`AbortSignal.any(signals)` returns an AbortSignal that is aborted when any of the source signals are aborted. Developers can use this to combine independent abort sources, e.g. timeouts specified with `AbortSignal.timeout()` and signals associated with user input, and pass them to async APIs like `fetch()`.\r\n\r\n**Memory management**: composite signals (those returned by this API) must be kept alive while they can be aborted (by one of the sources) and have registered 'abort' event listeners or pending abort algorithms (see GC note in the spec PR). Implementing this API in userland has proved [difficult to do without leaks](https://github.com/whatwg/dom/issues/920), e.g. because of lack of knowledge about pending abort algorithms, but can be done by the browser where we have more visibility.\r\n\r\nTo implement the memory management in Chromium, we needed to clean up handling of pending abort algorithms, specifically making sure they get removed when they can no longer have an effect (e.g. when all related `fetch` state has been GCed). See also [this issue](https://github.com/shaseley/abort-signal-any/issues/4).",
@@ -23463,7 +23463,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/166/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/167",
@@ -25066,7 +25066,7 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "smfr",
@@ -25153,8 +25153,8 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2023-04-21T22:07:31Z",
-    "updated_at": "2023-06-27T11:47:29Z",
-    "closed_at": null,
+    "updated_at": "2023-06-30T10:34:34Z",
+    "closed_at": "2023-06-30T10:34:34Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@smfr\r\n\r\n### Title of the spec\r\n\r\nDetect UA Transitions on Same-Document Navigations\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/whatwg/html/issues/8782\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/WICG/view-transitions/blob/main/default-ua-transitions.md#detecting-ua-transition\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/834\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/783\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis API would help with issues like [this](https://stackoverflow.com/questions/66867737/iphone-safari-detect-swipe-navigation). Chromium is planning to ship similar browser UX and we're looking forward to fixing this problem in an interoperable way.",
@@ -25172,7 +25172,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/176/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/177",
@@ -27832,15 +27832,15 @@
         "description": "Relates to the Fetch API"
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 1,
     "created_at": "2023-05-31T23:57:30Z",
-    "updated_at": "2023-06-27T11:50:15Z",
-    "closed_at": null,
+    "updated_at": "2023-06-30T10:34:54Z",
+    "closed_at": "2023-06-30T10:34:54Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@annevk\r\n\r\n### Title of the spec\r\n\r\nBYOB support for Fetch\r\n\r\n### URL to the spec\r\n\r\nhttps://fetch.spec.whatwg.org/#http-network-fetch\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/whatwg/fetch\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\n_No response_\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThe proposal is to make Response.body be a readable byte stream instead of a \"default\" readable stream. This enables it to be used with bring-your-own-buffer (BYOB) readers, reducing garbage collection overhead and copies. The spec PR for this was landed at https://github.com/whatwg/fetch/pull/1593.\r\n\r\nFirefox has already shipped this in 2022 (see https://github.com/whatwg/fetch/issues/267#issuecomment-1350303670), and implementation is in progress for Chrome. The corresponding ChromeStatus entry for this feature is at https://chromestatus.com/feature/5192003450568704.",
@@ -27858,7 +27858,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/194/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/195",
@@ -28008,7 +28008,7 @@
         "description": "Spec is developed in the IETF's TLS Working Group"
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "tfpauly",
@@ -28055,8 +28055,8 @@
     "milestone": null,
     "comments": 4,
     "created_at": "2023-06-06T20:56:39Z",
-    "updated_at": "2023-06-20T20:59:43Z",
-    "closed_at": null,
+    "updated_at": "2023-06-30T10:35:45Z",
+    "closed_at": "2023-06-30T10:35:45Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\n\n@bailey\n\n### Title of the spec\n\nDeprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2\n\n### URL to the spec\n\nhttps://www.rfc-editor.org/rfc/rfc9155.html\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nChrome Status Entry: https://chromestatus.com/feature/4832850040324096\r\n\r\nChrome plans on removing support for SHA1 in server signatures in TLS. SHA1 in server certificates has been disallowed for years. SHA1 in client certificates are not affected by this change. MD5 is already disallowed.\r\n\r\n(We think this falls outside of W3C process purview, but are circulating among other browsers regardless)\r\n\r\n",
@@ -28074,7 +28074,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/196/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/197",
@@ -28145,15 +28145,15 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 6,
     "created_at": "2023-06-06T21:07:16Z",
-    "updated_at": "2023-06-26T15:05:37Z",
-    "closed_at": null,
+    "updated_at": "2023-06-30T10:36:07Z",
+    "closed_at": "2023-06-30T10:36:07Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@annevk\r\n\r\n### Title of the spec\r\n\r\nSnapshotting initiator base URL\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/whatwg/html/issues/421#issuecomment-1260360824\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/813\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nChromium would like to implement snapshotting of what is now the \"[fallback base URL](https://html.spec.whatwg.org/#fallback-base-url)\" for `about:blank` and `about:srcdoc` iframes and popup windows. Furthermore, because a document's \"*creator*\" can be different from its navigation \"*initiator*\", we've picked the *initiator* as the document from which an `about:srcdoc`/`about:blank` document's base URL is to be inherited, for consistency. We've generally received positive comments about these changes from WebKit folks and many others.\r\n\r\nThe current fallback base URL mechanism expects to be able to:\r\n - Dynamically access a parent Document's live URL, for `about:srcdoc` iframes\r\n - Dynamically access a Document's creator Document's live URL, for `about:blank` popups\r\n\r\n<details>\r\n  <summary>Bad side-effects of the current spec</summary>\r\nWe, and many others involved in discussions over the years, believe this has bad side-effects:\r\n - It makes it harder to move things like sandboxed `srcdoc` iframes out-of-process, since one must synchronize the parent/creator's live URL across processes to simulate the current spec\r\n - It violates some security and/or privacy expectations of frame sandboxing, which ideally should under no circumstances be able to spy on an embedder frame's live URL\r\n - The current spec seems broken in related ways. For example, the creator frame **A** (reached into by the \"creator base URL\" algorithm) can be gone by the time a frame it creates **B** runs its \"fallback base URL\", which expects **A** to be around\r\n - Being able to observe dynamic updates to another frame's live, potentially out-of-process, URL is tricky & potentially racy\r\n</details>\r\n\r\n----\r\n\r\n[Many related spec issues](https://bugs.chromium.org/p/chromium/issues/detail?id=1356658#c9) have been filed and discussed over the years, and our proposal can be found in https://github.com/whatwg/html/issues/421#issuecomment-1260360824. This is not a formal specification, but I've volunteered to write one in the coming weeks so stay tuned. However we'd love to hear whether WebKit is generally supportive of the direction of snapshotting a base URL. Our specific proposal can be condensed into the following observable effects:\r\n\r\n - **Inherit Base URL from initiator**: Inheriting base URLs from the navigation *initiator* rather than *creator* is more consistent with the action of the navigation. One way to observe this change is when a sibling iframe A navigates another sibling iframe B to `about:blank`; in our proposal, B inherits A's base URL, instead of \"dynamically\" pointing to its _parent_'s, which could be different. We'd like to make origin inheritance behave like this, too.\r\n - **Snapshotting the base URL**: The base URL that we inherit per the above, would be snapshotted in the \"inheriting\" about-schemed document, and would never experience dynamic updates from *outside* of the document\r\n - **Base URL in session history**: We propose to save the base URL for about:-schemed documents in session history, alongside the document's [origin](https://html.spec.whatwg.org/#document-state-origin) for these same documents. Like the origin, the base URL would only be used when repopulating about:blank & about:srcdoc documents from session history. This is only observable for back/forward navigations to, or session history restorations of these documents, specifically when their original initiator document is not the parent/creator, or no longer exists.\r\n - **Detached documents**: The current spec's \"fallback base URL\" mechanism seems broken for detached about:-schemed iframes, referencing a browsing context that no longer exists. Snapshotting the base URL inherently fixes this issue, by keeping it local to the detached document always, requiring no *outside* information.\r\n\r\nPlease see this **detailed table of the current cross-browser behavior** of what we're changing, and our proposed behavior for each scenario: https://docs.google.com/document/d/1Cy6kuOEuYflHWKK-uQ5bU1x6wEDvyGncgJHChF1PG-U/edit?resourcekey=0-f0zbSZ9mwGyXDSqDCqjicw.\r\n\r\n\r\n/cc @wjmaclean & @csreis",
@@ -28171,7 +28171,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/197/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/198",
@@ -28528,15 +28528,15 @@
         "description": "Spec relates to CSS (Cascading Style Sheets)"
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 0,
     "created_at": "2023-06-09T23:42:43Z",
-    "updated_at": "2023-06-09T23:43:46Z",
-    "closed_at": null,
+    "updated_at": "2023-06-30T10:36:18Z",
+    "closed_at": "2023-06-30T10:36:18Z",
     "author_association": "MEMBER",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@smfr \r\n\r\n### Title of the spec\r\n\r\nCSS Round Display 1 Module\r\n\r\n### URL to the spec\r\n\r\nhttps://www.w3.org/TR/css-round-display-1/#border-boundary-property\r\n\r\n### Description\r\n\r\nAccording to https://webkit.org/css-status/, this is \"not considering\", but I'm about to remove those statuses from the page, so creating a standards position to record the position.",
@@ -28554,7 +28554,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/201/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/202",
@@ -28871,6 +28871,15 @@
     },
     "labels": [
       {
+        "id": 4278042647,
+        "node_id": "LA_kwDOHk513M7-_cAX",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20neutral",
+        "name": "position: neutral",
+        "color": "ffed00",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -28898,15 +28907,15 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2023-06-16T17:07:12Z",
-    "updated_at": "2023-06-29T04:05:39Z",
-    "closed_at": null,
+    "updated_at": "2023-06-29T20:18:23Z",
+    "closed_at": "2023-06-29T20:18:02Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\n\n_No response_\n\n### Title of the spec\n\nCSS Sizing, Level 4\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-sizing-4/#propdef-contain-intrinsic-size\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts/\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/827\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThe resolution to add contain-intrinsic-size: auto none syntax is a part of the following resolution:\r\nhttps://github.com/w3c/csswg-drafts/issues/8407#issuecomment-1440466558",
@@ -28924,7 +28933,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/205/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/206",
@@ -29092,7 +29101,7 @@
         "description": "Proposed, edited, or co-edited by an individual or entity that doesn't have a more specific label."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "marcoscaceres",
@@ -29165,18 +29174,18 @@
         "type": "User",
         "site_admin": false
       },
-      "open_issues": 1,
-      "closed_issues": 0,
+      "open_issues": 0,
+      "closed_issues": 1,
       "state": "open",
       "created_at": "2023-03-28T18:11:31Z",
-      "updated_at": "2023-06-21T04:27:15Z",
+      "updated_at": "2023-06-30T10:37:54Z",
       "due_on": "2023-06-26T07:00:00Z",
       "closed_at": null
     },
     "comments": 5,
     "created_at": "2023-06-19T00:33:17Z",
-    "updated_at": "2023-06-27T01:02:19Z",
-    "closed_at": null,
+    "updated_at": "2023-06-30T10:37:54Z",
+    "closed_at": "2023-06-30T10:37:54Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\n\n_No response_\n\n### Title of the spec\n\nWeb Charts\n\n### URL to the spec\n\nhttps://github.com/WICG/proposals/issues/97\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/WICG/proposals/issues/97\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/829\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThe _**Web Charts**_ proposal intends to add a new HTML [media element](https://html.spec.whatwg.org/multipage/media.html#media-element), `<chart>`, alongside the `<audio>` and `<video>` elements.\r\n\r\nCharts can provide interactive visualizations for static data as well as for time-based, dynamic, streaming data. Scenarios for this latter case, consuming \"data video\", include displaying streaming data from: sensors, business intelligence and analytics, and stock markets.\r\n\r\nAccordingly, the proposed `<chart>` element would be conceptually derived from the `<video>` element, utilizing most or all of its attributes, and extending its content model. In this approach, any eventual `HTMLChartElement` interface would extend `HTMLMediaElement`.\r\n\r\nFor scenarios involving the visualization of static data, here are some markup examples:\r\n\r\n```xml\r\n<chart src=\"data.csv\" width=\"600\" height=\"400\">\r\n  <script type=\"text/javascript\" src=\"https://cdn.webcache.org/bar-chart.js\" />\r\n</chart>\r\n```\r\n\r\n```xml\r\n<chart width=\"600\" height=\"400\">\r\n  <source type=\"text/csv\" src=\"data.csv\" />\r\n  <source type=\"text/tsv\" src=\"data.tsv\" />\r\n  <script type=\"text/javascript\" src=\"https://cdn.webcache.org/bar-chart.js\" />\r\n</chart>\r\n```\r\n\r\nIn these above examples, the provided scripting logic processes the selected input data into interactive content, e.g., HTML, SVG, Canvas, WebGL, or WebGPU content, in the shadow DOM.\r\n\r\nNext, we can add configuration settings for the provided scripting logic to consume utilizing the [data block](https://html.spec.whatwg.org/multipage/scripting.html#data-block) capabilities of `<script>` elements when they are provided content of a type other than `text/javascript`.\r\n\r\n```xml\r\n<chart src=\"data.csv\" width=\"600\" height=\"400\">\r\n  <script type=\"text/javascript\" src=\"https://cdn.webcache.org/bar-chart.js\" />\r\n  <script type=\"text/json\" src=\"settings.json\" />\r\n</chart>\r\n```\r\n\r\n```xml\r\n<chart width=\"600\" height=\"400\">\r\n  <source type=\"text/csv\" src=\"data.csv\" />\r\n  <source type=\"text/tsv\" src=\"data.tsv\" />\r\n  <script type=\"text/javascript\" src=\"https://cdn.webcache.org/bar-chart.js\" />\r\n  <script type=\"text/json\" src=\"settings.json\" />\r\n</chart>\r\n```\r\n\r\nNext, for time-based, dynamic, streaming data scenarios, here are some markup examples. In the following examples, the MIME types of `video/mp4` and `video/webm` are utilized as placeholders.\r\n\r\n```xml\r\n<chart src=\"data-video.m3u8\" poster=\"loading.png\" autoplay=\"true\" controls=\"true\" width=\"600\" height=\"400\">\r\n  <script type=\"text/javascript\" src=\"https://cdn.webcache.org/bar-chart.js\" />\r\n  <script type=\"text/json\" src=\"settings.json\" />\r\n</chart>\r\n```\r\n\r\n```xml\r\n<chart poster=\"loading.png\" autoplay=\"true\" controls=\"true\" width=\"600\" height=\"400\">\r\n  <source type=\"video/mp4\" src=\"data-video.mp4\" />\r\n  <source type=\"video/webm\" src=\"data-video.webm\" />\r\n  <script type=\"text/javascript\" src=\"https://cdn.webcache.org/bar-chart.js\" />\r\n  <script type=\"text/json\" src=\"settings.json\" />\r\n</chart>\r\n```\r\n\r\nFinally, we can add a `<style>` element so that charts could provide custom styling instead of only being able to utilize the style of their containing documents.\r\n\r\n```xml\r\n<chart src=\"data-video.m3u8\" poster=\"loading.png\" autoplay=\"true\" controls=\"true\" width=\"600\" height=\"400\">\r\n  <script type=\"text/javascript\" src=\"https://cdn.webcache.org/bar-chart.js\" />\r\n  <script type=\"text/json\" src=\"settings.json\" />\r\n  <style  src=\"custom.css\" />\r\n</chart>\r\n```\r\n\r\n```xml\r\n<chart poster=\"loading.png\" autoplay=\"true\" controls=\"true\" width=\"600\" height=\"400\">\r\n  <source type=\"video/mp4\" src=\"data-video.mp4\" />\r\n  <source type=\"video/webm\" src=\"data-video.webm\" />\r\n  <script type=\"text/javascript\" src=\"https://cdn.webcache.org/bar-chart.js\" />\r\n  <script type=\"text/json\" src=\"settings.json\" />\r\n  <style  src=\"custom.css\" />\r\n</chart>\r\n```\r\n",
@@ -29194,7 +29203,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/207/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/208",
@@ -29947,11 +29956,11 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2023-06-28T18:15:43Z",
-    "updated_at": "2023-06-28T21:31:45Z",
+    "updated_at": "2023-06-29T17:21:32Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nWHATWG HTML spec\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/whatwg/html/pull/9144\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/whatwg/html\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/848\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/836\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThe `anchor` attribute allows HTML to hook into CSS Anchor positioning to set an implicit anchor element: https://drafts.csswg.org/css-anchor-position-1/#implicit-anchor-element\r\n\r\nBy using the `anchor` attribute, you don't have to use the `anchor-name` and `anchor-default` CSS properties to set up an anchor positioning relationship.\r\n\r\nHere is an example without the anchor attribute:\r\n```html\r\n<div id=myanchor>anchor</div>\r\n<div id=positioned>anchor positioned</div>\r\n<style>\r\ndiv {\r\n  position: absolute;\r\n  width: 100px;\r\n  border: 1px solid black;\r\n}\r\n#anchor {\r\n  top: 50px;\r\n  left: 50px;\r\n\r\n  /* needed without the HTML anchor attribute */\r\n  anchor-name: --my-anchor;\r\n}\r\n#positioned {\r\n  top: anchor(bottom);\r\n  left: anchor(left);\r\n\r\n  /* needed without the HTML anchor attribute */\r\n  anchor-default: --my-anchor;\r\n}\r\n</style>\r\n```\r\n\r\nAnd here is an example of the same thing with the anchor attribute which gets rid of `anchor-name` and `anchor-default`:\r\n```html\r\n<div id=myanchor>anchor</div>\r\n<div id=positioned anchor=myanchor>anchor positioned</div>\r\n<style>\r\ndiv {\r\n  position: absolute;\r\n  width: 100px;\r\n  border: 1px solid black;\r\n}\r\n#myanchor {\r\n  top: 50px;\r\n  left: 50px;\r\n}\r\n#positioned {\r\n  top: anchor(bottom);\r\n  left: anchor(left);\r\n}\r\n</style>\r\n```",
+    "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nHTML anchor attribute\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/whatwg/html/pull/9144\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/whatwg/html\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/848\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/836\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThe `anchor` attribute allows HTML to hook into CSS Anchor positioning to set an implicit anchor element: https://drafts.csswg.org/css-anchor-position-1/#implicit-anchor-element\r\n\r\nBy using the `anchor` attribute, you don't have to use the `anchor-name` and `anchor-default` CSS properties to set up an anchor positioning relationship.\r\n\r\nHere is an example without the anchor attribute:\r\n```html\r\n<div id=myanchor>anchor</div>\r\n<div id=positioned>anchor positioned</div>\r\n<style>\r\ndiv {\r\n  position: absolute;\r\n  width: 100px;\r\n  border: 1px solid black;\r\n}\r\n#anchor {\r\n  top: 50px;\r\n  left: 50px;\r\n\r\n  /* needed without the HTML anchor attribute */\r\n  anchor-name: --my-anchor;\r\n}\r\n#positioned {\r\n  top: anchor(bottom);\r\n  left: anchor(left);\r\n\r\n  /* needed without the HTML anchor attribute */\r\n  anchor-default: --my-anchor;\r\n}\r\n</style>\r\n```\r\n\r\nAnd here is an example of the same thing with the anchor attribute which gets rid of `anchor-name` and `anchor-default`:\r\n```html\r\n<div id=myanchor>anchor</div>\r\n<div id=positioned anchor=myanchor>anchor positioned</div>\r\n<style>\r\ndiv {\r\n  position: absolute;\r\n  width: 100px;\r\n  border: 1px solid black;\r\n}\r\n#myanchor {\r\n  top: 50px;\r\n  left: 50px;\r\n}\r\n#positioned {\r\n  top: anchor(bottom);\r\n  left: anchor(left);\r\n}\r\n</style>\r\n```",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/216/reactions",
       "total_count": 0,
@@ -30010,15 +30019,15 @@
         "description": "For issues about this repo"
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 0,
     "created_at": "2023-06-29T15:54:27Z",
-    "updated_at": "2023-06-29T15:54:27Z",
-    "closed_at": null,
+    "updated_at": "2023-06-29T16:09:37Z",
+    "closed_at": "2023-06-29T16:09:34Z",
     "author_association": "CONTRIBUTOR",
     "active_lock_reason": null,
     "draft": false,
@@ -30027,7 +30036,7 @@
       "html_url": "https://github.com/WebKit/standards-positions/pull/217",
       "diff_url": "https://github.com/WebKit/standards-positions/pull/217.diff",
       "patch_url": "https://github.com/WebKit/standards-positions/pull/217.patch",
-      "merged_at": null
+      "merged_at": "2023-06-29T16:09:34Z"
     },
     "body": null,
     "reactions": {
@@ -30043,6 +30052,94 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/217/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/218",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/218/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/218/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/218/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/218",
+    "id": 1781555299,
+    "node_id": "I_kwDOHk513M5qMGBj",
+    "number": 218,
+    "title": "WebCodecs AudioEncoder bitrateMode",
+    "user": {
+      "login": "tguilbert-google",
+      "id": 52718142,
+      "node_id": "MDQ6VXNlcjUyNzE4MTQy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52718142?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tguilbert-google",
+      "html_url": "https://github.com/tguilbert-google",
+      "followers_url": "https://api.github.com/users/tguilbert-google/followers",
+      "following_url": "https://api.github.com/users/tguilbert-google/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tguilbert-google/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tguilbert-google/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tguilbert-google/subscriptions",
+      "organizations_url": "https://api.github.com/users/tguilbert-google/orgs",
+      "repos_url": "https://api.github.com/users/tguilbert-google/repos",
+      "events_url": "https://api.github.com/users/tguilbert-google/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tguilbert-google/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 4278048526,
+        "node_id": "LA_kwDOHk513M7-_dcO",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20media",
+        "name": "topic: media",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to audio, video, or other timed media"
+      },
+      {
+        "id": 4474639105,
+        "node_id": "LA_kwDOHk513M8AAAABCrWTAQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20Media%20WG",
+        "name": "venue: W3C Media WG",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2023-06-29T21:45:20Z",
+    "updated_at": "2023-06-29T21:59:39Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "active_lock_reason": null,
+    "body": "### WebKittens\n\n@youennf\n\n### Title of the spec\n\nWebCodecs AudioEncoder bitrateMode\n\n### URL to the spec\n\nhttps://w3c.github.io/webcodecs/#dom-audioencoderconfig-bitratemode\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/webcodecs\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThe Media WG has agreed to add a `bitrateMode` to `AudioEncoderConfig`, merged into the spec as part of https://github.com/w3c/webcodecs/pull/657.\r\n\r\nThis flag will allow web authors to configure WebCodecs AudioEncoders to use a variable bitrate or a constant bitrate. Specific encoder implementations might have slightly different terminology (e.g. `CBR` vs `VBR` for Opus), but all of them should map to the general concept of `\"constant\"` versus `\"variable\"` bitrate.\r\n\r\nWork on the Chromium side is being [tracked here](https://chromestatus.com/feature/5084320053592064).",
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/218/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/218/timeline",
     "performed_via_github_app": null,
     "state_reason": null
   }
