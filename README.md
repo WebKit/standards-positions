@@ -17,7 +17,6 @@ Positions are not final. We are happy to revisit positions as new information be
 - `support` - WebKit sees this specification as conceptually good, and worth prototyping, getting feedback on its value, and iterating.
 - `neutral` - WebKit does not see this specification as harmful, but is not convinced that it is a good approach or worth working on.
 - `oppose` - WebKit considers this specification to be harmful in its current state.
-- `not considering` - WebKit does not intend to look at this specification in the near future.
 
 Note that positions on this repository do not reflect implementation status. We might like something we do not get around to implement for one reason or another. And we might dislike something we nevertheless have to implement.
 
