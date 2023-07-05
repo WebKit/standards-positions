@@ -2277,7 +2277,7 @@
       "performance",
       "webrtc"
     ],
-    "title": "(part of webrtc-extensions)",
+    "title": "Programatically disabling hardware encoding/decoding in WebRTC",
     "url": "https://w3c.github.io/webrtc-extensions/#disable-hardware",
     "github": "https://github.com/w3c/webrtc-extensions",
     "issues": null,
@@ -4173,5 +4173,48 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/219",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "accessibility",
+      "css"
+    ],
+    "title": "Media Queries, Level 5",
+    "url": "https://www.w3.org/TR/mediaqueries-5/#prefers-reduced-data",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/705",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/393",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=225807",
+    "radar": "rdar://problem/78310621"
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/220",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "authentication",
+      "web apis",
+      "app-like capabilities"
+    ],
+    "title": "Credential Management Level 1",
+    "url": "https://w3c.github.io/webappsec-credential-management/",
+    "github": "https://github.com/w3c/webappsec-credential-management",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/49",
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=252908",
+    "radar": "rdar://problem/106196801"
   }
 ]
