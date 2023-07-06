@@ -23,9 +23,11 @@ Note that positions on this repository do not reflect implementation status. We 
 
 #### Other possible issue states
 
-- `blocked` - Assigning a position is blocked on issues identified with the spec or proposal.
+- `proposal withdrawn` - This specification is no longer being developed.
+- `blocked` - Assigning a position is blocked on issues identified with this specification.
 - `duplicate` - The issue is a duplicate of another issue.
-- `invalid` - The issue is not about a specification that would be implemented in a browser engine such as WebKit.
+- `invalid` - The issue is not about a specification that would be implemented in a browser engine such as WebKit (including its dependencies).
+- `meta` - The issue is about this repository.
 
 ### Resolving an issue with a position
 
