@@ -2961,8 +2961,8 @@
       "performance"
     ],
     "title": "Back/forward cache NotRestoredReasons API",
-    "url": "https://github.com/rubberyuzu/bfcache-not-retored-reason/blob/main/NotRestoredReason.md",
-    "github": "https://github.com/rubberyuzu/bfcache-not-retored-reason/",
+    "url": "https://github.com/WICG/bfcache-not-restored-reason/blob/main/NotRestoredReason.md",
+    "github": "https://github.com/WICG/bfcache-not-restored-reason",
     "issues": null,
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/739",
@@ -3872,8 +3872,10 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/201",
-    "position": "not considering",
-    "venues": [],
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
     "topics": [
       "css"
@@ -4213,8 +4215,28 @@
     "issues": null,
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/49",
-    "mozilla": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/842",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=252908",
     "radar": "rdar://problem/106196801"
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/223",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "media"
+    ],
+    "title": "WebCodecs VideoEncoderBitrateMode",
+    "url": "https://www.w3.org/TR/webcodecs/#video-encoder-bitrate-mode",
+    "github": "https://github.com/w3c/webcodecs",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   }
 ]
