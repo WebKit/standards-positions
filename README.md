@@ -6,7 +6,7 @@ The [WebKit Open Source Project](https://webkit.org/) uses [this GitHub reposito
 
 Please [file an issue](https://github.com/WebKit/standards-positions/issues/new?template=request-for-position.yml) if you'd like us to generate a position on some web-facing API.
 
-For a browsable list of settled positions, see [all closed issues with a position label](https://github.com/WebKit/standards-positions/issues?q=is:issue+is:closed+label%3A%22position%3A+support%22%2C%22position%3A+neutral%22%2C%22position%3A+oppose%22%2C%22position%3A+under+consideration%22%2C%22position%3A+not+considering%22). For positions that pre-date this repository, see the [webkit-dev mailing list archives](https://lists.webkit.org/pipermail/webkit-dev/).
+For an overview of (settled) positions, see [webkit.org's Standards Positions](https://webkit.org/standards-positions/). For positions that pre-date this repository, see the [webkit-dev mailing list archives](https://lists.webkit.org/pipermail/webkit-dev/).
 
 ### Possible positions
 
