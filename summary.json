@@ -505,7 +505,9 @@
     "venues": [
       "Other"
     ],
-    "concerns": [],
+    "concerns": [
+      "security"
+    ],
     "topics": [
       "storage",
       "app-like capabilities"
@@ -2313,7 +2315,9 @@
     "venues": [
       "Other"
     ],
-    "concerns": [],
+    "concerns": [
+      "security"
+    ],
     "topics": [
       "storage",
       "app-like capabilities"
@@ -2927,7 +2931,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/152",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -3998,7 +4002,10 @@
     "venues": [
       "Other"
     ],
-    "concerns": [],
+    "concerns": [
+      "use cases",
+      "API design"
+    ],
     "topics": [
       "html"
     ],
@@ -4303,9 +4310,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/228",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "content-visibility: auto forces contain-intrinsic-size: auto",
     "url": "https://drafts.csswg.org/css-sizing-4/#propdef-contain-intrinsic-size",
     "github": "https://github.com/w3c/csswg-drafts/",
@@ -4319,9 +4330,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/229",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS corner-shape",
     "url": "https://drafts.csswg.org/css-backgrounds-4/",
     "github": null,
@@ -4329,6 +4344,82 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/823",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/230",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "http"
+    ],
+    "title": "Clear Client Hints via Clear-Site-Data header",
+    "url": "https://w3c.github.io/webappsec-clear-site-data/",
+    "github": "https://github.com/w3c/webappsec-clear-site-data/issues/new",
+    "issues": "https://crbug.com/1458394",
+    "explainer": "https://groups.google.com/a/chromium.org/g/blink-dev/c/lJY86eTPQ0s/",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/871",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/848",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/231",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "css-ui `form-sizing` property",
+    "url": "https://github.com/w3c/csswg-drafts/issues/7542#issuecomment-1542505774",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/232",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS Ruby Annotation Layout Module Level 1",
+    "url": "https://drafts.csswg.org/css-ruby-1/",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/233",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Captured Mouse Events",
+    "url": "https://screen-share.github.io/captured-mouse-events/",
+    "github": "https://github.com/screen-share/captured-mouse-events/",
+    "issues": null,
+    "explainer": "https://github.com/screen-share/captured-mouse-events/blob/main/README.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/872",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/850",
     "bugzilla": null,
     "radar": null
   }
