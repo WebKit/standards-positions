@@ -431,7 +431,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/20",
-    "position": null,
+    "position": "blocked",
     "venues": [
       "IETF",
       "Other"
@@ -1895,7 +1895,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/97",
-    "position": null,
+    "position": "oppose",
     "venues": [
       "WHATWG"
     ],
@@ -2880,11 +2880,11 @@
       "css",
       "animation"
     ],
-    "title": "Transitions on specified discrete properties",
-    "url": "https://github.com/w3c/csswg-drafts/issues/4441",
+    "title": "CSS transition-behavior property",
+    "url": "https://drafts.csswg.org/css-transitions-2/#transition-behavior-property",
     "github": null,
     "issues": null,
-    "explainer": "https://github.com/w3c/csswg-drafts/issues/4441#issuecomment-1329749962",
+    "explainer": "none",
     "tag": "https://github.com/w3ctag/design-reviews/issues/825",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/763",
     "bugzilla": null,
@@ -3156,7 +3156,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/168",
-    "position": null,
+    "position": "support",
     "venues": [
       "IETF"
     ],
@@ -3194,28 +3194,6 @@
     "explainer": "https://github.com/chrishtr/rendering/blob/master/entry-exit-animations.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/829",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/777",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/170",
-    "position": null,
-    "venues": [
-      "W3C"
-    ],
-    "concerns": [
-      "compatibility"
-    ],
-    "topics": [
-      "css"
-    ],
-    "title": "Removing the zoom CSS property",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/zoom",
-    "github": null,
-    "issues": "https://github.com/w3c/csswg-drafts/issues/5623",
-    "explainer": null,
-    "tag": null,
-    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
@@ -4138,7 +4116,7 @@
       "web apis"
     ],
     "title": "Close signals and close watchers",
-    "url": "https://whatpr.org/html/9462/interaction.html#close-signals-and-close-watchers",
+    "url": "https://whatpr.org/html/9462/interaction.html#close-requests-and-close-watchers",
     "github": "https://github.com/WICG/close-watcher",
     "issues": null,
     "explainer": null,
@@ -4353,7 +4331,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/230",
-    "position": null,
+    "position": "blocked",
     "venues": [
       "W3C"
     ],
@@ -4424,6 +4402,147 @@
     "explainer": "https://github.com/screen-share/captured-mouse-events/blob/main/README.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/872",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/850",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/234",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [
+      "duplication",
+      "privacy",
+      "venue",
+      "portability"
+    ],
+    "topics": [],
+    "title": "Web Environment Integrity API",
+    "url": "https://rupertbenwiser.github.io/Web-Environment-Integrity/",
+    "github": "https://github.com/RupertBenWiser/Web-Environment-Integrity/",
+    "issues": null,
+    "explainer": "https://github.com/RupertBenWiser/Web-Environment-Integrity/blob/main/explainer.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/852",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/235",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [],
+    "title": "Soft Navigations",
+    "url": "https://wicg.github.io/soft-navigations",
+    "github": "https://github.com/WICG/soft-navigations",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/879",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/854",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/236",
+    "position": null,
+    "venues": [
+      "WHATWG",
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "html"
+    ],
+    "title": "HTML Living Standard",
+    "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofilling-form-controls:-the-autocomplete-attribute",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/AutocompleteContentEditable/explainer.md",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/237",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "webrtc"
+    ],
+    "title": "WebRTC RtpSender setParameter extensions for requesting keyframe generation",
+    "url": "https://w3c.github.io/webrtc-extensions/#rtcrtpsender-setparameters-keyframe",
+    "github": "https://github.com/w3c/webrtc-extensions",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/858",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/238",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "storage",
+      "web apis"
+    ],
+    "title": "Multiple Readers and Writers in File System Access API",
+    "url": "https://fs.spec.whatwg.org/",
+    "github": "https://github.com/whatwg/fs/",
+    "issues": null,
+    "explainer": "https://github.com/whatwg/fs/blob/main/proposals/MultipleReadersWriters.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/845",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/861",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/239",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "media"
+    ],
+    "title": "AV1 WebCodecs Registration",
+    "url": "https://www.w3.org/TR/webcodecs-av1-codec-registration/#av1-encoder-config",
+    "github": "https://github.com/w3c/webcodecs/blob/main/av1_codec_registration.src.html",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/240",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "testing"
+    ],
+    "title": "WebDriver BiDi",
+    "url": "https://w3c.github.io/webdriver-bidi/",
+    "github": "https://github.com/w3c/webdriver-bidi",
+    "issues": "https://github.com/w3c/webdriver-bidi/issues",
+    "explainer": "https://github.com/w3c/webdriver-bidi/blob/main/explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/869",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/632",
     "bugzilla": null,
     "radar": null
   }
