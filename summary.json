@@ -903,7 +903,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/48",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -1830,7 +1830,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/94",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -1851,7 +1851,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/95",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -2543,7 +2543,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/133",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -2565,7 +2565,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/134",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -2612,7 +2612,9 @@
     "venues": [
       "W3C"
     ],
-    "concerns": [],
+    "concerns": [
+      "privacy"
+    ],
     "topics": [
       "css"
     ],
@@ -2830,7 +2832,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/146",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -3569,7 +3571,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/187",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -4280,18 +4282,18 @@
     "concerns": [],
     "topics": [],
     "title": "Locale Extensions",
-    "url": null,
-    "github": null,
+    "url": "https://github.com/ben-allen/locale-extensions/",
+    "github": "https://github.com/ben-allen/locale-extensions/",
     "issues": null,
-    "explainer": null,
+    "explainer": "https://github.com/ben-allen/locale-extensions/blob/main/README.md",
     "tag": null,
-    "mozilla": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/844",
     "bugzilla": null,
     "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/228",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -4357,7 +4359,8 @@
     ],
     "concerns": [],
     "topics": [
-      "css"
+      "css",
+      "forms"
     ],
     "title": "css-ui `form-sizing` property",
     "url": "https://github.com/w3c/csswg-drafts/issues/7542#issuecomment-1542505774",
@@ -4490,7 +4493,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/238",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
     "topics": [
       "storage",
@@ -4543,6 +4548,314 @@
     "explainer": "https://github.com/w3c/webdriver-bidi/blob/main/explainer.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/869",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/632",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/241",
+    "position": "support",
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "svg"
+    ],
+    "title": "SVGImageElement's crossorigin attribute",
+    "url": "https://www.w3.org/TR/SVG/",
+    "github": null,
+    "issues": null,
+    "explainer": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/crossorigin",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=260724",
+    "radar": "rdar://114462749"
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/242",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Performance API: Largest Contentful Paint",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/243",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "EditContext API",
+    "url": "https://w3c.github.io/edit-context/",
+    "github": "https://github.com/w3c/edit-context",
+    "issues": null,
+    "explainer": "https://github.com/w3c/edit-context/blob/gh-pages/explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/416",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/199",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/244",
+    "position": null,
+    "venues": [
+      "IETF"
+    ],
+    "concerns": [],
+    "topics": [],
+    "title": "X25519Kyber768 key encapsulation for TLS",
+    "url": "https://www.ietf.org/archive/id/draft-tls-westerbaan-xyber768d00-02.html",
+    "github": null,
+    "issues": null,
+    "explainer": "https://blog.chromium.org/2023/08/protecting-chrome-traffic-with-hybrid.html",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/245",
+    "position": null,
+    "venues": [
+      "WHATWG",
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "html"
+    ],
+    "title": "HTML",
+    "url": "https://github.com/whatwg/html/issues/9332",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/WICG/view-transitions/blob/main/document-render-blocking.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/886",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/875",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/246",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [
+      "html"
+    ],
+    "title": "hidden=until-found attribute and beforematch event",
+    "url": "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": "https://github.com/WICG/display-locking/blob/main/explainers/hidden-content-explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/511",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/612",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=238266",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/247",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [
+      "html"
+    ],
+    "title": "Auto-expanding details elements",
+    "url": "https://html.spec.whatwg.org/multipage/interaction.html#interaction-with-details-and-hidden=until-found",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/677",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/578",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=228843",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/248",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "webrtc"
+    ],
+    "title": "Screen Capture: DisplayMediaStreamOptions monitorTypeSurfaces",
+    "url": "https://w3c.github.io/mediacapture-screen-share/#dom-displaymediastreamoptions-monitortypesurfaces",
+    "github": "https://w3c.github.io/mediacapture-screen-share/",
+    "issues": null,
+    "explainer": "https://github.com/eladalon1983/screen-share-explainers/blob/main/monitorTypeSurfaces_Explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/892",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/876",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/249",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "FedCM API extension: Error API, AccountAutoSelectedFlag, HostedDomain and Revocation API",
+    "url": "https://fedidcg.github.io/FedCM/",
+    "github": "https://github.com/fedidcg/FedCM",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/893",
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/250",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "authentication"
+    ],
+    "title": "FedCM: IDP signin status API",
+    "url": "https://github.com/fedidcg/FedCM/pull/436",
+    "github": "https://github.com/fedidcg/FedCM",
+    "issues": null,
+    "explainer": "https://github.com/fedidcg/FedCM/pull/436",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/884",
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/251",
+    "position": "blocked",
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "security"
+    ],
+    "title": "Remove same-origin blanket enforcement in CSP Embedded Enforcement",
+    "url": "https://github.com/w3c/webappsec-cspee/pull/28/files",
+    "github": "https://github.com/w3c/webappsec-cspee/",
+    "issues": null,
+    "explainer": "https://github.com/w3c/webappsec-cspee/pull/28",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/878",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/252",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [
+      "duplication",
+      "complexity",
+      "internationalization",
+      "performance",
+      "privacy",
+      "security",
+      "usability",
+      "API design",
+      "annoyance",
+      "device independence",
+      "accessibility",
+      "maintenance"
+    ],
+    "topics": [
+      "web apis"
+    ],
+    "title": "Web Preferences API",
+    "url": "https://wicg.github.io/web-preferences-api/",
+    "github": "https://github.com/WICG/web-preferences-api",
+    "issues": null,
+    "explainer": "https://github.com/WICG/web-preferences-api/blob/main/README.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/879",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/253",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Media Capture and Streams Extensions",
+    "url": "https://w3c.github.io/mediacapture-extensions/#exposing-mediastreamtrack-source-automatic-face-framing-support",
+    "github": "https://w3c.github.io/mediacapture-extensions/",
+    "issues": null,
+    "explainer": "https://github.com/riju/faceFraming/blob/main/explainer.md",
+    "tag": null,
+    "mozilla": "[URL](https://github.com/mozilla/standards-positions/issues/881)",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/254",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "web apis"
+    ],
+    "title": "Pointer Lock Unadjusted Movement option",
+    "url": "https://github.com/w3c/pointerlock/pull/49",
+    "github": "https://github.com/w3c/pointerlock",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/448",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=218054",
+    "radar": "rdar://70587738"
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/255",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Compute Pressure Level 1",
+    "url": "https://w3c.github.io/compute-pressure/",
+    "github": "https://github.com/w3c/compute-pressure/",
+    "issues": "https://github.com/w3c/compute-pressure/issues",
+    "explainer": "https://github.com/w3c/compute-pressure",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/256",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "BFCache: cache-control: no-store",
+    "url": "https://github.com/whatwg/html/issues/7189",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   }
