@@ -1091,7 +1091,7 @@
     "explainer": null,
     "tag": null,
     "mozilla": null,
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=215911",
     "radar": null
   },
   {
@@ -2417,29 +2417,6 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/808",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/736",
     "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/126",
-    "position": null,
-    "venues": [
-      "W3C"
-    ],
-    "concerns": [
-      "compatibility"
-    ],
-    "topics": [
-      "markup",
-      "mathml"
-    ],
-    "title": "MathML Core (mtd@colspan)",
-    "url": "https://w3c.github.io/mathml-core/#entry-in-table-or-matrix-mtd",
-    "github": null,
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/743",
-    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=251489",
     "radar": null
   },
   {
@@ -4572,7 +4549,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "editing"
+    ],
     "title": "EditContext API",
     "url": "https://w3c.github.io/edit-context/",
     "github": "https://github.com/w3c/edit-context",
@@ -4776,7 +4755,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "media"
+    ],
     "title": "Media Capture and Streams Extensions",
     "url": "https://w3c.github.io/mediacapture-extensions/#exposing-mediastreamtrack-source-automatic-face-framing-support",
     "github": "https://w3c.github.io/mediacapture-extensions/",
@@ -4877,6 +4858,44 @@
     "explainer": "https://github.com/w3c/clipboard-apis/issues/170",
     "tag": "https://github.com/w3ctag/design-reviews/issues/901",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/889",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/260",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "media"
+    ],
+    "title": "Media Capture and Streams Extensions, section \"MediaStreamTrack Statistics\"",
+    "url": "https://w3c.github.io/mediacapture-extensions/#mediastreamtrack-statistics",
+    "github": "https://github.com/w3c/mediacapture-extensions",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/895",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/261",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS Containment Module Level 4",
+    "url": "https://drafts.csswg.org/css-contain-4",
+    "github": null,
+    "issues": null,
+    "explainer": "https://lilles.github.io/explainers/state_container_queries.html",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/885",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/896",
     "bugzilla": null,
     "radar": null
   }
