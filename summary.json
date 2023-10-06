@@ -3481,7 +3481,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/184",
-    "position": null,
+    "position": "blocked",
     "venues": [
       "Other"
     ],
@@ -4719,7 +4719,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/252",
-    "position": null,
+    "position": "oppose",
     "venues": [
       "Other"
     ],
@@ -4790,7 +4790,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/255",
-    "position": null,
+    "position": "oppose",
     "venues": [
       "W3C"
     ],
@@ -4896,6 +4896,29 @@
     "explainer": "https://lilles.github.io/explainers/state_container_queries.html",
     "tag": "https://github.com/w3ctag/design-reviews/issues/885",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/896",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/262",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [
+      "integration"
+    ],
+    "topics": [
+      "privacy",
+      "storage"
+    ],
+    "title": "Extending Storage Access API (SAA) to non-cookie storage",
+    "url": "https://arichiv.github.io/saa-non-cookie-storage/",
+    "github": null,
+    "issues": "https://crbug.com/1484966",
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/906",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/898",
     "bugzilla": null,
     "radar": null
   }
