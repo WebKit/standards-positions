@@ -529,7 +529,8 @@
       "Other"
     ],
     "concerns": [
-      "API design"
+      "API design",
+      "maintenance"
     ],
     "topics": [
       "web apis",
@@ -614,7 +615,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/34",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG",
       "Other"
@@ -971,7 +972,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/51",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -1074,7 +1075,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/56",
-    "position": null,
+    "position": "support",
     "venues": [
       "Other"
     ],
@@ -1139,14 +1140,11 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/61",
-    "position": "blocked",
+    "position": null,
     "venues": [
-      "Other"
+      "WHATWG"
     ],
-    "concerns": [
-      "venue",
-      "maintenance"
-    ],
+    "concerns": [],
     "topics": [
       "web apis",
       "service workers"
@@ -2101,7 +2099,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/109",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -3837,7 +3835,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/201",
-    "position": null,
+    "position": "neutral",
     "venues": [
       "W3C"
     ],
@@ -4331,7 +4329,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/232",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -4490,7 +4488,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/240",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -4919,6 +4917,157 @@
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/906",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/898",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/263",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [
+      "html"
+    ],
+    "title": "Fire toggle events using microtasks",
+    "url": "https://github.com/whatwg/html/pull/9775",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": "https://github.com/whatwg/html/issues/9046",
+    "tag": "none",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/901",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/264",
+    "position": null,
+    "venues": [
+      "WHATWG",
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "html"
+    ],
+    "title": "Invokers",
+    "url": "https://github.com/whatwg/html/pull/9841",
+    "github": "https://github.com/openui/open-ui",
+    "issues": "https://github.com/whatwg/html/issues/9625",
+    "explainer": "https://open-ui.org/components/invokers.explainer/",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=262840",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/265",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Web App Scope Extensions",
+    "url": "https://github.com/WICG/manifest-incubations/blob/gh-pages/scope_extensions-explainer.md",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/875",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/904",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/266",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "animation"
+    ],
+    "title": "View Transitions, Level 2 (list of types)",
+    "url": "https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-pseudo",
+    "github": "https://github.com/w3c/csswg-drafts/",
+    "issues": null,
+    "explainer": "https://github.com/vmpstr/web-proposals/blob/main/explainers/view-transition-types.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/908",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/905",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/267",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [
+      "use cases",
+      "portability",
+      "power",
+      "annoyance",
+      "device independence"
+    ],
+    "topics": [
+      "device apis"
+    ],
+    "title": "Vibration API (Second Edition)",
+    "url": "https://w3c.github.io/vibration/",
+    "github": "https://github.com/w3c/vibration/",
+    "issues": "https://github.com/w3c/vibration/issues",
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/907",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/268",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Cross-Origin Embedder Policies - \"credentialless\"",
+    "url": "https://html.spec.whatwg.org/multipage/browsers.html#coep-credentialless",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/582",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/539",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=230550",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/269",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Permissions Policy Reporting and Report-Only mode",
+    "url": "https://w3c.github.io/webappsec-permissions-policy/#reporting",
+    "github": "https://github.com/w3c/webappsec-permissions-policy",
+    "issues": null,
+    "explainer": "https://github.com/w3c/webappsec-permissions-policy/blob/main/reporting.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/909",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/909",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/270",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Page Embedded Permission Control",
+    "url": null,
+    "github": "https://github.com/WICG/PEPC",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/908",
     "bugzilla": null,
     "radar": null
   }
