@@ -4672,8 +4672,8 @@
     "body": "## Request for position on an emerging web specification\r\n\r\n* WebKittens who can provide input: \r\n\r\n### Information about the spec\r\n\r\n* Spec Title: Navigation API\r\n* Spec URL: https://wicg.github.io/navigation-api/\r\n* GitHub repository: https://github.com/WICG/navigation-api\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: https://github.com/w3ctag/design-reviews/issues/605\r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/543\r\n\r\n### Bugs tracking this feature\r\n\r\n* WebKit Bugzilla: \r\n* Radar: \r\n\r\n### Anything else we need to know\r\n\r\nLinked explainers explain it well. \r\n\r\nFrom a developer point of view this is a massive leap forward over the existing, kludgy solutions for routing / navigation interception. This is a difficult API to polyfill correctly, but a positive signal from WebKit would allow us to at least know there's a better future on the way.\r\n\r\nFrom a framework implementer point of view, the biggest win with this API would allow us to properly centralize route handling, and perhaps begin to share / reuse more framework agnostic routing mechanisms. Most frameworks today must intercept anchor click events and effectively spoof navigation behavior, and this behavior is generally not compatible across various implementations, and requires a fair bit of (often brittle) code.\r\n\r\nAngular : https://github.com/angular/angular/blob/main/packages/router/src/directives/router_link.ts#L396-L415\r\nVue: https://github.com/vuejs/router/blob/main/packages/router/src/RouterLink.ts#L138-L301\r\nRemix: https://github.com/remix-run/react-router/blob/main/packages/react-router-dom/index.tsx#L270-L301",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/34/reactions",
-      "total_count": 17,
-      "+1": 16,
+      "total_count": 18,
+      "+1": 17,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -5000,9 +5000,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2022-07-13T20:39:32Z",
-    "updated_at": "2023-07-05T18:15:37Z",
+    "updated_at": "2023-10-29T19:42:49Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -6489,8 +6489,8 @@
     "body": "## Request for position on an emerging web specification\r\n\r\n* WebKittens who can provide input: networking and TLS folks\r\n\r\n### Information about the spec\r\n\r\n* Spec Title: TLS Encrypted Client Hello\r\n* Spec URL: https://datatracker.ietf.org/doc/html/draft-ietf-tls-esni\r\n* GitHub repository: https://github.com/tlswg/draft-ietf-tls-esni\r\n\r\n### Anything else we need to know\r\n\r\nBrief summary of the issue or the subject of the spec.\r\n\r\nECH is a mechanism for encrypting the TLS ClientHello (which includes, among other things, the destination hostname) under a server public key.\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/46/reactions",
-      "total_count": 6,
-      "+1": 6,
+      "total_count": 5,
+      "+1": 5,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -6772,17 +6772,17 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2022-08-22T19:51:38Z",
-    "updated_at": "2023-08-22T21:28:23Z",
+    "updated_at": "2023-10-26T12:38:57Z",
     "closed_at": "2023-08-22T21:26:40Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "## Request for position on an emerging web specification\r\n\r\n### Information about the spec\r\n\r\n* Spec Title: CSS Shared Element Transitions\r\n* Spec URL: https://drafts.csswg.org/css-shared-element-transitions-1/\r\n* GitHub repository: https://github.com/WICG/shared-element-transitions\r\n* Issue Tracker (if not the repository's issue tracker): \r\n* Explainer (if not README.md in the repository): https://github.com/WICG/shared-element-transitions/blob/main/explainer.md\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: https://github.com/w3ctag/design-reviews/issues/748\r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/677\r\n\r\n### Bugs tracking this feature\r\n\r\n* WebKit Bugzilla: \r\n* Radar: \r\n\r\n### Anything else we need to know\r\n\r\nThe spec still has some open issues but the overall feature design is concrete at this point. Also [here](https://chromestatus.com/feature/5193009714954240) is the chrome status entry.\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/48/reactions",
-      "total_count": 62,
-      "+1": 59,
+      "total_count": 65,
+      "+1": 62,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -7573,9 +7573,9 @@
       }
     ],
     "milestone": null,
-    "comments": 2,
+    "comments": 3,
     "created_at": "2022-08-31T21:43:32Z",
-    "updated_at": "2023-10-18T07:30:14Z",
+    "updated_at": "2023-10-27T16:21:02Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -8536,6 +8536,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278536131,
         "node_id": "LA_kwDOHk513M7_BUfD",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20web%20apis",
@@ -8572,7 +8581,7 @@
         "description": ""
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "achristensen07",
@@ -8637,13 +8646,13 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2022-09-09T22:58:20Z",
-    "updated_at": "2023-10-18T07:50:49Z",
-    "closed_at": null,
+    "updated_at": "2023-10-29T20:51:26Z",
+    "closed_at": "2023-10-29T20:51:26Z",
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "## Request for position on an emerging web specification\r\n\r\n* WebKittens who can provide input: @achristensen07,  @MenloDorian, @rniwa, @annevk \r\n\r\n### Information about the spec\r\n\r\n* Spec Title: URLPattern API\r\n* Spec URL: https://wicg.github.io/urlpattern/\r\n* GitHub repository: https://github.com/WICG/urlpattern\r\n* Explainer: https://github.com/WICG/urlpattern/blob/main/explainer.md#urlpattern \r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: \r\n* Mozilla standards-positions issue: \r\n\r\n### Bugs tracking this feature\r\n\r\n* WebKit Bugzilla: \r\n* Radar: \r\n\r\n### Anything else we need to know\r\n\r\nThis proposal creates a native web API to match URLs called URLPattern. URLPattern would support both web developer use in JS and native URL matching in other web APIs. For example, the initial use cases discuss using URLPattern for service worker scope matching.\r\n",
+    "body": "## Request for position on an emerging web specification\r\n\r\n* WebKittens who can provide input: @achristensen07,  @MenloDorian, @rniwa, @annevk \r\n\r\n### Information about the spec\r\n\r\n* Spec Title: URLPattern API\r\n* Spec URL: https://urlpattern.spec.whatwg.org/\r\n* GitHub repository: https://github.com/whatwg/urlpattern\r\n* Explainer: https://github.com/whatwg/urlpattern/blob/main/explainer.md#urlpattern\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: \r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/566\r\n\r\n### Bugs tracking this feature\r\n\r\n* WebKit Bugzilla: \r\n* Radar: \r\n\r\n### Anything else we need to know\r\n\r\nThis proposal creates a native web API to match URLs called URLPattern. URLPattern would support both web developer use in JS and native URL matching in other web APIs. For example, the initial use cases discuss using URLPattern for service worker scope matching.\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/61/reactions",
       "total_count": 2,
@@ -8658,7 +8667,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/61/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/62",
@@ -10796,15 +10805,6 @@
     },
     "labels": [
       {
-        "id": 4278041952,
-        "node_id": "LA_kwDOHk513M7-_b1g",
-        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/blocked",
-        "name": "blocked",
-        "color": "784f17",
-        "default": false,
-        "description": "Coming to a position is blocked on issues identified with the spec or proposal."
-      },
-      {
         "id": 4278047893,
         "node_id": "LA_kwDOHk513M7-_dSV",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20javascript",
@@ -10830,15 +10830,6 @@
         "color": "0052cc",
         "default": false,
         "description": ""
-      },
-      {
-        "id": 4285059759,
-        "node_id": "LA_kwDOHk513M7_aNKv",
-        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20integration",
-        "name": "concerns: integration",
-        "color": "f5a9b8",
-        "default": false,
-        "description": "Can't be used w/ other web platform features (or unclear what happens if used together)"
       },
       {
         "id": 4575936941,
@@ -10935,9 +10926,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2022-10-20T15:11:35Z",
-    "updated_at": "2023-09-07T14:50:32Z",
+    "updated_at": "2023-10-29T20:25:33Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -11876,13 +11867,13 @@
     "body": "## Request for position on an emerging web specification\r\n\r\n### Information about the spec\r\n\r\n* Spec Title: Element Timing API \r\n* Spec URL: https://wicg.github.io/element-timing/\r\n* GitHub repository: https://github.com/WICG/element-timing\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: https://github.com/w3ctag/design-reviews/issues/395 \r\n    * Element Timing for images: https://github.com/w3ctag/design-reviews/issues/326\r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/192\r\n\r\n### Bugs tracking this feature\r\n\r\n* WebKit Bugzilla: \r\n* Radar: \r\n\r\n### Anything else we need to know\r\n\r\nElement Timing API provides features for monitoring the loading performance of text and image nodes. Surfacing the rendering timestamp is helpful for tracking performance and preventing regressions. \r\n",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/84/reactions",
-      "total_count": 7,
+      "total_count": 8,
       "+1": 0,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
-      "heart": 7,
+      "heart": 8,
       "rocket": 0,
       "eyes": 0
     },
@@ -26795,13 +26786,13 @@
     "body": "### WebKittens\n\n@pascoej\n\n### Title of the spec\n\nWebAuthn PRF extension\n\n### URL to the spec\n\nhttps://w3c.github.io/webauthn/#prf-extension\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/webauthn\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/w3c/webauthn/wiki/Explainer:-PRF-extension\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/806\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/798\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\n(Requested as part of https://groups.google.com/a/chromium.org/g/blink-dev/c/iTNOgLwD2bI)",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/183/reactions",
-      "total_count": 2,
+      "total_count": 4,
       "+1": 0,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
-      "heart": 2,
+      "heart": 4,
       "rocket": 0,
       "eyes": 0
     },
@@ -33122,6 +33113,15 @@
         "color": "0052cc",
         "default": false,
         "description": "Proposal is incubated in the Web Incubator Community Group"
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
       }
     ],
     "state": "open",
@@ -33131,7 +33131,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2023-08-28T17:48:30Z",
-    "updated_at": "2023-08-28T20:08:52Z",
+    "updated_at": "2023-10-20T15:18:00Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -33185,6 +33185,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278046994,
         "node_id": "LA_kwDOHk513M7-_dES",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20html",
@@ -33212,7 +33221,7 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "nt1m",
@@ -33279,8 +33288,8 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2023-08-28T19:12:04Z",
-    "updated_at": "2023-10-20T15:09:06Z",
-    "closed_at": null,
+    "updated_at": "2023-10-29T20:50:05Z",
+    "closed_at": "2023-10-29T20:50:05Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nhidden=until-found attribute and beforematch event\r\n\r\n### URL to the spec\r\n\r\nhttps://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/whatwg/html\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/WICG/display-locking/blob/main/explainers/hidden-content-explainer.md\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/511\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/612\r\n\r\n### WebKit Bugzilla URL\r\n\r\nhttps://bugs.webkit.org/show_bug.cgi?id=238266\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nI originally requested feedback for this here: https://lists.webkit.org/pipermail/webkit-dev/2022-March/032142.html\r\n\r\nThis is closely related to https://github.com/WebKit/standards-positions/issues/247\r\n\r\nThis feature builds on `content-visibility:hidden` and a portion of `content-visibility:auto` in order to work.",
@@ -33298,7 +33307,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/246/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/247",
@@ -33333,6 +33342,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278046994,
         "node_id": "LA_kwDOHk513M7-_dES",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20html",
@@ -33360,7 +33378,7 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "nt1m",
@@ -33427,8 +33445,8 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2023-08-28T19:13:18Z",
-    "updated_at": "2023-10-20T15:09:52Z",
-    "closed_at": null,
+    "updated_at": "2023-10-29T20:50:29Z",
+    "closed_at": "2023-10-29T20:50:29Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nAuto-expanding details elements\r\n\r\n### URL to the spec\r\n\r\nhttps://html.spec.whatwg.org/multipage/interaction.html#interaction-with-details-and-hidden=until-found\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/whatwg/html\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/677\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/578\r\n\r\n### WebKit Bugzilla URL\r\n\r\nhttps://bugs.webkit.org/show_bug.cgi?id=228843\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis is closely related to https://github.com/WebKit/standards-positions/issues/246\r\n\r\nThis feature builds on `content-visibility:hidden` and a portion of `content-visibility:auto` in order to work.",
@@ -33446,7 +33464,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/247/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/248",
@@ -34740,12 +34758,52 @@
     ],
     "state": "open",
     "locked": false,
-    "assignee": null,
-    "assignees": [],
+    "assignee": {
+      "login": "smfr",
+      "id": 20968,
+      "node_id": "MDQ6VXNlcjIwOTY4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20968?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/smfr",
+      "html_url": "https://github.com/smfr",
+      "followers_url": "https://api.github.com/users/smfr/followers",
+      "following_url": "https://api.github.com/users/smfr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/smfr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/smfr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/smfr/subscriptions",
+      "organizations_url": "https://api.github.com/users/smfr/orgs",
+      "repos_url": "https://api.github.com/users/smfr/repos",
+      "events_url": "https://api.github.com/users/smfr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/smfr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "smfr",
+        "id": 20968,
+        "node_id": "MDQ6VXNlcjIwOTY4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20968?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smfr",
+        "html_url": "https://github.com/smfr",
+        "followers_url": "https://api.github.com/users/smfr/followers",
+        "following_url": "https://api.github.com/users/smfr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smfr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smfr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smfr/subscriptions",
+        "organizations_url": "https://api.github.com/users/smfr/orgs",
+        "repos_url": "https://api.github.com/users/smfr/repos",
+        "events_url": "https://api.github.com/users/smfr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smfr/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2023-09-29T08:38:54Z",
-    "updated_at": "2023-10-02T01:57:56Z",
+    "updated_at": "2023-10-26T03:36:29Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -35130,15 +35188,74 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4281722881,
+        "node_id": "LA_kwDOHk513M7_NegB",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WICG",
+        "name": "venue: WICG",
+        "color": "0052cc",
+        "default": false,
+        "description": "Proposal is incubated in the Web Incubator Community Group"
+      },
+      {
+        "id": 4575936941,
+        "node_id": "LA_kwDOHk513M8AAAABEL9BrQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Microsoft",
+        "name": "from: Microsoft",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Microsoft."
+      }
+    ],
     "state": "open",
     "locked": false,
-    "assignee": null,
-    "assignees": [],
+    "assignee": {
+      "login": "marcoscaceres",
+      "id": 870154,
+      "node_id": "MDQ6VXNlcjg3MDE1NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/870154?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marcoscaceres",
+      "html_url": "https://github.com/marcoscaceres",
+      "followers_url": "https://api.github.com/users/marcoscaceres/followers",
+      "following_url": "https://api.github.com/users/marcoscaceres/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marcoscaceres/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marcoscaceres/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marcoscaceres/subscriptions",
+      "organizations_url": "https://api.github.com/users/marcoscaceres/orgs",
+      "repos_url": "https://api.github.com/users/marcoscaceres/repos",
+      "events_url": "https://api.github.com/users/marcoscaceres/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marcoscaceres/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "marcoscaceres",
+        "id": 870154,
+        "node_id": "MDQ6VXNlcjg3MDE1NA==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/870154?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/marcoscaceres",
+        "html_url": "https://github.com/marcoscaceres",
+        "followers_url": "https://api.github.com/users/marcoscaceres/followers",
+        "following_url": "https://api.github.com/users/marcoscaceres/following{/other_user}",
+        "gists_url": "https://api.github.com/users/marcoscaceres/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/marcoscaceres/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/marcoscaceres/subscriptions",
+        "organizations_url": "https://api.github.com/users/marcoscaceres/orgs",
+        "repos_url": "https://api.github.com/users/marcoscaceres/repos",
+        "events_url": "https://api.github.com/users/marcoscaceres/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/marcoscaceres/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
     "milestone": null,
     "comments": 0,
     "created_at": "2023-10-11T09:34:56Z",
-    "updated_at": "2023-10-11T09:34:56Z",
+    "updated_at": "2023-10-20T15:19:38Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -35208,6 +35325,15 @@
         "color": "5bcefa",
         "default": false,
         "description": "Spec relates to animation (including transitions)"
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
       }
     ],
     "state": "open",
@@ -35217,7 +35343,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2023-10-12T18:15:41Z",
-    "updated_at": "2023-10-13T12:34:58Z",
+    "updated_at": "2023-10-20T15:19:00Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -35433,7 +35559,26 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 6109307481,
+        "node_id": "LA_kwDOHk513M8AAAABbCSiWQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Adobe",
+        "name": "from: Adobe",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Adobe"
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -35441,7 +35586,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2023-10-17T15:14:08Z",
-    "updated_at": "2023-10-17T15:21:16Z",
+    "updated_at": "2023-10-24T15:30:37Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -35493,7 +35638,17 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4281829961,
+        "node_id": "LA_kwDOHk513M7_N4pJ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20Web%20Apps%20WG",
+        "name": "venue: W3C Web Apps WG",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": {
@@ -35561,7 +35716,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2023-10-17T15:29:00Z",
-    "updated_at": "2023-10-20T15:16:16Z",
+    "updated_at": "2023-10-24T15:31:58Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -35613,7 +35768,26 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4281722881,
+        "node_id": "LA_kwDOHk513M7_NegB",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WICG",
+        "name": "venue: WICG",
+        "color": "0052cc",
+        "default": false,
+        "description": "Proposal is incubated in the Web Incubator Community Group"
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": {
@@ -35661,7 +35835,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2023-10-17T16:39:01Z",
-    "updated_at": "2023-10-20T15:16:47Z",
+    "updated_at": "2023-10-24T15:31:33Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -35679,6 +35853,136 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/270/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/271",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/271/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/271/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/271/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/271",
+    "id": 1958695185,
+    "node_id": "I_kwDOHk513M50v1ER",
+    "number": 271,
+    "title": "Add a close event to MessagePort.",
+    "user": {
+      "login": "nononokam",
+      "id": 148847473,
+      "node_id": "U_kgDOCN87cQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148847473?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nononokam",
+      "html_url": "https://github.com/nononokam",
+      "followers_url": "https://api.github.com/users/nononokam/followers",
+      "following_url": "https://api.github.com/users/nononokam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nononokam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nononokam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nononokam/subscriptions",
+      "organizations_url": "https://api.github.com/users/nononokam/orgs",
+      "repos_url": "https://api.github.com/users/nononokam/repos",
+      "events_url": "https://api.github.com/users/nononokam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nononokam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2023-10-24T07:45:41Z",
+    "updated_at": "2023-10-25T02:56:05Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "active_lock_reason": null,
+    "body": "### WebKittens\r\n\r\n@annevk \r\n\r\n### Title of the spec\r\n\r\nMessagePort close event\r\n\r\n### URL to the spec\r\n\r\nhttps://html.spec.whatwg.org/multipage/web-messaging.html#message-ports\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\nhttps://github.com/whatwg/html/issues/1766\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/fergald/explainer-messageport-close\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\n_No response_\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nCurrently, there is no timely and reliable way to detect when a MessagePort becomes disentangled. This makes it difficult to release resources associated with ports. Some users have used the unload event to detect disconnect, but [it is deprecated](https://groups.google.com/a/chromium.org/g/bfcache-dev/c/Mymq3N7J3z4). Therefore, [The approach available now](https://github.com/fergald/docs/blob/master/explainers/permissions-policy-deprecate-unload.md#messagechannel) is to hold a MessagePort in [WeakRef](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakRef) and periodically check if this port has been garbage collected by using deref() or to make use of a page-hide event, which is quite inefficient.  \r\nSo, I propose adding a close event. For example, if there are two entangled ports, portA and portB, and portA is closed, the close event is fired on portB.\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/271/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/271/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/272",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/272/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/272/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/272/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/272",
+    "id": 1961264023,
+    "node_id": "I_kwDOHk513M505oOX",
+    "number": 272,
+    "title": "JavaScript/TC39: Decimal: Exact decimal numbers",
+    "user": {
+      "login": "jessealama",
+      "id": 56691,
+      "node_id": "MDQ6VXNlcjU2Njkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56691?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jessealama",
+      "html_url": "https://github.com/jessealama",
+      "followers_url": "https://api.github.com/users/jessealama/followers",
+      "following_url": "https://api.github.com/users/jessealama/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jessealama/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jessealama/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jessealama/subscriptions",
+      "organizations_url": "https://api.github.com/users/jessealama/orgs",
+      "repos_url": "https://api.github.com/users/jessealama/repos",
+      "events_url": "https://api.github.com/users/jessealama/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jessealama/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2023-10-25T12:11:04Z",
+    "updated_at": "2023-10-25T12:11:04Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "active_lock_reason": null,
+    "body": "### WebKittens\n\n@msaboff @annevk\n\n### Title of the spec\n\nEcma TC39 Decimal Numbers\n\n### URL to the spec\n\nhttps://github.com/tc39/proposal-decimal\n\n### URL to the spec's repository\n\nhttps://github.com/tc39/proposal-decimal\n\n### Issue Tracker URL\n\nhttps://github.com/tc39/proposal-decimal/issues\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThe proposal is an extension of ECMAScript to support exact decimal (base-10) numbers. Decimals are exact representations of numbers that we are familiar with in daily life. In this setting, `1.3` would be handled as the mathematical value 1.3 rather than a base-2 approximation thereof. These numbers, and the need for operating on them faithfully, are widespread when handling money but also show up in handling all sorts of human-readable/writeable numeric values.\r\n\r\nOur current thinking about decimals is that there would be a new object in the ECMAScript standard library (the name is TBD, but is likely to be `Decimal` or `Decimal128`). No new syntax or primitive data types would be added to ECMAScript.  The underlying data model would be IEEE 754 Decimal128 floating-point decimals, where values use 128 bits. (This data model allows for up to 34 significant digits, with an exponent [power of ten] of +/- 6144.) The envisioned API would contain only basic arithmetic (addition, subtraction, multiplication, division), rounding, remainder, and comparison (less-than/equals/greater-than).\r\n\r\nAs of writing, the specification is at stage 1 in the Ecma TC39 process.",
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/272/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/272/timeline",
     "performed_via_github_app": null,
     "state_reason": null
   }

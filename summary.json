@@ -1140,7 +1140,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/61",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -1150,12 +1150,12 @@
       "service workers"
     ],
     "title": "URLPattern API",
-    "url": "https://wicg.github.io/urlpattern/",
-    "github": "https://github.com/WICG/urlpattern",
+    "url": "https://urlpattern.spec.whatwg.org/",
+    "github": "https://github.com/whatwg/urlpattern",
     "issues": null,
     "explainer": null,
     "tag": null,
-    "mozilla": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/566",
     "bugzilla": null,
     "radar": null
   },
@@ -1455,13 +1455,11 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/77",
-    "position": "blocked",
+    "position": null,
     "venues": [
       "WHATWG"
     ],
-    "concerns": [
-      "integration"
-    ],
+    "concerns": [],
     "topics": [
       "javascript",
       "loading"
@@ -4601,7 +4599,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/246",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -4621,7 +4619,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/247",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -4964,7 +4962,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/265",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Web App Scope Extensions",
@@ -5026,7 +5026,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/268",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Cross-Origin Embedder Policies - \"credentialless\"",
@@ -5042,7 +5044,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/269",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Permissions Policy Reporting and Report-Only mode",
@@ -5058,7 +5062,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/270",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Page Embedded Permission Control",
@@ -5068,6 +5074,40 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/908",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/271",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [],
+    "title": "MessagePort close event",
+    "url": "https://html.spec.whatwg.org/multipage/web-messaging.html#message-ports",
+    "github": null,
+    "issues": "https://github.com/whatwg/html/issues/1766",
+    "explainer": "https://github.com/fergald/explainer-messageport-close",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/272",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Ecma TC39 Decimal Numbers",
+    "url": "https://github.com/tc39/proposal-decimal",
+    "github": "https://github.com/tc39/proposal-decimal",
+    "issues": "https://github.com/tc39/proposal-decimal/issues",
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   }
