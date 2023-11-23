@@ -920,7 +920,7 @@
     "explainer": "https://github.com/WICG/view-transitions/blob/main/explainer.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/748",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/677",
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=259055",
     "radar": null
   },
   {
@@ -1455,7 +1455,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/77",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -4362,29 +4362,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/234",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
-    "concerns": [
-      "duplication",
-      "privacy",
-      "venue",
-      "portability"
-    ],
-    "topics": [],
-    "title": "Web Environment Integrity API",
-    "url": "https://rupertbenwiser.github.io/Web-Environment-Integrity/",
-    "github": "https://github.com/RupertBenWiser/Web-Environment-Integrity/",
-    "issues": null,
-    "explainer": "https://github.com/RupertBenWiser/Web-Environment-Integrity/blob/main/explainer.md",
-    "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/852",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/235",
     "position": null,
     "venues": [
@@ -4823,7 +4800,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/258",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -4999,11 +4976,12 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/267",
-    "position": null,
+    "position": "oppose",
     "venues": [
       "W3C"
     ],
     "concerns": [
+      "integration",
       "use cases",
       "portability",
       "power",
@@ -5025,13 +5003,13 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/268",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
     "concerns": [],
     "topics": [],
-    "title": "Cross-Origin Embedder Policies - \"credentialless\"",
+    "title": "Cross-Origin-Embedder-Policy: credentialless",
     "url": "https://html.spec.whatwg.org/multipage/browsers.html#coep-credentialless",
     "github": "https://github.com/whatwg/html",
     "issues": null,
@@ -5098,7 +5076,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/272",
     "position": null,
-    "venues": [],
+    "venues": [
+      "TC39"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Ecma TC39 Decimal Numbers",
@@ -5108,6 +5088,184 @@
     "explainer": null,
     "tag": null,
     "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/274",
+    "position": "support",
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "media"
+    ],
+    "title": "VideoEncoderConfig's contentHint",
+    "url": "https://www.w3.org/TR/webcodecs/#dom-videoencoderconfig-contenthint",
+    "github": "https://github.com/w3c/webcodecs",
+    "issues": null,
+    "explainer": "https://gist.github.com/Djuffin/c3742404b7c53ada227849c8b2b76b4c",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/275",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS Paged Media Module Level 3",
+    "url": "https://drafts.csswg.org/css-page-3/#margin-boxes",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/mstensho/page-margin-boxes",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/921",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/276",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS Fonts Module Level 4",
+    "url": "https://drafts.csswg.org/css-fonts-4/#font-palette-prop",
+    "github": null,
+    "issues": null,
+    "explainer": "https://docs.google.com/document/d/1XMTrKH003KBOes6hxzI-3E7LTwp5YwFC-rnzoFpFrfw/edit?usp=sharing",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/915",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/925",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/277",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Opener Storage Partitioning",
+    "url": "https://arichiv.github.io/opener-storage-partitioning/",
+    "github": "https://github.com/arichiv/opener-storage-partitioning/",
+    "issues": "https://crbug.com/1159586",
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/916",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/926",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/278",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "graphics"
+    ],
+    "title": "WebGL drawingBufferStorage",
+    "url": "https://github.com/KhronosGroup/WebGL/pull/3222",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/279",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS Cascading and Inheritance, Level 5",
+    "url": "https://drafts.csswg.org/css-cascade-5/#conditional-import",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "Positive, Firefox shipped this.",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=256180",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/280",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Element Capture",
+    "url": "https://screen-share.github.io/element-capture/",
+    "github": "https://github.com/screen-share/element-capture/",
+    "issues": null,
+    "explainer": "https://github.com/screen-share/element-capture/blob/main/README.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/857",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/281",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Device Bound Session Credentials",
+    "url": "https://github.com/WICG/dbsc/",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/912",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/282",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Navigation Activation",
+    "url": "https://github.com/whatwg/html/pull/9856",
+    "github": null,
+    "issues": "https://github.com/whatwg/html/",
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/928",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=258384",
+    "radar": "rdar://problem/111490471"
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/283",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Long ANimation Frames API",
+    "url": "https://github.com/w3c/longtasks/pull/122",
+    "github": "https://github.com/w3c/longtasks/",
+    "issues": null,
+    "explainer": "https://github.com/w3c/longtasks/blob/main/loaf-explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/911",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/929",
     "bugzilla": null,
     "radar": null
   }
