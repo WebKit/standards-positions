@@ -724,7 +724,7 @@
     "explainer": "https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Scoped-Custom-Element-Registries.md",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/424",
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=267454",
     "radar": null
   },
   {
@@ -2846,7 +2846,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/148",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -4315,7 +4315,7 @@
       "css",
       "forms"
     ],
-    "title": "css-ui `form-sizing` property",
+    "title": "css-ui `field-sizing` property",
     "url": "https://github.com/w3c/csswg-drafts/issues/7542#issuecomment-1542505774",
     "github": null,
     "issues": null,
@@ -5043,8 +5043,22 @@
     "venues": [
       "Other"
     ],
-    "concerns": [],
-    "topics": [],
+    "concerns": [
+      "duplication",
+      "complexity",
+      "internationalization",
+      "usability",
+      "portability",
+      "device independence",
+      "maintenance"
+    ],
+    "topics": [
+      "accessibility",
+      "html",
+      "markup",
+      "app-like capabilities",
+      "meaningful user consent"
+    ],
     "title": "Page Embedded Permission Control",
     "url": null,
     "github": "https://github.com/WICG/PEPC",
@@ -5266,6 +5280,315 @@
     "explainer": "https://github.com/w3c/longtasks/blob/main/loaf-explainer.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/911",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/929",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/284",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "graphics"
+    ],
+    "title": "WebGPU default entry points to shader modules",
+    "url": "https://gpuweb.github.io/gpuweb/#abstract-opdef-validating-gpuprogrammablestage",
+    "github": "https://github.com/gpuweb/gpuweb/",
+    "issues": null,
+    "explainer": "https://github.com/gpuweb/gpuweb/issues/4342",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/931",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/286",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Lazy load scroll margin",
+    "url": "https://html.spec.whatwg.org/#lazy-load-root-margin",
+    "github": "https://github.com/whatwg/html",
+    "issues": "https://github.com/w3c/IntersectionObserver/issues/431",
+    "explainer": "https://gist.github.com/tcaptan-cr/bf0ac25f77cb6b6c58c916e6577d91c3",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/933",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=264864",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/287",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "media"
+    ],
+    "title": "Media Capture and Streams Extensions",
+    "url": "https://w3c.github.io/mediacapture-extensions/#exposing-mediastreamtrack-source-eye-gaze-correction-support",
+    "github": "https://w3c.github.io/mediacapture-extensions/",
+    "issues": null,
+    "explainer": "https://github.com/riju/eyeGazeCorrection/blob/main/explainer.md",
+    "tag": null,
+    "mozilla": "[_Link_](https://github.com/mozilla/standards-positions/issues/934)",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/288",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS Images Level 4: cross-fade()",
+    "url": "https://drafts.csswg.org/css-images-4/#cross-fade-function",
+    "github": "https://github.com/w3c/csswg-drafts/tree/main/css-images-4",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/937",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/289",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [
+      "events"
+    ],
+    "title": "window.onmove",
+    "url": "https://html.spec.whatwg.org/multipage/webappapis.html#event-handlers-on-elements,-document-objects,-and-window-objects",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": "https://github.com/Igalia/explainers/blob/main/onmove-event-handler/README.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/938",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/291",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [],
+    "title": "FileSystemObserver",
+    "url": "https://fs.spec.whatwg.org/",
+    "github": "https://github.com/whatwg/fs",
+    "issues": null,
+    "explainer": "https://github.com/whatwg/fs/blob/main/proposals/FileSystemObserver.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/868",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/942",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/292",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "dom",
+      "events"
+    ],
+    "title": "Observable",
+    "url": "https://wicg.github.io/observable/",
+    "github": "https://github.com/WICG/observable",
+    "issues": "https://github.com/WICG/observable/issues",
+    "explainer": "https://github.com/WICG/observable/blob/master/README.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/902",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/945",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=266843",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/294",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "graphics"
+    ],
+    "title": "WebGPU: Render to slice of 3D texture",
+    "url": "https://www.w3.org/TR/webgpu/",
+    "github": "https://github.com/gpuweb/gpuweb/",
+    "issues": "https://github.com/gpuweb/gpuweb/issues",
+    "explainer": "https://github.com/gpuweb/gpuweb/issues/4251",
+    "tag": "N/A",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/952",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/295",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "graphics"
+    ],
+    "title": "WebGPU: Separate Read-only Depth-stencil",
+    "url": "https://www.w3.org/TR/webgpu/",
+    "github": "https://github.com/gpuweb/gpuweb/",
+    "issues": "https://github.com/gpuweb/gpuweb/issues",
+    "explainer": "https://github.com/gpuweb/gpuweb/issues/3036",
+    "tag": "N/A",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/953",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/296",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "graphics"
+    ],
+    "title": "WGSL: Unrestricted Pointer Parameters",
+    "url": "https://www.w3.org/TR/WGSL/",
+    "github": "https://github.com/gpuweb/gpuweb/",
+    "issues": "https://github.com/gpuweb/gpuweb/issues",
+    "explainer": "https://github.com/gpuweb/gpuweb/issues/3546",
+    "tag": "N/A",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/951",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/297",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "graphics"
+    ],
+    "title": "WGSL: Pointer Composite Access",
+    "url": "https://www.w3.org/TR/WGSL/",
+    "github": "https://github.com/gpuweb/gpuweb/",
+    "issues": "https://github.com/gpuweb/gpuweb/issues",
+    "explainer": "https://github.com/gpuweb/gpuweb/issues/4114",
+    "tag": "N/A",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/950",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/298",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "graphics"
+    ],
+    "title": "WGSL: Packed 4x8 Integer Dot Product (DP4)",
+    "url": "https://www.w3.org/TR/WGSL/",
+    "github": "https://github.com/gpuweb/gpuweb/",
+    "issues": "https://github.com/gpuweb/gpuweb/issues",
+    "explainer": "https://github.com/gpuweb/gpuweb/issues/2677",
+    "tag": "N/A",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/949",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/299",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "graphics"
+    ],
+    "title": "WebGPU: Read-write storage textures",
+    "url": "https://www.w3.org/TR/webgpu/",
+    "github": "https://github.com/gpuweb/gpuweb/",
+    "issues": "https://github.com/gpuweb/gpuweb/issues",
+    "explainer": "https://github.com/gpuweb/gpuweb/issues/3838",
+    "tag": "N/A",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/948",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/300",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Allow blocking=render attribute on style/script/link",
+    "url": "https://html.spec.whatwg.org/multipage/#blocking-attributes",
+    "github": "https://github.com/whatwg/html",
+    "issues": "https://github.com/whatwg/html",
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/608",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=267232",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/301",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSSOM View: document.caretPositionFromPoint()",
+    "url": "https://www.w3.org/TR/cssom-view-1/#dom-document-caretpositionfrompoint",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/302",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS View Transitions, Level 2",
+    "url": "https://drafts.csswg.org/css-view-transitions-2/",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": "https://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/851",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/677",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/303",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "HTML: pagereveal event",
+    "url": "https://html.spec.whatwg.org/#pagerevealevent",
+    "github": "https://github.com/whatwg/html/",
+    "issues": null,
+    "explainer": "https://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md#javascript-api",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/851",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/677",
     "bugzilla": null,
     "radar": null
   }
