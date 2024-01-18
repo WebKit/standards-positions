@@ -5284,24 +5284,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/284",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [
-      "graphics"
-    ],
-    "title": "WebGPU default entry points to shader modules",
-    "url": "https://gpuweb.github.io/gpuweb/#abstract-opdef-validating-gpuprogrammablestage",
-    "github": "https://github.com/gpuweb/gpuweb/",
-    "issues": null,
-    "explainer": "https://github.com/gpuweb/gpuweb/issues/4342",
-    "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/931",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/286",
     "position": null,
     "venues": [],
@@ -5417,114 +5399,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/294",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [
-      "graphics"
-    ],
-    "title": "WebGPU: Render to slice of 3D texture",
-    "url": "https://www.w3.org/TR/webgpu/",
-    "github": "https://github.com/gpuweb/gpuweb/",
-    "issues": "https://github.com/gpuweb/gpuweb/issues",
-    "explainer": "https://github.com/gpuweb/gpuweb/issues/4251",
-    "tag": "N/A",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/952",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/295",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [
-      "graphics"
-    ],
-    "title": "WebGPU: Separate Read-only Depth-stencil",
-    "url": "https://www.w3.org/TR/webgpu/",
-    "github": "https://github.com/gpuweb/gpuweb/",
-    "issues": "https://github.com/gpuweb/gpuweb/issues",
-    "explainer": "https://github.com/gpuweb/gpuweb/issues/3036",
-    "tag": "N/A",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/953",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/296",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [
-      "graphics"
-    ],
-    "title": "WGSL: Unrestricted Pointer Parameters",
-    "url": "https://www.w3.org/TR/WGSL/",
-    "github": "https://github.com/gpuweb/gpuweb/",
-    "issues": "https://github.com/gpuweb/gpuweb/issues",
-    "explainer": "https://github.com/gpuweb/gpuweb/issues/3546",
-    "tag": "N/A",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/951",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/297",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [
-      "graphics"
-    ],
-    "title": "WGSL: Pointer Composite Access",
-    "url": "https://www.w3.org/TR/WGSL/",
-    "github": "https://github.com/gpuweb/gpuweb/",
-    "issues": "https://github.com/gpuweb/gpuweb/issues",
-    "explainer": "https://github.com/gpuweb/gpuweb/issues/4114",
-    "tag": "N/A",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/950",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/298",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [
-      "graphics"
-    ],
-    "title": "WGSL: Packed 4x8 Integer Dot Product (DP4)",
-    "url": "https://www.w3.org/TR/WGSL/",
-    "github": "https://github.com/gpuweb/gpuweb/",
-    "issues": "https://github.com/gpuweb/gpuweb/issues",
-    "explainer": "https://github.com/gpuweb/gpuweb/issues/2677",
-    "tag": "N/A",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/949",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/299",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [
-      "graphics"
-    ],
-    "title": "WebGPU: Read-write storage textures",
-    "url": "https://www.w3.org/TR/webgpu/",
-    "github": "https://github.com/gpuweb/gpuweb/",
-    "issues": "https://github.com/gpuweb/gpuweb/issues",
-    "explainer": "https://github.com/gpuweb/gpuweb/issues/3838",
-    "tag": "N/A",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/948",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/300",
     "position": null,
     "venues": [],
@@ -5589,6 +5463,22 @@
     "explainer": "https://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md#javascript-api",
     "tag": "https://github.com/w3ctag/design-reviews/issues/851",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/677",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/304",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "WebAuthn: allow for credential creation in a cross-origin iframe",
+    "url": "https://w3c.github.io/webauthn/#publickey-credentials-create-feature",
+    "github": "https://github.com/w3c/webauthn",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   }
