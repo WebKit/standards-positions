@@ -1199,12 +1199,12 @@
       "http"
     ],
     "title": "Opaque Response Blocking (ORB, aka CORB++)",
-    "url": null,
+    "url": "https://whatpr.org/fetch/1442.html",
     "github": "https://github.com/annevk/orb",
     "issues": null,
     "explainer": null,
     "tag": null,
-    "mozilla": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/860",
     "bugzilla": null,
     "radar": null
   },
@@ -5755,7 +5755,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "app-like capabilities"
+    ],
     "title": "Web Install API",
     "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/WebInstall/explainer_same_domain.md",
     "github": "https://github.com/MicrosoftEdge/MSEdgeExplainers/",
@@ -5771,7 +5773,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "app-like capabilities"
+    ],
     "title": "Web Install API",
     "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/WebInstall/explainer_cross_domain.md",
     "github": "https://github.com/MicrosoftEdge/MSEdgeExplainers/",
@@ -5894,7 +5898,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/330",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
     "topics": [
       "css"
@@ -5981,7 +5987,8 @@
     ],
     "concerns": [],
     "topics": [
-      "html"
+      "html",
+      "security"
     ],
     "title": "Importmap integrity",
     "url": "https://github.com/whatwg/html/pull/10269",
@@ -6057,7 +6064,7 @@
     "topics": [],
     "title": "Web Translation API",
     "url": "No spec yet; please see the explainer",
-    "github": "https://github.com/explainers-by-googlers/translation-api",
+    "github": "https://github.com/WICG/translation-api",
     "issues": null,
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/948",

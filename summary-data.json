@@ -5772,9 +5772,9 @@
       }
     ],
     "milestone": null,
-    "comments": 24,
+    "comments": 25,
     "created_at": "2022-07-28T02:33:25Z",
-    "updated_at": "2024-04-23T16:59:32Z",
+    "updated_at": "2024-05-06T20:12:11Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -9131,13 +9131,13 @@
       }
     ],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2022-09-19T18:01:18Z",
-    "updated_at": "2023-06-21T15:10:01Z",
+    "updated_at": "2024-05-07T13:35:34Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "## Request for position on an emerging web specification\r\n\r\n### Information about the spec\r\n\r\n* Spec Title: Opaque Response Blocking (ORB, aka CORB++)\r\n* GitHub repository: https://github.com/annevk/orb\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: \r\n* Mozilla standards-positions issue:\r\n\r\nMozilla is implementing: https://bugzilla.mozilla.org/show_bug.cgi?id=1532642.\r\n\r\n### Anything else we need to know\r\n\r\nhttps://lists.webkit.org/pipermail/webkit-dev/2022-May/032222.html",
+    "body": "## Request for position on an emerging web specification\r\n\r\n### Information about the spec\r\n\r\n* Spec Title: Opaque Response Blocking (ORB, aka CORB++)\r\n* Spec URL: https://whatpr.org/fetch/1442.html\r\n* GitHub repository: https://github.com/annevk/orb\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: \r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/860\r\n\r\nMozilla is implementing: https://bugzilla.mozilla.org/show_bug.cgi?id=1532642.\r\n\r\n### Anything else we need to know\r\n\r\nhttps://lists.webkit.org/pipermail/webkit-dev/2022-May/032222.html",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/64/reactions",
       "total_count": 0,
@@ -30604,20 +30604,20 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2023-06-28T07:24:07Z",
-    "updated_at": "2024-04-23T19:54:23Z",
+    "updated_at": "2024-05-06T23:25:50Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@annevk and @othermaciej have both previously reviewed this\r\n\r\n### Title of the spec\r\n\r\nClose signals and close watchers\r\n\r\n### URL to the spec\r\n\r\nhttps://whatpr.org/html/9462/interaction.html#close-requests-and-close-watchers\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/WICG/close-watcher\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/594\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/604\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nIn addition to the WICG repository with the explainer, see the HTML Standard pull request: https://github.com/whatwg/html/pull/9462\r\n\r\nThe main new API introduced here is the `CloseWatcher` API. But this spec also includes changes to unify dialog, popover, and fullscreen handling into a single \"close watcher\" concept, which is triggered by a platform-independent concept of \"close request\".\r\n\r\nFor macOS and keyboard-attached iOS devices, the close request would be the Esc key. For other iOS devices, there might not be a close request. This was previously discussed in https://github.com/WICG/close-watcher/issues/11 ; see also https://github.com/WICG/close-watcher/blob/main/platform-implementation-notes.md . In such cases, it would still be ideal for the API to exist and be implemented, and just never triggered via user action, so that developers can write platform-agnostic code (e.g. centralizing their close logic into the `close` event handler of a `CloseWatcher` object).\r\n\r\nBecause of how close request gestures can serve multiple purposes, e.g. the Android back button/gesture being used to navigate session history, the specification has some anti-abuse measures to prevent the close signal gesture from being indefinitely captured by web developers using dialogs, popovers, or `CloseWatcher`s. These measures might not be necessary in the macOS/iOS-with-keyboard ecosystem, where the Esc key is the only relevant gesture and it does not serve another purpose. But we think they're still reasonable, and should be implemented uniformly across platforms for interoperability. This was previously discussed from one angle in https://github.com/WICG/close-watcher/issues/10.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/215/reactions",
-      "total_count": 0,
+      "total_count": 1,
       "+1": 0,
       "-1": 0,
       "laugh": 0,
-      "hooray": 0,
+      "hooray": 1,
       "confused": 0,
       "heart": 0,
       "rocket": 0,
@@ -35442,9 +35442,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2023-10-08T23:00:42Z",
-    "updated_at": "2024-05-06T16:47:44Z",
+    "updated_at": "2024-05-06T23:21:23Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "active_lock_reason": null,
@@ -40472,8 +40472,8 @@
     "body": "### WebKittens\n\n_No response_\n\n### Title of the spec\n\npopover=hint\n\n### URL to the spec\n\nhttps://github.com/whatwg/html/pull/9778\n\n### URL to the spec's repository\n\nhttps://github.com/whatwg/html\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://open-ui.org/components/popover-hint.research.explainer/\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/965\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis is related to, but not blocked/gated by, the [invokers proposal](https://github.com/WebKit/standards-positions/issues/264).\r\n\r\nSee also, https://github.com/whatwg/html/issues/9776.\r\n\r\nNote that the [spec PR](https://github.com/whatwg/html/pull/9778) is slightly out of date and is being updated to include the \"hint stack\" concept.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/305/reactions",
-      "total_count": 2,
-      "+1": 1,
+      "total_count": 3,
+      "+1": 2,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -41573,8 +41573,8 @@
     "body": "### WebKittens\r\n\r\n~~_No response_~~ Edit: @beidson @marcoscaceres @annevk, copying from the push proposal\r\n\r\n### Title of the spec\r\n\r\nNotification's requireInteraction\r\n\r\n### URL to the spec\r\n\r\nhttps://notifications.spec.whatwg.org/#require-interaction-preference-flag\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\n_No response_\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThe spec added this feature in 2015: https://github.com/whatwg/notifications/pull/53, which seemingly received no input from Apple side but only from Google and Mozilla.\r\n\r\nThis has been in Chrome for years and Firefox just started to support it on Windows and Linux since 2023/2024. Note that Chrome's macOS support is hacky as it works around macOS' limitation to have only one notification type for each app (banner or alert), by having a separate notification helper app. I would be happy to get the discussion started to have better macOS side support for all browsers.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/318/reactions",
-      "total_count": 1,
-      "+1": 1,
+      "total_count": 2,
+      "+1": 2,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -41827,7 +41827,26 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4281595369,
+        "node_id": "LA_kwDOHk513M7_M_Xp",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20app-like%20capabilities",
+        "name": "topic: app-like capabilities",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to native app style capabilities (e.g. things under the \"PWA\" or \"Fugu\" brands)"
+      },
+      {
+        "id": 4575936941,
+        "node_id": "LA_kwDOHk513M8AAAABEL9BrQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Microsoft",
+        "name": "from: Microsoft",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Microsoft."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": {
@@ -41875,7 +41894,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-02-26T18:07:04Z",
-    "updated_at": "2024-02-27T01:05:06Z",
+    "updated_at": "2024-05-06T23:32:20Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -41927,7 +41946,26 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4281595369,
+        "node_id": "LA_kwDOHk513M7_M_Xp",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20app-like%20capabilities",
+        "name": "topic: app-like capabilities",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to native app style capabilities (e.g. things under the \"PWA\" or \"Fugu\" brands)"
+      },
+      {
+        "id": 4575936941,
+        "node_id": "LA_kwDOHk513M8AAAABEL9BrQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Microsoft",
+        "name": "from: Microsoft",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Microsoft."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": {
@@ -41975,7 +42013,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-02-26T18:19:08Z",
-    "updated_at": "2024-02-27T01:04:39Z",
+    "updated_at": "2024-05-06T23:32:42Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -42540,6 +42578,15 @@
         "color": "5bcefa",
         "default": false,
         "description": "Spec relates to CSS (Cascading Style Sheets)"
+      },
+      {
+        "id": 4281727357,
+        "node_id": "LA_kwDOHk513M7_Nfl9",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20CSS%20WG",
+        "name": "venue: W3C CSS WG",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
       }
     ],
     "state": "open",
@@ -42549,7 +42596,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-03-13T11:45:43Z",
-    "updated_at": "2024-03-17T05:14:06Z",
+    "updated_at": "2024-05-06T23:31:21Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -43080,6 +43127,15 @@
         "description": "Spec relates to HTML (Hypertext Markup Language)"
       },
       {
+        "id": 4278049802,
+        "node_id": "LA_kwDOHk513M7-_dwK",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20security",
+        "name": "topic: security",
+        "color": "5bcefa",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4281709419,
         "node_id": "LA_kwDOHk513M7_NbNr",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
@@ -43094,9 +43150,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2024-04-15T08:04:39Z",
-    "updated_at": "2024-04-17T14:17:47Z",
+    "updated_at": "2024-05-07T07:22:51Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -43440,13 +43496,13 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2024-04-24T06:07:34Z",
-    "updated_at": "2024-05-01T01:09:48Z",
+    "updated_at": "2024-05-07T05:09:48Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nWeb Translation API\r\n\r\n### URL to the spec\r\n\r\nNo spec yet; please see the explainer\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/explainers-by-googlers/translation-api\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/948\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1015\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis is an early-stage idea (hasn't even moved to WICG yet, although hopefully it will soon: https://github.com/WICG/proposals/issues/147).\r\n\r\nHowever, we'd love early engagement from other implementers to make sure what we're designing fits well with their architecture.\r\n\r\nThe TAG design review and the issue tracker has some summaries of our current open questions.",
+    "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nWeb Translation API\r\n\r\n### URL to the spec\r\n\r\nNo spec yet; please see the explainer\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/WICG/translation-api\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/948\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1015\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis is an early-stage idea. However, we'd love early engagement from other implementers to make sure what we're designing fits well with their architecture.\r\n\r\nThe TAG design review and the issue tracker has some summaries of our current open questions.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/339/reactions",
       "total_count": 0,
