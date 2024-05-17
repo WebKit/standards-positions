@@ -1,7 +1,7 @@
 [
   {
     "id": "https://github.com/WebKit/standards-positions/issues/1",
-    "position": "oppose",
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -1187,7 +1187,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/64",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG",
       "Other"
@@ -3937,11 +3937,9 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/206",
-    "position": "blocked",
+    "position": "support",
     "venues": [],
-    "concerns": [
-      "dependencies"
-    ],
+    "concerns": [],
     "topics": [
       "service workers"
     ],
@@ -5408,7 +5406,7 @@
     "explainer": null,
     "tag": null,
     "mozilla": null,
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=172137",
     "radar": null
   },
   {
@@ -5981,7 +5979,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/335",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -6018,7 +6016,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/337",
-    "position": null,
+    "position": "oppose",
     "venues": [],
     "concerns": [
       "duplication",
@@ -6076,7 +6074,9 @@
     "id": "https://github.com/WebKit/standards-positions/issues/341",
     "position": null,
     "venues": [],
-    "concerns": [],
+    "concerns": [
+      "API design"
+    ],
     "topics": [],
     "title": "WebCodecs",
     "url": "https://www.w3.org/TR/webcodecs/#dom-videoframecopytooptions-format",
@@ -6117,6 +6117,113 @@
     "explainer": "https://github.com/w3c/mediasession/blob/main/explainer.md",
     "tag": null,
     "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/345",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "HTML Fullscreen Without A Gesture (Automatic Fullscreen Content Setting)",
+    "url": "https://fullscreen.spec.whatwg.org/",
+    "github": "https://github.com/whatwg/fullscreen",
+    "issues": "https://github.com/whatwg/fullscreen/issues/",
+    "explainer": "https://github.com/explainers-by-googlers/html-fullscreen-without-a-gesture",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1020",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/346",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSSOM: CSSPageRule to inherit from CSSGroupingRule",
+    "url": "https://www.w3.org/TR/cssom-1/#the-csspagerule-interface",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/347",
+    "position": null,
+    "venues": [],
+    "concerns": [
+      "duplication",
+      "privacy",
+      "venue",
+      "use cases",
+      "power",
+      "device independence"
+    ],
+    "topics": [],
+    "title": "Gyroscope, Accelerometer, and Magnetometer",
+    "url": "https://www.w3.org/TR/gyroscope/",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/348",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS calc-size() function",
+    "url": "https://drafts.csswg.org/css-values-5/#calc-size",
+    "github": "https://github.com/w3c/csswg-drafts/issues",
+    "issues": null,
+    "explainer": "https://github.com/w3c/csswg-drafts/blob/main/css-values-5/calc-size-explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/955",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1022",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=274177",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/349",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Partitioned Popins",
+    "url": "TBD",
+    "github": "https://github.com/arichiv/partitioned-popins/",
+    "issues": "https://issues.chromium.org/issues/340606651",
+    "explainer": "https://github.com/arichiv/partitioned-popins/blob/main/README.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/956",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1023",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/350",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Support Skip-Ad media session action",
+    "url": "https://www.w3.org/TR/mediasession/#dom-mediasessionaction-skipad",
+    "github": "https://github.com/w3c/mediasession",
+    "issues": null,
+    "explainer": "https://developer.chrome.com/blog/media-updates-in-chrome-73#skipad",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/957",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1026",
     "bugzilla": null,
     "radar": null
   }
