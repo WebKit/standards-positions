@@ -4060,7 +4060,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/215",
-    "position": null,
+    "position": "neutral",
     "venues": [
       "WHATWG",
       "Other"
@@ -4071,7 +4071,7 @@
       "web apis"
     ],
     "title": "Close signals and close watchers",
-    "url": "https://whatpr.org/html/9462/interaction.html#close-requests-and-close-watchers",
+    "url": "https://html.spec.whatwg.org/multipage/interaction.html#close-requests-and-close-watchers",
     "github": "https://github.com/WICG/close-watcher",
     "issues": null,
     "explainer": null,
@@ -5669,7 +5669,10 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "media",
+      "webrtc"
+    ],
     "title": "WebRTC Extensions, Adjusting the receiver's jitter buffer",
     "url": "https://w3c.github.io/webrtc-extensions/#dom-rtcrtpreceiver-jitterbuffertarget",
     "github": "https://github.com/w3c/webrtc-extensions/",
@@ -6072,7 +6075,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/341",
-    "position": null,
+    "position": "support",
     "venues": [],
     "concerns": [
       "API design"
@@ -6109,7 +6112,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "media"
+    ],
     "title": "Support Video Chapter in MediaMetadata",
     "url": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
     "github": "https://github.com/w3c/mediasession",
@@ -6158,7 +6163,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/347",
-    "position": null,
+    "position": "oppose",
     "venues": [],
     "concerns": [
       "duplication",
@@ -6169,7 +6174,7 @@
       "device independence"
     ],
     "topics": [],
-    "title": "Gyroscope, Accelerometer, and Magnetometer",
+    "title": "Gyroscope, Accelerometer, Magnetometer, Orientation, Motion",
     "url": "https://www.w3.org/TR/gyroscope/",
     "github": null,
     "issues": null,
@@ -6216,7 +6221,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "media"
+    ],
     "title": "Support Skip-Ad media session action",
     "url": "https://www.w3.org/TR/mediasession/#dom-mediasessionaction-skipad",
     "github": "https://github.com/w3c/mediasession",

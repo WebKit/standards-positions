@@ -1490,8 +1490,8 @@
     "body": "## Request for position on an emerging web specification\r\n\r\n* WebKittens who can provide input: @hortont424, @marcoscaceres \r\n\r\n### Information about the spec\r\n\r\n* Spec Title: Web Share Target API\r\n* Spec URL: https://w3c.github.io/web-share-target/\r\n* GitHub repository: https://github.com/w3c/web-share-target\r\n\r\n### Design reviews and vendor positions\r\n\r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/176\r\n\r\n### Bugs tracking this feature\r\n\r\n* WebKit Bugzilla: https://bugs.webkit.org/show_bug.cgi?id=194593\r\n\r\n### Anything else we need to know\r\n\r\n**Summary:** While the [Web Share API](https://www.w3.org/TR/web-share/) allows browsers to make use of the operating system's native _\"share\"_ mechanism in web-to-native contexts, the [Web Share Target API](https://github.com/w3c/web-share-target) intent is to enable web-to-web and native-to-web sharing scenarios. \r\nWhat is WebKit's position on this spec? ",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/11/reactions",
-      "total_count": 10,
-      "+1": 10,
+      "total_count": 11,
+      "+1": 11,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -5215,9 +5215,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2022-07-15T18:45:35Z",
-    "updated_at": "2024-01-16T09:29:30Z",
+    "updated_at": "2024-05-18T04:24:27Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -10498,9 +10498,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 6,
     "created_at": "2022-10-13T20:10:05Z",
-    "updated_at": "2024-05-10T16:53:50Z",
+    "updated_at": "2024-05-21T11:53:15Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -26909,9 +26909,9 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 5,
     "created_at": "2023-05-04T22:22:59Z",
-    "updated_at": "2024-01-11T06:31:53Z",
+    "updated_at": "2024-05-22T06:12:54Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -28185,17 +28185,17 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 9,
     "created_at": "2023-05-25T22:54:28Z",
-    "updated_at": "2024-05-17T15:03:54Z",
+    "updated_at": "2024-05-22T09:28:00Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\n\n@annevk, @rniwa\n\n### Title of the spec\n\nMutation Events\n\n### URL to the spec\n\nhttps://w3c.github.io/uievents/#legacy-event-types\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/uievents\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/807\n\n### WebKit Bugzilla URL\n\nhttps://bugzilla.mozilla.org/show_bug.cgi?id=749920\n\n### Radar URL\n\n_No response_\n\n### Description\n\nI am going to make a push to remove Mutation Events from Chromium. This will not be easy, and success is definitely not guaranteed. The timeline is >= 1 year, if things go well. It's possible we might need to fall back to \"delayed\" mutation events that run at microtask or CEReactions timing. It's possible we might not be able to remove all of the events.\r\n\r\nHowever, whatever happens, I'm hoping to get the support of WebKit (and Gecko), which will help convince developers who own existing usage to migrate to Mutation Observer. Some ideas, if you're supportive, might include:\r\n\r\n1. Add or strengthen (as appropriate) the deprecation warnings in WebKit. I've already done this for Chromium, starting in M114.\r\n2. Plan for a joint, coordinated removal from all browsers at some date/milestone in the future.\r\n3. Write a co-authored blog post. I'm happy to drive this, but would love feedback, edits, and a WebKit-owned by-line.\r\n4. Other suggestions appreciated.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/192/reactions",
-      "total_count": 0,
-      "+1": 0,
+      "total_count": 1,
+      "+1": 1,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -30554,6 +30554,15 @@
     },
     "labels": [
       {
+        "id": 4278042647,
+        "node_id": "LA_kwDOHk513M7-_cAX",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20neutral",
+        "name": "position: neutral",
+        "color": "ffed00",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278046994,
         "node_id": "LA_kwDOHk513M7-_dES",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20html",
@@ -30599,18 +30608,18 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 6,
+    "comments": 8,
     "created_at": "2023-06-28T07:24:07Z",
-    "updated_at": "2024-05-13T08:33:15Z",
-    "closed_at": null,
+    "updated_at": "2024-05-21T13:29:47Z",
+    "closed_at": "2024-05-21T13:20:42Z",
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n@annevk and @othermaciej have both previously reviewed this\r\n\r\n### Title of the spec\r\n\r\nClose signals and close watchers\r\n\r\n### URL to the spec\r\n\r\nhttps://whatpr.org/html/9462/interaction.html#close-requests-and-close-watchers\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/WICG/close-watcher\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/594\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/604\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nIn addition to the WICG repository with the explainer, see the HTML Standard pull request: https://github.com/whatwg/html/pull/9462\r\n\r\nThe main new API introduced here is the `CloseWatcher` API. But this spec also includes changes to unify dialog, popover, and fullscreen handling into a single \"close watcher\" concept, which is triggered by a platform-independent concept of \"close request\".\r\n\r\nFor macOS and keyboard-attached iOS devices, the close request would be the Esc key. For other iOS devices, there might not be a close request. This was previously discussed in https://github.com/WICG/close-watcher/issues/11 ; see also https://github.com/WICG/close-watcher/blob/main/platform-implementation-notes.md . In such cases, it would still be ideal for the API to exist and be implemented, and just never triggered via user action, so that developers can write platform-agnostic code (e.g. centralizing their close logic into the `close` event handler of a `CloseWatcher` object).\r\n\r\nBecause of how close request gestures can serve multiple purposes, e.g. the Android back button/gesture being used to navigate session history, the specification has some anti-abuse measures to prevent the close signal gesture from being indefinitely captured by web developers using dialogs, popovers, or `CloseWatcher`s. These measures might not be necessary in the macOS/iOS-with-keyboard ecosystem, where the Esc key is the only relevant gesture and it does not serve another purpose. But we think they're still reasonable, and should be implemented uniformly across platforms for interoperability. This was previously discussed from one angle in https://github.com/WICG/close-watcher/issues/10.",
+    "body": "### WebKittens\r\n\r\n@annevk and @othermaciej have both previously reviewed this\r\n\r\n### Title of the spec\r\n\r\nClose signals and close watchers\r\n\r\n### URL to the spec\r\n\r\nhttps://html.spec.whatwg.org/multipage/interaction.html#close-requests-and-close-watchers\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/WICG/close-watcher\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/594\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/604\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nIn addition to the WICG repository with the explainer, see the HTML Standard pull request: https://github.com/whatwg/html/pull/9462\r\n\r\nThe main new API introduced here is the `CloseWatcher` API. But this spec also includes changes to unify dialog, popover, and fullscreen handling into a single \"close watcher\" concept, which is triggered by a platform-independent concept of \"close request\".\r\n\r\nFor macOS and keyboard-attached iOS devices, the close request would be the Esc key. For other iOS devices, there might not be a close request. This was previously discussed in https://github.com/WICG/close-watcher/issues/11 ; see also https://github.com/WICG/close-watcher/blob/main/platform-implementation-notes.md . In such cases, it would still be ideal for the API to exist and be implemented, and just never triggered via user action, so that developers can write platform-agnostic code (e.g. centralizing their close logic into the `close` event handler of a `CloseWatcher` object).\r\n\r\nBecause of how close request gestures can serve multiple purposes, e.g. the Android back button/gesture being used to navigate session history, the specification has some anti-abuse measures to prevent the close signal gesture from being indefinitely captured by web developers using dialogs, popovers, or `CloseWatcher`s. These measures might not be necessary in the macOS/iOS-with-keyboard ecosystem, where the Esc key is the only relevant gesture and it does not serve another purpose. But we think they're still reasonable, and should be implemented uniformly across platforms for interoperability. This was previously discussed from one angle in https://github.com/WICG/close-watcher/issues/10.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/215/reactions",
       "total_count": 1,
@@ -30625,7 +30634,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/215/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/216",
@@ -32868,9 +32877,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 4,
+    "comments": 6,
     "created_at": "2023-08-06T20:40:33Z",
-    "updated_at": "2024-05-17T02:47:43Z",
+    "updated_at": "2024-05-17T16:23:38Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -41488,7 +41497,26 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278048526,
+        "node_id": "LA_kwDOHk513M7-_dcO",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20media",
+        "name": "topic: media",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to audio, video, or other timed media"
+      },
+      {
+        "id": 4278552647,
+        "node_id": "LA_kwDOHk513M7_BYhH",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20webrtc",
+        "name": "topic: webrtc",
+        "color": "5bcefa",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -41496,7 +41524,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-02-12T20:13:32Z",
-    "updated_at": "2024-02-12T20:13:32Z",
+    "updated_at": "2024-05-18T04:32:54Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -43680,6 +43708,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4575501795,
         "node_id": "LA_kwDOHk513M8AAAABELid4w",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20API%20design",
@@ -43689,7 +43726,7 @@
         "description": "The API for this is error-prone, poorly named, or inconsistent with the platform"
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "jyavenard",
@@ -43774,10 +43811,10 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2024-05-01T21:49:28Z",
-    "updated_at": "2024-05-08T07:38:10Z",
-    "closed_at": null,
+    "updated_at": "2024-05-18T04:41:19Z",
+    "closed_at": "2024-05-18T04:41:19Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\n\n@youennf\n\n### Title of the spec\n\nWebCodecs\n\n### URL to the spec\n\nhttps://www.w3.org/TR/webcodecs/#dom-videoframecopytooptions-format\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/webcodecs\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://gist.github.com/Djuffin/9e2f98025ead49998524510cfeed8d33\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/951\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1017\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nConverting YUV video frames to RGB is often required for processing them in libraries like TensorFlow.js and OpenCV.js.\r\nPreviously the only possible way to achieve this was rendering the frame on a canvas.\r\n\r\nSpecifying `VideoFrameCopyToOptions.format` and `VideoFrameCopyToOptions.colorSpace` make it possible to *asynchronously* convert frames to RGB pixel format by calling `VideoFrame.copyTo()` without having to use an extra canvas.",
@@ -43795,7 +43832,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/341/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/343",
@@ -43888,7 +43925,17 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278048526,
+        "node_id": "LA_kwDOHk513M7-_dcO",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20media",
+        "name": "topic: media",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to audio, video, or other timed media"
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -43896,11 +43943,11 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-05-04T00:53:03Z",
-    "updated_at": "2024-05-04T00:53:03Z",
+    "updated_at": "2024-05-18T04:37:59Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\n\n_No response_\n\n### Title of the spec\n\nSupport Video Chapter in MediaMetadata\n\n### URL to the spec\n\nhttps://www.w3.org/TR/mediasession/#the-chapterinformation-interface\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/mediasession\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n https://github.com/w3c/mediasession/blob/main/explainer.md\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis project adds the ChapterInformation attribute in the current MediaMetadata. See the proposal: https://github.com/w3c/mediasession/issues/273",
+    "body": "### WebKittens\r\n\r\n @youennf, @jernoble \r\n\r\n### Title of the spec\r\n\r\nSupport Video Chapter in MediaMetadata\r\n\r\n### URL to the spec\r\n\r\nhttps://www.w3.org/TR/mediasession/#the-chapterinformation-interface\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/w3c/mediasession\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n https://github.com/w3c/mediasession/blob/main/explainer.md\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\n_No response_\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis project adds the ChapterInformation attribute in the current MediaMetadata. See the proposal: https://github.com/w3c/mediasession/issues/273",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/344/reactions",
       "total_count": 0,
@@ -44033,9 +44080,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2024-05-09T10:10:35Z",
-    "updated_at": "2024-05-17T15:45:50Z",
+    "updated_at": "2024-05-18T01:30:52Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -44066,7 +44113,7 @@
     "id": 2295594619,
     "node_id": "I_kwDOHk513M6I0_57",
     "number": 347,
-    "title": "Gyroscope (and Accelerometer, and probably Magnetometer)",
+    "title": "Gyroscope, Accelerometer, Magnetometer, Motion, Orientation",
     "user": {
       "login": "marcoscaceres",
       "id": 870154,
@@ -44088,6 +44135,15 @@
       "site_admin": false
     },
     "labels": [
+      {
+        "id": 4278043765,
+        "node_id": "LA_kwDOHk513M7-_cR1",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20oppose",
+        "name": "position: oppose",
+        "color": "e40303",
+        "default": false,
+        "description": ""
+      },
       {
         "id": 4278051811,
         "node_id": "LA_kwDOHk513M7-_ePj",
@@ -44143,7 +44199,7 @@
         "description": "Proposal is hardware- or OS-specific, in a way that may risk the device independence of the Web"
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "marcoscaceres",
@@ -44190,11 +44246,11 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2024-05-14T14:14:26Z",
-    "updated_at": "2024-05-15T04:37:37Z",
-    "closed_at": null,
+    "updated_at": "2024-05-21T04:25:43Z",
+    "closed_at": "2024-05-21T04:25:43Z",
     "author_association": "CONTRIBUTOR",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n@marcoscaceres\r\n\r\n### Title of the spec\r\n\r\nGyroscope, Accelerometer, and Magnetometer\r\n\r\n### URL to the spec\r\n\r\nhttps://www.w3.org/TR/gyroscope/\r\nhttps://www.w3.org/TR/accelerometer/\r\nhttps://www.w3.org/TR/magnetometer/\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\n_No response_\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis specification defines a concrete sensor interface to monitor the rate of rotation around the device\u2019s local three primary axes.\r\n",
+    "body": "### WebKittens\r\n\r\n@marcoscaceres\r\n\r\n### Title of the spec\r\n\r\nGyroscope, Accelerometer, Magnetometer, Orientation, Motion\r\n\r\n### URL to the spec\r\n\r\nhttps://www.w3.org/TR/gyroscope/\r\nhttps://www.w3.org/TR/accelerometer/\r\nhttps://www.w3.org/TR/magnetometer/\r\nhttps://www.w3.org/TR/orientation-sensor/\r\nhttps://www.w3.org/TR/motion-sensors/\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\n_No response_\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis specification defines a concrete sensor interface to monitor the rate of rotation around the device\u2019s local three primary axes.\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/347/reactions",
       "total_count": 0,
@@ -44209,7 +44265,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/347/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/348",
@@ -44257,8 +44313,8 @@
     "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nCSS calc-size() function\r\n\r\n### URL to the spec\r\n\r\nhttps://drafts.csswg.org/css-values-5/#calc-size\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/w3c/csswg-drafts/issues\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/w3c/csswg-drafts/blob/main/css-values-5/calc-size-explainer.md\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/955\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1022\r\n\r\n### WebKit Bugzilla URL\r\n\r\nhttps://bugs.webkit.org/show_bug.cgi?id=274177\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nAnimation to or from auto heights is commonly requested by web developers. It is important for animation of elements (such as the contents of disclosure widgets) opening/closing between a content-based height (or width) and a small (often zero) height (or width). This `calc-size()` proposal fits the desire to do such animations into the way that CSS transitions and animations work. More generally, this allows animating between a fixed length and almost any type of height (or width, or min/max-height/width) that can currently be specified in CSS.\r\n\r\nThe CSS `calc-size()` function is a CSS function similar to `calc()`, but that also supports operations on exactly one of the values `auto`, `min-content`, `max-content`, `fit-content`, `stretch`, or `contain`, which are the intrinsic sizing keywords. This allows transitions and animations to and from these values (or mathematical functions of these values), as long as the `calc-size()` function is used on at least one of the endpoints of the transition or animation to opt in.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/348/reactions",
-      "total_count": 1,
-      "+1": 1,
+      "total_count": 5,
+      "+1": 5,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -44310,11 +44366,11 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-05-14T22:27:46Z",
-    "updated_at": "2024-05-14T22:51:09Z",
+    "updated_at": "2024-05-20T12:05:34Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### Title of the spec\r\n\r\nPartitioned Popins\r\n\r\n### URL to the spec\r\n\r\nTBD\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/arichiv/partitioned-popins/\r\n\r\n### Issue Tracker URL\r\n\r\nhttps://issues.chromium.org/issues/340606651\r\n\r\n### Chrome Feature URL\r\n\r\nTBD\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/arichiv/partitioned-popins/blob/main/README.md\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/956\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1023\r\n\r\n### Authors\r\n\r\n@arichiv @johannhof @krgovind\r\n\r\n### Description\r\n\r\nA new web primitive is needed to cover short-lived popup use cases which require access to storage partitioned by the popup opener. This primitive should be private and secure by default, while providing a consistent UI experience across user agents. To solve this need, we propose the \u201cPartitioned Popin\u201d, a type of pop-up for loading web content with two unique new features: a modal-like UI relative to its opener tab and cookies/storage being partitioned to its opener context.\r\n",
+    "body": "### Title of the spec\r\n\r\nPartitioned Popins\r\n\r\n### URL to the spec\r\n\r\nTBD\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/arichiv/partitioned-popins/\r\n\r\n### Issue Tracker URL\r\n\r\nhttps://issues.chromium.org/issues/340606651\r\n\r\n### Chrome Feature URL\r\n\r\nhttps://chromestatus.com/feature/5949561398099968\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/arichiv/partitioned-popins/blob/main/README.md\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/956\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1023\r\n\r\n### Authors\r\n\r\n@arichiv @johannhof @krgovind\r\n\r\n### Description\r\n\r\nA new web primitive is needed to cover short-lived popup use cases which require access to storage partitioned by the popup opener. This primitive should be private and secure by default, while providing a consistent UI experience across user agents. To solve this need, we propose the \u201cPartitioned Popin\u201d, a type of pop-up for loading web content with two unique new features: a modal-like UI relative to its opener tab and cookies/storage being partitioned to its opener context.\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/349/reactions",
       "total_count": 0,
@@ -44362,19 +44418,89 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278048526,
+        "node_id": "LA_kwDOHk513M7-_dcO",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20media",
+        "name": "topic: media",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to audio, video, or other timed media"
+      }
+    ],
     "state": "open",
     "locked": false,
-    "assignee": null,
-    "assignees": [],
+    "assignee": {
+      "login": "jernoble",
+      "id": 1557428,
+      "node_id": "MDQ6VXNlcjE1NTc0Mjg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1557428?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jernoble",
+      "html_url": "https://github.com/jernoble",
+      "followers_url": "https://api.github.com/users/jernoble/followers",
+      "following_url": "https://api.github.com/users/jernoble/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jernoble/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jernoble/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jernoble/subscriptions",
+      "organizations_url": "https://api.github.com/users/jernoble/orgs",
+      "repos_url": "https://api.github.com/users/jernoble/repos",
+      "events_url": "https://api.github.com/users/jernoble/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jernoble/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "jernoble",
+        "id": 1557428,
+        "node_id": "MDQ6VXNlcjE1NTc0Mjg=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1557428?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jernoble",
+        "html_url": "https://github.com/jernoble",
+        "followers_url": "https://api.github.com/users/jernoble/followers",
+        "following_url": "https://api.github.com/users/jernoble/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jernoble/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jernoble/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jernoble/subscriptions",
+        "organizations_url": "https://api.github.com/users/jernoble/orgs",
+        "repos_url": "https://api.github.com/users/jernoble/repos",
+        "events_url": "https://api.github.com/users/jernoble/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jernoble/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      {
+        "login": "youennf",
+        "id": 5575980,
+        "node_id": "MDQ6VXNlcjU1NzU5ODA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5575980?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/youennf",
+        "html_url": "https://github.com/youennf",
+        "followers_url": "https://api.github.com/users/youennf/followers",
+        "following_url": "https://api.github.com/users/youennf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/youennf/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/youennf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/youennf/subscriptions",
+        "organizations_url": "https://api.github.com/users/youennf/orgs",
+        "repos_url": "https://api.github.com/users/youennf/repos",
+        "events_url": "https://api.github.com/users/youennf/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/youennf/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
     "milestone": null,
-    "comments": 2,
+    "comments": 3,
     "created_at": "2024-05-15T23:40:46Z",
-    "updated_at": "2024-05-17T06:42:13Z",
+    "updated_at": "2024-05-18T04:37:06Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nSupport Skip-Ad media session action\r\n\r\n### URL to the spec\r\n\r\nhttps://www.w3.org/TR/mediasession/#dom-mediasessionaction-skipad\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/w3c/mediasession\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://developer.chrome.com/blog/media-updates-in-chrome-73#skipad\r\nhttps://github.com/w3c/mediasession/pull/203#issuecomment-432529816 \r\n\r\n### TAG Design Review URL\r\n\r\n https://github.com/w3ctag/design-reviews/issues/957\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1026\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis feature was initially proposed and implemented four years ago but remained disabled due to a lack of practical use cases. It already received LGTM from the Blink dev group back in February 2019. Given our team's plan to implement a feature related to this action, we are now proposing to enable it.",
+    "body": "### WebKittens\r\n\r\n @youennf, @jernoble \r\n\r\n### Title of the spec\r\n\r\nSupport Skip-Ad media session action\r\n\r\n### URL to the spec\r\n\r\nhttps://www.w3.org/TR/mediasession/#dom-mediasessionaction-skipad\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/w3c/mediasession\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://developer.chrome.com/blog/media-updates-in-chrome-73#skipad\r\nhttps://github.com/w3c/mediasession/pull/203#issuecomment-432529816 \r\n\r\n### TAG Design Review URL\r\n\r\n https://github.com/w3ctag/design-reviews/issues/957\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1026\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis feature was initially proposed and implemented four years ago but remained disabled due to a lack of practical use cases. It already received LGTM from the Blink dev group back in February 2019. Given our team's plan to implement a feature related to this action, we are now proposing to enable it.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/350/reactions",
       "total_count": 0,
