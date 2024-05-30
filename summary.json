@@ -403,7 +403,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/669",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/167",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "webtransport"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/19",
@@ -611,7 +612,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/756",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/664",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "content-visibility"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/34",
@@ -633,7 +635,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/605",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/543",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "navigation"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/35",
@@ -789,7 +792,8 @@
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/670",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "document-picture-in-picture"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/42",
@@ -923,7 +927,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/748",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/677",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=259055",
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "view-transitions"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/49",
@@ -1115,7 +1120,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/592",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/686",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "container-style-queries"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/59",
@@ -1277,7 +1283,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/108",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/100",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "webusb"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/69",
@@ -1474,7 +1481,8 @@
     "tag": null,
     "mozilla": null,
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=227967",
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "css-modules"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/78",
@@ -1912,7 +1920,8 @@
     "tag": null,
     "mozilla": null,
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=182671",
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "customized-built-in-elements"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/100",
@@ -2031,7 +2040,8 @@
     "tag": null,
     "mozilla": null,
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "masonry"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/106",
@@ -2263,7 +2273,8 @@
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/727",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=249094",
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "baseline-source"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/119",
@@ -2536,7 +2547,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/563",
     "mozilla": null,
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=231588",
-    "radar": "rdar://84417387"
+    "radar": "rdar://84417387",
+    "webFeaturesId": "scrollbar-width"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/134",
@@ -2557,7 +2569,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/563",
     "mozilla": null,
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=231590",
-    "radar": "rdar://84418022"
+    "radar": "rdar://84418022",
+    "webFeaturesId": "scrollbar-color"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/135",
@@ -2579,7 +2592,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/520",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/488",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=167335",
-    "radar": "rdar://30153666"
+    "radar": "rdar://30153666",
+    "webFeaturesId": "scrollbar-gutter"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/136",
@@ -2844,7 +2858,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/824",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/762",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "display-animation"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/148",
@@ -2886,7 +2901,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/279",
     "mozilla": null,
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=251980",
-    "radar": "rdar://105213321"
+    "radar": "rdar://105213321",
+    "webFeaturesId": "background-fetch"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/150",
@@ -2908,7 +2924,8 @@
     "tag": null,
     "mozilla": null,
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=201556",
-    "radar": "rdar://69443508"
+    "radar": "rdar://69443508",
+    "webFeaturesId": "scrollend"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/152",
@@ -2930,7 +2947,8 @@
     "tag": "Previous review at https://github.com/w3ctag/design-reviews/issues/521",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/347",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=222295",
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "scroll-driven-animations"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/154",
@@ -3129,7 +3147,8 @@
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/794",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "anchor-positioning"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/168",
@@ -3426,7 +3445,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/562",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/475",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "storage-buckets"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/182",
@@ -3542,7 +3562,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/198",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/20",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "trusted-types"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/187",
@@ -4323,7 +4344,8 @@
     "tag": null,
     "mozilla": null,
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "field-sizing"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/232",
@@ -4458,7 +4480,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/869",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/632",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "webdriver-bidi"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/241",
@@ -4512,7 +4535,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/416",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/199",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "edit-context"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/244",
@@ -4571,7 +4595,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/511",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/612",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=238266",
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "hidden-until-found"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/247",
@@ -4759,7 +4784,8 @@
     "tag": null,
     "mozilla": null,
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "compute-pressure"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/256",
@@ -4795,7 +4821,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/900",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/886",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=261814",
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "show-picker-select"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/259",
@@ -5142,7 +5169,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/915",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/925",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "font-palette-animation"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/277",
@@ -5391,7 +5419,8 @@
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/608",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=267232",
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "blocking-render"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/301",
@@ -5804,7 +5833,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/864",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/993",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=266391",
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "text-wrap-pretty"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/325",
@@ -5874,7 +5904,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/575",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/882",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "device-posture"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/329",
@@ -6089,7 +6120,8 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/951",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1017",
     "bugzilla": null,
-    "radar": null
+    "radar": null,
+    "webFeaturesId": "webcodecs"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/343",
