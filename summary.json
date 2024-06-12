@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://github.com/WebKit/standards-positions/issues/353",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": null,
+    "url": null,
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
     "id": "https://github.com/WebKit/standards-positions/issues/1",
     "position": "support",
     "venues": [
@@ -685,7 +701,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/37",
-    "position": null,
+    "position": "oppose",
     "venues": [
       "W3C"
     ],
@@ -2627,14 +2643,12 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/138",
-    "position": "oppose",
+    "position": null,
     "venues": [
       "Other"
     ],
     "concerns": [
-      "duplication",
-      "integration",
-      "API design"
+      "duplication"
     ],
     "topics": [
       "accessibility",
@@ -2714,27 +2728,6 @@
     "explainer": "https://github.com/schwering/shared-autofill",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/752",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/142",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
-    "concerns": [],
-    "topics": [
-      "privacy",
-      "advertising"
-    ],
-    "title": "Interoperable Private Attribution (IPA)",
-    "url": "https://github.com/patcg-individual-drafts/ipa/blob/main/IPA-End-to-End.md",
-    "github": "https://github.com/patcg-individual-drafts/ipa",
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/753",
     "bugzilla": null,
     "radar": null
   },
@@ -3650,7 +3643,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/192",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -4316,12 +4309,12 @@
       "forms"
     ],
     "title": "css-ui `field-sizing` property",
-    "url": "https://github.com/w3c/csswg-drafts/issues/7542#issuecomment-1542505774",
+    "url": "https://drafts.csswg.org/css-ui/#field-sizing",
     "github": null,
     "issues": null,
     "explainer": null,
     "tag": null,
-    "mozilla": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/849",
     "bugzilla": null,
     "radar": null
   },
@@ -5395,10 +5388,14 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/301",
-    "position": null,
-    "venues": [],
+    "position": "support",
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSSOM View: document.caretPositionFromPoint()",
     "url": "https://www.w3.org/TR/cssom-view-1/#dom-document-caretpositionfrompoint",
     "github": null,
@@ -5478,7 +5475,7 @@
     "explainer": "https://open-ui.org/components/popover-hint.research.explainer/",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/965",
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=275048",
     "radar": null
   },
   {
@@ -5829,9 +5826,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/326",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css",
+      "scrolling"
+    ],
     "title": "CSS Color Adjustment Module Level 1",
     "url": "https://www.w3.org/TR/css-color-adjust-1/",
     "github": null,
@@ -5848,7 +5850,8 @@
     "venues": [],
     "concerns": [],
     "topics": [
-      "css"
+      "css",
+      "device apis"
     ],
     "title": "CSS Viewport Segments",
     "url": "https://drafts.csswg.org/css-env-1 https://www.w3.org/TR/mediaqueries-5/#mf-horizontal-viewport-segments",
@@ -5863,9 +5866,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/328",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "device apis"
+    ],
     "title": "Device Posture API",
     "url": "https://www.w3.org/TR/device-posture/",
     "github": "https://github.com/w3c/device-posture/",
@@ -5884,6 +5891,7 @@
     ],
     "concerns": [],
     "topics": [
+      "accessibility",
       "html"
     ],
     "title": "HTML",
@@ -6004,9 +6012,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/336",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "authentication"
+    ],
     "title": "FedCM bundle: Continuation API, account labels, custom parameters, scopes",
     "url": "n/a",
     "github": "https://github.com/fedidcg/FedCM/",
@@ -6094,9 +6106,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/343",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "javascript",
+      "web assembly"
+    ],
     "title": "JS String Builtins",
     "url": "https://github.com/WebAssembly/js-string-builtins/blob/main/proposals/js-string-builtins/Overview.md",
     "github": "https://github.com/WebAssembly/js-string-builtins",
@@ -6110,7 +6127,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/344",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
     "topics": [
       "media"
@@ -6130,7 +6149,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "media"
+    ],
     "title": "HTML Fullscreen Without A Gesture (Automatic Fullscreen Content Setting)",
     "url": "https://fullscreen.spec.whatwg.org/",
     "github": "https://github.com/whatwg/fullscreen",
@@ -6187,9 +6208,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/348",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css",
+      "animation"
+    ],
     "title": "CSS calc-size() function",
     "url": "https://drafts.csswg.org/css-values-5/#calc-size",
     "github": "https://github.com/w3c/csswg-drafts/issues",
@@ -6205,7 +6231,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "security"
+    ],
     "title": "Partitioned Popins",
     "url": "TBD",
     "github": "https://github.com/arichiv/partitioned-popins/",
@@ -6219,7 +6247,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/350",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
     "topics": [
       "media"
@@ -6232,6 +6262,183 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/957",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1026",
     "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/351",
+    "position": null,
+    "venues": [
+      "WHATWG",
+      "W3C",
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "css",
+      "html"
+    ],
+    "title": "improved styling of `<details>` and `<summary>` elements",
+    "url": "Not a single spec, but a set of changes initially discussed in https://github.com/openui/open-ui/issues/744 and now moved to https://github.com/w3c/csswg-drafts/issues/9879 and https://github.com/whatwg/html/pull/10265 for the parts that belong in CSS and HTML respectively.",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/dbaron/details-styling",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/TBD",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1027",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/352",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Local Peer-to-Peer API",
+    "url": "https://wicg.github.io/local-peer-to-peer/",
+    "github": "https://github.com/WICG/local-peer-to-peer",
+    "issues": null,
+    "explainer": "https://github.com/WICG/local-peer-to-peer/blob/main/EXPLAINER.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/932",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1029",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/354",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Timing Info for ServiceWorker static routing API",
+    "url": "https://github.com/WICG/service-worker-static-routing-api/blob/main/resource-timing-api.md",
+    "github": "https://github.com/WICG/service-worker-static-routing-api",
+    "issues": null,
+    "explainer": "https://github.com/WICG/service-worker-static-routing-api/blob/main/resource-timing-api.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/958",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1031",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/355",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "security"
+    ],
+    "title": "Content Security Policy",
+    "url": "https://w3c.github.io/webappsec-csp/",
+    "github": "https://github.com/w3c/webappsec-csp/commit/844456655493197e60e7657cc11f8dfcb505372f",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1032",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/356",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "accessibility",
+      "html",
+      "web components"
+    ],
+    "title": "Reference Target for Cross-Root ARIA",
+    "url": "https://github.com/WICG/aom/blob/gh-pages/reference-target-explainer.md",
+    "github": "https://github.com/WICG/aom",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1035",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/358",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "VisibilityStateEntry",
+    "url": "https://html.spec.whatwg.org/multipage/interaction.html#the-visibilitystateentry-interface",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": "https://docs.google.com/document/d/1l5kHiJRkdQwEN-CYI5_mUNODhQVB5rCyjN4jHDdXDHA/edit#",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/534",
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/359",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "ServiceWorkerAutoPreload",
+    "url": "No spec yet. Please see the explainer.",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/explainers-by-googlers/service-worker-auto-preload",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/963",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1036",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/360",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "noopener-allow-popups value in COOP",
+    "url": "https://github.com/whatwg/html/pull/10394",
+    "github": "https://github.com/whatwg/html",
+    "issues": "https://github.com/whatwg/html/issues/10373",
+    "explainer": "https://github.com/whatwg/html/pull/10394#issue-2335131210",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/964",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1037",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=275147",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/361",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [],
+    "title": "Prioritized Task Scheduling",
+    "url": "https://wicg.github.io/scheduling-apis/",
+    "github": "https://github.com/wicg/scheduling-apis/",
+    "issues": null,
+    "explainer": "https://github.com/WICG/scheduling-apis/blob/main/explainers/prioritized-task-scheduling.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/967",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1039",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/362",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Scalable Vector Graphics 2 (or 1.1 or 1.1SE)",
+    "url": "https://svgwg.org/svg2-draft/painting.html#ColorInterpolation",
+    "github": "https://github.com/w3c/svgwg/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=234783",
     "radar": null
   }
 ]
