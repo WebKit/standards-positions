@@ -107,6 +107,7 @@ def process_body(issue):
 
     yaml_mapping = {
         "Title of the spec": "title",
+        "Title of the proposal": "title",
         "URL to the spec": "url",
         "URL to the spec's repository": "github",
         "Issue Tracker URL": "issues",
