@@ -5394,7 +5394,8 @@
     ],
     "concerns": [],
     "topics": [
-      "css"
+      "css",
+      "events"
     ],
     "title": "HTML: pagereveal event",
     "url": "https://html.spec.whatwg.org/#pagerevealevent",
@@ -6701,7 +6702,7 @@
     "venues": [],
     "concerns": [],
     "topics": [],
-    "title": "CSS Display 4",
+    "title": "CSS reading-flow",
     "url": "https://drafts.csswg.org/css-display-4/#reading-flow",
     "github": null,
     "issues": null,
@@ -6733,10 +6734,14 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/380",
-    "position": null,
+    "position": "blocked",
     "venues": [],
-    "concerns": [],
-    "topics": [],
+    "concerns": [
+      "privacy"
+    ],
+    "topics": [
+      "meaningful user consent"
+    ],
     "title": "Call stacks in crash reports from unresponsive web pages",
     "url": "https://wicg.github.io/crash-reporting",
     "github": "https://github.com/WICG/crash-reporting",
@@ -6769,7 +6774,7 @@
     "venues": [],
     "concerns": [],
     "topics": [],
-    "title": "CSS Conditional Rules Module Level 5",
+    "title": "CSS query container flat tree lookup",
     "url": "https://drafts.csswg.org/css-conditional-5/",
     "github": null,
     "issues": null,

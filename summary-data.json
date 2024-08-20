@@ -40452,6 +40452,15 @@
         "description": ""
       },
       {
+        "id": 4331626343,
+        "node_id": "LA_kwDOHk513M8AAAABAi9fZw",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20events",
+        "name": "topic: events",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to DOM events"
+      },
+      {
         "id": 4575933697,
         "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
@@ -40548,7 +40557,7 @@
     "milestone": null,
     "comments": 3,
     "created_at": "2024-01-11T19:52:06Z",
-    "updated_at": "2024-08-15T08:27:16Z",
+    "updated_at": "2024-08-20T12:26:21Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -48232,11 +48241,11 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-07-31T17:36:44Z",
-    "updated_at": "2024-07-31T17:39:15Z",
+    "updated_at": "2024-08-20T12:32:29Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n@annevk @fantasai\r\n\r\n### Title of the spec\r\n\r\nCSS Display 4\r\n\r\n### URL to the spec\r\n\r\nhttps://drafts.csswg.org/css-display-4/#reading-flow\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/dizhang168/reading-order-items\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1056\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThe CSS Working Group has resolved to add the new reading-flow property (https://github.com/w3c/csswg-drafts/issues/8589, [spec](https://drafts.csswg.org/css-display-4/#reading-flow)) to enable focus navigation in visual order for layout items that might not be displayed in source order (such as grid, flex and masonry items). Chromium is implementing the new property and opened a https://github.com/whatwg/html/issues/10407 on the needed HTML spec change.\r\n\r\nWe would like to seek Webkit's position on implementing the CSS property.\r\n\r\nFurther, we would like to get feedback on the suggested [HTML proposal](https://github.com/whatwg/html/issues/10407) and the open questions on `display: contents` (https://github.com/w3c/csswg-drafts/issues/9230, https://github.com/whatwg/html/issues/10533).",
+    "body": "### WebKittens\r\n\r\n@annevk @fantasai\r\n\r\n### Title of the spec\r\n\r\nCSS reading-flow\r\n\r\n### URL to the spec\r\n\r\nhttps://drafts.csswg.org/css-display-4/#reading-flow\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/dizhang168/reading-order-items\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1056\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThe CSS Working Group has resolved to add the new reading-flow property (https://github.com/w3c/csswg-drafts/issues/8589, [spec](https://drafts.csswg.org/css-display-4/#reading-flow)) to enable focus navigation in visual order for layout items that might not be displayed in source order (such as grid, flex and masonry items). Chromium is implementing the new property and opened a https://github.com/whatwg/html/issues/10407 on the needed HTML spec change.\r\n\r\nWe would like to seek Webkit's position on implementing the CSS property.\r\n\r\nFurther, we would like to get feedback on the suggested [HTML proposal](https://github.com/whatwg/html/issues/10407) and the open questions on `display: contents` (https://github.com/w3c/csswg-drafts/issues/9230, https://github.com/whatwg/html/issues/10533).",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/378/reactions",
       "total_count": 0,
@@ -48403,15 +48412,52 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278041952,
+        "node_id": "LA_kwDOHk513M7-_b1g",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/blocked",
+        "name": "blocked",
+        "color": "784f17",
+        "default": false,
+        "description": "Coming to a position is blocked on issues identified with the spec or proposal."
+      },
+      {
+        "id": 4278053339,
+        "node_id": "LA_kwDOHk513M7-_enb",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20privacy",
+        "name": "concerns: privacy",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "This proposal may cause privacy risk if implemented"
+      },
+      {
+        "id": 4488270373,
+        "node_id": "LA_kwDOHk513M8AAAABC4WSJQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20meaningful%20user%20consent",
+        "name": "topic: meaningful user consent",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Feature likely requires meaningful user consent to allow"
+      },
+      {
+        "id": 4575936941,
+        "node_id": "LA_kwDOHk513M8AAAABEL9BrQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Microsoft",
+        "name": "from: Microsoft",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Microsoft."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2024-08-07T17:29:41Z",
-    "updated_at": "2024-08-13T16:55:38Z",
+    "updated_at": "2024-08-20T12:46:40Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -48541,11 +48587,11 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2024-08-15T08:57:25Z",
-    "updated_at": "2024-08-15T11:06:20Z",
+    "updated_at": "2024-08-20T12:16:58Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\n\n@anttijk\n\n### Title of the spec\n\nCSS Conditional Rules Module Level 5\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-conditional-5/\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThere was a recent [change](https://github.com/w3c/csswg-drafts/pull/10701) to the specification for container queries in css-conditional-5 to look up the flat tree instead of shadow-including ancestors for query container candidates.\r\n\r\nThis matches the behavior that Gecko shipped.\r\n\r\nChromium wants to change the implementation to match the new spec.\r\n",
+    "body": "### WebKittens\r\n\r\n@anttijk\r\n\r\n### Title of the spec\r\n\r\nCSS query container flat tree lookup\r\n\r\n### URL to the spec\r\n\r\nhttps://drafts.csswg.org/css-conditional-5/\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\n_No response_\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThere was a recent [change](https://github.com/w3c/csswg-drafts/pull/10701) to the specification for container queries in css-conditional-5 to look up the flat tree instead of shadow-including ancestors for query container candidates.\r\n\r\nThis matches the behavior that Gecko shipped.\r\n\r\nChromium wants to change the implementation to match the new spec.\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/382/reactions",
       "total_count": 0,
