@@ -16,8 +16,8 @@ body:
   - type: input
     id: spec-title
     attributes:
-      label: "Title of the spec"
-      placeholder: "CSS Frobnication Module, Level 5"
+      label: "Title of the proposal"
+      placeholder: "CSS frobnication-aspect: 6"
     validations:
       required: true
   - type: input
