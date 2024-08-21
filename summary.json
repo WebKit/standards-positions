@@ -5565,7 +5565,7 @@
     "topics": [
       "css"
     ],
-    "title": "HTML",
+    "title": "HTML: the pageswap event",
     "url": "https://html.spec.whatwg.org/#the-pageswapevent-interface",
     "github": null,
     "issues": null,
@@ -6353,7 +6353,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "service workers"
+    ],
     "title": "ServiceWorkerAutoPreload",
     "url": "No spec yet. Please see the explainer.",
     "github": null,
@@ -6427,7 +6429,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "privacy"
+    ],
     "title": "Partitioning :visited links history",
     "url": null,
     "github": "https://github.com/kyraseevers/Partitioning-visited-links-history",
@@ -6611,7 +6615,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/373",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Web Authentication: JSON serialization",
@@ -6665,9 +6671,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/376",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "editing"
+    ],
     "title": "Selection API: getComposedRanges()",
     "url": "https://w3c.github.io/selection-api/#dom-selection-getcomposedranges",
     "github": "https://github.com/w3c/selection-api",
@@ -6699,9 +6709,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/378",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS reading-flow",
     "url": "https://drafts.csswg.org/css-display-4/#reading-flow",
     "github": null,
@@ -6787,8 +6801,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/383",
     "position": null,
-    "venues": [],
-    "concerns": [],
+    "venues": [
+      "Other"
+    ],
+    "concerns": [
+      "interoperability",
+      "dependencies"
+    ],
     "topics": [],
     "title": "Future browsing context group dependency hint",
     "url": "https://github.com/explainers-by-googlers/future-browsing-context-group-dependency-hint",
@@ -6797,6 +6816,22 @@
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/979",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1059",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/386",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Customizable select element",
+    "url": "https://github.com/whatwg/html/pull/10548",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": "https://open-ui.org/components/customizableselect/",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1060",
     "bugzilla": null,
     "radar": null
   }
