@@ -4074,8 +4074,8 @@
     "body": "## Request for position on an emerging web specification\r\n\r\n* WebKittens who can provide input: @pxlcoder \r\n\r\n### Information about the spec\r\n\r\n* Spec Title: Eyedropper API\r\n* Spec URL: https://wicg.github.io/eyedropper-api/\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: https://github.com/w3ctag/design-reviews/issues/587\r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/557\r\n\r\n### Bugs tracking this feature\r\n\r\n* WebKit Bugzilla: https://bugs.webkit.org/show_bug.cgi?id=229755\r\n* Radar: <rdar://problem/82862438>\r\n\r\nBrief summary of the issue or the subject of the spec.\r\nAPI that allows users to choose colors from anywhere on the screen",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/29/reactions",
-      "total_count": 7,
-      "+1": 7,
+      "total_count": 6,
+      "+1": 6,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -6607,8 +6607,8 @@
     "body": "## Request for position on an emerging web specification\r\n\r\n* WebKittens who can provide input: networking and TLS folks\r\n\r\n### Information about the spec\r\n\r\n* Spec Title: TLS Encrypted Client Hello\r\n* Spec URL: https://datatracker.ietf.org/doc/html/draft-ietf-tls-esni\r\n* GitHub repository: https://github.com/tlswg/draft-ietf-tls-esni\r\n\r\n### Anything else we need to know\r\n\r\nBrief summary of the issue or the subject of the spec.\r\n\r\nECH is a mechanism for encrypting the TLS ClientHello (which includes, among other things, the destination hostname) under a server public key.\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/46/reactions",
-      "total_count": 5,
-      "+1": 5,
+      "total_count": 6,
+      "+1": 6,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -24109,8 +24109,8 @@
     "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nCSS Anchor Positioning\r\n\r\n### URL to the spec\r\n\r\nhttps://drafts.csswg.org/css-anchor-position-1/\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\nhttps://github.com/w3c/csswg-drafts/labels/css-anchor-position-1\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/CSSAnchoredPositioning/explainer.md\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/794\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nNote: atm I am not sure of mozilla standards-position here, maybe I will find out later.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/167/reactions",
-      "total_count": 7,
-      "+1": 7,
+      "total_count": 8,
+      "+1": 8,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -27142,8 +27142,8 @@
     "body": "### WebKittens\n\n@marcoscaceres @dcrousso\n\n### Title of the spec\n\nIsolated Web Apps\n\n### URL to the spec\n\nhttps://github.com/WICG/isolated-web-apps/blob/main/README.md\n\n### URL to the spec's repository\n\nhttps://github.com/WICG/isolated-web-apps\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/842\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/799\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis proposal provides a way to build applications using web technologies that will have useful security properties unavailable to normal web pages. To enable stronger security these applications are packaged into Web Bundles, signed by their developer, and distributed to end-users through one or more of the potential methods described in the explainer.\r\n\r\nThe explainer is divided into 4 documents:\r\n\r\n* The [main explainer](https://github.com/WICG/isolated-web-apps/blob/main/README.md) covers the overall goals of the proposal.\r\n* The [scheme explainer](https://github.com/WICG/isolated-web-apps/blob/main/Scheme.md) covers the design of the proposed isolated-app:// scheme.\r\n* The [permissions explainer](https://github.com/WICG/isolated-web-apps/blob/main/Permissions.md) covers an addition to the Web Application Manifest which allows a minimum Permissions Policy to be applied to the entire application.\r\n* The [updates explainer](https://github.com/WICG/isolated-web-apps/blob/main/Updates.md) covers how applications will be updated.\r\n\r\nI introduced this proposal to @marcoscaceres and @dcrousso at TPAC 2022 and they asked me to request this standards position.\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/184/reactions",
-      "total_count": 3,
-      "+1": 3,
+      "total_count": 4,
+      "+1": 4,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -28319,6 +28319,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -28355,7 +28364,7 @@
         "description": "Spec relates to animation (including transitions)"
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "smfr",
@@ -28462,8 +28471,8 @@
     "milestone": null,
     "comments": 2,
     "created_at": "2023-05-30T08:02:04Z",
-    "updated_at": "2024-08-15T08:31:56Z",
-    "closed_at": null,
+    "updated_at": "2024-08-29T05:35:55Z",
+    "closed_at": "2024-08-29T05:35:55Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@nt1m @smfr \r\n\r\n### Title of the spec\r\n\r\nCSS View Transitions, Level 2\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/w3c/csswg-drafts\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/851\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/677\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis is an extension of #48, which is still pending a position.\r\nThe spec is not up yet, it's in early TAG review.",
@@ -28481,7 +28490,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/193/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/194",
@@ -35556,6 +35565,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278046994,
         "node_id": "LA_kwDOHk513M7-_dES",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20html",
@@ -35583,7 +35601,7 @@
         "description": ""
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "nt1m",
@@ -35650,11 +35668,11 @@
     "milestone": null,
     "comments": 19,
     "created_at": "2023-10-08T23:00:42Z",
-    "updated_at": "2024-08-20T14:35:23Z",
-    "closed_at": null,
+    "updated_at": "2024-08-29T17:34:45Z",
+    "closed_at": "2024-08-29T14:21:00Z",
     "author_association": "MEMBER",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n@nt1m, @annevk, @rniwa\r\n\r\n### Title of the spec\r\n\r\nInvokers\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/whatwg/html/pull/9841\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/openui/open-ui\r\n\r\n### Issue Tracker URL\r\n\r\nhttps://github.com/whatwg/html/issues/9625\r\n\r\n### Explainer URL\r\n\r\nhttps://open-ui.org/components/invokers.explainer/\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/920\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/902\r\n\r\n### WebKit Bugzilla URL\r\n\r\nhttps://bugs.webkit.org/show_bug.cgi?id=262840\r\n\r\n### Radar URL\r\n\r\nrdar://116960300\r\n\r\n### Description\r\n\r\nPlease can I get a standards position on the `commandfor`/`command`/`CommandEvent` part of the Invokers [proposal](https://open-ui.org/components/invokers.explainer/).",
+    "body": "### WebKittens\r\n\r\n@nt1m, @annevk, @rniwa\r\n\r\n### Title of the spec\r\n\r\nHTML: command and commandfor attributes\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/whatwg/html/pull/9841\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/openui/open-ui\r\n\r\n### Issue Tracker URL\r\n\r\nhttps://github.com/whatwg/html/issues/9625\r\n\r\n### Explainer URL\r\n\r\nhttps://open-ui.org/components/invokers.explainer/\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/920\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/902\r\n\r\n### WebKit Bugzilla URL\r\n\r\nhttps://bugs.webkit.org/show_bug.cgi?id=262840\r\n\r\n### Radar URL\r\n\r\nrdar://116960300\r\n\r\n### Description\r\n\r\nPlease can I get a standards position on the `commandfor`/`command`/`CommandEvent` part of the Invokers [proposal](https://open-ui.org/components/invokers.explainer/).",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/264/reactions",
       "total_count": 2,
@@ -35669,7 +35687,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/264/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/265",
@@ -35823,6 +35841,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4281727357,
         "node_id": "LA_kwDOHk513M7_Nfl9",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20CSS%20WG",
@@ -35850,15 +35877,15 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 5,
     "created_at": "2023-10-12T18:15:41Z",
-    "updated_at": "2024-08-15T08:29:14Z",
-    "closed_at": null,
+    "updated_at": "2024-08-29T05:28:51Z",
+    "closed_at": "2024-08-29T05:28:51Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\n\n_No response_\n\n### Title of the spec\n\nView Transitions, Level 2 (list of types)\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-pseudo\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts/\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/vmpstr/web-proposals/blob/main/explainers/view-transition-types.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/908\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/905\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nView Transitions Module Level 2 has a number of new features being worked on in parallel. This particular issue is about the \"list of types\" component which allows developers to specify types when calling startViewTransition. The initial issue that spawned this spec change is https://github.com/w3c/csswg-drafts/issues/8960\r\n\r\nIn short, it's an ability for developers to specify \"types\" of transition when calling `startViewTransition`, and be able to style their page based on which type of a transition is currently active.",
@@ -35876,7 +35903,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/266/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/267",
@@ -38452,6 +38479,15 @@
     },
     "labels": [
       {
+        "id": 4278043765,
+        "node_id": "LA_kwDOHk513M7-_cR1",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20oppose",
+        "name": "position: oppose",
+        "color": "e40303",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4281709419,
         "node_id": "LA_kwDOHk513M7_NbNr",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
@@ -38479,7 +38515,7 @@
         "description": "Proposed, edited, or co-edited by Igalia."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "smfr",
@@ -38546,8 +38582,8 @@
     "milestone": null,
     "comments": 7,
     "created_at": "2023-12-12T22:37:51Z",
-    "updated_at": "2024-08-20T11:36:31Z",
-    "closed_at": null,
+    "updated_at": "2024-08-30T08:51:53Z",
+    "closed_at": "2024-08-30T08:51:53Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@annevk @smfr\r\n\r\n### Title of the spec\r\n\r\nwindow.onmove\r\n\r\n### URL to the spec\r\n\r\nhttps://html.spec.whatwg.org/multipage/webappapis.html#event-handlers-on-elements,-document-objects,-and-window-objects\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/whatwg/html\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/Igalia/explainers/blob/main/onmove-event-handler/README.md\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/938\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThe main goal of this feature is to provide web authors a mechanism to track and control the position of the Window object.\r\n\r\nThe feature would probably involve both, the HTML spec and the CSSOM View Module which defines the Window's [attributes exposed](https://drafts.csswg.org/cssom-view/#extensions-to-the-window-interface) to describe its size and position.\r\n\r\nThere is an ongoing discussion in the [CSS issue 7693](https://github.com/w3c/csswg-drafts/issues/7693) about potential approaches for its implementation and the most appropriated standard venue.\r\n\r\n",
@@ -38565,7 +38601,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/289/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/290",
@@ -38968,9 +39004,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2023-12-23T11:01:19Z",
-    "updated_at": "2024-08-19T15:53:59Z",
+    "updated_at": "2024-08-21T23:19:06Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "active_lock_reason": null,
@@ -40484,6 +40520,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -40520,7 +40565,7 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "mattwoodrow",
@@ -40607,8 +40652,8 @@
     "milestone": null,
     "comments": 3,
     "created_at": "2024-01-11T19:52:06Z",
-    "updated_at": "2024-08-20T12:26:21Z",
-    "closed_at": null,
+    "updated_at": "2024-08-29T05:29:01Z",
+    "closed_at": "2024-08-29T05:29:01Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@nt1m\r\n\r\n### Title of the spec\r\n\r\nHTML: pagereveal event\r\n\r\n### URL to the spec\r\n\r\nhttps://html.spec.whatwg.org/#pagerevealevent\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/whatwg/html/\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md#javascript-api\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/851\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/677\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis event is a dependency of the CSS View Transitions Level 2 spec ([Webkit Position Issue](https://github.com/WebKit/standards-positions/issues/302)).\r\n\r\nThere was significant review and technical debate on https://github.com/whatwg/html/issues/9315 and spec changes were accepted into HTML.\r\n\r\nThe TAG review and Explainer both point to the larger CSS View Transitions Level 2 items which included this event as part of the design (then called `reveal`).",
@@ -40626,7 +40671,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/303/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/304",
@@ -41562,6 +41607,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -41589,7 +41643,7 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "mattwoodrow",
@@ -41636,8 +41690,8 @@
     "milestone": null,
     "comments": 2,
     "created_at": "2024-02-02T21:27:54Z",
-    "updated_at": "2024-08-21T06:18:29Z",
-    "closed_at": null,
+    "updated_at": "2024-08-29T05:29:12Z",
+    "closed_at": "2024-08-29T05:29:12Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@nt1m\r\n\r\n### Title of the spec\r\n\r\nHTML: the pageswap event\r\n\r\n### URL to the spec\r\n\r\nhttps://html.spec.whatwg.org/#the-pageswapevent-interface\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md#pageconceal\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/851\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/969\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis event is a dependency of the CSS View Transitions Level 2 spec (https://github.com/WebKit/standards-positions/issues/302). See https://github.com/whatwg/html/issues/9702 and the explainer for the motivation for this event.\r\n\r\nFiling a separate RFP since the event is also fired outside the scope of ViewTransitions and can be implemented independently.",
@@ -41655,7 +41709,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/313/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/314",
@@ -42339,11 +42393,11 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2024-02-22T16:42:31Z",
-    "updated_at": "2024-06-21T23:11:37Z",
+    "updated_at": "2024-08-29T16:26:24Z",
     "closed_at": "2024-06-21T23:11:37Z",
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\n\n@nt1m\n\n### Title of the spec\n\nView Transitions, Level 2 (view-transition-class)\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-view-transitions-2/#view-transition-class-prop\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts/\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/vmpstr/web-proposals/blob/main/explainers/view-transition-classes.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/938\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/988\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis feature introduces a new CSS property view-transition-class which allows the developer to specify one or more view transition classes. The developer can then select the ViewTransition pseudo elements using these classes (e.g. `::view-transition-group(*.class)`).\r\n\r\nThis is an extension to the ViewTransition API that simplifies styling of view transition pseudo elements in a similar way that CSS classes simplify styling of regular DOM elements.",
+    "body": "### WebKittens\r\n\r\n@nt1m\r\n\r\n### Title of the spec\r\n\r\nView Transition Classes\r\n\r\n### URL to the spec\r\n\r\nhttps://drafts.csswg.org/css-view-transitions-2/#view-transition-class-prop\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/w3c/csswg-drafts/\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/vmpstr/web-proposals/blob/main/explainers/view-transition-classes.md\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/938\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/988\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis feature introduces a new CSS property view-transition-class which allows the developer to specify one or more view transition classes. The developer can then select the ViewTransition pseudo elements using these classes (e.g. `::view-transition-group(*.class)`).\r\n\r\nThis is an extension to the ViewTransition API that simplifies styling of view transition pseudo elements in a similar way that CSS classes simplify styling of regular DOM elements.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/321/reactions",
       "total_count": 0,
@@ -45745,13 +45799,13 @@
     "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nCSS calc-size() function\r\n\r\n### URL to the spec\r\n\r\nhttps://drafts.csswg.org/css-values-5/#calc-size\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/w3c/csswg-drafts/issues\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/w3c/csswg-drafts/blob/main/css-values-5/calc-size-explainer.md\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/955\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1022\r\n\r\n### WebKit Bugzilla URL\r\n\r\nhttps://bugs.webkit.org/show_bug.cgi?id=274177\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nAnimation to or from auto heights is commonly requested by web developers. It is important for animation of elements (such as the contents of disclosure widgets) opening/closing between a content-based height (or width) and a small (often zero) height (or width). This `calc-size()` proposal fits the desire to do such animations into the way that CSS transitions and animations work. More generally, this allows animating between a fixed length and almost any type of height (or width, or min/max-height/width) that can currently be specified in CSS.\r\n\r\nThe CSS `interpolate-size` property allows a page to opt in to animations and transitions of CSS intrinsic sizing keywords such as auto, min-content, fit-content, etc., in the cases where we can animate those keywords.\r\n\r\nThe CSS `calc-size()` function is a CSS function similar to `calc()`, but that also supports operations on exactly one of the values `auto`, `min-content`, `max-content`, `fit-content`, `stretch`, or `contain`, which are the intrinsic sizing keywords.  This function is used to represent the values in the middle of the animations allowed by the interpolate-size property.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/348/reactions",
-      "total_count": 26,
-      "+1": 25,
+      "total_count": 32,
+      "+1": 29,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
-      "heart": 1,
+      "heart": 3,
       "rocket": 0,
       "eyes": 0
     },
@@ -47038,9 +47092,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 2,
+    "comments": 3,
     "created_at": "2024-06-12T19:35:54Z",
-    "updated_at": "2024-08-20T13:37:21Z",
+    "updated_at": "2024-08-21T23:52:54Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -47110,11 +47164,11 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-06-18T12:13:05Z",
-    "updated_at": "2024-06-30T11:54:43Z",
+    "updated_at": "2024-08-21T23:48:40Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n@youennf\r\n\r\n### Title of the spec\r\n\r\nMedia Capture and Streams Extensions\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/w3c/mediacapture-extensions/pull/142\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/riju/backgroundBlur/blob/main/explainer.md#background-segmentation-mask-api\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1041\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\n[ChromeStatus entry](https://chromestatus.com/feature/5187283610501120)\r\nVery similar to [BG Blur ]( https://github.com/WebKit/standards-positions/issues/5) with a few [differences](https://github.com/riju/backgroundBlur/blob/main/explainer.md#blur-vs-mask) \r\nPossible use cases : Background Replacement, Green Screen, [Demo](https://github.com/riju/backgroundBlur/blob/main/explainer.md#demo)\r\n",
+    "body": "### WebKittens\r\n\r\n@youennf @jyavenard \r\n\r\n### Title of the spec\r\n\r\nMedia Capture and Streams Extensions\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/w3c/mediacapture-extensions/pull/142\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/riju/backgroundBlur/blob/main/explainer.md#background-segmentation-mask-api\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1041\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\n[ChromeStatus entry](https://chromestatus.com/feature/5187283610501120)\r\nVery similar to [BG Blur ]( https://github.com/WebKit/standards-positions/issues/5) with a few [differences](https://github.com/riju/backgroundBlur/blob/main/explainer.md#blur-vs-mask) \r\nPossible use cases : Background Replacement, Green Screen, [Demo](https://github.com/riju/backgroundBlur/blob/main/explainer.md#demo)\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/364/reactions",
       "total_count": 0,
@@ -47164,6 +47218,15 @@
     },
     "labels": [
       {
+        "id": 4278032572,
+        "node_id": "LA_kwDOHk513M7-_Zi8",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/invalid",
+        "name": "invalid",
+        "color": "750787",
+        "default": true,
+        "description": "Not an actionable request"
+      },
+      {
         "id": 4278046162,
         "node_id": "LA_kwDOHk513M7-_c3S",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20authentication",
@@ -47182,18 +47245,18 @@
         "description": ""
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2024-06-18T23:52:20Z",
-    "updated_at": "2024-06-30T11:54:29Z",
-    "closed_at": null,
+    "updated_at": "2024-08-22T06:25:25Z",
+    "closed_at": "2024-08-21T23:48:08Z",
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\n\nPascoe\n\n### Title of the spec\n\nWeb Authentication\n\n### URL to the spec\n\nhttps://w3c.github.io/webauthn/#enum-hints\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/webauthn\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1043\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\np.s. just asking about the [`hints` parameter](https://w3c.github.io/webauthn/#enum-hints) in WebAuthn, not the whole spec. Chromium wishes to ship it.",
+    "body": "### WebKittens\r\n\r\n@pascoej \r\n\r\n### Title of the spec\r\n\r\nWeb Authentication\r\n\r\n### URL to the spec\r\n\r\nhttps://w3c.github.io/webauthn/#enum-hints\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/w3c/webauthn\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1043\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\np.s. just asking about the [`hints` parameter](https://w3c.github.io/webauthn/#enum-hints) in WebAuthn, not the whole spec. Chromium wishes to ship it.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/365/reactions",
       "total_count": 0,
@@ -47208,7 +47271,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/365/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/366",
@@ -47326,13 +47389,13 @@
       }
     ],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2024-06-20T08:43:17Z",
-    "updated_at": "2024-08-20T11:37:34Z",
+    "updated_at": "2024-08-21T23:45:37Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nCSS Fragmentation\r\n\r\n### URL to the spec\r\n\r\nhttps://drafts.csswg.org/css-break/#break-decoration\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\n_No response_\r\n\r\n### WebKit Bugzilla URL\r\n\r\nhttps://bugs.webkit.org/show_bug.cgi?id=144249\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis is already shipping in Gecko.\r\n\r\nAs for WebKit and Blink, there's only -webkit-box-decoration-break, and it (i.e. the value 'clone') only works if used on inlines in an inline formatting context.\r\n\r\nWe also want this in block fragmentation (multicol / pagination), and without having to use the -webkit- prefix.\r\n\r\nSee https://chromestatus.com/feature/5162398704205824",
+    "body": "### WebKittens\r\n\r\n@anttijk @alanbaradlay \r\n\r\n### Title of the spec\r\n\r\nCSS Fragmentation\r\n\r\n### URL to the spec\r\n\r\nhttps://drafts.csswg.org/css-break/#break-decoration\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\n_No response_\r\n\r\n### WebKit Bugzilla URL\r\n\r\nhttps://bugs.webkit.org/show_bug.cgi?id=144249\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis is already shipping in Gecko.\r\n\r\nAs for WebKit and Blink, there's only -webkit-box-decoration-break, and it (i.e. the value 'clone') only works if used on inlines in an inline formatting context.\r\n\r\nWe also want this in block fragmentation (multicol / pagination), and without having to use the -webkit- prefix.\r\n\r\nSee https://chromestatus.com/feature/5162398704205824",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/366/reactions",
       "total_count": 1,
@@ -47380,16 +47443,26 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
-    "state": "open",
+    "labels": [
+      {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      }
+    ],
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2024-06-24T13:28:57Z",
-    "updated_at": "2024-08-20T12:03:33Z",
-    "closed_at": null,
+    "updated_at": "2024-08-27T15:39:00Z",
+    "closed_at": "2024-08-27T15:39:00Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nSVG favicons\r\n\r\n### URL to the spec\r\n\r\nhttps://html.spec.whatwg.org/multipage/links.html#rel-icon\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\n_No response_\r\n\r\n### WebKit Bugzilla URL\r\n\r\nhttps://bugs.webkit.org/show_bug.cgi?id=136059\r\n\r\n### Radar URL\r\n\r\nrdar://5697363\r\n\r\n### Description\r\n\r\nhttps://caniuse.com/?search=svg%20favicon\r\n\r\nBrowsers:\r\nChrome/Edge: Support\r\nFirefox: Support",
@@ -47407,7 +47480,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/367/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/368",
@@ -47692,13 +47765,13 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 2,
+    "comments": 3,
     "created_at": "2024-07-01T15:56:01Z",
-    "updated_at": "2024-07-08T22:28:56Z",
+    "updated_at": "2024-08-21T23:37:31Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n@cookiecrook\r\n\r\n### Title of the spec\r\n\r\nARIA Notify\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/w3c/aria/pull/2211\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/w3c/aria\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/WICG/accessible-notifications\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/713\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1049\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis proposal adds a new method to `Element` called `ariaNotify` which will leverage new a11y APIs to allow fine-grained control of notifications to AT. \r\n\r\nIt is being actively prototyped in Chrome, developed within Microsoft.",
+    "body": "### WebKittens\r\n\r\n@cookiecrook @twilco \r\n\r\n### Title of the spec\r\n\r\nARIA Notify\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/w3c/aria/pull/2211\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/w3c/aria\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/WICG/accessible-notifications\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/713\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1049\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis proposal adds a new method to `Element` called `ariaNotify` which will leverage new a11y APIs to allow fine-grained control of notifications to AT. \r\n\r\nIt is being actively prototyped in Chrome, developed within Microsoft.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/370/reactions",
       "total_count": 0,
@@ -47746,7 +47819,17 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 5849385481,
+        "node_id": "LA_kwDOHk513M8AAAABXKaKCQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20Browser%20Tools%20&%20Testing",
+        "name": "venue: W3C Browser Tools & Testing",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -47754,7 +47837,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2024-07-03T12:47:24Z",
-    "updated_at": "2024-07-03T13:13:07Z",
+    "updated_at": "2024-08-21T23:35:59Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -47927,6 +48010,15 @@
     },
     "labels": [
       {
+        "id": 4278032572,
+        "node_id": "LA_kwDOHk513M7-_Zi8",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/invalid",
+        "name": "invalid",
+        "color": "750787",
+        "default": true,
+        "description": "Not an actionable request"
+      },
+      {
         "id": 5302854633,
         "node_id": "LA_kwDOHk513M8AAAABPBMj6Q",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20Web%20Authentication%20WG",
@@ -47936,15 +48028,15 @@
         "description": ""
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2024-07-15T17:05:56Z",
-    "updated_at": "2024-08-20T13:36:59Z",
-    "closed_at": null,
+    "updated_at": "2024-08-22T06:27:02Z",
+    "closed_at": "2024-08-21T23:28:32Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@pascoej\r\n\r\n### Title of the spec\r\n\r\nWeb Authentication: JSON serialization\r\n\r\n### URL to the spec\r\n\r\nhttps://w3c.github.io/webauthn/#ref-for-dom-publickeycredential-tojson\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/w3c/webauthn\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/w3c/webauthn/wiki/Explainer:-JSON-Serialization-Methods\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\n(shipped)\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nOnly inquiring about the [PublicKeyCredential.parseCreationOptionsFromJSON()](https://w3c.github.io/webauthn/#sctn-parseCreationOptionsFromJSON), [PublicKeyCredential.parseRequestOptionsFromJSON()](https://w3c.github.io/webauthn/#sctn-parseRequestOptionsFromJSON) and [PublicKeyCredential.toJSON()](https://w3c.github.io/webauthn/#dom-publickeycredential-tojson) methods.\r\n\r\nFirefox has already shipped these. Chrome is planning to ship: https://chromestatus.com/feature/5141695044255744?gate=6322764007342080",
@@ -47962,7 +48054,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/373/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/374",
@@ -48105,16 +48197,56 @@
     ],
     "state": "open",
     "locked": false,
-    "assignee": null,
-    "assignees": [],
+    "assignee": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "annevk",
+        "id": 1544111,
+        "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/annevk",
+        "html_url": "https://github.com/annevk",
+        "followers_url": "https://api.github.com/users/annevk/followers",
+        "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+        "organizations_url": "https://api.github.com/users/annevk/orgs",
+        "repos_url": "https://api.github.com/users/annevk/repos",
+        "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/annevk/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2024-07-23T10:39:31Z",
-    "updated_at": "2024-08-20T12:12:42Z",
+    "updated_at": "2024-08-30T08:56:19Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n@annevk\r\n\r\n### Title of the spec\r\n\r\nDOM: Node.prototype.moveBefore\r\n\r\n### URL to the spec\r\n\r\nhttps://dom.spec.whatwg.org/\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/whatwg/dom\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/noamr/dom/blob/spm-explainer/moveBefore-explainer.md\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/976\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1053\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nWe're proposing a new DOM primitive, `Node.prototype.moveBefore`, a drop-in replacement for `Node.prototype.insertBefore\u00a7, that allows moving elements in a node tree without incurring state-resets. See details at the explainer and at https://github.com/whatwg/dom/issues/1255. Would love to shape this together with WebKit + Mozilla.",
+    "body": "### WebKittens\r\n\r\n@annevk\r\n\r\n### Title of the spec\r\n\r\nDOM: Node.prototype.moveBefore\r\n\r\n### URL to the spec\r\n\r\nhttps://dom.spec.whatwg.org/\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/whatwg/dom\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/noamr/dom/blob/spm-explainer/moveBefore-explainer.md\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/976\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1053\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nWe're proposing a new DOM primitive, `Node.prototype.moveBefore`, a drop-in replacement for `Node.prototype.insertBefore`, that allows moving elements in a node tree without incurring state-resets. See details at the explainer and at https://github.com/whatwg/dom/issues/1255. Would love to shape this together with WebKit + Mozilla.",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/375/reactions",
       "total_count": 1,
@@ -48189,11 +48321,11 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-07-26T16:30:04Z",
-    "updated_at": "2024-08-20T13:36:46Z",
+    "updated_at": "2024-08-21T23:24:36Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n@annevk @rniwa\r\n\r\n### Title of the spec\r\n\r\nSelection API: getComposedRanges()\r\n\r\n### URL to the spec\r\n\r\nhttps://w3c.github.io/selection-api/#dom-selection-getcomposedranges\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/w3c/selection-api\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/mfreed7/shadow-dom-selection\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1055\r\n\r\n### WebKit Bugzilla URL\r\n\r\nhttps://bugs.webkit.org/show_bug.cgi?id=251997\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nCurrent [getComposedRanges]( https://w3c.github.io/selection-api/#dom-selection-getcomposedranges) API has single shadowRoots parameter which is a rest parameter. We propose changing it to a dictionary that contains an array of shadow roots to be consistent with other shadow DOM API:\r\n- [getHTML()](https://html.spec.whatwg.org/#gethtmloptions)\r\n- [caretPositionFromPoint()](https://drafts.csswg.org/cssom-view/#dictdef-caretpositionfrompointoptions)\r\n\r\nWe would also like to add `selectionRoot`. This argument \"scopes\" the selection, so that the returned selection endpoints are always descendants of element.\r\n\r\nProposed change:\r\n```\r\nsequence<StaticRange> getComposedRanges(optional GetComposedRangesOptions options = {});\r\n\r\ndictionary GetComposedRangesOptions {\r\n  sequence<ShadowRoot> shadowRoots = [];\r\n  ShadowRoot selectionRoot;\r\n};\r\n```\r\n\r\nFurther, we need to re-evaluate API changes for the Range and StaticRange interface, to support nodes in different tree. Either we need to update existing definitions or we might need to add new interfaces. Help us resolve these discussions.\r\n\r\nSee:\r\nChanges to Range, StaticRange: https://github.com/w3c/selection-api/issues/169\r\nChange getComposedRanges\u2019 parameter to a dictionary: https://github.com/w3c/selection-api/issues/176\r\nChange getComposedRanges to have selectionRoot parameter: https://github.com/w3c/selection-api/issues/180\r\nMain: https://github.com/w3c/selection-api/issues/161",
+    "body": "### WebKittens\r\n\r\n@annevk @rniwa @whsieh \r\n\r\n### Title of the spec\r\n\r\nSelection API: getComposedRanges()\r\n\r\n### URL to the spec\r\n\r\nhttps://w3c.github.io/selection-api/#dom-selection-getcomposedranges\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/w3c/selection-api\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/mfreed7/shadow-dom-selection\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1055\r\n\r\n### WebKit Bugzilla URL\r\n\r\nhttps://bugs.webkit.org/show_bug.cgi?id=251997\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nCurrent [getComposedRanges]( https://w3c.github.io/selection-api/#dom-selection-getcomposedranges) API has single shadowRoots parameter which is a rest parameter. We propose changing it to a dictionary that contains an array of shadow roots to be consistent with other shadow DOM API:\r\n- [getHTML()](https://html.spec.whatwg.org/#gethtmloptions)\r\n- [caretPositionFromPoint()](https://drafts.csswg.org/cssom-view/#dictdef-caretpositionfrompointoptions)\r\n\r\nWe would also like to add `selectionRoot`. This argument \"scopes\" the selection, so that the returned selection endpoints are always descendants of element.\r\n\r\nProposed change:\r\n```\r\nsequence<StaticRange> getComposedRanges(optional GetComposedRangesOptions options = {});\r\n\r\ndictionary GetComposedRangesOptions {\r\n  sequence<ShadowRoot> shadowRoots = [];\r\n  ShadowRoot selectionRoot;\r\n};\r\n```\r\n\r\nFurther, we need to re-evaluate API changes for the Range and StaticRange interface, to support nodes in different tree. Either we need to update existing definitions or we might need to add new interfaces. Help us resolve these discussions.\r\n\r\nSee:\r\nChanges to Range, StaticRange: https://github.com/w3c/selection-api/issues/169\r\nChange getComposedRanges\u2019 parameter to a dictionary: https://github.com/w3c/selection-api/issues/176\r\nChange getComposedRanges to have selectionRoot parameter: https://github.com/w3c/selection-api/issues/180\r\nMain: https://github.com/w3c/selection-api/issues/161",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/376/reactions",
       "total_count": 0,
@@ -48242,6 +48374,15 @@
       "site_admin": false
     },
     "labels": [
+      {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
       {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
@@ -48297,9 +48438,9 @@
       }
     ],
     "milestone": null,
-    "comments": 0,
+    "comments": 2,
     "created_at": "2024-07-29T17:29:12Z",
-    "updated_at": "2024-07-29T17:34:17Z",
+    "updated_at": "2024-08-22T20:38:07Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -48373,16 +48514,56 @@
     ],
     "state": "open",
     "locked": false,
-    "assignee": null,
-    "assignees": [],
+    "assignee": {
+      "login": "fantasai",
+      "id": 725717,
+      "node_id": "MDQ6VXNlcjcyNTcxNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/725717?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fantasai",
+      "html_url": "https://github.com/fantasai",
+      "followers_url": "https://api.github.com/users/fantasai/followers",
+      "following_url": "https://api.github.com/users/fantasai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fantasai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fantasai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fantasai/subscriptions",
+      "organizations_url": "https://api.github.com/users/fantasai/orgs",
+      "repos_url": "https://api.github.com/users/fantasai/repos",
+      "events_url": "https://api.github.com/users/fantasai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fantasai/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "fantasai",
+        "id": 725717,
+        "node_id": "MDQ6VXNlcjcyNTcxNw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/725717?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/fantasai",
+        "html_url": "https://github.com/fantasai",
+        "followers_url": "https://api.github.com/users/fantasai/followers",
+        "following_url": "https://api.github.com/users/fantasai/following{/other_user}",
+        "gists_url": "https://api.github.com/users/fantasai/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/fantasai/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/fantasai/subscriptions",
+        "organizations_url": "https://api.github.com/users/fantasai/orgs",
+        "repos_url": "https://api.github.com/users/fantasai/repos",
+        "events_url": "https://api.github.com/users/fantasai/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/fantasai/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
     "milestone": null,
     "comments": 0,
     "created_at": "2024-07-31T17:36:44Z",
-    "updated_at": "2024-08-20T13:36:34Z",
+    "updated_at": "2024-08-21T23:22:52Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n@annevk @fantasai\r\n\r\n### Title of the spec\r\n\r\nCSS reading-flow\r\n\r\n### URL to the spec\r\n\r\nhttps://drafts.csswg.org/css-display-4/#reading-flow\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/dizhang168/reading-order-items\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1056\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThe CSS Working Group has resolved to add the new reading-flow property (https://github.com/w3c/csswg-drafts/issues/8589, [spec](https://drafts.csswg.org/css-display-4/#reading-flow)) to enable focus navigation in visual order for layout items that might not be displayed in source order (such as grid, flex and masonry items). Chromium is implementing the new property and opened a https://github.com/whatwg/html/issues/10407 on the needed HTML spec change.\r\n\r\nWe would like to seek Webkit's position on implementing the CSS property.\r\n\r\nFurther, we would like to get feedback on the suggested [HTML proposal](https://github.com/whatwg/html/issues/10407) and the open questions on `display: contents` (https://github.com/w3c/csswg-drafts/issues/9230, https://github.com/whatwg/html/issues/10533).",
+    "body": "### WebKittens\r\n\r\n@annevk @fantasai @jensimmons \r\n\r\n### Title of the spec\r\n\r\nCSS reading-flow\r\n\r\n### URL to the spec\r\n\r\nhttps://drafts.csswg.org/css-display-4/#reading-flow\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/dizhang168/reading-order-items\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1056\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThe CSS Working Group has resolved to add the new reading-flow property (https://github.com/w3c/csswg-drafts/issues/8589, [spec](https://drafts.csswg.org/css-display-4/#reading-flow)) to enable focus navigation in visual order for layout items that might not be displayed in source order (such as grid, flex and masonry items). Chromium is implementing the new property and opened a https://github.com/whatwg/html/issues/10407 on the needed HTML spec change.\r\n\r\nWe would like to seek Webkit's position on implementing the CSS property.\r\n\r\nFurther, we would like to get feedback on the suggested [HTML proposal](https://github.com/whatwg/html/issues/10407) and the open questions on `display: contents` (https://github.com/w3c/csswg-drafts/issues/9230, https://github.com/whatwg/html/issues/10533).",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/378/reactions",
       "total_count": 0,
@@ -48431,6 +48612,15 @@
       "site_admin": false
     },
     "labels": [
+      {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
       {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
@@ -48495,9 +48685,9 @@
       }
     ],
     "milestone": null,
-    "comments": 0,
+    "comments": 2,
     "created_at": "2024-08-06T01:28:19Z",
-    "updated_at": "2024-08-20T12:09:41Z",
+    "updated_at": "2024-08-22T20:37:19Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -48646,15 +48836,25 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2024-08-09T09:26:37Z",
-    "updated_at": "2024-08-09T09:30:08Z",
+    "updated_at": "2024-08-21T23:20:10Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -48717,15 +48917,15 @@
         "description": ""
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2024-08-15T08:57:25Z",
-    "updated_at": "2024-08-20T12:16:58Z",
-    "closed_at": null,
+    "updated_at": "2024-08-21T23:13:15Z",
+    "closed_at": "2024-08-21T23:13:15Z",
     "author_association": "NONE",
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@anttijk\r\n\r\n### Title of the spec\r\n\r\nCSS query container flat tree lookup\r\n\r\n### URL to the spec\r\n\r\nhttps://drafts.csswg.org/css-conditional-5/\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\n_No response_\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThere was a recent [change](https://github.com/w3c/csswg-drafts/pull/10701) to the specification for container queries in css-conditional-5 to look up the flat tree instead of shadow-including ancestors for query container candidates.\r\n\r\nThis matches the behavior that Gecko shipped.\r\n\r\nChromium wants to change the implementation to match the new spec.\r\n",
@@ -48743,7 +48943,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/382/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/383",
@@ -48819,9 +49019,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 4,
     "created_at": "2024-08-15T16:34:37Z",
-    "updated_at": "2024-08-20T14:18:16Z",
+    "updated_at": "2024-08-22T23:43:09Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -48951,21 +49151,210 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      },
+      {
+        "id": 4671960406,
+        "node_id": "LA_kwDOHk513M8AAAABFnh1Vg",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20Open%20UI%20CG",
+        "name": "venue: Open UI CG",
+        "color": "0052CC",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
-    "assignee": null,
-    "assignees": [],
+    "assignee": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "annevk",
+        "id": 1544111,
+        "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/annevk",
+        "html_url": "https://github.com/annevk",
+        "followers_url": "https://api.github.com/users/annevk/followers",
+        "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+        "organizations_url": "https://api.github.com/users/annevk/orgs",
+        "repos_url": "https://api.github.com/users/annevk/repos",
+        "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/annevk/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      {
+        "login": "pxlcoder",
+        "id": 1904138,
+        "node_id": "MDQ6VXNlcjE5MDQxMzg=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1904138?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pxlcoder",
+        "html_url": "https://github.com/pxlcoder",
+        "followers_url": "https://api.github.com/users/pxlcoder/followers",
+        "following_url": "https://api.github.com/users/pxlcoder/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pxlcoder/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pxlcoder/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pxlcoder/subscriptions",
+        "organizations_url": "https://api.github.com/users/pxlcoder/orgs",
+        "repos_url": "https://api.github.com/users/pxlcoder/repos",
+        "events_url": "https://api.github.com/users/pxlcoder/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pxlcoder/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
     "milestone": null,
     "comments": 0,
     "created_at": "2024-08-20T21:19:31Z",
-    "updated_at": "2024-08-20T21:19:49Z",
+    "updated_at": "2024-08-21T23:11:48Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
-    "body": "### WebKittens\r\n\r\n@annevk\r\n\r\n### Title of the proposal\r\n\r\nCustomizable select element\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/whatwg/html/pull/10548\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/whatwg/html\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://open-ui.org/components/customizableselect/\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1060\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThe customizable select element is a new content model for select with a new CSS property, appearance:base, to render it using regular web content like anchor positioning and popover.\r\n",
+    "body": "### WebKittens\r\n\r\n@annevk @pxlcoder\r\n### Title of the proposal\r\n\r\nCustomizable select element\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/whatwg/html/pull/10548\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/whatwg/html\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://open-ui.org/components/customizableselect/\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1060\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThe customizable select element is a new content model for select with a new CSS property, appearance:base, to render it using regular web content like anchor positioning and popover.\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/386/reactions",
+      "total_count": 2,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/386/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/387",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/387/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/387/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/387/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/387",
+    "id": 2479408922,
+    "node_id": "I_kwDOHk513M6TyMca",
+    "number": 387,
+    "title": "Add step for WebKit folks to file a bug on support",
+    "user": {
+      "login": "marcoscaceres",
+      "id": 870154,
+      "node_id": "MDQ6VXNlcjg3MDE1NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/870154?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marcoscaceres",
+      "html_url": "https://github.com/marcoscaceres",
+      "followers_url": "https://api.github.com/users/marcoscaceres/followers",
+      "following_url": "https://api.github.com/users/marcoscaceres/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marcoscaceres/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marcoscaceres/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marcoscaceres/subscriptions",
+      "organizations_url": "https://api.github.com/users/marcoscaceres/orgs",
+      "repos_url": "https://api.github.com/users/marcoscaceres/repos",
+      "events_url": "https://api.github.com/users/marcoscaceres/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marcoscaceres/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 4285118482,
+        "node_id": "LA_kwDOHk513M7_abgS",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/meta",
+        "name": "meta",
+        "color": "000000",
+        "default": false,
+        "description": "For issues about this repo"
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": {
+      "login": "hober",
+      "id": 6235,
+      "node_id": "MDQ6VXNlcjYyMzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6235?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hober",
+      "html_url": "https://github.com/hober",
+      "followers_url": "https://api.github.com/users/hober/followers",
+      "following_url": "https://api.github.com/users/hober/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hober/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hober/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hober/subscriptions",
+      "organizations_url": "https://api.github.com/users/hober/orgs",
+      "repos_url": "https://api.github.com/users/hober/repos",
+      "events_url": "https://api.github.com/users/hober/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hober/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "hober",
+        "id": 6235,
+        "node_id": "MDQ6VXNlcjYyMzU=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6235?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hober",
+        "html_url": "https://github.com/hober",
+        "followers_url": "https://api.github.com/users/hober/followers",
+        "following_url": "https://api.github.com/users/hober/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hober/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hober/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hober/subscriptions",
+        "organizations_url": "https://api.github.com/users/hober/orgs",
+        "repos_url": "https://api.github.com/users/hober/repos",
+        "events_url": "https://api.github.com/users/hober/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hober/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2024-08-21T23:16:46Z",
+    "updated_at": "2024-08-21T23:44:25Z",
+    "closed_at": null,
+    "author_association": "CONTRIBUTOR",
+    "active_lock_reason": null,
+    "body": "When a position is identified \"supported\", we should have a step to find or file a bug on the WebKit bug tracker. \r\n\r\nLet's update the README to state this... ",
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/387/reactions",
       "total_count": 0,
       "+1": 0,
       "-1": 0,
@@ -48976,7 +49365,146 @@
       "rocket": 0,
       "eyes": 0
     },
-    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/386/timeline",
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/387/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/388",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/388/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/388/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/388/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/388",
+    "id": 2481324895,
+    "node_id": "I_kwDOHk513M6T5gNf",
+    "number": 388,
+    "title": "Captured Surface Control",
+    "user": {
+      "login": "guidou",
+      "id": 13046831,
+      "node_id": "MDQ6VXNlcjEzMDQ2ODMx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13046831?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/guidou",
+      "html_url": "https://github.com/guidou",
+      "followers_url": "https://api.github.com/users/guidou/followers",
+      "following_url": "https://api.github.com/users/guidou/following{/other_user}",
+      "gists_url": "https://api.github.com/users/guidou/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/guidou/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/guidou/subscriptions",
+      "organizations_url": "https://api.github.com/users/guidou/orgs",
+      "repos_url": "https://api.github.com/users/guidou/repos",
+      "events_url": "https://api.github.com/users/guidou/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/guidou/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2024-08-22T17:08:42Z",
+    "updated_at": "2024-08-22T17:09:32Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "active_lock_reason": null,
+    "body": "### WebKittens\r\n\r\n@youennf \r\n\r\n### Title of the proposal\r\n\r\nCaptured Surface Control\r\n\r\n### URL to the spec\r\n\r\nhttps://screen-share.github.io/captured-surface-control/\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/screen-share/captured-surface-control/\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/962\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1061\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis is still under discussion in the WebRTC Working Group. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/388/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/388/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/389",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/389/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/389/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/389/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/389",
+    "id": 2491557717,
+    "node_id": "I_kwDOHk513M6UgidV",
+    "number": 389,
+    "title": "Realms Initialization Control",
+    "user": {
+      "login": "weizman",
+      "id": 13243797,
+      "node_id": "MDQ6VXNlcjEzMjQzNzk3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13243797?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/weizman",
+      "html_url": "https://github.com/weizman",
+      "followers_url": "https://api.github.com/users/weizman/followers",
+      "following_url": "https://api.github.com/users/weizman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/weizman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/weizman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/weizman/subscriptions",
+      "organizations_url": "https://api.github.com/users/weizman/orgs",
+      "repos_url": "https://api.github.com/users/weizman/repos",
+      "events_url": "https://api.github.com/users/weizman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/weizman/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 4278053585,
+        "node_id": "LA_kwDOHk513M7-_erR",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20security",
+        "name": "concerns: security",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "This proposal may cause security risk if implemented"
+      },
+      {
+        "id": 4281722881,
+        "node_id": "LA_kwDOHk513M7_NegB",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WICG",
+        "name": "venue: WICG",
+        "color": "0052cc",
+        "default": false,
+        "description": "Proposal is incubated in the Web Incubator Community Group"
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2024-08-28T09:27:23Z",
+    "updated_at": "2024-08-28T13:02:07Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "active_lock_reason": null,
+    "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the proposal\r\n\r\nRealms Initialization Control\r\n\r\n### URL to the spec\r\n\r\nhttps://github.com/WICG/Realms-Initialization-Control\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/WICG/Realms-Initialization-Control\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/985\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1062\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nInitialization of same origin realms in an application should be under that application's control.\r\n\r\nThis proposal describes an opt-in capability to set a script to be loaded first, every time a same origin realm with synchronous access to the main execution environment of the application is created.\r\n\r\nThe location of the script can be relative or absolute. Secure connection is required. The proposed method for setting the script is a Content Security Policy directive as follows: `Content-Security-Policy: \"realm-init: /scripts/on-new-same-origin-realm.js\"` so that the `on-new-same-origin-realm.js` script will execute before any other JavaScript code executes in the top realm execution environment, as well as any other child realm that matches its origin.",
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/389/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/389/timeline",
     "performed_via_github_app": null,
     "state_reason": null
   }

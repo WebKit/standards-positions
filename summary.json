@@ -3643,7 +3643,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/193",
-    "position": null,
+    "position": "support",
     "venues": [
       "Other",
       "W3C"
@@ -4869,7 +4869,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/264",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG",
       "Other"
@@ -4878,7 +4878,7 @@
     "topics": [
       "html"
     ],
-    "title": "Invokers",
+    "title": "HTML: command and commandfor attributes",
     "url": "https://github.com/whatwg/html/pull/9841",
     "github": "https://github.com/openui/open-ui",
     "issues": "https://github.com/whatwg/html/issues/9625",
@@ -4908,7 +4908,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/266",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -5293,7 +5293,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/289",
-    "position": null,
+    "position": "oppose",
     "venues": [
       "WHATWG"
     ],
@@ -5388,7 +5388,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/303",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -5557,7 +5557,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/313",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -5711,7 +5711,7 @@
     "topics": [
       "css"
     ],
-    "title": "View Transitions, Level 2 (view-transition-class)",
+    "title": "View Transition Classes",
     "url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-class-prop",
     "github": "https://github.com/w3c/csswg-drafts/",
     "issues": null,
@@ -6461,26 +6461,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/365",
-    "position": null,
-    "venues": [
-      "W3C"
-    ],
-    "concerns": [],
-    "topics": [
-      "authentication"
-    ],
-    "title": "Web Authentication",
-    "url": "https://w3c.github.io/webauthn/#enum-hints",
-    "github": "https://github.com/w3c/webauthn",
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/1043",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/366",
     "position": null,
     "venues": [
@@ -6502,7 +6482,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/367",
-    "position": null,
+    "position": "support",
     "venues": [],
     "concerns": [],
     "topics": [],
@@ -6579,7 +6559,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/371",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Add ability to trigger autofill on form elements in webdriver-bidi specs",
@@ -6609,24 +6591,6 @@
     "explainer": "https://github.com/w3c/fxtf-drafts/issues/374",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1051",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/373",
-    "position": null,
-    "venues": [
-      "W3C"
-    ],
-    "concerns": [],
-    "topics": [],
-    "title": "Web Authentication: JSON serialization",
-    "url": "https://w3c.github.io/webauthn/#ref-for-dom-publickeycredential-tojson",
-    "github": "https://github.com/w3c/webauthn",
-    "issues": null,
-    "explainer": "https://github.com/w3c/webauthn/wiki/Explainer:-JSON-Serialization-Methods",
-    "tag": null,
-    "mozilla": "(shipped)",
     "bugzilla": null,
     "radar": null
   },
@@ -6690,7 +6654,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/377",
-    "position": null,
+    "position": "support",
     "venues": [],
     "concerns": [],
     "topics": [
@@ -6728,7 +6692,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/379",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -6769,7 +6733,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/381",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Dynamic import maps",
@@ -6822,7 +6788,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/386",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Customizable select element",
@@ -6832,6 +6800,42 @@
     "explainer": "https://open-ui.org/components/customizableselect/",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1060",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/388",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Captured Surface Control",
+    "url": "https://screen-share.github.io/captured-surface-control/",
+    "github": "https://github.com/screen-share/captured-surface-control/",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/962",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1061",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/389",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [
+      "security"
+    ],
+    "topics": [],
+    "title": "Realms Initialization Control",
+    "url": "https://github.com/WICG/Realms-Initialization-Control",
+    "github": "https://github.com/WICG/Realms-Initialization-Control",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/985",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1062",
     "bugzilla": null,
     "radar": null
   }
