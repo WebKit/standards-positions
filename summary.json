@@ -1599,27 +1599,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/83",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
-    "concerns": [],
-    "topics": [
-      "authentication",
-      "permissions"
-    ],
-    "title": "Federated Credential Management API Permissions Policy",
-    "url": "https://fedidcg.github.io/FedCM/#permissions-policy-integration",
-    "github": null,
-    "issues": null,
-    "explainer": "https://github.com/fedidcg/FedCM/blob/main/explorations/iframe_support.md",
-    "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/701",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/84",
     "position": null,
     "venues": [
@@ -2288,26 +2267,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/120",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
-    "concerns": [],
-    "topics": [
-      "security"
-    ],
-    "title": "FedCM with multiple IDP support",
-    "url": null,
-    "github": "https://github.com/fedidcg/FedCM",
-    "issues": null,
-    "explainer": "https://github.com/fedidcg/FedCM/blob/main/proposals/multi-idp-api.md",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/803",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/730",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/121",
     "position": "oppose",
     "venues": [
@@ -2468,26 +2427,6 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/747",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/131",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
-    "concerns": [],
-    "topics": [
-      "authentication"
-    ],
-    "title": "FedCM: Auto re-authentication",
-    "url": null,
-    "github": "https://github.com/fedidcg/FedCM",
-    "issues": null,
-    "explainer": "https://github.com/fedidcg/FedCM/issues/429",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/813",
-    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
@@ -2664,28 +2603,6 @@
     "explainer": "https://github.com/w3c/webauthn/wiki/Explainer:-WebAuthn-Large-Blob-Extension",
     "tag": "https://github.com/w3ctag/design-reviews/issues/820",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/750",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/140",
-    "position": "blocked",
-    "venues": [
-      "Other"
-    ],
-    "concerns": [
-      "privacy"
-    ],
-    "topics": [
-      "client hints"
-    ],
-    "title": "User Locale Preferences",
-    "url": null,
-    "github": "https://github.com/romulocintra/user-locale-client-hints",
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/751",
     "bugzilla": null,
     "radar": null
   },
@@ -3122,7 +3039,7 @@
     "explainer": "https://docs.google.com/document/d/1aDyUw4mAzRdLyZyXpVgWvO-eLpc4ERz7I_7VDIPo9Hc/edit?usp=sharing",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/775",
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=279815",
     "radar": "rdar://28546450"
   },
   {
@@ -3186,10 +3103,10 @@
       "performance"
     ],
     "title": "Explicit compile hints",
-    "url": "https://docs.google.com/document/d/19xTAM4A75tz0xUq_velMzGA4JHEgXpyflUxXTcuNiyE/edit?usp=sharing",
+    "url": "https://explainers-by-googlers.github.io/explicit-javascript-compile-hints-file-based/",
     "github": null,
     "issues": null,
-    "explainer": null,
+    "explainer": "https://docs.google.com/document/d/19xTAM4A75tz0xUq_velMzGA4JHEgXpyflUxXTcuNiyE",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/780",
     "bugzilla": null,
@@ -3242,26 +3159,6 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/21",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=198174",
     "radar": "rdar://51089129"
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/175",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
-    "concerns": [],
-    "topics": [
-      "authentication"
-    ],
-    "title": "FedCM bundle: LoginHint, Context, and User Info extensions",
-    "url": "https://fedidcg.github.io/FedCM/",
-    "github": "https://github.com/fedidcg/FedCM",
-    "issues": null,
-    "explainer": "https://github.com/fedidcg/FedCM/issues/382",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/839",
-    "mozilla": null,
-    "bugzilla": null,
-    "radar": null
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/176",
@@ -3660,7 +3557,7 @@
     "explainer": "https://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/851",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/677",
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=280703",
     "radar": null
   },
   {
@@ -4587,22 +4484,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/249",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
-    "title": "FedCM API extension: Error API, AccountAutoSelectedFlag, HostedDomain and Revocation API",
-    "url": "https://fedidcg.github.io/FedCM/",
-    "github": "https://github.com/fedidcg/FedCM",
-    "issues": null,
-    "explainer": null,
-    "tag": "https://github.com/w3ctag/design-reviews/issues/893",
-    "mozilla": null,
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/250",
     "position": null,
     "venues": [
@@ -4783,7 +4664,7 @@
     "explainer": "https://github.com/w3c/clipboard-apis/issues/170",
     "tag": "https://github.com/w3ctag/design-reviews/issues/901",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/889",
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=279712",
     "radar": null
   },
   {
@@ -4814,11 +4695,11 @@
     "topics": [
       "css"
     ],
-    "title": "CSS Containment Module Level 4",
-    "url": "https://drafts.csswg.org/css-contain-4",
+    "title": "CSS Conditional Rules Module Level 5",
+    "url": "https://drafts.csswg.org/css-conditional-5/#scroll-state-container",
     "github": null,
     "issues": null,
-    "explainer": "https://lilles.github.io/explainers/state_container_queries.html",
+    "explainer": "https://drafts.csswg.org/css-conditional-5/scroll_state_explainer.html",
     "tag": "https://github.com/w3ctag/design-reviews/issues/885",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/896",
     "bugzilla": null,
@@ -4923,7 +4804,7 @@
     "explainer": "https://github.com/vmpstr/web-proposals/blob/main/explainers/view-transition-types.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/908",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/905",
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=276801",
     "radar": null
   },
   {
@@ -5718,7 +5599,7 @@
     "explainer": "https://github.com/vmpstr/web-proposals/blob/main/explainers/view-transition-classes.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/938",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/988",
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=275486",
     "radar": null
   },
   {
@@ -5932,10 +5813,10 @@
     ],
     "topics": [],
     "title": "Digital Credentials",
-    "url": "https://wicg.github.io/digital-identities/",
-    "github": "https://github.com/WICG/digital-identities/",
-    "issues": null,
-    "explainer": null,
+    "url": "https://wicg.github.io/digital-credentials/",
+    "github": "https://github.com/WICG/digital-credentials",
+    "issues": "[_No response_](https://github.com/WICG/digital-credentials/issues)",
+    "explainer": "https://github.com/WICG/digital-credentials/blob/main/explainer.md",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1003",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=268516",
@@ -6219,7 +6100,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/350",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -6384,7 +6265,7 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/964",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1037",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=275147",
-    "radar": null
+    "radar": "rdar://129664445"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/361",
@@ -6520,7 +6401,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/369",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -6528,7 +6409,7 @@
     "topics": [
       "css"
     ],
-    "title": "CSS Nesting",
+    "title": "CSS Nesting: The Nested Declarations Rule",
     "url": "https://drafts.csswg.org/css-nesting-1/#nested-declarations-rule",
     "github": "https://github.com/w3c/csswg-drafts/tree/main/css-nesting-1",
     "issues": null,
@@ -6614,7 +6495,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/375",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -6737,16 +6618,19 @@
       "WHATWG"
     ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "html",
+      "javascript"
+    ],
     "title": "Dynamic import maps",
     "url": "https://github.com/whatwg/html/pull/10528",
     "github": "https://github.com/whatwg/html",
     "issues": null,
     "explainer": "https://github.com/whatwg/html/pull/10528#issue-2437162429",
-    "tag": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/980",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1058",
-    "bugzilla": null,
-    "radar": null
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=279025",
+    "radar": "rdar://135555516"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/382",
@@ -6836,6 +6720,599 @@
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/985",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1062",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/390",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "FedCM as a trust signal for the Storage Access API",
+    "url": "https://github.com/privacycg/storage-access/pull/206",
+    "github": "https://github.com/privacycg/storage-access",
+    "issues": null,
+    "explainer": "https://github.com/explainers-by-googlers/storage-access-for-fedcm",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1065",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=279267",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/391",
+    "position": "blocked",
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Private State Token API Permissions Policy Default Allowlist Wildcard",
+    "url": "https://github.com/WICG/trust-token-api/pull/306",
+    "github": "https://github.com/WICG/trust-token-api/",
+    "issues": "https://chromestatus.com/feature/5205548434456576",
+    "explainer": "https://github.com/WICG/trust-token-api/blob/main/README.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/990",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1066",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/392",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "performance.measureUserAgentSpecificMemory API",
+    "url": "https://wicg.github.io/performance-measure-memory/",
+    "github": "https://github.com/WICG/performance-measure-memory",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/393",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [],
+    "title": "Writing Assistance APIs",
+    "url": "No spec yet; please see the explainer",
+    "github": "https://github.com/WICG/writing-assistance-apis",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/991",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1067",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/394",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "highlightsFromPoint API",
+    "url": "Spec is in progress - please see the explainer",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/highlight/HighlightsFromPointsExplainer.md",
+    "tag": "TAG Design Review is in progress",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1068",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/395",
+    "position": "support",
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "WebXR Hand Input Module - Level 1",
+    "url": "https://immersive-web.github.io/webxr-hand-input/",
+    "github": "https://github.com/immersive-web/webxr-hand-input/",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/568",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1070",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/396",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "WebRTC extensions, section scaleResolutionDownTo",
+    "url": "https://w3c.github.io/webrtc-extensions/#dom-rtcrtpencodingparameters-scaleresolutiondownto",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1071",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/398",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css",
+      "animation"
+    ],
+    "title": "Animation progress accessor",
+    "url": "https://drafts.csswg.org/web-animations-2/#the-progress-of-an-animation",
+    "github": "https://github.com/w3c/csswg-drafts/tree/main/web-animations-2",
+    "issues": null,
+    "explainer": "https://github.com/DavMila/explainer-animation.progress",
+    "tag": "TAG Review [Requested](https://github.com/w3ctag/design-reviews/issues/994)",
+    "mozilla": "[Mozilla standards position request](https://github.com/mozilla/standards-positions/issues/1073)",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/399",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [],
+    "title": "Document-Isolation-Policy",
+    "url": "https://wicg.github.io/document-isolation-policy/",
+    "github": "https://github.com/WICG/document-isolation-policy",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/995",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1074",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/400",
+    "position": "support",
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [],
+    "title": "PublicKeyCredential signal methods",
+    "url": "https://w3c.github.io/webauthn/#sctn-signal-methods",
+    "github": "https://github.com/w3c/webauthn/",
+    "issues": null,
+    "explainer": "https://github.com/w3c/webauthn/wiki/Explainer:-WebAuthn-Signal-API-explainer",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/996",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1075",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=278339",
+    "radar": "rdar://134285651"
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/401",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS 'stretch' sizing keyword",
+    "url": "https://drafts.csswg.org/css-sizing-4/#sizing-values",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1054",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=277117",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/402",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS Images Module Level 4: iamge()",
+    "url": "https://drafts.csswg.org/css-images-4/#image-notation",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/856",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=72584",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/403",
+    "position": null,
+    "venues": [
+      "WHATWG",
+      "Other"
+    ],
+    "concerns": [
+      "complexity",
+      "API design"
+    ],
+    "topics": [
+      "graphics"
+    ],
+    "title": "Canvas place element",
+    "url": "https://html.spec.whatwg.org/",
+    "github": "https://github.com/WICG/canvas-place-element",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/997",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1076",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/404",
+    "position": "support",
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css",
+      "web components"
+    ],
+    "title": "CSS Scoping :has-slotted pseudo",
+    "url": "https://drafts.csswg.org/css-scoping/#the-has-slotted-pseudo",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1079",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=280608",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/405",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS Selectors 4 :local-link pseudo",
+    "url": "https://drafts.csswg.org/selectors/#local-link-pseudo",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/862",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=280609",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/406",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "`focus-without-user-activation` feature policy",
+    "url": "https://github.com/whatwg/html/pull/4585. The spec PR needs to be updated to reflect default value of `self`.",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": "https://github.com/w3c/webappsec-permissions-policy/blob/main/policies/focus-without-user-activation.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1080",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/407",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "css",
+      "dom"
+    ],
+    "title": "Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute",
+    "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ShadowDOM/explainer.md",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ShadowDOM/explainer.md",
+    "tag": "TODO",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1081",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/408",
+    "position": "support",
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Generate CSS `view-transition-name` from element",
+    "url": "https://drafts.csswg.org/css-view-transitions-2/#auto-vt-name",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": "https://github.com/w3c/csswg-drafts",
+    "explainer": "https://github.com/WICG/view-transitions/blob/main/auto-name-explainer.md#self-review-questionnaire-security-and-privacy",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1001",
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/409",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "\"media-playback-while-not-visible\" Permission Policy",
+    "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/IframeMediaPause/iframe_media_pausing.md",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/IframeMediaPause/iframe_media_pausing.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1082",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/410",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "AudioContext \"interrupted\" state",
+    "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/AudioContextInterruptedState/explainer.md",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/AudioContextInterruptedState/explainer.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1083",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/411",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css",
+      "loading",
+      "svg",
+      "fetch"
+    ],
+    "title": "Support external SVG resources for the 'clip-path', 'fill', 'stroke' and 'marker-*' properties",
+    "url": "https://svgwg.org/svg2-draft/linking.html#URLReference",
+    "github": "https://github.com/w3c/svgwg/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/412",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "privacy",
+      "storage",
+      "frames"
+    ],
+    "title": "Storage Access Headers",
+    "url": "https://privacycg.github.io/storage-access-headers/",
+    "github": "https://github.com/privacycg/storage-access-headers",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/982",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1084",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/413",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [
+      "css",
+      "html"
+    ],
+    "title": "CSS :open and :closed pseudo-classes",
+    "url": "https://drafts.csswg.org/selectors-4/#open-state",
+    "github": "https://drafts.csswg.org",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=280637",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/414",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [
+      "html",
+      "forms"
+    ],
+    "title": "HTML: relax `<select>` parser",
+    "url": "https://html.spec.whatwg.org/",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1086",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/415",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "fonts and/or text"
+    ],
+    "title": "COLRv1",
+    "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/colr",
+    "github": "https://github.com/googlefonts/colr-gradients-spec",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/497",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/416",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "layout",
+      "rendering",
+      "web apis"
+    ],
+    "title": "Intersection Observer v2",
+    "url": "https://github.com/szager-chromium/IntersectionObserver",
+    "github": "https://github.com/szager-chromium/IntersectionObserver/",
+    "issues": null,
+    "explainer": "https://github.com/szager-chromium/IntersectionObserver/blob/master/explainer.md",
+    "tag": null,
+    "mozilla": "https://github.com/web-platform-tests/interop/issues/760",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/417",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS caret-animation property",
+    "url": "https://drafts.csswg.org/css-ui-4/#caret-animation",
+    "github": "https://github.com/w3c/csswg-drafts/blob/main/css-ui-4",
+    "issues": null,
+    "explainer": null,
+    "tag": "N/A",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1100",
+    "bugzilla": "N/A",
+    "radar": "N/A"
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/418",
+    "position": "support",
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [
+      "html"
+    ],
+    "title": "Dispatch beforetoggle & toggle events during dialog open/close/showModal",
+    "url": "https://github.com/whatwg/html/pull/10091",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1101",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/420",
+    "position": null,
+    "venues": [],
+    "concerns": [
+      "duplication",
+      "interoperability"
+    ],
+    "topics": [
+      "performance",
+      "events"
+    ],
+    "title": "Event Timing",
+    "url": "https://www.w3.org/TR/event-timing/",
+    "github": "https://github.com/w3c/event-timing",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/324",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/283",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/421",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS Pseudo-Elements Module Level 4 \u00a7 Highlight Pseudo-elements \u00a7 Selecting Highlighted Content",
+    "url": "https://drafts.csswg.org/css-pseudo-4/#selectordef-search-text",
+    "github": "https://github.com/w3c/csswg-drafts/tree/main/css-pseudo-4",
+    "issues": null,
+    "explainer": "https://github.com/Igalia/explainers/blob/main/css/find-in-page/README.md",
+    "tag": "N/A",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1103",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/422",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "javascript",
+      "web assembly"
+    ],
+    "title": "JavaScript Promise Integration Proposal",
+    "url": "https://github.com/WebAssembly/js-promise-integration/blob/main/document/js-api/index.bs",
+    "github": "https://github.com/WebAssembly/js-promise-integration",
+    "issues": null,
+    "explainer": "https://github.com/WebAssembly/js-promise-integration/blob/main/proposals/js-promise-integration/Overview.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/809",
+    "mozilla": "https://mozilla.github.io/standards-positions/#wasm-js-promise-integration",
     "bugzilla": null,
     "radar": null
   }
