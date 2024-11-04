@@ -41822,7 +41822,26 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278552647,
+        "node_id": "LA_kwDOHk513M7_BYhH",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20webrtc",
+        "name": "topic: webrtc",
+        "color": "5bcefa",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4281748069,
+        "node_id": "LA_kwDOHk513M7_Nkpl",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20WebRTC%20WG",
+        "name": "venue: W3C WebRTC WG",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": {
@@ -41872,7 +41891,7 @@
     "milestone": null,
     "comments": 2,
     "created_at": "2023-11-17T13:21:17Z",
-    "updated_at": "2024-09-26T23:02:35Z",
+    "updated_at": "2024-11-04T17:10:06Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -53693,9 +53712,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2024-07-26T16:30:04Z",
-    "updated_at": "2024-11-02T06:13:27Z",
+    "updated_at": "2024-11-04T17:11:07Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -54328,8 +54347,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/381/reactions",
-      "total_count": 2,
-      "+1": 2,
+      "total_count": 3,
+      "+1": 3,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -55066,7 +55085,35 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278049556,
+        "node_id": "LA_kwDOHk513M7-_dsU",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20privacy",
+        "name": "topic: privacy",
+        "color": "5bcefa",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4488278115,
+        "node_id": "LA_kwDOHk513M8AAAABC4WwYw",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20Privacy%20CG",
+        "name": "venue: Privacy CG",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -55074,7 +55121,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2024-09-06T16:29:57Z",
-    "updated_at": "2024-09-30T17:14:47Z",
+    "updated_at": "2024-11-04T17:09:07Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -56351,6 +56398,15 @@
         "description": ""
       },
       {
+        "id": 4575501795,
+        "node_id": "LA_kwDOHk513M8AAAABELid4w",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20API%20design",
+        "name": "concerns: API design",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "The API for this is error-prone, poorly named, or inconsistent with the platform"
+      },
+      {
         "id": 4575936941,
         "node_id": "LA_kwDOHk513M8AAAABEL9BrQ",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Microsoft",
@@ -56367,7 +56423,7 @@
     "milestone": null,
     "comments": 2,
     "created_at": "2024-09-30T11:16:48Z",
-    "updated_at": "2024-11-02T06:18:39Z",
+    "updated_at": "2024-11-04T17:08:07Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "active_lock_reason": null,
@@ -56421,15 +56477,43 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278536131,
+        "node_id": "LA_kwDOHk513M7_BUfD",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20web%20apis",
+        "name": "topic: web apis",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to web APIs (entry points for script)"
+      },
+      {
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575936941,
+        "node_id": "LA_kwDOHk513M8AAAABEL9BrQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Microsoft",
+        "name": "from: Microsoft",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Microsoft."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2024-10-01T19:06:15Z",
-    "updated_at": "2024-10-01T19:22:37Z",
+    "updated_at": "2024-11-04T17:13:42Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -56494,6 +56578,15 @@
         "description": "Spec relates to CSS (Cascading Style Sheets)"
       },
       {
+        "id": 4278046994,
+        "node_id": "LA_kwDOHk513M7-_dES",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20html",
+        "name": "topic: html",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to HTML (Hypertext Markup Language)"
+      },
+      {
         "id": 4281598970,
         "node_id": "LA_kwDOHk513M7_NAP6",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20dom",
@@ -56501,6 +56594,24 @@
         "color": "5bcefa",
         "default": false,
         "description": "Spec relates to DOM (Document Object Model)"
+      },
+      {
+        "id": 4281599774,
+        "node_id": "LA_kwDOHk513M7_NAce",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20web%20components",
+        "name": "topic: web components",
+        "color": "5bcefa",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
       },
       {
         "id": 4575936941,
@@ -56519,7 +56630,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-10-01T23:26:26Z",
-    "updated_at": "2024-11-02T06:18:18Z",
+    "updated_at": "2024-11-04T17:15:01Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,

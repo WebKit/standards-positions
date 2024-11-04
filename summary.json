@@ -5055,9 +5055,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/280",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "webrtc"
+    ],
     "title": "Element Capture",
     "url": "https://screen-share.github.io/element-capture/",
     "github": "https://github.com/screen-share/element-capture/",
@@ -6726,9 +6730,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/390",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "privacy"
+    ],
     "title": "FedCM as a trust signal for the Storage Access API",
     "url": "https://github.com/privacycg/storage-access/pull/206",
     "github": "https://github.com/privacycg/storage-access",
@@ -6987,7 +6995,9 @@
     "venues": [
       "W3C"
     ],
-    "concerns": [],
+    "concerns": [
+      "API design"
+    ],
     "topics": [
       "css"
     ],
@@ -7004,9 +7014,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/406",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "web apis"
+    ],
     "title": "`focus-without-user-activation` feature policy",
     "url": "https://github.com/whatwg/html/pull/4585. The spec PR needs to be updated to reflect default value of `self`.",
     "github": "https://github.com/whatwg/html",
@@ -7020,11 +7034,15 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/407",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
     "topics": [
       "css",
-      "dom"
+      "html",
+      "dom",
+      "web components"
     ],
     "title": "Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute",
     "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ShadowDOM/explainer.md",
