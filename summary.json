@@ -207,8 +207,8 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/650",
-    "bugzilla": null,
-    "radar": null
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=253143",
+    "radar": "rdar://106416138"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/10",
@@ -6519,7 +6519,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/376",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -6617,7 +6617,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/381",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -6680,7 +6680,11 @@
       "Other"
     ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css",
+      "html",
+      "forms"
+    ],
     "title": "Customizable select element",
     "url": "https://github.com/whatwg/html/pull/10548",
     "github": "https://github.com/whatwg/html",
@@ -6786,7 +6790,11 @@
       "Other"
     ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "editing",
+      "web apis",
+      "AI"
+    ],
     "title": "Writing Assistance APIs",
     "url": "No spec yet; please see the explainer",
     "github": "https://github.com/WICG/writing-assistance-apis",
@@ -6800,10 +6808,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/394",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
     "topics": [
-      "css"
+      "css",
+      "web apis"
     ],
     "title": "highlightsFromPoint API",
     "url": "Spec is in progress - please see the explainer",
@@ -6834,9 +6845,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/396",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "media",
+      "webrtc"
+    ],
     "title": "WebRTC extensions, section scaleResolutionDownTo",
     "url": "https://w3c.github.io/webrtc-extensions/#dom-rtcrtpencodingparameters-scaleresolutiondownto",
     "github": null,
@@ -6875,7 +6891,10 @@
       "Other"
     ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "security",
+      "http"
+    ],
     "title": "Document-Isolation-Policy",
     "url": "https://wicg.github.io/document-isolation-policy/",
     "github": "https://github.com/WICG/document-isolation-policy",
@@ -6932,7 +6951,8 @@
     ],
     "concerns": [],
     "topics": [
-      "css"
+      "css",
+      "images"
     ],
     "title": "CSS Images Module Level 4: iamge()",
     "url": "https://drafts.csswg.org/css-images-4/#image-notation",
@@ -7013,7 +7033,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/406",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -7073,9 +7093,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/409",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "media",
+      "permissions"
+    ],
     "title": "\"media-playback-while-not-visible\" Permission Policy",
     "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/IframeMediaPause/iframe_media_pausing.md",
     "github": null,
@@ -7089,9 +7114,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/410",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "media"
+    ],
     "title": "AudioContext \"interrupted\" state",
     "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/AudioContextInterruptedState/explainer.md",
     "github": null,
@@ -7222,12 +7251,12 @@
       "web apis"
     ],
     "title": "Intersection Observer v2",
-    "url": "https://github.com/szager-chromium/IntersectionObserver",
-    "github": "https://github.com/szager-chromium/IntersectionObserver/",
-    "issues": null,
+    "url": "https://w3c.github.io/IntersectionObserver/",
+    "github": "https://github.com/W3C/IntersectionObserver",
+    "issues": "https://github.com/W3C/IntersectionObserver/issues/",
     "explainer": "https://github.com/szager-chromium/IntersectionObserver/blob/master/explainer.md",
     "tag": null,
-    "mozilla": "https://github.com/web-platform-tests/interop/issues/760",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/109",
     "bugzilla": null,
     "radar": null
   },
@@ -7274,7 +7303,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/420",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [
       "duplication",
       "interoperability"
@@ -7331,6 +7362,84 @@
     "explainer": "https://github.com/WebAssembly/js-promise-integration/blob/main/proposals/js-promise-integration/Overview.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/809",
     "mozilla": "https://mozilla.github.io/standards-positions/#wasm-js-promise-integration",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/423",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css",
+      "scrolling"
+    ],
+    "title": "CSS \"scroll-start-target\" property",
+    "url": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-target",
+    "github": "https://github.com/w3c/csswg-drafts/blob/main/css-scroll-snap-2",
+    "issues": null,
+    "explainer": "https://github.com/DavMila/explainer-scroll-start-target",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1011",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1107",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/424",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "performance",
+      "web apis"
+    ],
+    "title": "Add `finalResponseHeadersStart` to resource timing",
+    "url": "https://w3c.github.io/resource-timing/",
+    "github": "https://github.com/w3c/resource-timing/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1108",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/425",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "Nested pseudo elements styling (::before::marker or ::after::marker)",
+    "url": "https://www.w3.org/TR/css-pseudo-4/#marker-pseudo",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1109",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/426",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Paint timing",
+    "url": "https://w3c.github.io/paint-timing",
+    "github": "https://github.com/w3c/paint-timing",
+    "issues": null,
+    "explainer": "https://github.com/w3c/paint-timing/blob/main/presentation-timestamps.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1013",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1110",
     "bugzilla": null,
     "radar": null
   }
