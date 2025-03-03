@@ -5615,42 +5615,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/322",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [
-      "app-like capabilities"
-    ],
-    "title": "Web Install API",
-    "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/WebInstall/explainer_same_domain.md",
-    "github": "https://github.com/MicrosoftEdge/MSEdgeExplainers/",
-    "issues": null,
-    "explainer": null,
-    "tag": "https://github.com/w3ctag/design-reviews/issues/888",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/991",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/323",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [
-      "app-like capabilities"
-    ],
-    "title": "Web Install API",
-    "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/WebInstall/explainer_cross_domain.md",
-    "github": "https://github.com/MicrosoftEdge/MSEdgeExplainers/",
-    "issues": null,
-    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/WebInstall/explainer_cross_domain.md",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/888",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/992",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/324",
     "position": null,
     "venues": [],
@@ -7206,7 +7170,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/414",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -7492,9 +7456,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/429",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "editing"
+    ],
     "title": "Clipboardchange event API",
     "url": "https://www.w3.org/TR/clipboard-apis/#clipboard-event-clipboardchange",
     "github": "https://github.com/w3c/clipboard-apis",
@@ -7575,7 +7543,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/434",
-    "position": null,
+    "position": "support",
     "venues": [
       "Other"
     ],
@@ -7647,10 +7615,14 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/438",
-    "position": null,
-    "venues": [],
+    "position": "support",
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "media"
+    ],
     "title": "Add MediaStreamTrack support to the Web Speech API",
     "url": "https://github.com/WebAudio/web-speech-api/pull/118",
     "github": "https://github.com/WebAudio/web-speech-api/",
@@ -7685,9 +7657,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/441",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "web apis"
+    ],
     "title": "Navigation API: `sourceElement`",
     "url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigateevent",
     "github": null,
@@ -7801,7 +7777,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/448",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Permissions Policy reports for iframes",
@@ -7852,8 +7830,10 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/451",
-    "position": null,
-    "venues": [],
+    "position": "support",
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Fire error event instead of throwing exception for CSP blocked worker constructor",
@@ -7863,24 +7843,6 @@
     "explainer": null,
     "tag": null,
     "mozilla": null,
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/452",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
-    "concerns": [],
-    "topics": [],
-    "title": "Portals",
-    "url": "https://wicg.github.io/portals/",
-    "github": "https://github.com/WICG/portals",
-    "issues": "https://github.com/WICG/portals/issues",
-    "explainer": "https://web.dev/articles/hands-on-portals",
-    "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/157",
     "bugzilla": null,
     "radar": null
   },
@@ -7917,27 +7879,11 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/455",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [
-      "css"
-    ],
-    "title": "CSS Borders and Box Decorations 4",
-    "url": "https://drafts.csswg.org/css-borders-4/#corner-shaping",
-    "github": "https://github.com/w3c/csswg-drafts/labels/css-borders-4",
-    "issues": null,
-    "explainer": "https://github.com/noamr/explainers/blob/main/corner-shape-explainer.md",
-    "tag": null,
-    "mozilla": null,
-    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=277912",
-    "radar": "rdar://134147721"
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/456",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Crash Reporting",
@@ -8003,7 +7949,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "fonts and/or text"
+    ],
     "title": "Incremental Font Transfer",
     "url": "https://w3c.github.io/IFT/Overview.html",
     "github": "https://github.com/w3c/IFT",
@@ -8017,9 +7965,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/462",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "networking"
+    ],
     "title": "Partitioning cross-site top-level navigations in the HTTP cache",
     "url": "https://fetch.spec.whatwg.org/#http-cache-partitions",
     "github": "https://github.com/whatwg/fetch",
@@ -8035,7 +7987,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "app-like capabilities"
+    ],
     "title": "Web Install API",
     "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/WebInstall/explainer.md",
     "github": null,
@@ -8059,6 +8013,38 @@
     "explainer": "https://open-ui.org/components/interest-invokers.explainer/",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1181",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/465",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Audio output default device supports: setPreferredSinkId",
+    "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/SetPreferredSinkId/explainer.md",
+    "github": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/SetPreferredSinkId/explainer.md",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1182",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/466",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS View Transitions - Nested View Transition Groups",
+    "url": "https://www.w3.org/TR/css-view-transitions-2/#view-transition-group-prop",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": "https://github.com/WICG/view-transitions/blob/main/nested-explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1061",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1183",
     "bugzilla": null,
     "radar": null
   }

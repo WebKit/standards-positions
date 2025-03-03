@@ -6769,8 +6769,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/41/reactions",
-      "total_count": 4,
-      "+1": 4,
+      "total_count": 5,
+      "+1": 5,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -10817,8 +10817,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/65/reactions",
-      "total_count": 46,
-      "+1": 46,
+      "total_count": 48,
+      "+1": 48,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -38629,13 +38629,13 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/243/reactions",
-      "total_count": 30,
-      "+1": 16,
+      "total_count": 32,
+      "+1": 17,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
-      "heart": 14,
+      "heart": 15,
       "rocket": 0,
       "eyes": 0
     },
@@ -40836,8 +40836,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/261/reactions",
-      "total_count": 5,
-      "+1": 5,
+      "total_count": 6,
+      "+1": 6,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -43596,9 +43596,9 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 4,
     "created_at": "2023-11-20T12:42:28Z",
-    "updated_at": "2025-01-17T22:17:54Z",
+    "updated_at": "2025-03-03T10:25:59Z",
     "closed_at": null,
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -45136,9 +45136,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 11,
     "created_at": "2023-12-23T11:01:19Z",
-    "updated_at": "2025-02-21T20:30:56Z",
+    "updated_at": "2025-02-25T18:53:36Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "sub_issues_summary": {
@@ -45151,8 +45151,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/292/reactions",
-      "total_count": 5,
-      "+1": 5,
+      "total_count": 7,
+      "+1": 7,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -49210,6 +49210,15 @@
         "color": "ffffff",
         "default": false,
         "description": "Proposed, edited, or co-edited by Microsoft."
+      },
+      {
+        "id": 5356000013,
+        "node_id": "LA_kwDOHk513M8AAAABPz4TDQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/proposal%20withdrawn",
+        "name": "proposal withdrawn",
+        "color": "453E33",
+        "default": false,
+        "description": ""
       }
     ],
     "state": "closed",
@@ -49261,7 +49270,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2024-02-26T18:07:04Z",
-    "updated_at": "2025-02-17T11:06:27Z",
+    "updated_at": "2025-02-27T12:04:30Z",
     "closed_at": "2025-02-17T11:06:27Z",
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -49358,6 +49367,15 @@
         "color": "ffffff",
         "default": false,
         "description": "Proposed, edited, or co-edited by Microsoft."
+      },
+      {
+        "id": 5356000013,
+        "node_id": "LA_kwDOHk513M8AAAABPz4TDQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/proposal%20withdrawn",
+        "name": "proposal withdrawn",
+        "color": "453E33",
+        "default": false,
+        "description": ""
       }
     ],
     "state": "closed",
@@ -49409,7 +49427,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-02-26T18:19:08Z",
-    "updated_at": "2025-02-17T11:07:08Z",
+    "updated_at": "2025-02-27T12:04:45Z",
     "closed_at": "2025-02-17T11:07:08Z",
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -51737,9 +51755,9 @@
       }
     ],
     "milestone": null,
-    "comments": 2,
+    "comments": 4,
     "created_at": "2024-04-24T06:07:34Z",
-    "updated_at": "2024-05-22T23:12:44Z",
+    "updated_at": "2025-03-03T10:18:20Z",
     "closed_at": null,
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -52052,103 +52070,6 @@
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/341/timeline",
     "performed_via_github_app": null,
     "state_reason": "completed"
-  },
-  {
-    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/342",
-    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
-    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/342/labels{/name}",
-    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/342/comments",
-    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/342/events",
-    "html_url": "https://github.com/WebKit/standards-positions/issues/342",
-    "id": 2277836868,
-    "node_id": "I_kwDOHk513M6HxQhE",
-    "number": 342,
-    "title": "https://github.com/whatwg/html/issues/4654#issuecomment-1154412434",
-    "user": {
-      "login": "CbtSlave",
-      "id": 35496701,
-      "node_id": "MDQ6VXNlcjM1NDk2NzAx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35496701?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/CbtSlave",
-      "html_url": "https://github.com/CbtSlave",
-      "followers_url": "https://api.github.com/users/CbtSlave/followers",
-      "following_url": "https://api.github.com/users/CbtSlave/following{/other_user}",
-      "gists_url": "https://api.github.com/users/CbtSlave/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/CbtSlave/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/CbtSlave/subscriptions",
-      "organizations_url": "https://api.github.com/users/CbtSlave/orgs",
-      "repos_url": "https://api.github.com/users/CbtSlave/repos",
-      "events_url": "https://api.github.com/users/CbtSlave/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/CbtSlave/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 4278032572,
-        "node_id": "LA_kwDOHk513M7-_Zi8",
-        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/invalid",
-        "name": "invalid",
-        "color": "750787",
-        "default": true,
-        "description": "Not an actionable request"
-      }
-    ],
-    "state": "closed",
-    "locked": false,
-    "assignee": null,
-    "assignees": [],
-    "milestone": null,
-    "comments": 1,
-    "created_at": "2024-05-03T14:47:16Z",
-    "updated_at": "2024-05-03T14:49:37Z",
-    "closed_at": "2024-05-03T14:49:37Z",
-    "author_association": "NONE",
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "active_lock_reason": null,
-    "body": "              https://github.com/whatwg/html/issues/4654#issuecomment-1154412434\r\n\r\n_Originally posted by @CbtSlave in https://github.com/WebKit/standards-positions/issues/9#issuecomment-2093160047_\r\n            ",
-    "closed_by": {
-      "login": "annevk",
-      "id": 1544111,
-      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/annevk",
-      "html_url": "https://github.com/annevk",
-      "followers_url": "https://api.github.com/users/annevk/followers",
-      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
-      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
-      "organizations_url": "https://api.github.com/users/annevk/orgs",
-      "repos_url": "https://api.github.com/users/annevk/repos",
-      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/annevk/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "reactions": {
-      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/342/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/342/timeline",
-    "performed_via_github_app": null,
-    "state_reason": "not_planned"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/343",
@@ -60155,6 +60076,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278046994,
         "node_id": "LA_kwDOHk513M7-_dES",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20html",
@@ -60191,15 +60121,15 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 1,
     "created_at": "2024-10-09T18:08:57Z",
-    "updated_at": "2024-11-28T15:20:06Z",
-    "closed_at": null,
+    "updated_at": "2025-02-28T14:46:49Z",
+    "closed_at": "2025-02-28T14:46:41Z",
     "author_association": "NONE",
     "sub_issues_summary": {
       "total": 0,
@@ -60208,7 +60138,27 @@
     },
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@annevk\r\n\r\n### Title of the proposal\r\n\r\nHTML: relax `<select>` parser\r\n\r\n### URL to the spec\r\n\r\nhttps://html.spec.whatwg.org/\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/whatwg/html\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\n_No response_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1086\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nHTML spec PR: https://github.com/whatwg/html/pull/10557",
-    "closed_by": null,
+    "closed_by": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/414/reactions",
       "total_count": 0,
@@ -60223,7 +60173,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/414/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/415",
@@ -60842,9 +60792,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 4,
+    "comments": 6,
     "created_at": "2024-10-23T21:16:54Z",
-    "updated_at": "2024-11-19T07:21:08Z",
+    "updated_at": "2025-02-25T18:58:15Z",
     "closed_at": null,
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -61363,9 +61313,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2024-11-06T10:32:10Z",
-    "updated_at": "2025-01-21T17:32:35Z",
+    "updated_at": "2025-02-28T14:46:10Z",
     "closed_at": null,
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -61814,7 +61764,35 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278047502,
+        "node_id": "LA_kwDOHk513M7-_dMO",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20editing",
+        "name": "topic: editing",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to text editing"
+      },
+      {
+        "id": 4281717763,
+        "node_id": "LA_kwDOHk513M7_NdQD",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20Web%20Editing%20WG",
+        "name": "venue: W3C Web Editing WG",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575936941,
+        "node_id": "LA_kwDOHk513M8AAAABEL9BrQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Microsoft",
+        "name": "from: Microsoft",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Microsoft."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -61822,7 +61800,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-11-20T07:25:12Z",
-    "updated_at": "2024-11-20T07:25:12Z",
+    "updated_at": "2025-03-03T10:29:34Z",
     "closed_at": null,
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -62200,6 +62178,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278049802,
         "node_id": "LA_kwDOHk513M7-_dwK",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20security",
@@ -62227,15 +62214,15 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 9,
     "created_at": "2024-12-06T14:04:57Z",
-    "updated_at": "2025-02-10T12:56:45Z",
-    "closed_at": null,
+    "updated_at": "2025-02-28T14:48:42Z",
+    "closed_at": "2025-02-28T14:48:42Z",
     "author_association": "NONE",
     "sub_issues_summary": {
       "total": 0,
@@ -62244,7 +62231,27 @@
     },
     "active_lock_reason": null,
     "body": "### WebKittens\r\n\r\n@annevk @wilander\r\n\r\n### Title of the proposal\r\n\r\nSignature-based Integrity\r\n\r\n### URL to the spec\r\n\r\nhttps://wicg.github.io/signature-based-sri/\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/WICG/signature-based-sri\r\n\r\n### TAG Design Review URL\r\n\r\n_Waiting to get feedback/signal from y'all and our friends at Mozilla_\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1139\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nIt would be nice if web developers could verify the provenance of resources they depend upon, establishing the technical foundations upon which they can increase confidence in the integrity of their dependencies. We offer brittle, content-based integrity mechanisms today which can (in theory) but do not (in practice) enable this capability. This proposal explores an alternative that builds upon existing integrity checks (e.g. [`<script integrity>`](https://w3c.github.io/webappsec-subresource-integrity/) and signature mechanisms ([RFC9421](https://www.rfc-editor.org/rfc/rfc9421.html) to give developers an additional option when deciding how to protect their sites from unexpected injection.\r\n\r\nIn short, developers will include the following on their site:\r\n\r\n```html\r\n<script src=\"https://amazing.example/widget.js\"\r\n        crossorigin=\"anonymous\"\r\n        integrity=\"ed25519-[base64-encoded public key]\"></script>\r\n```\r\n\r\nServers will deliver resources signed with the asserted key:\r\n\r\n```http\r\nHTTP/1.1 200 OK\r\nAccept-Ranges: none\r\nVary: Accept-Encoding\r\nContent-Type: text/javascript; charset=UTF-8\r\nAccess-Control-Allow-Origin: *\r\nIdentity-Digest: sha-512=:[base64-encoded digest of the response body]:\r\nSignature-Input: sig1=(\"identity-digest\";sf); alg=\"ed25519\"; keyid=\"[base64-encoded public key]\"; tag=\"sri\"\r\nSignature: sig1=:[base64-encoded result of Ed25519([response body], [private key])]:\r\n```\r\n\r\nModulo a few details we're still working out in the draft spec and on GitHub, that's it. Easy peasy. WDYT?",
-    "closed_by": null,
+    "closed_by": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/434/reactions",
       "total_count": 1,
@@ -62259,7 +62266,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/434/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/435",
@@ -62513,16 +62520,53 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
-    "state": "open",
+    "labels": [
+      {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4278048526,
+        "node_id": "LA_kwDOHk513M7-_dcO",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20media",
+        "name": "topic: media",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to audio, video, or other timed media"
+      },
+      {
+        "id": 4488257121,
+        "node_id": "LA_kwDOHk513M8AAAABC4VeYQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20Audio%20WG",
+        "name": "venue: W3C Audio WG",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      }
+    ],
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2024-12-18T23:44:28Z",
-    "updated_at": "2024-12-29T01:05:11Z",
-    "closed_at": null,
+    "updated_at": "2025-03-03T10:35:17Z",
+    "closed_at": "2025-03-03T10:35:00Z",
     "author_association": "NONE",
     "sub_issues_summary": {
       "total": 0,
@@ -62531,7 +62575,27 @@
     },
     "active_lock_reason": null,
     "body": "### WebKittens\n\n@eric-carlson\n\n### Title of the proposal\n\nAdd MediaStreamTrack support to the Web Speech API\n\n### URL to the spec\n\nhttps://github.com/WebAudio/web-speech-api/pull/118\n\n### URL to the spec's repository\n\nhttps://github.com/WebAudio/web-speech-api/\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1149\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThe Web Speech API is a web standard API that allows developers to incorporate speech recognition and synthesis into their web pages. Currently, the Web Speech API uses the user's default microphone as the audio input. MediaStreamTrack support allows websites to use the Web Speech API to caption other sources of audio including remote audio tracks.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/438/reactions",
       "total_count": 0,
@@ -62546,7 +62610,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/438/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/439",
@@ -62801,15 +62865,43 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278536131,
+        "node_id": "LA_kwDOHk513M7_BUfD",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20web%20apis",
+        "name": "topic: web apis",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to web APIs (entry points for script)"
+      },
+      {
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 2,
+    "comments": 3,
     "created_at": "2025-01-06T16:57:08Z",
-    "updated_at": "2025-02-13T19:36:02Z",
+    "updated_at": "2025-02-27T12:25:21Z",
     "closed_at": null,
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -63348,15 +63440,34 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4575587307,
+        "node_id": "LA_kwDOHk513M8AAAABELnr6w",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20Web%20Application%20Security%20WG",
+        "name": "venue: W3C Web Application Security WG",
+        "color": "0052cc",
+        "default": false,
+        "description": "Proposal is being reviewed in the W3C's Web Application Security WG (aka WebAppSec)"
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2025-01-15T02:07:52Z",
-    "updated_at": "2025-01-15T02:07:52Z",
+    "updated_at": "2025-03-03T10:23:54Z",
     "closed_at": null,
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -63577,16 +63688,35 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
-    "state": "open",
+    "labels": [
+      {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575587307,
+        "node_id": "LA_kwDOHk513M8AAAABELnr6w",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20Web%20Application%20Security%20WG",
+        "name": "venue: W3C Web Application Security WG",
+        "color": "0052cc",
+        "default": false,
+        "description": "Proposal is being reviewed in the W3C's Web Application Security WG (aka WebAppSec)"
+      }
+    ],
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 1,
     "created_at": "2025-01-17T00:17:00Z",
-    "updated_at": "2025-01-17T08:05:54Z",
-    "closed_at": null,
+    "updated_at": "2025-02-28T14:49:41Z",
+    "closed_at": "2025-02-28T14:49:41Z",
     "author_association": "NONE",
     "sub_issues_summary": {
       "total": 0,
@@ -63595,7 +63725,27 @@
     },
     "active_lock_reason": null,
     "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nFire error event instead of throwing exception for CSP blocked worker constructor\n\n### URL to the spec\n\nhttps://www.w3.org/TR/CSP3/#fetch-integration\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nWhen blocked by Content Security Policy, Safari and Chromium currently throws SecurityError from constructor when `new Worker(url)` and `new SharedWorker(url)` is run. However, spec requires CSP to be checked as part of fetch which happens asynchronously. So the correct behavior should be not throw exception in Worker and SharedWorker constructor, but instead fire error event, which Firefox is currently doing.\n\nThere are WPT tests that are testing the behavior of CSP blocked worker. However the test code currently wrongly expects the SecurityError exception. There is a TODO comment in the test code linking to https://crbug.com/663298 indicating that the tests should be updated. See https://github.com/web-platform-tests/wpt/blob/109d4a64f757cc6689e7050f1cea59a2c1823eca/content-security-policy/support/testharness-helper.js#L100-L104 and https://github.com/web-platform-tests/wpt/blob/109d4a64f757cc6689e7050f1cea59a2c1823eca/content-security-policy/support/testharness-helper.js#L119-L123. The tests are https://wpt.fyi/results/content-security-policy/worker-src/dedicated-worker-src-child-fallback-blocked.sub.html?label=experimental&label=master&aligned and \nhttps://wpt.fyi/results/content-security-policy/worker-src/shared-worker-src-child-fallback-blocked.sub.html?label=experimental&label=master&aligned.\n\nWe intent to change Chromium's behavior to be aligned with the spec and update the test code.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/451/reactions",
       "total_count": 0,
@@ -63610,7 +63760,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/451/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/452",
@@ -63662,17 +63812,26 @@
         "color": "ffffff",
         "default": false,
         "description": "Proposed, edited, or co-edited by an individual or entity that doesn't have a more specific label."
+      },
+      {
+        "id": 5356000013,
+        "node_id": "LA_kwDOHk513M8AAAABPz4TDQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/proposal%20withdrawn",
+        "name": "proposal withdrawn",
+        "color": "453E33",
+        "default": false,
+        "description": ""
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2025-01-25T21:40:17Z",
-    "updated_at": "2025-01-27T15:48:17Z",
-    "closed_at": null,
+    "updated_at": "2025-02-28T14:51:39Z",
+    "closed_at": "2025-02-28T14:51:38Z",
     "author_association": "NONE",
     "sub_issues_summary": {
       "total": 0,
@@ -63681,7 +63840,27 @@
     },
     "active_lock_reason": null,
     "body": "### WebKittens\n\nGoogle: @jeremyroman @lucasgadani (Chromium Portals)\nApple: @marcoscaceres @zachernuk (Immersive Web, 3D `<model>` element)\n\n### Title of the proposal\n\nPortals\n\n### URL to the spec\n\nhttps://wicg.github.io/portals/\n\n### URL to the spec's repository\n\nhttps://github.com/WICG/portals\n\n### Issue Tracker URL\n\nhttps://github.com/WICG/portals/issues\n\n### Explainer URL\n\nhttps://web.dev/articles/hands-on-portals\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/157\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis feature would be super futurizing for the metaverse. Many people are trying hard to build the metaverse, and many people don't even know they need it yet, but the limiting factor is that only a few key technologies (Chrome, Safari, Firefox, and a few other browsers) have the true power to implement the features the metaverse needs in a standardized way that many people can access. Anything else less then a browser is just a convention that some people might follow and that other people might try to supplant. However, standards in browsers become cemented APIs that force the majority of Earth to coalesce on one way of doing things, which is what we need for a concept such as a true metaverse.\n\nImagine websites (2D or 3D), and you can transition to other websites (2D or 3D). As a standard, this would make it possible to traverse worlds in 3D space in a shared way, relying on decentralized domain names for representing worlds.\n\nNow imagine, for example, with optional communication between the websites (i.e. 3D worlds), the camera position of one world can be aligned with that of the nested world (i.e. real \"portals\" or doorways to other worlds).\n\nI'm working on https://lume.io, which provides 3D custom HTML elements, and these are the sorts of things I envision being openly standardized in the future.\n\nThis is all possible right now, but it would be non-standard. For example, I could perhaps wire up some iframes and invent a way to communicate across the domains, share camera data, and make the \"jump\" across worlds happen.\n\nHowever it would be very hacky to avoid a very bad UX. For one, there would necessarily need to be an infinite stack of iframes, otherwise any time one wished to traverse into a world there would need to be a full page reload to cause the nested iframe to become the top iframe so that it can take over the URL in the address bar, and that would be a really bad user experience. To avoid these full page reloads, we'd need to create a convention across coordinated websites so that they can support a URL format that can store the nested set of iframe domains in order to afford sub-navigation in each iframe, and this would get extremely complicated.\n\nNative portals solve all the issues. As soon as we enter a portal, it becomes the top-level page, and controls the address bar, just as if we visited that website in the first place.\n\nPortals would help us progress towards a true metaverse in a much more modern and standard way by natively handling worlds in worlds in worlds in worlds. URL address bar hacks would not be necessary, for example, as the browser would instead integrate natively into the browser history, there'd be no need to track a stack of iframes using APIs that are limited compared to the browser's own native APIs, etc.\n\n---\n\n# Imagine this\n\n- Imagine you're walking around a 3D world that looks like minecraft (for sake of example)\n- you walk into a house\n- in that house is a computer, or simply a floating panel, with a website in it, for example an online store.\n- you could interact with the website, or you could enter it.\n- you enter the website, which happens to be 2D, so now this 2D website takes up your window.\n- you are exploring products on the 2D website.\n- in the 2D website, you discover a portal to a 3D minigame that sells the product, so you click enter it.\n- the view zooms in and you are now inside the 3D game for the product.\n- you hit the back button, and you're back in the 2D store\n- you bookmark the product for later, as currently you already spent all your money on stuff\n- you hit the back button again and you get back into the minecraft-like world inside the home where you previously were\n- You might be doing all this on a regular monitor, or you might be doing all this in a VR headset (f.e. Quest Browser or VisionOS Safari).\n\nTHIS. Is the future.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/452/reactions",
       "total_count": 0,
@@ -63696,7 +63875,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/452/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/453",
@@ -63751,8 +63930,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/453/reactions",
-      "total_count": 1,
-      "+1": 1,
+      "total_count": 2,
+      "+1": 2,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -63866,6 +64045,15 @@
     },
     "labels": [
       {
+        "id": 4278032568,
+        "node_id": "LA_kwDOHk513M7-_Zi4",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/duplicate",
+        "name": "duplicate",
+        "color": "750787",
+        "default": true,
+        "description": "This issue or pull request already exists"
+      },
+      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -63882,7 +64070,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-02-03T16:31:40Z",
-    "updated_at": "2025-02-03T16:32:49Z",
+    "updated_at": "2025-02-28T14:17:42Z",
     "closed_at": "2025-02-03T16:32:48Z",
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -63893,22 +64081,22 @@
     "active_lock_reason": null,
     "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nCSS Borders and Box Decorations 4\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-borders-4/#corner-shaping\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts/labels/css-borders-4\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/noamr/explainers/blob/main/corner-shape-explainer.md\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\nhttps://bugs.webkit.org/show_bug.cgi?id=277912\n\n### Radar URL\n\nrdar://134147721\n\n### Description\n\nThis proposal allows authors to control the shape of box corners, including using \"superellipse\" which enables squircles.",
     "closed_by": {
-      "login": "smfr",
-      "id": 20968,
-      "node_id": "MDQ6VXNlcjIwOTY4",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20968?v=4",
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/smfr",
-      "html_url": "https://github.com/smfr",
-      "followers_url": "https://api.github.com/users/smfr/followers",
-      "following_url": "https://api.github.com/users/smfr/following{/other_user}",
-      "gists_url": "https://api.github.com/users/smfr/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/smfr/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/smfr/subscriptions",
-      "organizations_url": "https://api.github.com/users/smfr/orgs",
-      "repos_url": "https://api.github.com/users/smfr/repos",
-      "events_url": "https://api.github.com/users/smfr/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/smfr/received_events",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
       "type": "User",
       "user_view_type": "public",
       "site_admin": false
@@ -63927,7 +64115,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/455/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "duplicate"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/456",
@@ -63961,7 +64149,26 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4281722881,
+        "node_id": "LA_kwDOHk513M7_NegB",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WICG",
+        "name": "venue: WICG",
+        "color": "0052cc",
+        "default": false,
+        "description": "Proposal is incubated in the Web Incubator Community Group"
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -63969,7 +64176,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2025-02-05T23:56:16Z",
-    "updated_at": "2025-02-05T23:56:16Z",
+    "updated_at": "2025-02-28T14:18:56Z",
     "closed_at": null,
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -64356,15 +64563,43 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      },
+      {
+        "id": 5317425647,
+        "node_id": "LA_kwDOHk513M8AAAABPPF57w",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20fonts%20and/or%20text",
+        "name": "topic: fonts and/or text",
+        "color": "5bcefa",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 6109307481,
+        "node_id": "LA_kwDOHk513M8AAAABbCSiWQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Adobe",
+        "name": "from: Adobe",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Adobe"
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2025-02-11T17:52:28Z",
-    "updated_at": "2025-02-11T17:52:28Z",
+    "updated_at": "2025-03-03T08:59:41Z",
     "closed_at": null,
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -64423,15 +64658,43 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278048770,
+        "node_id": "LA_kwDOHk513M7-_dgC",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20networking",
+        "name": "topic: networking",
+        "color": "5bcefa",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4299437316,
+        "node_id": "LA_kwDOHk513M8AAAABAEQ1BA",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20Fetch%20Workstream",
+        "name": "venue: WHATWG Fetch Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2025-02-14T04:36:25Z",
-    "updated_at": "2025-02-14T04:36:25Z",
+    "updated_at": "2025-03-03T08:52:33Z",
     "closed_at": null,
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -64490,7 +64753,26 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4281595369,
+        "node_id": "LA_kwDOHk513M7_M_Xp",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20app-like%20capabilities",
+        "name": "topic: app-like capabilities",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to native app style capabilities (e.g. things under the \"PWA\" or \"Fugu\" brands)"
+      },
+      {
+        "id": 4575936941,
+        "node_id": "LA_kwDOHk513M8AAAABEL9BrQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Microsoft",
+        "name": "from: Microsoft",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Microsoft."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -64498,7 +64780,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2025-02-17T11:21:13Z",
-    "updated_at": "2025-02-17T11:23:41Z",
+    "updated_at": "2025-02-27T12:05:06Z",
     "closed_at": null,
     "author_association": "NONE",
     "sub_issues_summary": {
@@ -64589,6 +64871,140 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/464/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/465",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/465/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/465/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/465/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/465",
+    "id": 2876636909,
+    "node_id": "I_kwDOHk513M6rdf7t",
+    "number": 465,
+    "title": "Audio output default device supports: setPreferredSinkId",
+    "user": {
+      "login": "sunggook",
+      "id": 7295612,
+      "node_id": "MDQ6VXNlcjcyOTU2MTI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7295612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sunggook",
+      "html_url": "https://github.com/sunggook",
+      "followers_url": "https://api.github.com/users/sunggook/followers",
+      "following_url": "https://api.github.com/users/sunggook/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sunggook/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sunggook/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sunggook/subscriptions",
+      "organizations_url": "https://api.github.com/users/sunggook/orgs",
+      "repos_url": "https://api.github.com/users/sunggook/repos",
+      "events_url": "https://api.github.com/users/sunggook/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sunggook/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2025-02-25T02:00:07Z",
+    "updated_at": "2025-02-25T02:01:02Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "active_lock_reason": null,
+    "body": "There were requests for an audio output device API capable of setting the default audio output device for the entire web application, including the top frame and same/cross-origin subframes. The current and methods only impact the calling frame.\n\n## Request for WebKit Position on Audio output default device support.\n\n### WebKittens\n\n@youenn\n\n### Title of the proposal\n\nAudio output default device supports: setPreferredSinkId\n\n### URL to the spec\n\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/SetPreferredSinkId/explainer.md\n\n### URL to the spec's repository\n\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/SetPreferredSinkId/explainer.md\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1182\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nWork on the Chromium side is being [tracked here](https://chromestatus.com/feature/5098834847072256)",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/465/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/465/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/466",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/466/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/466/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/466/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/466",
+    "id": 2882699969,
+    "node_id": "I_kwDOHk513M6r0oLB",
+    "number": 466,
+    "title": "CSS View Transitions - Nested View Transition Groups",
+    "user": {
+      "login": "vmpstr",
+      "id": 1906955,
+      "node_id": "MDQ6VXNlcjE5MDY5NTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1906955?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vmpstr",
+      "html_url": "https://github.com/vmpstr",
+      "followers_url": "https://api.github.com/users/vmpstr/followers",
+      "following_url": "https://api.github.com/users/vmpstr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vmpstr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vmpstr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vmpstr/subscriptions",
+      "organizations_url": "https://api.github.com/users/vmpstr/orgs",
+      "repos_url": "https://api.github.com/users/vmpstr/repos",
+      "events_url": "https://api.github.com/users/vmpstr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vmpstr/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2025-02-26T20:13:27Z",
+    "updated_at": "2025-02-26T20:13:27Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "active_lock_reason": null,
+    "body": "### WebKittens\n\n@nt1m\n\n### Title of the proposal\n\nCSS View Transitions - Nested View Transition Groups\n\n### URL to the spec\n\nhttps://www.w3.org/TR/css-view-transitions-2/#view-transition-group-prop\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/WICG/view-transitions/blob/main/nested-explainer.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1061\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1183\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis is a proposal for an addition to the view transition feature: view-transition-group property that allows nesting of `::view-transition-group` elements under other `::view-transition-group` elements.",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/466/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/466/timeline",
     "performed_via_github_app": null,
     "state_reason": null
   }
