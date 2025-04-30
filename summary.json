@@ -725,7 +725,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/38",
-    "position": "blocked",
+    "position": "support",
     "venues": [
       "Other"
     ],
@@ -734,14 +734,14 @@
       "web components"
     ],
     "title": "Scoped Custom Element Registries",
-    "url": "https://github.com/WICG/webcomponents/issues/716",
+    "url": "https://github.com/whatwg/html/pull/10869",
     "github": null,
-    "issues": "https://github.com/WICG/webcomponents/issues/716",
-    "explainer": "https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Scoped-Custom-Element-Registries.md",
-    "tag": null,
+    "issues": "https://github.com/whatwg/html/issues/10854",
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1070",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/424",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=267454",
-    "radar": null
+    "radar": "rdar://121256394"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/39",
@@ -966,7 +966,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/50",
-    "position": null,
+    "position": "support",
     "venues": [
       "Other"
     ],
@@ -3898,7 +3898,7 @@
     "topics": [
       "authentication"
     ],
-    "title": "RFC 7616 Digest auth: Support SHA-256, SHA-512-256 and user hashing",
+    "title": "RFC7616: SHA-256 support for digest authentication",
     "url": "https://datatracker.ietf.org/doc/html/rfc7616",
     "github": null,
     "issues": "https://bugs.chromium.org/p/chromium/issues/detail?id=1160478",
@@ -6861,7 +6861,10 @@
     "venues": [
       "Other"
     ],
-    "concerns": [],
+    "concerns": [
+      "portability",
+      "device independence"
+    ],
     "topics": [
       "security",
       "http"
@@ -7586,7 +7589,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "web apis"
+    ],
     "title": "Canvas TextMetrics additions for editing and text styling",
     "url": "https://github.com/whatwg/html/issues/10677",
     "github": "https://github.com/whatwg/html",
@@ -7600,9 +7605,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/437",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Functions and Mixins 1 (@function)",
     "url": "https://drafts.csswg.org/css-mixins-1/ (lacks intro, but see explainer)",
     "github": "https://github.com/w3c/csswg-drafts/tree/main/css-mixins-1",
@@ -7694,8 +7703,13 @@
     "id": "https://github.com/WebKit/standards-positions/issues/443",
     "position": null,
     "venues": [],
-    "concerns": [],
-    "topics": [],
+    "concerns": [
+      "privacy"
+    ],
+    "topics": [
+      "media",
+      "web apis"
+    ],
     "title": "On-device Web Speech API",
     "url": "https://github.com/WebAudio/web-speech-api/pull/122",
     "github": "https://github.com/WebAudio/web-speech-api/",
@@ -7709,9 +7723,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/444",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Gap Decorations",
     "url": "https://drafts.csswg.org/css-gaps-1/",
     "github": null,
@@ -7761,9 +7779,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/447",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Overflow 5: Scroll navigation controls",
     "url": "https://drafts.csswg.org/css-overflow-5/#scroll-navigation",
     "github": "https://github.com/w3c/csswg-drafts/",
@@ -7849,9 +7871,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/453",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS if() function",
     "url": "https://drafts.csswg.org/css-values-5/#if-notation",
     "github": null,
@@ -7899,11 +7925,15 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/458",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
-    "title": "require-sri-for CSP directive",
-    "url": "https://github.com/w3c/webappsec-subresource-integrity/pull/129",
+    "topics": [
+      "security"
+    ],
+    "title": "Integrity-Policy header for scripts",
+    "url": "https://github.com/w3c/webappsec-subresource-integrity/pull/133",
     "github": null,
     "issues": null,
     "explainer": null,
@@ -8003,9 +8033,16 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/464",
     "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
+    "venues": [
+      "WHATWG",
+      "Other"
+    ],
+    "concerns": [
+      "portability"
+    ],
+    "topics": [
+      "html"
+    ],
     "title": "The `interesttarget` attribute",
     "url": "https://github.com/whatwg/html/pull/11006",
     "github": "https://github.com/whatwg/html",
@@ -8035,9 +8072,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/466",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS View Transitions - Nested View Transition Groups",
     "url": "https://www.w3.org/TR/css-view-transitions-2/#view-transition-group-prop",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -8045,6 +8086,352 @@
     "explainer": "https://github.com/WICG/view-transitions/blob/main/nested-explainer.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/1061",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1183",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/467",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [
+      "performance",
+      "fetch"
+    ],
+    "title": "expose contentEncoding in resourceTiming",
+    "url": "https://github.com/whatwg/fetch/pull/1796",
+    "github": "https://github.com/whatwg/fetch",
+    "issues": null,
+    "explainer": "https://github.com/guohuideng2024/resource-timing/blob/gh-pages/Explainers/Content_Encoding.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1189",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/468",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "web apis"
+    ],
+    "title": "Update QuotaExceededError to a DOMException derived interface",
+    "url": "https://webidl.spec.whatwg.org/#idl-DOMException",
+    "github": "https://github.com/whatwg/webidl",
+    "issues": null,
+    "explainer": "https://github.com/whatwg/webidl/pull/1465",
+    "tag": null,
+    "mozilla": "https://github.com/whatwg/html/issues/10972#:~:text=think%20of%20this-,quotaexceedederror,-domenic%3A%20this%20is",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/469",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Add  \u2018confidence\u2019 field on the PerformanceNavigationTiming object",
+    "url": "https://github.com/w3c/navigation-timing/issues/202",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/PerformanceNavigationTiming%20for%20User%20Agent%20Launch/explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/878",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1191",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/470",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "privacy"
+    ],
+    "title": "Approximate geolocation",
+    "url": "https://github.com/explainers-by-googlers/approximate-geolocation/blob/main/README.md",
+    "github": "https://github.com/explainers-by-googlers/approximate-geolocation",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1193",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/471",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS Values and Units: sibling-count() and sibling-index()",
+    "url": "https://drafts.csswg.org/css-values-5/#tree-counting",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/w3c/csswg-drafts/blob/main/css-values-5/tree-counting-explainer.md",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/472",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS Properties and Values API: Type-agnostic var() fallback",
+    "url": "https://github.com/w3c/css-houdini-drafts/pull/1139",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "N/A. They already fixed it, see bug.",
+    "bugzilla": "https://bugzilla.mozilla.org/show_bug.cgi?id=1952516",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/473",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Private Proof API",
+    "url": null,
+    "github": null,
+    "issues": "https://issues.chromium.org/404546887",
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1071",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1196",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/474",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS shapes",
+    "url": "https://drafts.csswg.org/css-shapes/#supported-basic-shapes",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1197",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/475",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "WebCodecs: Support for orientation metadata",
+    "url": "https://www.w3.org/TR/webcodecs/",
+    "github": "https://github.com/w3c/webcodecs/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/476",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "privacy",
+      "storage"
+    ],
+    "title": "Strict Same-Origin Policy for Storage Access API",
+    "url": "https://github.com/privacycg/storage-access/pull/213",
+    "github": "https://github.com/privacycg/storage-access",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1200",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/477",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "Add support for `column-wrap` and `column-height`",
+    "url": "https://drafts.csswg.org/css-multicol-2/#ch",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/mstensho/column-wrap/",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/478",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "webrtc"
+    ],
+    "title": "Identifiers for WebRTC's Statistics API",
+    "url": "https://w3c.github.io/webrtc-stats/",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://github.com/mozilla/standards-positions/issues/1202",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/479",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "web apis"
+    ],
+    "title": "Page Lifecycle",
+    "url": "https://wicg.github.io/page-lifecycle/",
+    "github": "https://github.com/WICG/page-lifecycle",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/283",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/87",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/480",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "svg"
+    ],
+    "title": "Allow \u2018use\u2019 to reference an external document's root element by omitting the fragment",
+    "url": "https://svgwg.org/svg2-draft/struct.html#UseElement",
+    "github": "https://github.com/w3c/svgwg/blob/main/master/struct.html",
+    "issues": "https://issues.chromium.org/issues/40362369",
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/SVG/allow-use-to-reference-entire-files.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1204",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=290983",
+    "radar": "rdar://148973201"
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/481",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Full Screen based Keyboard Lock API",
+    "url": "https://github.com/whatwg/fullscreen/issues/231",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=265923",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/482",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "System Status Icons for Installed desktop Web Apps",
+    "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/SystemStatusIcon/explainer.md",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "[_No response_](https://github.com/mozilla/standards-positions/issues/1208)",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/483",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "svg"
+    ],
+    "title": "Support transform attribute on `svg` element",
+    "url": "https://www.w3.org/TR/SVG2/struct.html#SVGElement",
+    "github": "https://github.com/w3c/svgwg/blob/main/master/struct.html",
+    "issues": "https://issues.chromium.org/issues/40313130",
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=107394",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/484",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS caret-shape property",
+    "url": "https://drafts.csswg.org/css-ui/#caret-shape",
+    "github": "https://github.com/w3c/csswg-drafts/blob/main/css-ui-4",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1211",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/485",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "System accent color for accent-color property",
+    "url": "https://drafts.csswg.org/css-ui-4/#widget-accent",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   }
