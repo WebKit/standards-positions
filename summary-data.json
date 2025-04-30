@@ -60246,6 +60246,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278049556,
         "node_id": "LA_kwDOHk513M7-_dsU",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20privacy",
@@ -60291,15 +60300,15 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 7,
     "created_at": "2024-10-08T13:39:56Z",
-    "updated_at": "2025-03-19T23:05:32Z",
-    "closed_at": null,
+    "updated_at": "2025-04-30T08:39:46Z",
+    "closed_at": "2025-04-30T08:39:45Z",
     "author_association": "NONE",
     "type": null,
     "active_lock_reason": null,
@@ -60309,7 +60318,27 @@
       "percent_completed": 0
     },
     "body": "### WebKittens\n\n@annevk @johnwilander\n\n### Title of the proposal\n\nStorage Access Headers\n\n### URL to the spec\n\nhttps://privacycg.github.io/storage-access-headers/\n\n### URL to the spec's repository\n\nhttps://github.com/privacycg/storage-access-headers\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/982\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1084\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThe Storage Access Headers proposal creates new HTTP request and response headers to enable authenticated embeds to access third-party cookies, even without an iframe, via existing storage-access permission grants.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/412/reactions",
       "total_count": 0,
@@ -60324,7 +60353,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/412/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/413",
@@ -61700,6 +61729,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278049437,
         "node_id": "LA_kwDOHk513M7-_dqd",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20performance",
@@ -61736,15 +61774,15 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 2,
     "created_at": "2024-11-06T10:32:10Z",
-    "updated_at": "2025-02-28T14:46:10Z",
-    "closed_at": null,
+    "updated_at": "2025-04-30T08:39:13Z",
+    "closed_at": "2025-04-30T08:39:13Z",
     "author_association": "NONE",
     "type": null,
     "active_lock_reason": null,
@@ -61754,7 +61792,27 @@
       "percent_completed": 0
     },
     "body": "### WebKittens\n\n@annevk @achristensen11\n\n### Title of the proposal\n\nAdd `finalResponseHeadersStart` to resource timing\n\n### URL to the spec\n\nhttps://w3c.github.io/resource-timing/\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/resource-timing/\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1108\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nSee WebPerfWG [minutes](https://docs.google.com/document/d/1wK95hyikDRj12Y0jE9x9fwSvbXZJXP6MIqQdOJqjVRU/edit?tab=t.0#heading=h.4tlsvuep2h7x) where this was discussed in detail.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/424/reactions",
       "total_count": 0,
@@ -61769,7 +61827,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/424/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/425",
@@ -63548,6 +63606,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278536131,
         "node_id": "LA_kwDOHk513M7_BUfD",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20web%20apis",
@@ -63575,15 +63642,15 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 3,
     "created_at": "2025-01-06T16:57:08Z",
-    "updated_at": "2025-02-27T12:25:21Z",
-    "closed_at": null,
+    "updated_at": "2025-04-30T08:38:53Z",
+    "closed_at": "2025-04-30T08:38:53Z",
     "author_association": "NONE",
     "type": null,
     "active_lock_reason": null,
@@ -63593,7 +63660,27 @@
       "percent_completed": 0
     },
     "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the proposal\r\n\r\nNavigation API: `sourceElement`\r\n\r\n### URL to the spec\r\n\r\nhttps://html.spec.whatwg.org/multipage/nav-history-apis.html#navigateevent\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\nhttps://github.com/WICG/navigation-api/\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/WICG/navigation-api/blob/main/README.md#navigation-monitoring-and-interception\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/867\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1154\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis is a minor addition to the navigation API [requested by devs](https://github.com/WICG/navigation-api/issues/225), adding its own standards position issue for completeness as it was added after the previous one.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/441/reactions",
       "total_count": 0,
@@ -63608,7 +63695,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/441/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/442",
@@ -65574,6 +65661,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278048770,
         "node_id": "LA_kwDOHk513M7-_dgC",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20networking",
@@ -65601,15 +65697,15 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 1,
     "created_at": "2025-02-14T04:36:25Z",
-    "updated_at": "2025-03-03T08:52:33Z",
-    "closed_at": null,
+    "updated_at": "2025-04-30T08:38:30Z",
+    "closed_at": "2025-04-30T08:38:25Z",
     "author_association": "NONE",
     "type": null,
     "active_lock_reason": null,
@@ -65619,7 +65715,27 @@
       "percent_completed": 0
     },
     "body": "### WebKittens\n\n@annevk\n\n### Title of the proposal\n\nPartitioning cross-site top-level navigations in the HTTP cache\n\n### URL to the spec\n\nhttps://fetch.spec.whatwg.org/#http-cache-partitions\n\n### URL to the spec's repository\n\nhttps://github.com/whatwg/fetch\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1177\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nChrome is planning to ship an update to its HTTP cache keying scheme that will include an \u201cis-cross-site-top-level-navigation\u201d boolean to mitigate cross-site leak attacks involving top-level navigations. Specifically, this will prevent cross-site attacks in which an attacker can initiate a top-level navigation to a given page and then navigate to a resource known to be loaded by the page in order to infer sensitive information via load timing. This change also improves privacy by preventing a malicious site from using navigations to infer whether a user has visited a given site previously. More information on this attack can be found at: https://xsleaks.dev/docs/attacks/navigations/#partitioned-http-cache-bypass\n\nFrom a standards perspective, the spec calls for partitioning the HTTP cache by at least top-level site, but partitioning beyond that is implementation-defined. The relevant parts of the spec are:\n - https://fetch.spec.whatwg.org/#determine-the-network-partition-key\n - https://fetch.spec.whatwg.org/#http-cache-partitions\n\nIIUC, all browsers do partition by top-level site [1][2], but there hasn't been much recent progress on standardizing beyond that. Some existing differences I'm aware of:\n - Chrome also partitions by frame site and an \"is-subframe-navigation\" boolean\n - Firefox also partitions using an \"is-cross-origin-fetch\" boolean [3]\n\nI've left a comment about this in https://github.com/whatwg/fetch/issues/1035#issuecomment-2658239821, but opening this as well to get a formal standards position. Thanks!\n\n[1] https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning#network_partitioning\n[2] https://webkit.org/tracking-prevention/#partitioned-third-party-http-cache\n[3] https://hg.mozilla.org/mozilla-central/rev/94ed4d6361b3",
-    "closed_by": null,
+    "closed_by": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/462/reactions",
       "total_count": 0,
@@ -65634,7 +65750,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/462/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/463",
@@ -66922,6 +67038,15 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4278049556,
         "node_id": "LA_kwDOHk513M7-_dsU",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20privacy",
@@ -66958,15 +67083,15 @@
         "description": "Proposed, edited, or co-edited by Google."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 1,
     "created_at": "2025-03-21T19:35:54Z",
-    "updated_at": "2025-04-09T16:10:32Z",
-    "closed_at": null,
+    "updated_at": "2025-04-30T08:38:10Z",
+    "closed_at": "2025-04-30T08:38:10Z",
     "author_association": "NONE",
     "type": null,
     "active_lock_reason": null,
@@ -66976,7 +67101,27 @@
       "percent_completed": 0
     },
     "body": "### WebKittens\n\n@annevk\n\n### Title of the proposal\n\nStrict Same-Origin Policy for Storage Access API\n\n### URL to the spec\n\nhttps://github.com/privacycg/storage-access/pull/213\n\n### URL to the spec's repository\n\nhttps://github.com/privacycg/storage-access\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1200\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis improves the security posture of the Storage Access API and fully aligns it with the Same-Origin Policy (while still using \"site\" as the privacy boundary).\n\nThe PR leans on https://github.com/privacycg/storage-access-headers to maintain accessibility of a site's cookies via the Storage Access API in a more secure way. [WebKit standards position](https://github.com/WebKit/standards-positions/issues/412)",
-    "closed_by": null,
+    "closed_by": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/476/reactions",
       "total_count": 0,
@@ -66991,7 +67136,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/476/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/477",

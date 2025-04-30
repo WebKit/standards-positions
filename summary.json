@@ -7130,7 +7130,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/412",
-    "position": null,
+    "position": "support",
     "venues": [
       "Other"
     ],
@@ -7365,7 +7365,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/424",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -7665,7 +7665,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/441",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -7994,7 +7994,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/462",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -8248,7 +8248,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/476",
-    "position": null,
+    "position": "support",
     "venues": [
       "Other"
     ],
