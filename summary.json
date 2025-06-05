@@ -5224,11 +5224,13 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/292",
-    "position": null,
+    "position": "support",
     "venues": [
       "Other"
     ],
-    "concerns": [],
+    "concerns": [
+      "venue"
+    ],
     "topics": [
       "dom",
       "events"
@@ -6750,7 +6752,7 @@
     "issues": null,
     "explainer": null,
     "tag": null,
-    "mozilla": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/281",
     "bugzilla": null,
     "radar": null
   },
@@ -7478,7 +7480,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/430",
-    "position": null,
+    "position": "neutral",
     "venues": [
       "W3C"
     ],
@@ -7486,7 +7488,7 @@
     "topics": [
       "security"
     ],
-    "title": "Hash reporting for scripts",
+    "title": "CSP: hash reporting for scripts",
     "url": "https://github.com/w3c/webappsec-csp/pull/693",
     "github": "https://github.com/w3c/webappsec-csp/",
     "issues": null,
@@ -7828,7 +7830,7 @@
     "url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-intercept",
     "github": "https://github.com/whatwg/html",
     "issues": "https://github.com/whatwg/html",
-    "explainer": "https://github.com/WICG/navigation-api/blob/main/README.md#deferred-commit",
+    "explainer": "https://github.com/WICG/navigation-api/blob/main/README.md#precommit-handlers",
     "tag": "https://github.com/w3ctag/design-reviews/issues/1040",
     "mozilla": null,
     "bugzilla": null,
@@ -7924,7 +7926,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/458",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -8420,18 +8422,274 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/485",
+    "id": "https://github.com/WebKit/standards-positions/issues/486",
     "position": null,
     "venues": [],
     "concerns": [],
     "topics": [],
-    "title": "System accent color for accent-color property",
-    "url": "https://drafts.csswg.org/css-ui-4/#widget-accent",
+    "title": "Web Neural Network API",
+    "url": "https://www.w3.org/TR/webnn/",
+    "github": "https://github.com/webmachinelearning/webnn/",
+    "issues": null,
+    "explainer": "https://github.com/webmachinelearning/webnn/blob/main/explainer.md",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/487",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Ignore Letter Spacing in Cursive Scripts",
+    "url": "https://www.w3.org/TR/css-text-3/#cursive-tracking",
+    "github": "https://www.w3.org/TR/css-text-3/#cursive-tracking",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1222",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=195745",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/488",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Add prefetchCache and prerenderCache to Clear-Site-Data header",
+    "url": "https://wicg.github.io/nav-speculation/prefetch.html",
+    "github": "https://github.com/WICG/nav-speculation",
+    "issues": null,
+    "explainer": "https://github.com/WICG/nav-speculation/blob/main/clear-site-data-integration.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1214",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/489",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "[css-variables-1] Short-circuiting var(), attr(), env()",
+    "url": "https://drafts.csswg.org/css-variables/#replace-a-var-function",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1224",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/490",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "svg"
+    ],
+    "title": "Support async attribute on svg <script> element",
+    "url": "https://svgwg.org/svg2-draft/interact.html#ScriptElement",
+    "github": null,
+    "issues": "https://issues.chromium.org/issues/40067618",
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=75659",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/492",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Extended lifetime shared workers",
+    "url": "https://github.com/whatwg/html/issues/10997 (no spec PR quite yet)",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": "https://gist.github.com/domenic/c5bd38339f33b49120ae11b3b4af5b9b#file-1-explainer-md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1089",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1227",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/494",
+    "position": "support",
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "ToggleEvent source attribute",
+    "url": "https://github.com/whatwg/html/pull/11186",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": "none",
+    "mozilla": "https://github.com/whatwg/html/pull/11186",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/495",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Prompt API",
+    "url": null,
+    "github": "https://github.com/webmachinelearning/prompt-api",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1093",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1213",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/496",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "webrtc"
+    ],
+    "title": "RTCEncodedAudioFrameMetadata.audioLevel",
+    "url": "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-audiolevel",
+    "github": "https://github.com/w3c/webrtc-encoded-transform/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/497",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "WebCodecs VideoFrame Metadata Registry \u2013 rtpTimestamp field",
+    "url": "https://www.w3.org/TR/webcodecs-video-frame-metadata-registry/#dom-videoframemetadata-rtptimestamp",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/GoogleChrome/chromium-dashboard/issues/5009",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/498",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css",
+      "privacy"
+    ],
+    "title": "getComputedStyle() returns true visited colors",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Privacy_and_the_visited_selector",
     "github": null,
     "issues": null,
     "explainer": null,
     "tag": null,
     "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/499",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "env(preferred-text-scale)",
+    "url": "https://drafts.csswg.org/css-env-1/#text-zoom",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/w3c/csswg-drafts/blob/main/css-env-1/explainers/env-preferred-text-scale.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1229",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/501",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS Anchored Fallback Container Queries",
+    "url": "TBD",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": "https://github.com/w3c/csswg-drafts/blob/main/css-anchor-position-1/anchored_container_query.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1103",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1236",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/502",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "ScrollIntoViewOptions container attribute",
+    "url": "https://drafts.csswg.org/cssom-view/#dictdef-scrollintoviewoptions",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": "https://github.com/w3c/csswg-drafts/issues/9452",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1105",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1237",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/503",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [
+      "complexity",
+      "privacy"
+    ],
+    "topics": [],
+    "title": "WebXR Depth Sensing Module",
+    "url": "https://immersive-web.github.io/depth-sensing/",
+    "github": "https://github.com/immersive-web/depth-sensing/",
+    "issues": null,
+    "explainer": "https://github.com/immersive-web/depth-sensing/blob/main/explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/550",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/487",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/504",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Web Authentication Immediate Mediation",
+    "url": "https://github.com/w3c/webauthn/pull/2291",
+    "github": "https://github.com/w3c/webauthn",
+    "issues": null,
+    "explainer": "https://github.com/w3c/webauthn/wiki/Explainer:-WebAuthn-immediate-mediation",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1092",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1239",
     "bugzilla": null,
     "radar": null
   }
