@@ -674,15 +674,12 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/36",
-    "position": "blocked",
+    "position": null,
     "venues": [
-      "Other",
-      "W3C"
+      "WHATWG"
     ],
     "concerns": [
-      "complexity",
-      "integration",
-      "API design"
+      "integration"
     ],
     "topics": [
       "storage",
@@ -1271,7 +1268,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/68",
-    "position": null,
+    "position": "oppose",
     "venues": [
       "Other"
     ],
@@ -4977,7 +4974,7 @@
     "explainer": "https://github.com/mstensho/page-margin-boxes",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/921",
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=265314",
     "radar": null
   },
   {
@@ -5314,7 +5311,7 @@
     "issues": null,
     "explainer": null,
     "tag": null,
-    "mozilla": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/964",
     "bugzilla": null,
     "radar": null
   },
@@ -5412,7 +5409,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/311",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -8045,7 +8042,7 @@
     "topics": [
       "html"
     ],
-    "title": "The `interesttarget` attribute",
+    "title": "The `interestfor` attribute",
     "url": "https://github.com/whatwg/html/pull/11006",
     "github": "https://github.com/whatwg/html",
     "issues": null,
@@ -8102,7 +8099,7 @@
       "performance",
       "fetch"
     ],
-    "title": "expose contentEncoding in resourceTiming",
+    "title": "Expose Content-Encoding header to Resource Timing",
     "url": "https://github.com/whatwg/fetch/pull/1796",
     "github": "https://github.com/whatwg/fetch",
     "issues": null,
@@ -8148,11 +8145,14 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/470",
-    "position": null,
+    "position": "support",
     "venues": [],
-    "concerns": [],
+    "concerns": [
+      "venue"
+    ],
     "topics": [
-      "privacy"
+      "privacy",
+      "web apis"
     ],
     "title": "Approximate geolocation",
     "url": "https://github.com/explainers-by-googlers/approximate-geolocation/blob/main/README.md",
@@ -8422,22 +8422,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/486",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
-    "title": "Web Neural Network API",
-    "url": "https://www.w3.org/TR/webnn/",
-    "github": "https://github.com/webmachinelearning/webnn/",
-    "issues": null,
-    "explainer": "https://github.com/webmachinelearning/webnn/blob/main/explainer.md",
-    "tag": null,
-    "mozilla": null,
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/487",
     "position": null,
     "venues": [],
@@ -8472,9 +8456,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/489",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "[css-variables-1] Short-circuiting var(), attr(), env()",
     "url": "https://drafts.csswg.org/css-variables/#replace-a-var-function",
     "github": null,
@@ -8611,9 +8599,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/499",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "env(preferred-text-scale)",
     "url": "https://drafts.csswg.org/css-env-1/#text-zoom",
     "github": null,
@@ -8627,9 +8619,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/501",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Anchored Fallback Container Queries",
     "url": "TBD",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -8643,9 +8639,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/502",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "ScrollIntoViewOptions container attribute",
     "url": "https://drafts.csswg.org/cssom-view/#dictdef-scrollintoviewoptions",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -8690,6 +8690,621 @@
     "explainer": "https://github.com/w3c/webauthn/wiki/Explainer:-WebAuthn-immediate-mediation",
     "tag": "https://github.com/w3ctag/design-reviews/issues/1092",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1239",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/505",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CORS readability for no-cors requests",
+    "url": "https://github.com/whatwg/html/issues/8143#issuecomment-2920820484",
+    "github": "https://github.com/whatwg/html/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1240",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/506",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Local Font Access API",
+    "url": "https://wicg.github.io/local-font-access/",
+    "github": "https://github.com/WICG/local-font-access/",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/399",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/401",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/507",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Echo Cancellation Mode",
+    "url": "https://www.w3.org/TR/mediacapture-streams/#def-constraint-echoCancellation",
+    "github": "https://github.com/w3c/mediacapture-main/",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1107",
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/508",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Network Error Logging",
+    "url": "https://www.w3.org/TR/network-error-logging/",
+    "github": "https://github.com/w3c/network-error-logging/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/509",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "css",
+      "svg"
+    ],
+    "title": "[SVG] Support width and height as presentation attributes on nested svg elements",
+    "url": "https://svgwg.org/svg2-draft/geometry.html#Sizing",
+    "github": null,
+    "issues": "https://issues.chromium.org/issues/40409865",
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1243",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/510",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "WebHID",
+    "url": "https://wicg.github.io/webhid/#dom-hid",
+    "github": "https://github.com/WICG/webhid/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/459",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/511",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "restrictOwnAudio constraintable property for Screen Capture tracks",
+    "url": "https://w3c.github.io/mediacapture-screen-share/#dfn-restrictownaudio",
+    "github": "https://github.com/w3c/mediacapture-screen-share/",
+    "issues": null,
+    "explainer": "https://github.com/guidou/mediacapture-screen-share/blob/gh-pages/explainer-restrictOwnAudio.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1109",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1244",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/512",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [
+      "html"
+    ],
+    "title": "getSelectionBoundingClientRect()",
+    "url": "https://github.com/whatwg/html/issues/10614 (no spec PR yet)",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/GetSelectionBoundingClientRect/explainer.md",
+    "tag": "TBD",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1249",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/513",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [
+      "web components"
+    ],
+    "title": "elementInternals.type",
+    "url": "https://github.com/whatwg/html/issues/11061 (no spec PR yet)",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ElementInternalsType/explainer.md",
+    "tag": "TBD",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1250",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/514",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS scroll-target-group property",
+    "url": "https://drafts.csswg.org/css-overflow-5/#scroll-target-group",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1251",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/515",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS counter() and counters() in alt text of `content` property",
+    "url": "https://drafts.csswg.org/css-content/#content-property",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/516",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "windowAudio option for getDisplayMedia()",
+    "url": "https://w3c.github.io/mediacapture-screen-share/#dom-displaymediastreamoptions-windowaudio",
+    "github": "https://github.com/w3c/mediacapture-screen-share/",
+    "issues": null,
+    "explainer": "https://github.com/drkron/explainers/blob/main/windowAudio_Explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1110",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1254",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/517",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Web Speech API Contextual Biasing",
+    "url": "https://webaudio.github.io/web-speech-api/#speechreco-phrase",
+    "github": "https://webaudio.github.io/web-speech-api/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1255",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/518",
+    "position": "support",
+    "venues": [
+      "IETF"
+    ],
+    "concerns": [],
+    "topics": [
+      "http"
+    ],
+    "title": "__Host-Http-  and __Http- cookie name prefixes",
+    "url": "https://github.com/httpwg/http-extensions/pull/3110",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1256",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/519",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "Expose unprintable areas via CSS",
+    "url": "https://drafts.csswg.org/css-env-1/",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/mstensho/unprintable-areas",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1115",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1258",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/520",
+    "position": null,
+    "venues": [],
+    "concerns": [
+      "venue"
+    ],
+    "topics": [],
+    "title": "Local Network Access",
+    "url": "https://docs.google.com/document/d/1n0kKxt9pS9qDlu_9i5W8IXA594r4pUOKmN9H35cZ8j0/edit?usp=sharing",
+    "github": "https://github.com/WICG/local-network-access",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1116",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1260",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/521",
+    "position": "support",
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "storage"
+    ],
+    "title": "Add IndexedDB getAllRecords() method and update getAll()/getAllKeys() to support direction option",
+    "url": "https://github.com/w3c/IndexedDB/pull/461",
+    "github": "https://github.com/w3c/IndexedDB",
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/IndexedDbGetAllEntries/explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1117",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1261",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/523",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [
+      "html"
+    ],
+    "title": "Headingoffset & Headingreset attributes",
+    "url": "https://github.com/whatwg/html/pull/11086",
+    "github": "https://github.com/whatwg/html/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=295092",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/524",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "[css-borders-4] CSS Corner sizing side shorthands: border-*-radius",
+    "url": "https://drafts.csswg.org/css-borders-4/#corner-sizing-side-shorthands",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1267",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/525",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "Support font-variation-settings descriptor in @font-face rule",
+    "url": "https://www.w3.org/TR/css-fonts-4/#font-rend-desc",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=215605",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/526",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS ::tooltip Pseudo Element",
+    "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/CSSTooltipPseudo/explainer.md",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/CSSTooltipPseudo/explainer.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1268",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/527",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "Range syntax for style container queries and if()",
+    "url": "https://drafts.csswg.org/css-conditional-5/#typedef-style-range",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1270",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/528",
+    "position": "blocked",
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "window.crashReport key-value API",
+    "url": "https://wicg.github.io/crash-reporting",
+    "github": "https://wicg.github.io/crash-reporting",
+    "issues": null,
+    "explainer": "https://github.com/WICG/crash-reporting/blob/gh-pages/crashReport-explainer.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1271",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/529",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Probabilistic Reveal Tokens",
+    "url": "N/A",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/GoogleChrome/ip-protection/blob/main/prt_explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1083#issuecomment-2891647225",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1273",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/532",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [
+      "html"
+    ],
+    "title": "Change definition of select element list box and drop-down box rendering",
+    "url": "https://github.com/whatwg/html/pull/11460",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1274",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/533",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "@custom-media",
+    "url": "https://www.w3.org/TR/mediaqueries-5/#custom-mq",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1275",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/534",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "web apis"
+    ],
+    "title": "Support \"write\"-only permission mode in FileSystem/FileSystemAccess API",
+    "url": "N/A",
+    "github": "https://github.com/WICG/file-system-access",
+    "issues": null,
+    "explainer": "https://github.com/WICG/file-system-access/pull/462/files",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1276",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/535",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "security"
+    ],
+    "title": "Extend CSP script-src hashes",
+    "url": "https://www.w3.org/TR/CSP3/",
+    "github": "https://github.com/w3c/webappsec-csp/compare/main...carlosjoan91:webappsec-csp:main",
+    "issues": null,
+    "explainer": "https://github.com/explainers-by-googlers/script-src-v2/blob/main/README.md",
+    "tag": "Not filed yet",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1277",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/536",
+    "position": "support",
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "css-view-transitions-2: adding document.activeViewTransition",
+    "url": "https://drafts.csswg.org/css-view-transitions-2",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": "https://github.com/WICG/view-transitions/blob/main/active-view-transition.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1124",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1278",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/537",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "web apis"
+    ],
+    "title": "Selective Clipboard Format Read",
+    "url": "https://www.w3.org/TR/clipboard-apis/#dom-clipboard-read",
+    "github": "https://github.com/w3c/clipboard-apis",
+    "issues": "https://issues.chromium.org/issues/435051711",
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ClipboardAPI/SelectiveClipboardFormatRead/explainer.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1279",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/538",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [
+      "venue"
+    ],
+    "topics": [],
+    "title": "An `Origin` Object",
+    "url": "https://mikewest.github.io/origin-api/",
+    "github": "https://github.com/mikewest/origin-api/",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1130",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1280",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/539",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [
+      "venue"
+    ],
+    "topics": [
+      "storage"
+    ],
+    "title": "Origin-Bound Cookies",
+    "url": "https://mikewest.github.io/cookie-incrementalism/draft-west-cookie-incrementalism.html#name-origin-bound-cookies",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/sbingler/Origin-Bound-Cookies",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1281",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/540",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Inline Integrity",
+    "url": "https://mikewest.github.io/inline-integrity/",
+    "github": "https://github.com/mikewest/inline-integrity",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1283",
     "bugzilla": null,
     "radar": null
   }
