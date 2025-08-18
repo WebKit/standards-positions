@@ -674,7 +674,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/36",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -2389,7 +2389,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/129",
-    "position": null,
+    "position": "support",
     "venues": [
       "Other"
     ],
@@ -5094,22 +5094,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/282",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
-    "title": "Navigation Activation",
-    "url": "https://github.com/whatwg/html/pull/9856",
-    "github": null,
-    "issues": "https://github.com/whatwg/html/",
-    "explainer": null,
-    "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/928",
-    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=258384",
-    "radar": "rdar://problem/111490471"
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/283",
     "position": null,
     "venues": [],
@@ -5208,7 +5192,9 @@
       "WHATWG"
     ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "storage"
+    ],
     "title": "FileSystemObserver",
     "url": "https://fs.spec.whatwg.org/",
     "github": "https://github.com/whatwg/fs",
@@ -7815,7 +7801,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/449",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -7909,7 +7895,11 @@
     "venues": [
       "Other"
     ],
-    "concerns": [],
+    "concerns": [
+      "privacy",
+      "security",
+      "venue"
+    ],
     "topics": [],
     "title": "Crash Reporting",
     "url": "https://wicg.github.io/crash-reporting",
@@ -8712,9 +8702,23 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/506",
     "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
+    "venues": [
+      "Other"
+    ],
+    "concerns": [
+      "duplication",
+      "complexity",
+      "internationalization",
+      "privacy",
+      "usability",
+      "venue",
+      "API design",
+      "power",
+      "device independence"
+    ],
+    "topics": [
+      "fonts and/or text"
+    ],
     "title": "Local Font Access API",
     "url": "https://wicg.github.io/local-font-access/",
     "github": "https://github.com/WICG/local-font-access/",
@@ -8963,13 +8967,18 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/520",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [
       "venue"
     ],
-    "topics": [],
+    "topics": [
+      "networking",
+      "meaningful user consent"
+    ],
     "title": "Local Network Access",
-    "url": "https://docs.google.com/document/d/1n0kKxt9pS9qDlu_9i5W8IXA594r4pUOKmN9H35cZ8j0/edit?usp=sharing",
+    "url": "https://wicg.github.io/local-network-access/",
     "github": "https://github.com/WICG/local-network-access",
     "issues": null,
     "explainer": null,
