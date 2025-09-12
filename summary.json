@@ -5004,8 +5004,8 @@
     "concerns": [],
     "topics": [],
     "title": "Opener Storage Partitioning",
-    "url": "https://arichiv.github.io/opener-storage-partitioning/",
-    "github": "https://github.com/arichiv/opener-storage-partitioning/",
+    "url": "https://explainers-by-googlers.github.io/opener-storage-partitioning/",
+    "github": "https://github.com/explainers-by-googlers/opener-storage-partitioning/",
     "issues": "https://crbug.com/1159586",
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/916",
@@ -6381,9 +6381,13 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/370",
-    "position": null,
+    "position": "support",
     "venues": [],
-    "concerns": [],
+    "concerns": [
+      "internationalization",
+      "portability",
+      "annoyance"
+    ],
     "topics": [
       "accessibility"
     ],
@@ -8080,7 +8084,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/467",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -8212,7 +8216,7 @@
     "topics": [
       "css"
     ],
-    "title": "CSS shapes",
+    "title": "CSS shapes: vertex rounding for polygon()",
     "url": "https://drafts.csswg.org/css-shapes/#supported-basic-shapes",
     "github": null,
     "issues": null,
@@ -8984,8 +8988,8 @@
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/1116",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1260",
-    "bugzilla": null,
-    "radar": null
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=250607",
+    "radar": "rdar://104246665"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/521",
@@ -9009,7 +9013,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/523",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -9314,6 +9318,142 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1283",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/541",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "FormControlRange - Live ranges for <input> and <textarea>",
+    "url": "https://github.com/whatwg/html/issues/11478 (no spec PR yet)",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/FormControlRange/explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1142 (early design review)",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1289",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/542",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CanvasCompositing globalHDRHeadroom attribute",
+    "url": "https://github.com/ccameron-chromium/ColorWeb-CG/blob/master/canvas2d_hdr_headroom.md",
+    "github": null,
+    "issues": "https://github.com/whatwg/html/issues/11165",
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/917",
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/543",
+    "position": "support",
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "svg"
+    ],
+    "title": "Support `download` attribute in SVG `<a>` element",
+    "url": "https://svgwg.org/svg2-draft/linking.html#InterfaceSVGAElement",
+    "github": "https://github.com/w3c/svgwg/blob/main/master/linking.html",
+    "issues": "https://issues.chromium.org/issues/40589293",
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/544",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": ":target-before and :target-after pseudo-classes",
+    "url": "https://drafts.csswg.org/css-overflow-5/#active-before-after-scroll-markers",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/545",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Geolocation element (PEPC)",
+    "url": "In progress",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/WICG/PEPC/blob/main/geolocation_explainer.md, https://github.com/WICG/PEPC/blob/main/explainer.md",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/546",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Preventing User Dictionary Leaks via ::spelling-error and ::grammar-error CSS Pseudo-Elements",
+    "url": null,
+    "github": "https://github.com/explainers-by-googlers/user-dictionary-leaks",
+    "issues": "https://crbug.com/415712674",
+    "explainer": "https://explainers-by-googlers.github.io/user-dictionary-leaks/",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1148",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1294",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/547",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Sticky user activation across same-origin navigations",
+    "url": "https://github.com/whatwg/html/pull/11454",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1295",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/548",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Direction feature for `scroll-state()` query",
+    "url": "https://drafts.csswg.org/css-conditional-5/#direction",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": "https://github.com/w3c/csswg-drafts/blob/main/css-conditional-5/scroll_state_explainer.md#direction",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1296",
     "bugzilla": null,
     "radar": null
   }
