@@ -3248,7 +3248,7 @@
     "milestone": null,
     "comments": 9,
     "created_at": "2022-06-29T14:14:37Z",
-    "updated_at": "2025-08-22T02:19:07Z",
+    "updated_at": "2025-09-12T13:38:29Z",
     "closed_at": "2023-04-12T22:29:31Z",
     "author_association": "NONE",
     "type": null,
@@ -59998,9 +59998,9 @@
       }
     ],
     "milestone": null,
-    "comments": 2,
+    "comments": 3,
     "created_at": "2024-08-20T21:19:31Z",
-    "updated_at": "2025-09-04T17:33:52Z",
+    "updated_at": "2025-09-12T11:06:48Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -73912,9 +73912,18 @@
         "color": "ffffff",
         "default": false,
         "description": "Proposed, edited, or co-edited by Microsoft."
+      },
+      {
+        "id": 5356000013,
+        "node_id": "LA_kwDOHk513M8AAAABPz4TDQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/proposal%20withdrawn",
+        "name": "proposal withdrawn",
+        "color": "453E33",
+        "default": false,
+        "description": ""
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "rniwa",
@@ -73963,8 +73972,8 @@
     "milestone": null,
     "comments": 2,
     "created_at": "2025-06-13T17:44:16Z",
-    "updated_at": "2025-08-22T14:48:46Z",
-    "closed_at": null,
+    "updated_at": "2025-09-12T13:40:08Z",
+    "closed_at": "2025-09-12T13:40:08Z",
     "author_association": "NONE",
     "type": null,
     "active_lock_reason": null,
@@ -73980,7 +73989,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n@annevk\n\n### Title of the proposal\n\ngetSelectionBoundingClientRect()\n\n### URL to the spec\n\nhttps://github.com/whatwg/html/issues/10614 (no spec PR yet)\n\n### URL to the spec's repository\n\nhttps://github.com/whatwg/html\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/GetSelectionBoundingClientRect/explainer.md\n\n### TAG Design Review URL\n\nTBD\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1249\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\n`getSelectionBoundingClientRect()` aims to provide a more direct way of getting the selection bounds inside the `<textarea>` and `<input>` elements.\n\n- [WHATWG tracking issue](https://github.com/whatwg/html/issues/10614)\n- [CSSWG issue tracking initial discussions](https://github.com/w3c/csswg-drafts/issues/10346)\n- [TPAC 2024 WHATWG meeting minutes where group supports getSelectionBoundingClientRect()](https://github.com/whatwg/meta/issues/326#issuecomment-2377500295)",
-    "closed_by": null,
+    "closed_by": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/512/reactions",
       "total_count": 0,
@@ -73995,7 +74024,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/512/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "not_planned"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/513",
@@ -76112,6 +76141,15 @@
     },
     "labels": [
       {
+        "id": 4278041952,
+        "node_id": "LA_kwDOHk513M7-_b1g",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/blocked",
+        "name": "blocked",
+        "color": "784f17",
+        "default": false,
+        "description": "Coming to a position is blocked on issues identified with the spec or proposal."
+      },
+      {
         "id": 4278536131,
         "node_id": "LA_kwDOHk513M7_BUfD",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20web%20apis",
@@ -76146,7 +76184,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-07-29T01:50:21Z",
-    "updated_at": "2025-08-06T13:24:40Z",
+    "updated_at": "2025-09-12T13:42:05Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,

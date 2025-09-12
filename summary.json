@@ -8817,26 +8817,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/512",
-    "position": null,
-    "venues": [
-      "WHATWG"
-    ],
-    "concerns": [],
-    "topics": [
-      "html"
-    ],
-    "title": "getSelectionBoundingClientRect()",
-    "url": "https://github.com/whatwg/html/issues/10614 (no spec PR yet)",
-    "github": "https://github.com/whatwg/html",
-    "issues": null,
-    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/GetSelectionBoundingClientRect/explainer.md",
-    "tag": "TBD",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/1249",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/513",
     "position": null,
     "venues": [
@@ -9185,7 +9165,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/534",
-    "position": null,
+    "position": "blocked",
     "venues": [
       "Other"
     ],
