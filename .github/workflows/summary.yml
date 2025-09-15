@@ -1,0 +1,31 @@
+name: Update summary.json
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 */2 * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v5
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.13'
+    - name: Install dependencies
+      run: pip install requests
+    - name: Run script
+      run: |
+        python summary.py -u
+        python summary.py -p
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add summary.json summary-data.json
+        if ! git diff-index --quiet HEAD; then
+          git commit -m "Update summary.json"
+          git push
+        fi
