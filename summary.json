@@ -9436,5 +9436,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1296",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/550",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "TCP Socket Pool per-Top-Level-Site",
+    "url": null,
+    "github": null,
+    "issues": "https://crbug.com/415691664",
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1151",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1299",
+    "bugzilla": null,
+    "radar": null
   }
 ]
