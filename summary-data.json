@@ -66723,8 +66723,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/444/reactions",
-      "total_count": 2,
-      "+1": 2,
+      "total_count": 3,
+      "+1": 3,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -76872,7 +76872,62 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278046994,
+        "node_id": "LA_kwDOHk513M7-_dES",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20html",
+        "name": "topic: html",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to HTML (Hypertext Markup Language)"
+      },
+      {
+        "id": 4281598970,
+        "node_id": "LA_kwDOHk513M7_NAP6",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20dom",
+        "name": "topic: dom",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to DOM (Document Object Model)"
+      },
+      {
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4281729772,
+        "node_id": "LA_kwDOHk513M7_NgLs",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20DOM%20Workstream",
+        "name": "venue: WHATWG DOM Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575566154,
+        "node_id": "LA_kwDOHk513M8AAAABELmZSg",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20forms",
+        "name": "topic: forms",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to forms, form controls, or form submission"
+      },
+      {
+        "id": 4575936941,
+        "node_id": "LA_kwDOHk513M8AAAABEL9BrQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Microsoft",
+        "name": "from: Microsoft",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Microsoft."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -76880,7 +76935,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-08-22T14:35:59Z",
-    "updated_at": "2025-09-18T20:56:47Z",
+    "updated_at": "2025-09-19T10:36:13Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -76896,7 +76951,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### WebKittens\n\n@annevk\n\n### Title of the proposal\n\nFormControlRange - Live ranges for <input> and <textarea>\n\n### URL to the spec\n\nhttps://github.com/whatwg/html/issues/11478 (no spec PR yet)\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/FormControlRange/explainer.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1142 (early design review)\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1289\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nCurrently, web developers can\u2019t perform range-based operations (e.g., getting bounding rects, setting custom highlights) inside native text controls (`<input>`, `<textarea>`). As a result, they often resort to workarounds such as replicating the control and its styles in a `contenteditable` container and reimplementing input behavior -- an approach that\u2019s tedious and error-prone to keep in sync with native behavior.\n\n`FormControlRange `is a specialized, live `AbstractRange` subclass scoped to `input`/`textarea` value space. It enables those operations directly in native controls while restricting standard Range mutations to preserve encapsulation. It integrates cleanly with existing selection/editing behavior and closes a long-standing gap for form controls.",
+    "body": "### WebKittens\n\n@annevk\n\n### Title of the proposal\n\n`FormControlRange`: live ranges for `<input>` and `<textarea>`\n\n### URL to the spec\n\nhttps://github.com/whatwg/html/issues/11478\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/FormControlRange/explainer.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1142\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1289\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nCurrently, web developers can\u2019t perform range-based operations (e.g., getting bounding rects, setting custom highlights) inside native text controls (`<input>`, `<textarea>`). As a result, they often resort to workarounds such as replicating the control and its styles in a `contenteditable` container and reimplementing input behavior -- an approach that\u2019s tedious and error-prone to keep in sync with native behavior.\n\n`FormControlRange `is a specialized, live `AbstractRange` subclass scoped to `input`/`textarea` value space. It enables those operations directly in native controls while restricting standard Range mutations to preserve encapsulation. It integrates cleanly with existing selection/editing behavior and closes a long-standing gap for form controls.",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/541/reactions",

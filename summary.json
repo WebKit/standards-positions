@@ -9304,15 +9304,21 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/541",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
-    "title": "FormControlRange - Live ranges for <input> and <textarea>",
-    "url": "https://github.com/whatwg/html/issues/11478 (no spec PR yet)",
+    "topics": [
+      "html",
+      "dom",
+      "forms"
+    ],
+    "title": "`FormControlRange`: live ranges for `<input>` and `<textarea>`",
+    "url": "https://github.com/whatwg/html/issues/11478",
     "github": null,
     "issues": null,
     "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/FormControlRange/explainer.md",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/1142 (early design review)",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1142",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1289",
     "bugzilla": null,
     "radar": null
