@@ -6635,7 +6635,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/386",
-    "position": null,
+    "position": "support",
     "venues": [
       "Other"
     ],
@@ -7313,10 +7313,7 @@
     "venues": [
       "W3C"
     ],
-    "concerns": [
-      "security",
-      "usability"
-    ],
+    "concerns": [],
     "topics": [
       "javascript",
       "web assembly"
@@ -9456,6 +9453,22 @@
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/1151",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1299",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/553",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Support width & height attributes on <use> and x, y, width & height on<symbol> elements as presentation attributes",
+    "url": "https://github.com/w3c/svgwg/wiki/SVG-2-new-features#geometric-attributes-that-can-now-be-specified-as-style-properties",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1300",
     "bugzilla": null,
     "radar": null
   }
