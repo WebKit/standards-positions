@@ -2823,11 +2823,9 @@
     "id": "https://github.com/WebKit/standards-positions/issues/154",
     "position": null,
     "venues": [
-      "Other"
+      "WHATWG"
     ],
-    "concerns": [
-      "venue"
-    ],
+    "concerns": [],
     "topics": [
       "loading",
       "performance"
@@ -9311,13 +9309,13 @@
       "forms"
     ],
     "title": "`FormControlRange`: live ranges for `<input>` and `<textarea>`",
-    "url": "https://github.com/whatwg/html/issues/11478",
+    "url": "https://github.com/whatwg/dom/pull/1404 (PR)",
     "github": null,
     "issues": null,
     "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/FormControlRange/explainer.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/1142",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1289",
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=299375",
     "radar": null
   },
   {
