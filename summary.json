@@ -5499,9 +5499,9 @@
       "css"
     ],
     "title": "`line-clamp` CSS property (collapse variant)",
-    "url": "w3c/csswg-drafts#7708 (discussion issue; no spec yet)",
-    "github": null,
-    "issues": null,
+    "url": "https://drafts.csswg.org/css-overflow-4/#suppressing-excess",
+    "github": "https://github.com/w3c/csswg-drafts/",
+    "issues": "https://github.com/w3c/csswg-drafts/issues",
     "explainer": "https://github.com/Igalia/explainers/blob/main/css/line-clamp/README.md",
     "tag": null,
     "mozilla": "mozilla/standards-positions#984",
@@ -9467,6 +9467,64 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1300",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/555",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSS `box-shadow-*` longhands",
+    "url": "https://drafts.csswg.org/css-borders-4/#drop-shadows",
+    "github": "https://github.com/w3c/csswg-drafts/",
+    "issues": "https://github.com/w3c/csswg-drafts/labels/css-borders-4",
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1301",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/556",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Add support for the 'font-language-override' CSS property",
+    "url": "https://www.w3.org/TR/css-fonts-4/#font-language-override-prop",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=150081",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/557",
+    "position": null,
+    "venues": [],
+    "concerns": [
+      "duplication",
+      "API design",
+      "device independence"
+    ],
+    "topics": [
+      "app-like capabilities"
+    ],
+    "title": "Window Controls Overlay for Installed Desktop Web Apps",
+    "url": "https://wicg.github.io/window-controls-overlay/",
+    "github": "https://github.com/WICG/window-controls-overlay/",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/481",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/529",
     "bugzilla": null,
     "radar": null
   }
