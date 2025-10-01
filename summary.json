@@ -8026,7 +8026,10 @@
       "Other"
     ],
     "concerns": [
-      "portability"
+      "usability",
+      "portability",
+      "device independence",
+      "accessibility"
     ],
     "topics": [
       "html"
@@ -8669,9 +8672,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/504",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "authentication"
+    ],
     "title": "Web Authentication Immediate Mediation",
     "url": "https://github.com/w3c/webauthn/pull/2291",
     "github": "https://github.com/w3c/webauthn",
@@ -9247,7 +9254,9 @@
     "concerns": [
       "venue"
     ],
-    "topics": [],
+    "topics": [
+      "web apis"
+    ],
     "title": "An `Origin` Object",
     "url": "https://mikewest.github.io/origin-api/",
     "github": "https://github.com/mikewest/origin-api/",
@@ -9377,9 +9386,19 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/545",
     "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
+    "venues": [
+      "Other"
+    ],
+    "concerns": [
+      "complexity",
+      "API design"
+    ],
+    "topics": [
+      "html",
+      "device apis",
+      "meaningful user consent",
+      "permissions"
+    ],
     "title": "Geolocation element (PEPC)",
     "url": "In progress",
     "github": null,
@@ -9493,9 +9512,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/556",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css",
+      "fonts and/or text"
+    ],
     "title": "Add support for the 'font-language-override' CSS property",
     "url": "https://www.w3.org/TR/css-fonts-4/#font-language-override-prop",
     "github": null,
@@ -9525,6 +9549,22 @@
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/481",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/529",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/558",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS Anchor Positioning",
+    "url": "https://drafts.csswg.org/css-anchor-position-1/#anchor-position-size",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1302",
     "bugzilla": null,
     "radar": null
   }

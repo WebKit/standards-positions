@@ -11281,8 +11281,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/65/reactions",
-      "total_count": 69,
-      "+1": 69,
+      "total_count": 70,
+      "+1": 70,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -50837,7 +50837,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-02-08T17:31:27Z",
-    "updated_at": "2025-09-25T17:13:16Z",
+    "updated_at": "2025-09-29T19:54:25Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -50853,7 +50853,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### WebKittens\n\n@fantasai @heycam\n\n### Title of the spec\n\n`line-clamp` CSS property (collapse variant)\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-overflow-4/#suppressing-excess\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts/\n\n### Issue Tracker URL\n\nhttps://github.com/w3c/csswg-drafts/issues\n\n### Explainer URL\n\nhttps://github.com/Igalia/explainers/blob/main/css/line-clamp/README.md\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nmozilla/standards-positions#984\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nCSS Overflow Level 4 defines `line-clamp` based on fragmentation (https://drafts.csswg.org/css-overflow-4/#line-clamp), but that is not feasible for Gecko or WebKit to implement anytime soon. Due to that, @emilio opened https://github.com/w3c/csswg-drafts/issues/7708 to discuss a variant of `line-clamp` that is based on hiding lines and boxes from paint instead (\"the collapse variant\"). There is no spec text written for this variant yet, but the CSSWG decided to greenlight both variants for prototyping, and in Chromium we are currently planning to prototype it, rather than the fragmentation-based variant.\n\n**Update September 2025:** Since this issue was opened, the CSSWG decided to make this collapse variant the default behavior of `line-clamp`. Both behaviors are currently defined in the spec, and can be toggled based on the value of the `continue` property (which is one of the longhands for `line-clamp`), but w3c/csswg-drafts#12795 is currently proposing to mark `continue: discard` (the previous fragmentation-based version) as \"at risk\".",
+    "body": "### WebKittens\n\n@fantasai @heycam\n\n### Title of the spec\n\n`line-clamp` CSS property (collapse variant)\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-overflow-4/#suppressing-excess\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts/\n\n### Issue Tracker URL\n\nhttps://github.com/w3c/csswg-drafts/issues\n\n### Explainer URL\n\nhttps://github.com/Igalia/explainers/blob/main/css/line-clamp/README.md\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nmozilla/standards-positions#984\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nCSS Overflow Level 4 defines `line-clamp` based on fragmentation (https://drafts.csswg.org/css-overflow-4/#line-clamp), but that is not feasible for Gecko or WebKit to implement anytime soon. Due to that, @emilio opened https://github.com/w3c/csswg-drafts/issues/7708 to discuss a variant of `line-clamp` that is based on hiding lines and boxes from paint instead (\"the collapse variant\"). There is no spec text written for this variant yet, but the CSSWG decided to greenlight both variants for prototyping, and in Chromium we are currently planning to prototype it, rather than the fragmentation-based variant.\n\n**Update September 2025:** Since this issue was opened, the CSSWG decided to make this collapse variant the default behavior of `line-clamp`. Both behaviors are currently defined in the spec, and can be toggled based on the value of the `continue` property (which is one of the longhands for `line-clamp`), but w3c/csswg-drafts#12795 recently marked `continue: discard` (the previous fragmentation-based version) as \"at risk\".",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/316/reactions",
@@ -50925,12 +50925,54 @@
     ],
     "state": "open",
     "locked": false,
-    "assignee": null,
-    "assignees": [],
+    "assignee": {
+      "login": "youennf",
+      "id": 5575980,
+      "node_id": "MDQ6VXNlcjU1NzU5ODA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5575980?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/youennf",
+      "html_url": "https://github.com/youennf",
+      "followers_url": "https://api.github.com/users/youennf/followers",
+      "following_url": "https://api.github.com/users/youennf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/youennf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/youennf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/youennf/subscriptions",
+      "organizations_url": "https://api.github.com/users/youennf/orgs",
+      "repos_url": "https://api.github.com/users/youennf/repos",
+      "events_url": "https://api.github.com/users/youennf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/youennf/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "youennf",
+        "id": 5575980,
+        "node_id": "MDQ6VXNlcjU1NzU5ODA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5575980?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/youennf",
+        "html_url": "https://github.com/youennf",
+        "followers_url": "https://api.github.com/users/youennf/followers",
+        "following_url": "https://api.github.com/users/youennf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/youennf/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/youennf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/youennf/subscriptions",
+        "organizations_url": "https://api.github.com/users/youennf/orgs",
+        "repos_url": "https://api.github.com/users/youennf/repos",
+        "events_url": "https://api.github.com/users/youennf/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/youennf/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2024-02-12T20:13:32Z",
-    "updated_at": "2024-05-18T04:32:54Z",
+    "updated_at": "2025-09-29T07:44:33Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -56426,9 +56468,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2024-05-29T21:16:49Z",
-    "updated_at": "2025-04-22T12:01:27Z",
+    "updated_at": "2025-09-29T11:30:23Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
@@ -56448,13 +56490,13 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/356/reactions",
-      "total_count": 0,
+      "total_count": 1,
       "+1": 0,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
-      "heart": 0,
+      "heart": 1,
       "rocket": 0,
       "eyes": 0
     },
@@ -62304,8 +62346,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/407/reactions",
-      "total_count": 5,
-      "+1": 5,
+      "total_count": 4,
+      "+1": 4,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -68854,6 +68896,15 @@
         "description": "Spec relates to HTML (Hypertext Markup Language)"
       },
       {
+        "id": 4278053974,
+        "node_id": "LA_kwDOHk513M7-_exW",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20usability",
+        "name": "concerns: usability",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "This proposal will create usability issues for users"
+      },
+      {
         "id": 4281709419,
         "node_id": "LA_kwDOHk513M7_NbNr",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
@@ -68872,6 +68923,24 @@
         "description": "This proposal may be impossible or difficult to implement on at least one important platform"
       },
       {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      },
+      {
+        "id": 4627972685,
+        "node_id": "LA_kwDOHk513M8AAAABE9lCTQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20device%20independence",
+        "name": "concerns: device independence",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "Proposal is hardware- or OS-specific, in a way that may risk the device independence of the Web"
+      },
+      {
         "id": 4671960406,
         "node_id": "LA_kwDOHk513M8AAAABFnh1Vg",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20Open%20UI%20CG",
@@ -68879,6 +68948,15 @@
         "color": "0052CC",
         "default": false,
         "description": ""
+      },
+      {
+        "id": 4852951231,
+        "node_id": "LA_kwDOHk513M8AAAABIUIovw",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20accessibility",
+        "name": "concerns: accessibility",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "There might be accessibility issues with the proposal."
       }
     ],
     "state": "open",
@@ -68886,9 +68964,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2025-02-20T23:45:47Z",
-    "updated_at": "2025-09-09T17:28:12Z",
+    "updated_at": "2025-09-29T06:37:30Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -73167,15 +73245,34 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278046162,
+        "node_id": "LA_kwDOHk513M7-_c3S",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20authentication",
+        "name": "topic: authentication",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to authentication, e.g. passwords, passkeys, OAuth"
+      },
+      {
+        "id": 5302854633,
+        "node_id": "LA_kwDOHk513M8AAAABPBMj6Q",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20Web%20Authentication%20WG",
+        "name": "venue: W3C Web Authentication WG",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 2,
     "created_at": "2025-06-02T19:41:11Z",
-    "updated_at": "2025-06-02T19:43:23Z",
+    "updated_at": "2025-09-30T14:51:12Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -76589,6 +76686,15 @@
     },
     "labels": [
       {
+        "id": 4278536131,
+        "node_id": "LA_kwDOHk513M7_BUfD",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20web%20apis",
+        "name": "topic: web apis",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to web APIs (entry points for script)"
+      },
+      {
         "id": 4488289418,
         "node_id": "LA_kwDOHk513M8AAAABC4Xcig",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20venue",
@@ -76621,9 +76727,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 4,
+    "comments": 6,
     "created_at": "2025-08-05T12:42:41Z",
-    "updated_at": "2025-08-18T07:14:44Z",
+    "updated_at": "2025-09-30T16:53:57Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -77376,15 +77482,88 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278046994,
+        "node_id": "LA_kwDOHk513M7-_dES",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20html",
+        "name": "topic: html",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to HTML (Hypertext Markup Language)"
+      },
+      {
+        "id": 4278052302,
+        "node_id": "LA_kwDOHk513M7-_eXO",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20complexity",
+        "name": "concerns: complexity",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "This proposal seems needlessly complex"
+      },
+      {
+        "id": 4278536872,
+        "node_id": "LA_kwDOHk513M7_BUqo",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20device%20apis",
+        "name": "topic: device apis",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to device APIs: access to device-specific hardware, sensors, and interfaces"
+      },
+      {
+        "id": 4281722881,
+        "node_id": "LA_kwDOHk513M7_NegB",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WICG",
+        "name": "venue: WICG",
+        "color": "0052cc",
+        "default": false,
+        "description": "Proposal is incubated in the Web Incubator Community Group"
+      },
+      {
+        "id": 4488270373,
+        "node_id": "LA_kwDOHk513M8AAAABC4WSJQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20meaningful%20user%20consent",
+        "name": "topic: meaningful user consent",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Feature likely requires meaningful user consent to allow"
+      },
+      {
+        "id": 4575501795,
+        "node_id": "LA_kwDOHk513M8AAAABELid4w",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20API%20design",
+        "name": "concerns: API design",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "The API for this is error-prone, poorly named, or inconsistent with the platform"
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      },
+      {
+        "id": 5302851642,
+        "node_id": "LA_kwDOHk513M8AAAABPBMYOg",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20permissions",
+        "name": "topic: permissions",
+        "color": "5bcefa",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2025-09-05T11:37:45Z",
-    "updated_at": "2025-09-05T11:39:50Z",
+    "updated_at": "2025-09-29T07:42:35Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -78379,15 +78558,43 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278046366,
+        "node_id": "LA_kwDOHk513M7-_c6e",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
+        "name": "topic: css",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to CSS (Cascading Style Sheets)"
+      },
+      {
+        "id": 4281727357,
+        "node_id": "LA_kwDOHk513M7_Nfl9",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20CSS%20WG",
+        "name": "venue: W3C CSS WG",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 5317425647,
+        "node_id": "LA_kwDOHk513M8AAAABPPF57w",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20fonts%20and/or%20text",
+        "name": "topic: fonts and/or text",
+        "color": "5bcefa",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2025-09-25T17:09:55Z",
-    "updated_at": "2025-09-25T17:09:55Z",
+    "updated_at": "2025-09-29T12:50:10Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -78538,6 +78745,80 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/557/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/558",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/558/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/558/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/558/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/558",
+    "id": 3470193520,
+    "node_id": "I_kwDOHk513M7O1vNw",
+    "number": 558,
+    "title": "CSS anchor positioning with transforms",
+    "user": {
+      "login": "mstensho",
+      "id": 13527206,
+      "node_id": "MDQ6VXNlcjEzNTI3MjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13527206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mstensho",
+      "html_url": "https://github.com/mstensho",
+      "followers_url": "https://api.github.com/users/mstensho/followers",
+      "following_url": "https://api.github.com/users/mstensho/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mstensho/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mstensho/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mstensho/subscriptions",
+      "organizations_url": "https://api.github.com/users/mstensho/orgs",
+      "repos_url": "https://api.github.com/users/mstensho/repos",
+      "events_url": "https://api.github.com/users/mstensho/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mstensho/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2025-09-30T16:21:53Z",
+    "updated_at": "2025-09-30T16:21:53Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nCSS Anchor Positioning\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-anchor-position-1/#anchor-position-size\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1302\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nWhen an anchor-positioned element is tethered against an anchor that has a transform (or is contained by something with a transform), resolve anchor() and anchor-size() functions against the bounding box of the transformed anchor.\n\nSee https://chromestatus.com/feature/5201048700583936",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/558/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/558/timeline",
     "performed_via_github_app": null,
     "state_reason": null
   }
