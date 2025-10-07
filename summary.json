@@ -9567,5 +9567,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1302",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/559",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Base appearance for list box select elements",
+    "url": "https://github.com/whatwg/html/pull/11758",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1304",
+    "bugzilla": null,
+    "radar": null
   }
 ]
