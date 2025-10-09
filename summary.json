@@ -9330,9 +9330,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/542",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "graphics"
+    ],
     "title": "CanvasCompositing globalHDRHeadroom attribute",
     "url": "https://github.com/ccameron-chromium/ColorWeb-CG/blob/master/canvas2d_hdr_headroom.md",
     "github": null,
@@ -9480,7 +9484,7 @@
     "concerns": [],
     "topics": [],
     "title": "Support width & height attributes on <use> and x, y, width & height on<symbol> elements as presentation attributes",
-    "url": "https://github.com/w3c/svgwg/wiki/SVG-2-new-features#geometric-attributes-that-can-now-be-specified-as-style-properties",
+    "url": "https://svgwg.org/svg2-draft/styling.html#TermPresentationAttribute",
     "github": null,
     "issues": null,
     "explainer": null,

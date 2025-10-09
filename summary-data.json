@@ -11281,8 +11281,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/65/reactions",
-      "total_count": 70,
-      "+1": 70,
+      "total_count": 71,
+      "+1": 71,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -77109,7 +77109,35 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278046812,
+        "node_id": "LA_kwDOHk513M7-_dBc",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20graphics",
+        "name": "topic: graphics",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to 2D or 3D graphics"
+      },
+      {
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -77117,7 +77145,7 @@
     "milestone": null,
     "comments": 4,
     "created_at": "2025-08-26T15:48:48Z",
-    "updated_at": "2025-10-02T13:22:00Z",
+    "updated_at": "2025-10-07T12:52:05Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -78232,7 +78260,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2025-09-22T08:48:41Z",
-    "updated_at": "2025-09-22T08:49:16Z",
+    "updated_at": "2025-10-07T04:34:29Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -78248,7 +78276,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nSupport width & height attributes on <use> and x, y, width & height on<symbol> elements as presentation attributes\n\n### URL to the spec\n\nhttps://github.com/w3c/svgwg/wiki/SVG-2-new-features#geometric-attributes-that-can-now-be-specified-as-style-properties\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1300\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nhis feature enables consistent rendering of the `<use>` element when specifying width and height via both CSS and presentation attributes. It also adds support for x, y, width, and height as presentation attributes on `<symbol>`, giving developers greater control over SVG layout and positioning.\n\nWith this feature, the following two HTML examples will now produce the same output:\n\nUsing CSS for [1]:\n```\n<svg width=\"100px\" height=\"100px\">\n <defs>\n    <symbol id=\"sym\" width=\"80px\" height=\"80px\" x=\"10\" y=\"10\">\n      <rect width=\"100px\" height=\"100px\" fill=\"green\"/>\n    </symbol>\n  </defs>\n  <use href=\"#sym\" style=\"width:40px; height:40px\"/>\n</svg>\n```\n\nUsing Presentation Attributes for [2]:\n```\n<svg width=\"100px\" height=\"100px\">\n <defs>\n    <symbol id=\"sym\" width=\"80px\" height=\"80px\" x=\"10\" y=\"10\">\n      <rect width=\"100px\" height=\"100px\" fill=\"green\"/>\n    </symbol>\n  </defs>\n  <use href=\"#sym\" width=\"40px\" height=\"40px\"/>\n</svg>\n```\n\nIn Webkit, example [1] does not currently render correctly\u2014width and height set via presentation attributes on are not applied as expected.",
+    "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nSupport width & height attributes on <use> and x, y, width & height on<symbol> elements as presentation attributes\n\n### URL to the spec\n\n https://svgwg.org/svg2-draft/styling.html#TermPresentationAttribute\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1300\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis feature enables consistent rendering of the `<use>` element when specifying width and height via both CSS and presentation attributes. It also adds support for x, y, width, and height as presentation attributes on `<symbol>`, giving developers greater control over SVG layout and positioning.\n\nWith this feature, the following two HTML examples will now produce the same output:\n\nUsing CSS for [1]:\n```\n<svg width=\"100px\" height=\"100px\">\n <defs>\n    <symbol id=\"sym\">\n      <rect width=\"100px\" height=\"100px\" fill=\"green\"/>\n    </symbol>\n  </defs>\n  <use href=\"#sym\" style=\"width:40px; height:40px\"/>\n</svg>\n```\n\nUsing Presentation Attributes for [2]:\n```\n<svg width=\"100px\" height=\"100px\">\n <defs>\n    <symbol id=\"sym\" width=\"80px\" height=\"80px\" x=\"10\" y=\"10\">\n      <rect width=\"100px\" height=\"100px\" fill=\"green\"/>\n    </symbol>\n  </defs>\n  <use href=\"#sym\" width=\"40px\" height=\"40px\"/>\n</svg>\n```\n\nIn Webkit, example [2] does not currently render correctly\u2014width and height set via presentation attributes on are not applied as expected.",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/553/reactions",
