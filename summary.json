@@ -6765,7 +6765,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/394",
-    "position": null,
+    "position": "support",
     "venues": [
       "Other"
     ],
@@ -7205,7 +7205,9 @@
     "venues": [
       "W3C"
     ],
-    "concerns": [],
+    "concerns": [
+      "interoperability"
+    ],
     "topics": [
       "layout",
       "rendering",
@@ -8020,7 +8022,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/464",
-    "position": null,
+    "position": "oppose",
     "venues": [
       "WHATWG",
       "Other"
@@ -9562,7 +9564,7 @@
     "venues": [],
     "concerns": [],
     "topics": [],
-    "title": "CSS Anchor Positioning",
+    "title": "CSS Anchor Positioning with transforms",
     "url": "https://drafts.csswg.org/css-anchor-position-1/#anchor-position-size",
     "github": null,
     "issues": null,
