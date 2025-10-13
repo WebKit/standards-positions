@@ -9589,5 +9589,53 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1304",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/560",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "https://github.com/WebKit/standards-positions/issues/393",
+    "url": "https://github.com/WebKit/standards-positions/issues/393",
+    "github": "https://github.com/WebKit/standards-positions/issues/393",
+    "issues": "https://github.com/WebKit/standards-positions/issues/393",
+    "explainer": "README",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/561",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "https://github.com/WebKit/standards-positions/issues/393",
+    "url": "https://github.com/WebKit/standards-positions/issues/393",
+    "github": "https://github.com/WebKit/standards-positions/issues/393",
+    "issues": "https://github.com/WebKit/standards-positions/issues/393",
+    "explainer": "README",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/562",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "https://github.com/WebKit/standards-positions/issues/393",
+    "url": "https://github.com/WebKit/standards-positions/issues/393",
+    "github": "https://github.com/WebKit/standards-positions/issues/393",
+    "issues": "https://github.com/WebKit/standards-positions/issues/393",
+    "explainer": "README",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   }
 ]
