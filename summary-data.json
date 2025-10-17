@@ -2884,8 +2884,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/16/reactions",
-      "total_count": 22,
-      "+1": 18,
+      "total_count": 23,
+      "+1": 19,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -65700,8 +65700,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/435/reactions",
-      "total_count": 5,
-      "+1": 3,
+      "total_count": 6,
+      "+1": 4,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -67831,8 +67831,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/453/reactions",
-      "total_count": 11,
-      "+1": 10,
+      "total_count": 12,
+      "+1": 11,
       "-1": 1,
       "laugh": 0,
       "hooray": 0,
@@ -69804,8 +69804,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/471/reactions",
-      "total_count": 15,
-      "+1": 10,
+      "total_count": 16,
+      "+1": 11,
       "-1": 0,
       "laugh": 1,
       "hooray": 1,
@@ -78015,7 +78015,7 @@
     "id": 3418688334,
     "node_id": "I_kwDOHk513M7LxQtO",
     "number": 550,
-    "title": "TCP Socket Pool per-Top-Level-Site",
+    "title": "TCP Socket Pool Limit Randomization",
     "user": {
       "login": "arichiv",
       "id": 666538,
@@ -78043,9 +78043,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 3,
+    "comments": 4,
     "created_at": "2025-09-15T16:35:48Z",
-    "updated_at": "2025-09-16T15:55:40Z",
+    "updated_at": "2025-10-15T13:58:47Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -78061,7 +78061,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### Title of the proposal\n\nTCP Socket Pool per-Top-Level-Site\n\n### Issue Tracker URL\n\nhttps://crbug.com/415691664\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1151\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1299\n\n### Chromium Position\n\nhttps://chromestatus.com/feature/6496757559197696\n\n### Description\n\nBy [exploiting limits in the TCP connection pool size on Chrome](https://xsleaks.dev/docs/attacks/timing-attacks/connection-pool/), knowledge can be gained about cross-site state which would otherwise be inaccessible. Specifically, it\u2019s possible (with some statistical certainty) to evaluate the login state, visited history, or even something more specific like whether gmail has pending messages in the inbox.\n\nTo mitigate this we are doubling the per-profile socket pool to 513 (512 was already studied and seen to have no negative impact) while imposing a per-top-level-site limit of 256 (the old global limit). This change should be entirely transparent to most sites and is anticipated to be a wash performance wise.",
+    "body": "### Title of the proposal\n\nTCP Socket Pool Limit Randomization\n\n### Issue Tracker URL\n\nhttps://crbug.com/415691664\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1151\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1299\n\n### Chromium Position\n\nhttps://chromestatus.com/feature/6496757559197696\n\n### Description\n\nBy [exploiting limits in the connection pool size on Chrome](https://xsleaks.dev/docs/attacks/timing-attacks/connection-pool/), knowledge can be gained about cross-site state which would otherwise be inaccessible. Specifically, it\u2019s possible (with some statistical certainty) to evaluate the login state, visited history, or even something more specific like whether gmail has pending messages in the inbox.\n\n\nTo mitigate this we are adding randomization to the way that TCP socket pools are limited so that an observing site cannot infer this information with high certainty.",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/550/reactions",
