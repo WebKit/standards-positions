@@ -211,32 +211,6 @@
     "radar": "rdar://106416138"
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/10",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
-    "concerns": [
-      "complexity",
-      "interoperability",
-      "privacy",
-      "dependencies"
-    ],
-    "topics": [
-      "privacy",
-      "storage"
-    ],
-    "title": "Shared Storage API",
-    "url": "https://wicg.github.io/shared-storage/",
-    "github": "https://github.com/WICG/shared-storage",
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/646",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/11",
     "position": "neutral",
     "venues": [
@@ -2349,27 +2323,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/125",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
-    "concerns": [],
-    "topics": [
-      "privacy",
-      "storage"
-    ],
-    "title": "requestStorageAccessFor",
-    "url": null,
-    "github": "https://github.com/privacycg/requestStorageAccessForOrigin",
-    "issues": null,
-    "explainer": null,
-    "tag": "https://github.com/w3ctag/design-reviews/issues/808",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/736",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/128",
     "position": "support",
     "venues": [
@@ -3244,30 +3197,6 @@
     "explainer": "https://docs.google.com/presentation/d/1OfAN3sfVXhvOBCqgLMegrNcHz7-V4qTnuHjBP3gLdgg/edit#slide=id.g216ea3acd8c_1_3",
     "tag": "https://github.com/w3ctag/design-reviews/issues/836",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/789",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/180",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
-    "concerns": [
-      "interoperability",
-      "venue"
-    ],
-    "topics": [
-      "privacy",
-      "advertising"
-    ],
-    "title": "Attribution Reporting",
-    "url": "https://wicg.github.io/attribution-reporting-api/",
-    "github": "https://github.com/WICG/attribution-reporting-api",
-    "issues": null,
-    "explainer": null,
-    "tag": "https://github.com/w3ctag/design-reviews/issues/724",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/791",
     "bugzilla": null,
     "radar": null
   },
@@ -8830,7 +8759,7 @@
     "topics": [
       "web components"
     ],
-    "title": "elementInternals.type",
+    "title": "Button Activation Behaviors",
     "url": "https://github.com/whatwg/html/issues/11061 (no spec PR yet)",
     "github": "https://github.com/whatwg/html",
     "issues": null,
@@ -9114,9 +9043,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/529",
     "position": null,
-    "venues": [],
+    "venues": [
+      "IETF"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "privacy"
+    ],
     "title": "Probabilistic Reveal Tokens",
     "url": "N/A",
     "github": null,
@@ -9561,9 +9494,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/558",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Anchor Positioning with transforms",
     "url": "https://drafts.csswg.org/css-anchor-position-1/#anchor-position-size",
     "github": null,
@@ -9587,6 +9524,38 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1304",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/563",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Ignore \"duplicate\" navigations",
+    "url": "https://whatpr.org/html/11765/browsing-the-web.html#beginning-navigation",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1307",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/564",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "css-view-transitions-2: waitUntil() method",
+    "url": "https://drafts.csswg.org/css-view-transitions-2/#dom-viewtransition-waituntil",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": "https://github.com/w3c/csswg-drafts/issues",
+    "explainer": "https://github.com/vmpstr/htmldemos/blob/master/vt/waitUntil.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1158",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1309",
     "bugzilla": null,
     "radar": null
   }

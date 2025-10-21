@@ -1700,9 +1700,18 @@
         "color": "f5a9b8",
         "default": false,
         "description": "Some of this proposal's dependencies are unstable, immature, or lack widespread support."
+      },
+      {
+        "id": 5356000013,
+        "node_id": "LA_kwDOHk513M8AAAABPz4TDQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/proposal%20withdrawn",
+        "name": "proposal withdrawn",
+        "color": "453E33",
+        "default": false,
+        "description": ""
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "johnwilander",
@@ -1770,10 +1779,10 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 10,
     "created_at": "2022-06-29T01:30:41Z",
-    "updated_at": "2023-06-20T20:11:57Z",
-    "closed_at": null,
+    "updated_at": "2025-10-20T15:22:42Z",
+    "closed_at": "2025-10-20T15:22:42Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
     "active_lock_reason": null,
@@ -1789,7 +1798,27 @@
       "total_blocking": 0
     },
     "body": "## Request for position on an emerging web specification\r\n\r\n### Information about the spec\r\n\r\n* Spec Title: Shared Storage API\r\n* Spec URL: https://wicg.github.io/shared-storage/\r\n* GitHub repository: https://github.com/WICG/shared-storage\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: \r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/646\r\n\r\n### Bugs tracking this feature\r\n\r\n* WebKit Bugzilla: \r\n* Radar: \r\n\r\n### Anything else we need to know\r\n\r\nOn [WebKit-dev](https://lists.webkit.org/pipermail/webkit-dev/2022-June/032288.html), Eric Trouton wrote: \r\n\r\nHi Webkit-Dev Team,  \r\n\r\nWe've been working on the Shared Storage API that supports a variety of use cases that may be impacted by 3rd Party Cookie Deprecation.  The idea is to provide a storage API (named Shared Storage) that is intended to be unpartitioned. Origins can write to it from their own contexts on any page.\r\nTo prevent cross-site tracking of users, data in Shared Storage may only be read in a restricted environment that has carefully constructed output gates. Over time, we hope to design and add additional gates.\r\n\r\nWe would like to hear what you think about it.  Chrome is implementing (available in Chrome Canary on M104) but open to evolving the API over time and are appreciative of your feedback.\r\n\r\nchrome status: https://chromestatus.com/feature/6256348582903808\r\n\r\nspec: TBD\r\n\r\nThank you,\r\nEric",
-    "closed_by": null,
+    "closed_by": {
+      "login": "lukewarlow",
+      "id": 32498324,
+      "node_id": "MDQ6VXNlcjMyNDk4MzI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32498324?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lukewarlow",
+      "html_url": "https://github.com/lukewarlow",
+      "followers_url": "https://api.github.com/users/lukewarlow/followers",
+      "following_url": "https://api.github.com/users/lukewarlow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lukewarlow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lukewarlow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lukewarlow/subscriptions",
+      "organizations_url": "https://api.github.com/users/lukewarlow/orgs",
+      "repos_url": "https://api.github.com/users/lukewarlow/repos",
+      "events_url": "https://api.github.com/users/lukewarlow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lukewarlow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/10/reactions",
       "total_count": 0,
@@ -1804,7 +1833,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/10/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/11",
@@ -7043,8 +7072,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/41/reactions",
-      "total_count": 7,
-      "+1": 7,
+      "total_count": 8,
+      "+1": 8,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -21389,9 +21418,18 @@
         "color": "ffffff",
         "default": false,
         "description": "Proposed, edited, or co-edited by Google."
+      },
+      {
+        "id": 5356000013,
+        "node_id": "LA_kwDOHk513M8AAAABPz4TDQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/proposal%20withdrawn",
+        "name": "proposal withdrawn",
+        "color": "453E33",
+        "default": false,
+        "description": ""
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "johnwilander",
@@ -21459,10 +21497,10 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 5,
     "created_at": "2023-01-19T19:49:00Z",
-    "updated_at": "2025-04-02T15:05:32Z",
-    "closed_at": null,
+    "updated_at": "2025-10-20T15:09:47Z",
+    "closed_at": "2025-10-20T15:09:47Z",
     "author_association": "NONE",
     "type": null,
     "active_lock_reason": null,
@@ -21478,7 +21516,27 @@
       "total_blocking": 0
     },
     "body": "## Request for position on an emerging web specification\r\n\r\n* WebKittens who can provide input: @annevk @johnwilander \r\n\r\n### Information about the specification\r\n\r\n* Title: requestStorageAccessFor\r\n* GitHub repository: https://github.com/privacycg/requestStorageAccessForOrigin\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: https://github.com/w3ctag/design-reviews/issues/808\r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/736\r\n\r\n### Anything else we need to know\r\n\r\nThe proposed `requestStorageAccessFor` API builds on the Storage Access API to allow non-iframe use. This affords more control for the top-level site as cross-site cookies continue to be phased out; it also allows partial restoration of [the page-level behavior of `requestStorageAccess`](https://github.com/privacycg/storage-access/issues/3), which will be retired in favor of [a per-frame model](https://github.com/privacycg/storage-access/issues/122). Like `requestStorageAccess`, implementation-defined behavior allows different user agents flexibility to apply policies as they see fit, though the hope is that divergence will be minimized.\r\n\r\nNote that this proposal is similar to an internal shim API implemented by both Safari and Firefox.\r\n\r\nPrior discussions have surfaced the need for embeddee opt-in, which the API attempts to ensure via requiring invocation of `requestStorageAccess` for frame-level access (the same way a prior `requestStorageAccess` grant is proposed to waive the user interaction requirement in [the per-frame `requestStorageAccess` model](https://github.com/privacycg/storage-access/issues/122)); requiring CORS on subresource requests to the embeddee from the top-level site in order for cookies to be included; and applying only to explicitly `SameSite=None` cookies.\r\n",
-    "closed_by": null,
+    "closed_by": {
+      "login": "lukewarlow",
+      "id": 32498324,
+      "node_id": "MDQ6VXNlcjMyNDk4MzI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32498324?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lukewarlow",
+      "html_url": "https://github.com/lukewarlow",
+      "followers_url": "https://api.github.com/users/lukewarlow/followers",
+      "following_url": "https://api.github.com/users/lukewarlow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lukewarlow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lukewarlow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lukewarlow/subscriptions",
+      "organizations_url": "https://api.github.com/users/lukewarlow/orgs",
+      "repos_url": "https://api.github.com/users/lukewarlow/repos",
+      "events_url": "https://api.github.com/users/lukewarlow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lukewarlow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/125/reactions",
       "total_count": 0,
@@ -21493,7 +21551,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/125/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/126",
@@ -27371,9 +27429,9 @@
       }
     ],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2023-03-29T17:20:06Z",
-    "updated_at": "2024-10-23T13:10:38Z",
+    "updated_at": "2025-10-20T15:19:26Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -31624,9 +31682,18 @@
         "color": "5bcefa",
         "default": false,
         "description": ""
+      },
+      {
+        "id": 5356000013,
+        "node_id": "LA_kwDOHk513M8AAAABPz4TDQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/proposal%20withdrawn",
+        "name": "proposal withdrawn",
+        "color": "453E33",
+        "default": false,
+        "description": ""
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "johnwilander",
@@ -31673,10 +31740,10 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2023-04-25T23:24:06Z",
-    "updated_at": "2025-05-19T16:58:57Z",
-    "closed_at": null,
+    "updated_at": "2025-10-20T15:18:30Z",
+    "closed_at": "2025-10-20T15:18:30Z",
     "author_association": "NONE",
     "type": null,
     "active_lock_reason": null,
@@ -31692,7 +31759,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n_No response_\n\n### Title of the spec\n\nAttribution Reporting\n\n### URL to the spec\n\nhttps://wicg.github.io/attribution-reporting-api/\n\n### URL to the spec's repository\n\nhttps://github.com/WICG/attribution-reporting-api\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/724\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/791\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThe Attribution Reporting API makes it possible to measure when an ad click or view leads to a conversion on an advertiser site, such as a sale or a sign-up. The API doesn't rely on third-party cookies or mechanisms that can be used to identify individual users across sites.\r\nThe API enables two types of attribution reports:\r\n* Event-level reports associate a particular event on the ad side (a click or view) with coarse conversion data. To preserve user privacy, conversion-side data is coarse, and reports are noised and are not sent immediately. The number of conversions is also limited.\r\n* Aggregatable reports provide a mechanism for rich metadata to be reported in aggregate, to better support use-cases such as campaign-level performance reporting or conversion values.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "lukewarlow",
+      "id": 32498324,
+      "node_id": "MDQ6VXNlcjMyNDk4MzI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32498324?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lukewarlow",
+      "html_url": "https://github.com/lukewarlow",
+      "followers_url": "https://api.github.com/users/lukewarlow/followers",
+      "following_url": "https://api.github.com/users/lukewarlow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lukewarlow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lukewarlow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lukewarlow/subscriptions",
+      "organizations_url": "https://api.github.com/users/lukewarlow/orgs",
+      "repos_url": "https://api.github.com/users/lukewarlow/repos",
+      "events_url": "https://api.github.com/users/lukewarlow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lukewarlow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/180/reactions",
       "total_count": 0,
@@ -31707,7 +31794,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/180/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/181",
@@ -33247,9 +33334,9 @@
       }
     ],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2023-05-19T21:04:20Z",
-    "updated_at": "2023-06-27T11:49:37Z",
+    "updated_at": "2025-10-20T15:16:10Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -63450,9 +63537,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2024-10-14T14:25:45Z",
-    "updated_at": "2025-10-10T05:20:41Z",
+    "updated_at": "2025-10-17T15:31:30Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -74202,7 +74289,7 @@
     "id": 3144541007,
     "node_id": "I_kwDOHk513M67beNP",
     "number": 513,
-    "title": "Customized built-in elements via elementInternals.type",
+    "title": "Button Activation Behaviors",
     "user": {
       "login": "anaskim",
       "id": 77755715,
@@ -74321,9 +74408,9 @@
       }
     ],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2025-06-13T19:23:38Z",
-    "updated_at": "2025-06-23T14:05:21Z",
+    "updated_at": "2025-10-20T21:33:49Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -74339,7 +74426,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### WebKittens\n\n@annevk\n\n### Title of the proposal\n\nelementInternals.type\n\n### URL to the spec\n\nhttps://github.com/whatwg/html/issues/11061 (no spec PR yet)\n\n### URL to the spec's repository\n\nhttps://github.com/whatwg/html\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ElementInternalsType/explainer.md\n\n### TAG Design Review URL\n\nTBD\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1250\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\n`elementInternals.type` supports the creation of custom elements that inherit the behaviors and properties of native HTML elements. The `elementInternals.type` proposal addresses many of the limitations with `extends`/`is`, including allowing customized built-ins to support shadow DOM. \n\n[OpenUI issue tracking initial discussions and WHATWG resolution to accept `elementInternals.type = 'button'`](https://github.com/openui/open-ui/issues/1088)\n[WHATWG resolution to accept `elementInternals.type = 'button'`](https://github.com/openui/open-ui/issues/1088#issuecomment-2372520455)",
+    "body": "### WebKittens\n\n@annevk\n\n### Title of the proposal\n\nButton Activation Behaviors\n\n### URL to the spec\n\nhttps://github.com/whatwg/html/issues/11061 (no spec PR yet)\n\n### URL to the spec's repository\n\nhttps://github.com/whatwg/html\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ElementInternalsType/explainer.md\n\n### TAG Design Review URL\n\nTBD\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1250\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis proposal introduces a way for custom elements to opt into specific button activation behaviors through a static property declaration. By building on the established pattern of [form-associated custom elements](https://html.spec.whatwg.org/dev/custom-elements.html#form-associated-custom-elements), this approach provides a familiar developer experience while ensuring cross-browser compatibility and proper integration with platform features like the [Invoker Commands API](https://developer.mozilla.org/en-US/docs/Web/API/Invoker_Commands_API).\n\nCurrently, web developers face challenges when trying to implement custom buttons as [popover invokers](https://html.spec.whatwg.org/multipage/popover.html#popoverinvokerelement) while providing unique styles and additional functionality (as discussed [here](https://github.com/openui/open-ui/issues/1088)). The existing customized built-in approach using `extends` and `is` provides native button functionality but lacks full cross-browser support. As a result, developers are forced to manually reimplement button behaviors from scratch, leading to inconsistent implementations, accessibility issues, and development overhead.",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/513/reactions",
@@ -75973,15 +76060,43 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278049556,
+        "node_id": "LA_kwDOHk513M7-_dsU",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20privacy",
+        "name": "topic: privacy",
+        "color": "5bcefa",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      },
+      {
+        "id": 5436672663,
+        "node_id": "LA_kwDOHk513M8AAAABRA0Klw",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20IETF",
+        "name": "venue: IETF",
+        "color": "0052cc",
+        "default": false,
+        "description": "Document is published by the IETF, but it's unclear if it's from a more specific body there."
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2025-07-14T18:12:39Z",
-    "updated_at": "2025-07-14T18:12:39Z",
+    "updated_at": "2025-10-20T15:24:17Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -78875,7 +78990,26 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278046366,
+        "node_id": "LA_kwDOHk513M7-_c6e",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
+        "name": "topic: css",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to CSS (Cascading Style Sheets)"
+      },
+      {
+        "id": 4281727357,
+        "node_id": "LA_kwDOHk513M7_Nfl9",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20CSS%20WG",
+        "name": "venue: W3C CSS WG",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": {
@@ -78946,7 +79080,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-09-30T16:21:53Z",
-    "updated_at": "2025-10-11T07:10:38Z",
+    "updated_at": "2025-10-19T00:32:39Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -79365,5 +79499,153 @@
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/562/timeline",
     "performed_via_github_app": null,
     "state_reason": "not_planned"
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/563",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/563/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/563/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/563/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/563",
+    "id": 3524612672,
+    "node_id": "I_kwDOHk513M7SFVJA",
+    "number": 563,
+    "title": "Ignore \"duplicate\" navigations",
+    "user": {
+      "login": "llannasatoll",
+      "id": 91649604,
+      "node_id": "U_kgDOBXZ2RA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91649604?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/llannasatoll",
+      "html_url": "https://github.com/llannasatoll",
+      "followers_url": "https://api.github.com/users/llannasatoll/followers",
+      "following_url": "https://api.github.com/users/llannasatoll/following{/other_user}",
+      "gists_url": "https://api.github.com/users/llannasatoll/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/llannasatoll/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/llannasatoll/subscriptions",
+      "organizations_url": "https://api.github.com/users/llannasatoll/orgs",
+      "repos_url": "https://api.github.com/users/llannasatoll/repos",
+      "events_url": "https://api.github.com/users/llannasatoll/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/llannasatoll/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2025-10-17T05:48:31Z",
+    "updated_at": "2025-10-17T05:48:31Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nIgnore \"duplicate\" navigations\n\n### URL to the spec\n\nhttps://whatpr.org/html/11765/browsing-the-web.html#beginning-navigation\n\n### URL to the spec's repository\n\nhttps://github.com/whatwg/html\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1307\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nWe are proposing an optimization to the HTML navigation algorithm to ignore \"duplicate\" navigations that occur in quick succession (e.g., from an accidental double-click). This is intended to improve performance and reduce wasted resources.",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/563/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/563/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/564",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/564/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/564/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/564/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/564",
+    "id": 3533430163,
+    "node_id": "I_kwDOHk513M7Sm92T",
+    "number": 564,
+    "title": "ViewTransitions: waitUntil() method",
+    "user": {
+      "login": "vmpstr",
+      "id": 1906955,
+      "node_id": "MDQ6VXNlcjE5MDY5NTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1906955?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vmpstr",
+      "html_url": "https://github.com/vmpstr",
+      "followers_url": "https://api.github.com/users/vmpstr/followers",
+      "following_url": "https://api.github.com/users/vmpstr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vmpstr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vmpstr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vmpstr/subscriptions",
+      "organizations_url": "https://api.github.com/users/vmpstr/orgs",
+      "repos_url": "https://api.github.com/users/vmpstr/repos",
+      "events_url": "https://api.github.com/users/vmpstr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vmpstr/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2025-10-20T18:13:05Z",
+    "updated_at": "2025-10-20T18:14:26Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "### WebKittens\n\n@nt1m\n\n### Title of the proposal\n\ncss-view-transitions-2: waitUntil() method\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-view-transitions-2/#dom-viewtransition-waituntil\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts\n\n### Issue Tracker URL\n\nhttps://github.com/w3c/csswg-drafts/issues\n\n### Explainer URL\n\nhttps://github.com/vmpstr/htmldemos/blob/master/vt/waitUntil.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1158\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1309\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis proposal introduces `waitUntil()` method on ViewTransitions object to allow delaying view transition completion until the given promise settles.\n\nTAG: https://github.com/w3ctag/design-reviews/issues/1158",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/564/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/564/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
   }
 ]
