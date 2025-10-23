@@ -11310,15 +11310,15 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/65/reactions",
-      "total_count": 71,
-      "+1": 71,
+      "total_count": 79,
+      "+1": 77,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
       "heart": 0,
-      "rocket": 0,
-      "eyes": 0
+      "rocket": 1,
+      "eyes": 1
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/65/timeline",
     "performed_via_github_app": null,
@@ -11737,9 +11737,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 12,
     "created_at": "2022-09-28T22:46:22Z",
-    "updated_at": "2025-06-06T13:55:14Z",
+    "updated_at": "2025-10-22T08:39:05Z",
     "closed_at": "2025-06-06T13:55:13Z",
     "author_association": "NONE",
     "type": null,
@@ -11779,13 +11779,13 @@
     },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/68/reactions",
-      "total_count": 5,
+      "total_count": 6,
       "+1": 0,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
-      "heart": 5,
+      "heart": 6,
       "rocket": 0,
       "eyes": 0
     },
@@ -33285,9 +33285,18 @@
         "color": "0052cc",
         "default": false,
         "description": "Private Advertising Technology Community Group"
+      },
+      {
+        "id": 5356000013,
+        "node_id": "LA_kwDOHk513M8AAAABPz4TDQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/proposal%20withdrawn",
+        "name": "proposal withdrawn",
+        "color": "453E33",
+        "default": false,
+        "description": ""
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "johnwilander",
@@ -33334,10 +33343,10 @@
       }
     ],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2023-05-19T21:04:20Z",
-    "updated_at": "2025-10-20T15:16:10Z",
-    "closed_at": null,
+    "updated_at": "2025-10-21T19:28:45Z",
+    "closed_at": "2025-10-21T19:28:45Z",
     "author_association": "NONE",
     "type": null,
     "active_lock_reason": null,
@@ -33353,7 +33362,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nPrivate Aggregation API\r\n\r\n### URL to the spec\r\n\r\nhttps://patcg-individual-drafts.github.io/private-aggregation-api/\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/patcg-individual-drafts/private-aggregation-api\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\n_No response_\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/846\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/805\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nThis proposal introduces a generic mechanism for measuring aggregate, cross-site data in a privacy preserving manner. This general-purpose API can be called from isolated contexts that have access to cross-site data, i.e. a [Shared Storage](https://github.com/pythagoraskitty/shared-storage) worklet or [Protected Audience](https://github.com/WICG/turtledove) (formerly FLEDGE) script runner. Within these contexts, potentially identifying data is encapsulated into \"aggregatable reports\". To prevent leakage, the cross-site data in these reports is encrypted to ensure it can only be processed by the [aggregation service](https://github.com/WICG/conversion-measurement-api/blob/main/AGGREGATION_SERVICE_TEE.md). During processing, this service adds noise and imposes limits on how many queries can be performed.\r\n\r\nNote also the earlier [request for a position on Shared Storage](https://github.com/WebKit/standards-positions/issues/10) and [request for a position on Protected Audience (then FLEDGE)](https://github.com/WebKit/standards-positions/issues/158).",
-    "closed_by": null,
+    "closed_by": {
+      "login": "lukewarlow",
+      "id": 32498324,
+      "node_id": "MDQ6VXNlcjMyNDk4MzI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32498324?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lukewarlow",
+      "html_url": "https://github.com/lukewarlow",
+      "followers_url": "https://api.github.com/users/lukewarlow/followers",
+      "following_url": "https://api.github.com/users/lukewarlow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lukewarlow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lukewarlow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lukewarlow/subscriptions",
+      "organizations_url": "https://api.github.com/users/lukewarlow/orgs",
+      "repos_url": "https://api.github.com/users/lukewarlow/repos",
+      "events_url": "https://api.github.com/users/lukewarlow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lukewarlow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/189/reactions",
       "total_count": 0,
@@ -33368,7 +33397,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/189/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/190",
@@ -38689,8 +38718,8 @@
     },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/229/reactions",
-      "total_count": 4,
-      "+1": 3,
+      "total_count": 5,
+      "+1": 4,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -55622,8 +55651,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/348/reactions",
-      "total_count": 88,
-      "+1": 70,
+      "total_count": 89,
+      "+1": 71,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -76080,6 +76109,15 @@
         "description": "Proposed, edited, or co-edited by Google."
       },
       {
+        "id": 5356000013,
+        "node_id": "LA_kwDOHk513M8AAAABPz4TDQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/proposal%20withdrawn",
+        "name": "proposal withdrawn",
+        "color": "453E33",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 5436672663,
         "node_id": "LA_kwDOHk513M8AAAABRA0Klw",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20IETF",
@@ -76089,15 +76127,15 @@
         "description": "Document is published by the IETF, but it's unclear if it's from a more specific body there."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2025-07-14T18:12:39Z",
-    "updated_at": "2025-10-20T15:24:17Z",
-    "closed_at": null,
+    "updated_at": "2025-10-21T14:19:17Z",
+    "closed_at": "2025-10-21T14:10:42Z",
     "author_association": "NONE",
     "type": null,
     "active_lock_reason": null,
@@ -76113,7 +76151,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nProbabilistic Reveal Tokens\n\n### URL to the spec\n\nN/A\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/GoogleChrome/ip-protection/blob/main/prt_explainer.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1083#issuecomment-2891647225 \n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1273\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nProbabilistic Reveal Tokens help organizations measure fraud and investigate new types of attacks while respecting users' privacy during IP-protected browsing.  A minority of tokens contain the client's pre-proxy IP address (i.e. non-masked, and as observed by the token issuer), while the remaining PRTs provide no information about the client's original IP address.  Organizations can decrypt tokens after a delay for sampled fraud analysis. ",
-    "closed_by": null,
+    "closed_by": {
+      "login": "etrouton",
+      "id": 35470529,
+      "node_id": "MDQ6VXNlcjM1NDcwNTI5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35470529?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/etrouton",
+      "html_url": "https://github.com/etrouton",
+      "followers_url": "https://api.github.com/users/etrouton/followers",
+      "following_url": "https://api.github.com/users/etrouton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/etrouton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/etrouton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/etrouton/subscriptions",
+      "organizations_url": "https://api.github.com/users/etrouton/orgs",
+      "repos_url": "https://api.github.com/users/etrouton/repos",
+      "events_url": "https://api.github.com/users/etrouton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/etrouton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/529/reactions",
       "total_count": 0,
@@ -76128,7 +76186,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/529/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/532",
@@ -77022,7 +77080,7 @@
     "milestone": null,
     "comments": 5,
     "created_at": "2025-08-05T15:02:31Z",
-    "updated_at": "2025-08-06T13:26:17Z",
+    "updated_at": "2025-10-21T15:51:57Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -77038,7 +77096,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nOrigin-Bound Cookies\n\n### URL to the spec\n\nhttps://mikewest.github.io/cookie-incrementalism/draft-west-cookie-incrementalism.html#name-origin-bound-cookies\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/sbingler/Origin-Bound-Cookies\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1281\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nChrome Platform status https://chromestatus.com/feature/4945698250293248",
+    "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nOrigin-Bound Cookies\n\n### URL to the spec\n\nhttps://datatracker.ietf.org/doc/draft-amarjotgill-origin-bound-cookies-protocol/\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/sbingler/Origin-Bound-Cookies\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1281\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nChrome Platform status https://chromestatus.com/feature/4945698250293248",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/539/reactions",
@@ -79612,9 +79670,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2025-10-20T18:13:05Z",
-    "updated_at": "2025-10-20T18:14:26Z",
+    "updated_at": "2025-10-21T18:14:59Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -79630,7 +79688,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### WebKittens\n\n@nt1m\n\n### Title of the proposal\n\ncss-view-transitions-2: waitUntil() method\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-view-transitions-2/#dom-viewtransition-waituntil\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts\n\n### Issue Tracker URL\n\nhttps://github.com/w3c/csswg-drafts/issues\n\n### Explainer URL\n\nhttps://github.com/vmpstr/htmldemos/blob/master/vt/waitUntil.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1158\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1309\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis proposal introduces `waitUntil()` method on ViewTransitions object to allow delaying view transition completion until the given promise settles.\n\nTAG: https://github.com/w3ctag/design-reviews/issues/1158",
+    "body": "### WebKittens\n\n@nt1m @smfr \n\n### Title of the proposal\n\ncss-view-transitions-2: waitUntil() method\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-view-transitions-2/#dom-viewtransition-waituntil\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts\n\n### Issue Tracker URL\n\nhttps://github.com/w3c/csswg-drafts/issues\n\n### Explainer URL\n\nhttps://github.com/vmpstr/htmldemos/blob/master/vt/waitUntil.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1158\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1309\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis proposal introduces `waitUntil()` method on ViewTransitions object to allow delaying view transition completion until the given promise settles.\n\nTAG: https://github.com/w3ctag/design-reviews/issues/1158",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/564/reactions",
@@ -79645,6 +79703,80 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/564/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/565",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/565/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/565/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/565/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/565",
+    "id": 3536703662,
+    "node_id": "I_kwDOHk513M7SzdCu",
+    "number": 565,
+    "title": "AtRule supports feature detection",
+    "user": {
+      "login": "diekus",
+      "id": 73939538,
+      "node_id": "MDQ6VXNlcjczOTM5NTM4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73939538?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/diekus",
+      "html_url": "https://github.com/diekus",
+      "followers_url": "https://api.github.com/users/diekus/followers",
+      "following_url": "https://api.github.com/users/diekus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/diekus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/diekus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/diekus/subscriptions",
+      "organizations_url": "https://api.github.com/users/diekus/orgs",
+      "repos_url": "https://api.github.com/users/diekus/repos",
+      "events_url": "https://api.github.com/users/diekus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/diekus/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2025-10-21T13:57:56Z",
+    "updated_at": "2025-10-21T13:57:56Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "### WebKittens\n\n@fantasai\n\n### Title of the proposal\n\nCSS AtRule\n\n### URL to the spec\n\nhttps://www.w3.org/TR/css-conditional/\n\n### URL to the spec's repository\n\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/tree/main/AtRuleFeatureDetection\n\n### Issue Tracker URL\n\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/issues?q=state%3Aopen%20label%3AAtRuleFeatureDetection\n\n### Explainer URL\n\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/AtRuleFeatureDetection/explainer.md\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nFeature detection is a [W3C TAG design principle](https://www.w3.org/TR/design-principles/#feature-detect) and a tool that Web authors rely on for graceful degradation of their pages.\n\n[CSS Conditional Rules](https://www.w3.org/TR/css-conditional/) introduces the @supports rule and API extensions to allow authors to feature-detect CSS properties. In this explainer, we describe an expansion to feature detection in CSS that allows authors to detect support for at-rules, including specific features of at-rules.\n",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/565/reactions",
+      "total_count": 1,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 1
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/565/timeline",
     "performed_via_github_app": null,
     "state_reason": null
   }

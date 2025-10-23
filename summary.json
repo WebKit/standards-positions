@@ -3382,26 +3382,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/189",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
-    "concerns": [],
-    "topics": [
-      "privacy"
-    ],
-    "title": "Private Aggregation API",
-    "url": "https://patcg-individual-drafts.github.io/private-aggregation-api/",
-    "github": "https://github.com/patcg-individual-drafts/private-aggregation-api",
-    "issues": null,
-    "explainer": null,
-    "tag": "https://github.com/w3ctag/design-reviews/issues/846",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/805",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/190",
     "position": "support",
     "venues": [
@@ -9041,26 +9021,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/529",
-    "position": null,
-    "venues": [
-      "IETF"
-    ],
-    "concerns": [],
-    "topics": [
-      "privacy"
-    ],
-    "title": "Probabilistic Reveal Tokens",
-    "url": "N/A",
-    "github": null,
-    "issues": null,
-    "explainer": "https://github.com/GoogleChrome/ip-protection/blob/main/prt_explainer.md",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/1083#issuecomment-2891647225",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/1273",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/532",
     "position": null,
     "venues": [
@@ -9215,7 +9175,7 @@
       "storage"
     ],
     "title": "Origin-Bound Cookies",
-    "url": "https://mikewest.github.io/cookie-incrementalism/draft-west-cookie-incrementalism.html#name-origin-bound-cookies",
+    "url": "https://datatracker.ietf.org/doc/draft-amarjotgill-origin-bound-cookies-protocol/",
     "github": null,
     "issues": null,
     "explainer": "https://github.com/sbingler/Origin-Bound-Cookies",
@@ -9556,6 +9516,22 @@
     "explainer": "https://github.com/vmpstr/htmldemos/blob/master/vt/waitUntil.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/1158",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1309",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/565",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS AtRule",
+    "url": "https://www.w3.org/TR/css-conditional/",
+    "github": "https://github.com/MicrosoftEdge/MSEdgeExplainers/tree/main/AtRuleFeatureDetection",
+    "issues": "https://github.com/MicrosoftEdge/MSEdgeExplainers/issues?q=state%3Aopen%20label%3AAtRuleFeatureDetection",
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/AtRuleFeatureDetection/explainer.md",
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   }
