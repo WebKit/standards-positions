@@ -9534,5 +9534,21 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/566",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Support `ping`, `hreflang`, `type` and `referrerPolicy` for SVG <a> element",
+    "url": "https://svgwg.org/svg2-draft/linking.html#InterfaceSVGAElement",
+    "github": "https://github.com/w3c/svgwg/blob/main/master/linking.html",
+    "issues": "https://issues.chromium.org/issues/40589293",
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   }
 ]
