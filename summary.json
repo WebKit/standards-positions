@@ -9538,9 +9538,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/566",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "svg"
+    ],
     "title": "Support `ping`, `hreflang`, `type` and `referrerPolicy` for SVG <a> element",
     "url": "https://svgwg.org/svg2-draft/linking.html#InterfaceSVGAElement",
     "github": "https://github.com/w3c/svgwg/blob/main/master/linking.html",
