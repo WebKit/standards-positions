@@ -9554,5 +9554,37 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/567",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "`@supports-condition`",
+    "url": "https://drafts.csswg.org/css-conditional-5/#supports-condition-rule",
+    "github": "https://github.com/w3c/csswg-drafts/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1312",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=301657",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/568",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "PWA Origin Migration",
+    "url": "No spec yet",
+    "github": "https://github.com/WICG/manifest-incubations/",
+    "issues": null,
+    "explainer": "https://github.com/WICG/manifest-incubations/blob/gh-pages/pwa-migration-explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1164",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1313",
+    "bugzilla": null,
+    "radar": null
   }
 ]
