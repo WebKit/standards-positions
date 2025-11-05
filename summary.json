@@ -9586,5 +9586,37 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1313",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/569",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "AsyncContext",
+    "url": "https://tc39.es/proposal-async-context/",
+    "github": "https://github.com/tc39/proposal-async-context/",
+    "issues": null,
+    "explainer": "https://github.com/tc39/proposal-async-context/blob/master/WEB-INTEGRATION.md (web integration explainer/document)",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/570",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Web Bluetooth",
+    "url": "https://webbluetoothcg.github.io/web-bluetooth/",
+    "github": null,
+    "issues": null,
+    "explainer": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API",
+    "tag": null,
+    "mozilla": "https://github.com/web-platform-tests/interop/issues/1001#issuecomment-3431053955",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=101034",
+    "radar": null
   }
 ]
