@@ -9608,7 +9608,10 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "device apis",
+      "app-like capabilities"
+    ],
     "title": "Web Bluetooth",
     "url": "https://webbluetoothcg.github.io/web-bluetooth/",
     "github": null,
@@ -9617,6 +9620,40 @@
     "tag": null,
     "mozilla": "https://github.com/web-platform-tests/interop/issues/1001#issuecomment-3431053955",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=101034",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/571",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "SVG2 <use> CSS cascading rules",
+    "url": "https://svgwg.org/svg2-draft/struct.html#UseElement",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=249080",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/572",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "security"
+    ],
+    "title": "Deprecate loading of external entities in XML parsing",
+    "url": "https://www.w3.org/TR/xml/#proc-types",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "Older bug report comment applies: https://bugzilla.mozilla.org/show_bug.cgi?id=22942#c135",
+    "bugzilla": null,
     "radar": null
   }
 ]
