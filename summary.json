@@ -4905,22 +4905,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/277",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
-    "title": "Opener Storage Partitioning",
-    "url": "https://explainers-by-googlers.github.io/opener-storage-partitioning/",
-    "github": "https://github.com/explainers-by-googlers/opener-storage-partitioning/",
-    "issues": "https://crbug.com/1159586",
-    "explainer": null,
-    "tag": "https://github.com/w3ctag/design-reviews/issues/916",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/926",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/278",
     "position": null,
     "venues": [],
@@ -5945,24 +5929,6 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/955",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1022",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=274177",
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/349",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [
-      "security"
-    ],
-    "title": "Partitioned Popins",
-    "url": "TBD",
-    "github": "https://github.com/arichiv/partitioned-popins/",
-    "issues": "https://issues.chromium.org/issues/340606651",
-    "explainer": "https://github.com/arichiv/partitioned-popins/blob/main/README.md",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/956",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/1023",
-    "bugzilla": null,
     "radar": null
   },
   {
@@ -7677,7 +7643,10 @@
     "venues": [
       "W3C"
     ],
-    "concerns": [],
+    "concerns": [
+      "internationalization",
+      "accessibility"
+    ],
     "topics": [
       "css"
     ],
@@ -8097,22 +8066,6 @@
     "tag": null,
     "mozilla": "N/A. They already fixed it, see bug.",
     "bugzilla": "https://bugzilla.mozilla.org/show_bug.cgi?id=1952516",
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/473",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
-    "title": "Private Proof API",
-    "url": null,
-    "github": null,
-    "issues": "https://issues.chromium.org/404546887",
-    "explainer": null,
-    "tag": "https://github.com/w3ctag/design-reviews/issues/1071",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/1196",
-    "bugzilla": null,
     "radar": null
   },
   {
@@ -9627,7 +9580,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "svg"
+    ],
     "title": "SVG2 <use> CSS cascading rules",
     "url": "https://svgwg.org/svg2-draft/struct.html#UseElement",
     "github": null,
@@ -9669,6 +9624,54 @@
     "explainer": "https://github.com/explainers-by-googlers/scroll-triggered-animations/blob/main/README.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/1167",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1315",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/578",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Email Verification Protocol",
+    "url": "https://github.com/WICG/email-verification-protocol",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1169",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1316",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/579",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Clipboard API and events: SVG support",
+    "url": "https://w3c.github.io/clipboard-apis/#optional-data-types-x",
+    "github": "https://github.com/w3c/clipboard-apis",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=280726",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/580",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Menu elements",
+    "url": "https://open-ui.org/components/menu.explainer/",
+    "github": "https://github.com/openui/open-ui",
+    "issues": "https://github.com/openui/open-ui/issues?q=is%3Aissue%20state%3Aopen%20label%3Amenu",
+    "explainer": "https://open-ui.org/components/menu.explainer/",
+    "tag": "Pending",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1317",
     "bugzilla": null,
     "radar": null
   }
