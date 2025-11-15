@@ -9674,5 +9674,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1317",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/581",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Delegation-oriented FedCM",
+    "url": "https://github.com/w3c-fedid/delegation",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1039",
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   }
 ]
