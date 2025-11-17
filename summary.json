@@ -8278,6 +8278,25 @@
     "radar": null
   },
   {
+    "id": "https://github.com/WebKit/standards-positions/issues/486",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "artificial intelligence",
+      "AI"
+    ],
+    "title": "Web Neural Network API",
+    "url": "https://www.w3.org/TR/webnn/",
+    "github": "https://github.com/webmachinelearning/webnn/",
+    "issues": null,
+    "explainer": "https://github.com/webmachinelearning/webnn/blob/main/explainer.md",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
     "id": "https://github.com/WebKit/standards-positions/issues/487",
     "position": null,
     "venues": [],
@@ -9687,6 +9706,22 @@
     "issues": null,
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/1039",
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/582",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": null,
+    "url": null,
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
     "mozilla": null,
     "bugzilla": null,
     "radar": null
