@@ -9116,11 +9116,9 @@
     "id": "https://github.com/WebKit/standards-positions/issues/538",
     "position": null,
     "venues": [
-      "Other"
+      "WHATWG"
     ],
-    "concerns": [
-      "venue"
-    ],
+    "concerns": [],
     "topics": [
       "web apis"
     ],
@@ -9681,9 +9679,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/580",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG",
+      "Other"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "html"
+    ],
     "title": "Menu elements",
     "url": "https://open-ui.org/components/menu.explainer/",
     "github": "https://github.com/openui/open-ui",

@@ -11310,8 +11310,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/65/reactions",
-      "total_count": 86,
-      "+1": 84,
+      "total_count": 87,
+      "+1": 85,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -77068,22 +77068,13 @@
         "description": "Spec relates to web APIs (entry points for script)"
       },
       {
-        "id": 4488289418,
-        "node_id": "LA_kwDOHk513M8AAAABC4Xcig",
-        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20venue",
-        "name": "concerns: venue",
-        "color": "f5a9b8",
-        "default": false,
-        "description": "This proposal is in the wrong standards/incubation venue, or it's not in a venue at all"
-      },
-      {
-        "id": 4575482321,
-        "node_id": "LA_kwDOHk513M8AAAABELhR0Q",
-        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20none%20/%20personal%20repository",
-        "name": "venue: none / personal repository",
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
         "color": "0052cc",
         "default": false,
-        "description": "The venue for discussion is a GitHub repository not affiliated with a standards body."
+        "description": ""
       },
       {
         "id": 4575933697,
@@ -77100,9 +77091,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2025-08-05T12:42:41Z",
-    "updated_at": "2025-11-05T09:12:38Z",
+    "updated_at": "2025-11-19T14:01:27Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -77414,9 +77405,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2025-08-22T14:35:59Z",
-    "updated_at": "2025-10-02T05:55:51Z",
+    "updated_at": "2025-11-19T16:17:38Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -81177,7 +81168,44 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278046994,
+        "node_id": "LA_kwDOHk513M7-_dES",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20html",
+        "name": "topic: html",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to HTML (Hypertext Markup Language)"
+      },
+      {
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4575933697,
+        "node_id": "LA_kwDOHk513M8AAAABEL81AQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Google",
+        "name": "from: Google",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Google."
+      },
+      {
+        "id": 4671960406,
+        "node_id": "LA_kwDOHk513M8AAAABFnh1Vg",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20Open%20UI%20CG",
+        "name": "venue: Open UI CG",
+        "color": "0052CC",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -81185,7 +81213,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2025-11-12T23:03:46Z",
-    "updated_at": "2025-11-13T00:07:54Z",
+    "updated_at": "2025-11-20T05:21:04Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
