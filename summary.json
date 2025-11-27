@@ -9728,5 +9728,21 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/583",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Connection Allowlists",
+    "url": "https://wicg.github.io/connection-allowlists/",
+    "github": "https://github.com/WICG/connection-allowlists",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1322",
+    "bugzilla": null,
+    "radar": null
   }
 ]
