@@ -9575,9 +9575,13 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/570",
-    "position": null,
+    "position": "oppose",
     "venues": [],
-    "concerns": [],
+    "concerns": [
+      "privacy",
+      "security",
+      "device independence"
+    ],
     "topics": [
       "device apis",
       "app-like capabilities"
@@ -9588,7 +9592,7 @@
     "issues": null,
     "explainer": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API",
     "tag": null,
-    "mozilla": "https://github.com/web-platform-tests/interop/issues/1001#issuecomment-3431053955",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/95",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=101034",
     "radar": null
   },

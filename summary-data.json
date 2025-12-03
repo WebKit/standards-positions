@@ -55681,8 +55681,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/348/reactions",
-      "total_count": 95,
-      "+1": 74,
+      "total_count": 96,
+      "+1": 75,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -80253,6 +80253,33 @@
     },
     "labels": [
       {
+        "id": 4278043765,
+        "node_id": "LA_kwDOHk513M7-_cR1",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20oppose",
+        "name": "position: oppose",
+        "color": "e40303",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 4278053339,
+        "node_id": "LA_kwDOHk513M7-_enb",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20privacy",
+        "name": "concerns: privacy",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "This proposal may cause privacy risk if implemented"
+      },
+      {
+        "id": 4278053585,
+        "node_id": "LA_kwDOHk513M7-_erR",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20security",
+        "name": "concerns: security",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "This proposal may cause security risk if implemented"
+      },
+      {
         "id": 4278536872,
         "node_id": "LA_kwDOHk513M7_BUqo",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20device%20apis",
@@ -80278,17 +80305,26 @@
         "color": "ffffff",
         "default": false,
         "description": "Proposed, edited, or co-edited by Google."
+      },
+      {
+        "id": 4627972685,
+        "node_id": "LA_kwDOHk513M8AAAABE9lCTQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20device%20independence",
+        "name": "concerns: device independence",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "Proposal is hardware- or OS-specific, in a way that may risk the device independence of the Web"
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 2,
     "created_at": "2025-11-04T16:38:42Z",
-    "updated_at": "2025-11-05T11:40:09Z",
-    "closed_at": null,
+    "updated_at": "2025-12-02T21:46:07Z",
+    "closed_at": "2025-12-02T07:50:03Z",
     "author_association": "NONE",
     "type": null,
     "active_lock_reason": null,
@@ -80303,8 +80339,28 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### WebKittens\n\n@annevk @hober\n\n### Title of the proposal\n\nWeb Bluetooth\n\n### URL to the spec\n\nhttps://webbluetoothcg.github.io/web-bluetooth/\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/web-platform-tests/interop/issues/1001#issuecomment-3431053955\n\n### WebKit Bugzilla URL\n\nhttps://bugs.webkit.org/show_bug.cgi?id=101034\n\n### Radar URL\n\n_No response_\n\n### Description\n\nIt keeps being requested in interop - see https://github.com/web-platform-tests/interop/issues/1001#issuecomment-343105395\n\nOpening this because I believe that the linked WebKit bugzilla points to a negative position, but it doesn't show up in https://webkit.org/standards-positions/ which I am assuming is because it isn't here and predates this... Maybe if the position is closed/stated as negative it will show up?\n",
-    "closed_by": null,
+    "body": "### WebKittens\n\n@annevk @hober\n\n### Title of the proposal\n\nWeb Bluetooth\n\n### URL to the spec\n\nhttps://webbluetoothcg.github.io/web-bluetooth/\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/95\n\n### WebKit Bugzilla URL\n\nhttps://bugs.webkit.org/show_bug.cgi?id=101034\n\n### Radar URL\n\n_No response_\n\n### Description\n\nIt keeps being requested in interop - see https://github.com/web-platform-tests/interop/issues/1001#issuecomment-343105395\n\nOpening this because I believe that the linked WebKit bugzilla points to a negative position, but it doesn't show up in https://webkit.org/standards-positions/ which I am assuming is because it isn't here and predates this... Maybe if the position is closed/stated as negative it will show up?\n",
+    "closed_by": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/570/reactions",
       "total_count": 0,
@@ -80319,7 +80375,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/570/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/571",
