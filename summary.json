@@ -9789,7 +9789,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "fonts and/or text"
+    ],
     "title": "css-fonts-5: text-scale &lt;meta> element",
     "url": "https://davidsgrogan.github.io/css-fonts-5/Overview.html#text-scale-meta",
     "github": null,

@@ -76565,8 +76565,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/533/reactions",
-      "total_count": 2,
-      "+1": 2,
+      "total_count": 3,
+      "+1": 3,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -81875,15 +81875,25 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 5317425647,
+        "node_id": "LA_kwDOHk513M8AAAABPPF57w",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20fonts%20and/or%20text",
+        "name": "topic: fonts and/or text",
+        "color": "5bcefa",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2025-12-04T02:07:31Z",
-    "updated_at": "2025-12-04T02:07:49Z",
+    "updated_at": "2025-12-08T07:03:57Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
