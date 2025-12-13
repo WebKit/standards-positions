@@ -6265,14 +6265,14 @@
       "accessibility"
     ],
     "title": "ARIA Notify",
-    "url": "https://github.com/w3c/aria/pull/2211",
-    "github": "https://github.com/w3c/aria",
+    "url": "- https://github.com/w3c/aria/pull/2577",
+    "github": "- https://github.com/w3c/aria",
     "issues": null,
-    "explainer": "https://github.com/WICG/accessible-notifications",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/713",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/1049",
-    "bugzilla": null,
-    "radar": null
+    "explainer": "- https://github.com/WICG/accessible-notifications",
+    "tag": "- https://github.com/w3ctag/design-reviews/issues/713",
+    "mozilla": "- https://github.com/mozilla/standards-positions/issues/1049",
+    "bugzilla": "- [https://webkit.org/b/304006](https://webkit.org/b/304006)",
+    "radar": "- rdar://problem/166312591"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/371",
