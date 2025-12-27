@@ -29711,9 +29711,9 @@
     },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/170/reactions",
-      "total_count": 2,
+      "total_count": 3,
       "+1": 0,
-      "-1": 1,
+      "-1": 2,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
