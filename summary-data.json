@@ -27359,9 +27359,18 @@
         "color": "5bcefa",
         "default": false,
         "description": ""
+      },
+      {
+        "id": 5356000013,
+        "node_id": "LA_kwDOHk513M8AAAABPz4TDQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/proposal%20withdrawn",
+        "name": "proposal withdrawn",
+        "color": "453E33",
+        "default": false,
+        "description": ""
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "hober",
@@ -27431,8 +27440,8 @@
     "milestone": null,
     "comments": 2,
     "created_at": "2023-03-29T17:20:06Z",
-    "updated_at": "2025-10-20T15:19:26Z",
-    "closed_at": null,
+    "updated_at": "2025-12-29T13:06:24Z",
+    "closed_at": "2025-12-29T12:31:04Z",
     "author_association": "NONE",
     "type": null,
     "active_lock_reason": null,
@@ -27448,7 +27457,27 @@
       "total_blocking": 0
     },
     "body": "## Request for position on an emerging web specification\r\n\r\n* WebKittens who can provide input: @johnwilander \r\n\r\n### Information about the specification\r\n\r\n* Title: Protected Audience (formerly FLEDGE)\r\n* URL: https://wicg.github.io/turtledove/\r\n\r\n(recommend explainer)\r\n\r\n* GitHub repository: https://github.com/WICG/turtledove\r\n* Explainer (if not README.md in the repository): https://github.com/WICG/turtledove/blob/main/FLEDGE.md\r\n\r\n### Design reviews and vendor positions\r\n\r\n* TAG Design Review: https://github.com/w3ctag/design-reviews/issues/723\r\n* Mozilla standards-positions issue: https://github.com/mozilla/standards-positions/issues/770\r\n\r\n### Bugs tracking this feature\r\n\r\n* Chrome Status: https://chromestatus.com/features/5733583115255808\r\n\r\n### Anything else we need to know\r\n\r\nWe\u2019ve been working on FLEDGE, a privacy advancing API to facilitate advertising based on showing an ad to a potentially-interested person who has previously interacted with the advertiser or ad network.  Historically this has worked by the advertiser recognizing a specific person as they browse across web sites, a core privacy concern with today's web.  Our effort is about offering a new API to address this advertising use case while offering some key privacy advances:\r\n * The user\u2019s browser, not the advertiser, holds the information about what the advertiser thinks a person is interested in.\r\n * Advertisers can serve ads based on an interest, but cannot combine that interest with other information about the person \u2014 in particular, with who they are or what page they are visiting.\r\n * Web sites the person visits, and the ad networks those sites use, cannot learn about their visitors' ad interests.\r\n\r\nFLEDGE is Chrome's first experiment in this direction.  We are currently conducting an Origin Trial with FLEDGE but are open to evolving the API over time and are appreciative of your feedback.\r\n\r\nThe FLEDGE explainer calls out certain behaviors as temporary. These are design trade-offs that we have chosen in the interest of having an API available in Chrome and adopted by ad techs as soon as possible, since the API is a key piece of our effort to remove third-party cookies. The most useful feedback and position would probably be focused on the long-term goal, rather than the interim compromises that we've made. We remain happy to hear your thoughts about any part of the design, though.\r\n",
-    "closed_by": null,
+    "closed_by": {
+      "login": "lukewarlow",
+      "id": 32498324,
+      "node_id": "MDQ6VXNlcjMyNDk4MzI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32498324?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lukewarlow",
+      "html_url": "https://github.com/lukewarlow",
+      "followers_url": "https://api.github.com/users/lukewarlow/followers",
+      "following_url": "https://api.github.com/users/lukewarlow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lukewarlow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lukewarlow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lukewarlow/subscriptions",
+      "organizations_url": "https://api.github.com/users/lukewarlow/orgs",
+      "repos_url": "https://api.github.com/users/lukewarlow/repos",
+      "events_url": "https://api.github.com/users/lukewarlow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lukewarlow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/158/reactions",
       "total_count": 0,
@@ -27463,7 +27492,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/158/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/159",
@@ -59292,9 +59321,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2024-07-31T17:36:44Z",
-    "updated_at": "2025-12-15T17:15:37Z",
+    "updated_at": "2025-12-29T18:32:04Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -81893,7 +81922,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-12-04T02:07:31Z",
-    "updated_at": "2025-12-17T04:40:08Z",
+    "updated_at": "2025-12-30T20:23:05Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -81909,7 +81938,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### WebKittens\n\n@fantasai\n\n### Title of the proposal\n\ncss-fonts-5: text-scale &lt;meta> element\n\n### URL to the spec\n\nhttps://davidsgrogan.github.io/css-fonts-5/Overview.html#text-scale-meta\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/w3c/csswg-drafts/blob/main/css-env-1/explainers/meta-text-scale.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1172\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1326\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nWe propose a set of new HTML meta attribute values that tells the user agent to incorporate the user's font preferences into the CSS font-size keywords.\n\n@fantasai has given feedback to this propsal in https://github.com/w3c/csswg-drafts/issues/12380, https://github.com/w3c/csswg-drafts/issues/12475, and https://github.com/w3c/csswg-drafts/pull/13052",
+    "body": "### WebKittens\n\n@fantasai\n\n### Title of the proposal\n\ncss-fonts-5: text-scale &lt;meta> element\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-fonts-5/#text-scale-meta\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/w3c/csswg-drafts/blob/main/css-env-1/explainers/meta-text-scale.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1172\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1326\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nWe propose a set of new HTML meta attribute values that tells the user agent to incorporate the user's font preferences into the CSS font-size keywords.\n\n@fantasai has given feedback to this propsal in https://github.com/w3c/csswg-drafts/issues/12380, https://github.com/w3c/csswg-drafts/issues/12475, and https://github.com/w3c/csswg-drafts/pull/13052",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/587/reactions",

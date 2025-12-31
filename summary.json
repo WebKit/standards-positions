@@ -2837,27 +2837,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/158",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
-    "concerns": [],
-    "topics": [
-      "privacy",
-      "advertising"
-    ],
-    "title": "Protected Audience (formerly FLEDGE)",
-    "url": "https://wicg.github.io/turtledove/",
-    "github": "https://github.com/WICG/turtledove",
-    "issues": null,
-    "explainer": "https://github.com/WICG/turtledove/blob/main/FLEDGE.md",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/723",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/770",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/160",
     "position": "support",
     "venues": [
@@ -9793,7 +9772,7 @@
       "fonts and/or text"
     ],
     "title": "css-fonts-5: text-scale &lt;meta> element",
-    "url": "https://davidsgrogan.github.io/css-fonts-5/Overview.html#text-scale-meta",
+    "url": "https://drafts.csswg.org/css-fonts-5/#text-scale-meta",
     "github": null,
     "issues": null,
     "explainer": "https://github.com/w3c/csswg-drafts/blob/main/css-env-1/explainers/meta-text-scale.md",
