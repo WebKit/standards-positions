@@ -9876,5 +9876,21 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/595",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Filter Effects 2: progressive blur via `linear-blur()`",
+    "url": "https://drafts.csswg.org/filter-effects-2/",
+    "github": "https://github.com/w3c/fxtf-drafts",
+    "issues": "https://github.com/w3c/csswg-drafts/issues/13285",
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   }
 ]
