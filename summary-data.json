@@ -82210,16 +82210,26 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
-    "state": "open",
+    "labels": [
+      {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": ""
+      }
+    ],
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 2,
     "created_at": "2025-12-06T00:39:22Z",
-    "updated_at": "2025-12-06T00:39:22Z",
-    "closed_at": null,
+    "updated_at": "2026-01-04T07:28:14Z",
+    "closed_at": "2026-01-03T11:39:08Z",
     "author_association": "NONE",
     "type": null,
     "active_lock_reason": null,
@@ -82235,7 +82245,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nCSS Values and Units: sibling-count() and sibling-index()\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-values-5/#tree-counting\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/w3c/csswg-drafts/blob/main/css-values-5/tree-counting-explainer.md\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nCSS Values and Units Level 5 adds two tree-counting functions sibling-count() and sibling-index() which evaluate to integers at computed value time based on flat tree positions of the element we are computing styles for. These functions can be used where-ever integer values are allowed in property declarations.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "nt1m",
+      "id": 1795135,
+      "node_id": "MDQ6VXNlcjE3OTUxMzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1795135?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nt1m",
+      "html_url": "https://github.com/nt1m",
+      "followers_url": "https://api.github.com/users/nt1m/followers",
+      "following_url": "https://api.github.com/users/nt1m/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nt1m/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nt1m/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nt1m/subscriptions",
+      "organizations_url": "https://api.github.com/users/nt1m/orgs",
+      "repos_url": "https://api.github.com/users/nt1m/repos",
+      "events_url": "https://api.github.com/users/nt1m/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nt1m/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/591/reactions",
       "total_count": 0,
@@ -82303,7 +82333,7 @@
       },
       "events": []
     },
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/WebKit/standards-positions/issues/592",
