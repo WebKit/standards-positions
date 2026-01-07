@@ -9892,5 +9892,53 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/596",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Preserving dropEffect Values from dragover to drop Events",
+    "url": "https://www.w3.org/TR/2011/WD-html5-20110113/dnd.html#dom-datatransfer-dropeffect",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/597",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Support `maxAge` in the Cookie Store API",
+    "url": "https://cookiestore.spec.whatwg.org/",
+    "github": "https://github.com/whatwg/cookiestore",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=303549",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/598",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Request for position on an existing web specification: Pointer event suppression on drag start",
+    "url": "https://w3c.github.io/pointerevents/#suppressing-a-pointer-event-stream",
+    "github": "https://github.com/w3c/pointerevents",
+    "issues": "https://github.com/w3c/pointerevents/issues/555",
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   }
 ]
