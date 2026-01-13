@@ -9940,5 +9940,21 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/599",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "WebRTC: Always negotiating data channels",
+    "url": "https://w3c.github.io/webrtc-extensions/#always-negotiating-datachannels",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1335",
+    "bugzilla": null,
+    "radar": null
   }
 ]
