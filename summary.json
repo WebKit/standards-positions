@@ -9912,9 +9912,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/597",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "storage"
+    ],
     "title": "Support `maxAge` in the Cookie Store API",
     "url": "https://cookiestore.spec.whatwg.org/",
     "github": "https://github.com/whatwg/cookiestore",
@@ -9954,6 +9958,38 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1335",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/600",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "named-feature() function for CSS @supports",
+    "url": "https://drafts.csswg.org/css-conditional-5/#typedef-supports-named-feature-fn",
+    "github": "https://github.com/w3c/csswg-drafts/",
+    "issues": null,
+    "explainer": "https://github.com/w3c/csswg-drafts/blob/main/css-conditional-5/named-feature-explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1186",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1340",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/601",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "WebXR Layers API",
+    "url": "https://immersive-web.github.io/layers/",
+    "github": "https://github.com/immersive-web/layers",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/528",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/412",
     "bugzilla": null,
     "radar": null
   }
