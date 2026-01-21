@@ -2995,11 +2995,10 @@
     "id": "https://github.com/WebKit/standards-positions/issues/171",
     "position": null,
     "venues": [
+      "WHATWG",
       "Other"
     ],
-    "concerns": [
-      "venue"
-    ],
+    "concerns": [],
     "topics": [
       "accessibility",
       "html",
@@ -3007,11 +3006,11 @@
       "forms"
     ],
     "title": "focusgroup attribute",
-    "url": "https://open-ui.org/components/focusgroup.explainer/",
-    "github": "https://github.com/openui/open-ui/blob/main/site/src/pages/components/focusgroup.explainer.mdx",
+    "url": "https://github.com/whatwg/html/pull/11723",
+    "github": "https://github.com/whatwg/html/",
     "issues": null,
-    "explainer": "https://open-ui.org/components/focusgroup.explainer/",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/732",
+    "explainer": "https://open-ui.org/components/scoped-focusgroup.explainer/",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1152",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/631",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=255482",
     "radar": "rdar://108403002"

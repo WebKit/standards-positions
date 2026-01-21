@@ -29815,13 +29815,13 @@
         "description": "Spec relates to markup: elements, attributes, etc"
       },
       {
-        "id": 4488289418,
-        "node_id": "LA_kwDOHk513M8AAAABC4Xcig",
-        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20venue",
-        "name": "concerns: venue",
-        "color": "f5a9b8",
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
+        "color": "0052cc",
         "default": false,
-        "description": "This proposal is in the wrong standards/incubation venue, or it's not in a venue at all"
+        "description": ""
       },
       {
         "id": 4575566154,
@@ -29910,9 +29910,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2023-04-15T11:15:03Z",
-    "updated_at": "2025-09-17T23:39:45Z",
+    "updated_at": "2026-01-21T00:49:07Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
@@ -29928,7 +29928,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the spec\r\n\r\nfocusgroup attribute\r\n\r\n### URL to the spec\r\n\r\nhttps://open-ui.org/components/focusgroup.explainer/\r\n\r\n### URL to the spec's repository\r\n\r\nhttps://github.com/openui/open-ui/blob/main/site/src/pages/components/focusgroup.explainer.mdx\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://open-ui.org/components/focusgroup.explainer/\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/732\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/631\r\n\r\n### WebKit Bugzilla URL\r\n\r\nhttps://bugs.webkit.org/show_bug.cgi?id=255482\r\n\r\n### Radar URL\r\n\r\nrdar://108403002\r\n\r\n### Description\r\n\r\nA new HTML attribute that allows for creating focusgroups that are navigable using arrow keys without needing to use JavaScript. (See explainer for a far better explanation)",
+    "body": "### WebKittens\n\n_No response_\n\n### Title of the spec\n\nfocusgroup attribute\n\n### URL to the spec\n\nhttps://github.com/whatwg/html/pull/11723\n\n### URL to the spec's repository\n\nhttps://github.com/whatwg/html/\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://open-ui.org/components/scoped-focusgroup.explainer/\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1152\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/631\n\n### WebKit Bugzilla URL\n\nhttps://bugs.webkit.org/show_bug.cgi?id=255482\n\n### Radar URL\n\nrdar://108403002\n\n### Description\n\nA new HTML attribute that allows for creating focusgroups that are navigable using arrow keys without needing to use JavaScript. (See explainer for a far better explanation)",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/171/reactions",
@@ -55710,8 +55710,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/348/reactions",
-      "total_count": 98,
-      "+1": 76,
+      "total_count": 99,
+      "+1": 77,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
