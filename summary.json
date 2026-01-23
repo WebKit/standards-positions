@@ -9991,5 +9991,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/412",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/602",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Scroll-driven Animations: Timeline Named Range \"scroll\"",
+    "url": "https://drafts.csswg.org/scroll-animations-1/#valdef-animation-timeline-range-scroll",
+    "github": "https://github.com/w3c/csswg-drafts/blob/main/scroll-animations-1/Overview.bs",
+    "issues": null,
+    "explainer": "https://github.com/explainers-by-googlers/scroll-triggered-animations/blob/main/ANIMATION_TIMELINE_RANGE_SCROLL.md",
+    "tag": "Please see description.",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1341",
+    "bugzilla": null,
+    "radar": null
   }
 ]
