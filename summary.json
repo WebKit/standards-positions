@@ -10007,5 +10007,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1341",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/603",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Support style and JSON as modulepreload destinations",
+    "url": "https://github.com/whatwg/html/pull/11981",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1342",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=303761",
+    "radar": "rdar://problem/166547259"
   }
 ]
