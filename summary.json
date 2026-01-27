@@ -10023,5 +10023,37 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1342",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=303761",
     "radar": "rdar://problem/166547259"
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/604",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Support external <script type=speculationrules>",
+    "url": "https://github.com/whatwg/html/pull/11697/changes",
+    "github": "https://github.com/whatwg/html/",
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/pull/1234/files?short_path=4ea9c7d#diff-4ea9c7d62d8211b8185537d822ee3e156b7ecd6c932461ce8656ff0a0f580619",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1343",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=305428",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/605",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "AI Content Disclosure for HTML",
+    "url": "https://github.com/WICG/proposals/issues/261",
+    "github": "https://github.com/dweekly/ai-content-disclosure",
+    "issues": null,
+    "explainer": "https://github.com/dweekly/ai-content-disclosure",
+    "tag": "_Not yet filed_",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1344",
+    "bugzilla": null,
+    "radar": "## Anything else we need to know"
   }
 ]
