@@ -9749,9 +9749,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/586",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "html",
+      "media"
+    ],
     "title": "HTML Video Element Loading Attribute",
     "url": "https://whatpr.org/html/11980/media.html#attr-video-loading",
     "github": "https://github.com/whatwg/html/pull/11980",
@@ -9910,7 +9915,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/597",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -10055,5 +10060,57 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1344",
     "bugzilla": null,
     "radar": "## Anything else we need to know"
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/606",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": null,
+    "url": null,
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/607",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "css"
+    ],
+    "title": "CSSPseudoElement interface",
+    "url": "https://drafts.csswg.org/css-pseudo/#CSSPseudoElement-interface",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/608",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "WebXR Plane Detection Module",
+    "url": "https://immersive-web.github.io/plane-detection/",
+    "github": "github.com/immersive-web/plane-detection",
+    "issues": null,
+    "explainer": "https://github.com/immersive-web/plane-detection/blob/main/explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/620",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1346",
+    "bugzilla": null,
+    "radar": null
   }
 ]
