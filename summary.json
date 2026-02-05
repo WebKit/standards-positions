@@ -10112,5 +10112,53 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1346",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/609",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "HTML Standards",
+    "url": "https://github.com/whatwg/html/pull/12069",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": "none",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1349",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/610",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Playback Statistics API for WebAudio",
+    "url": "https://webaudio.github.io/web-audio-api/#AudioPlaybackStats",
+    "github": "https://webaudio.github.io/",
+    "issues": null,
+    "explainer": "https://github.com/WICG/audio-context-playout-stats",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/939",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1351",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/611",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "[css-view-transitions-2] Scoped View Transitions",
+    "url": "https://drafts.csswg.org/css-view-transitions-2/",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/WICG/view-transitions/blob/main/scoped-transitions.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1188",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1352",
+    "bugzilla": null,
+    "radar": null
   }
 ]
