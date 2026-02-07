@@ -10160,5 +10160,37 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1352",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/612",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Navigation API: add post-commit handler from precommit handler",
+    "url": "https://html.spec.whatwg.org/#dom-navigationprecommitcontroller-addhandler",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": "https://github.com/wicg/navigation-api/?tab=readme-ov-file#precommit-handlers",
+    "tag": null,
+    "mozilla": "Already implemented",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=293952",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/613",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Web app scope system accent color",
+    "url": "https://drafts.csswg.org/css-ui-4/#widget-accent",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1354",
+    "bugzilla": null,
+    "radar": null
   }
 ]
