@@ -10240,5 +10240,37 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1357",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/617",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "[css-cascade-5] The 'revert-rule' Keyword",
+    "url": "https://drafts.csswg.org/css-cascade-5/#revert-rule-keyword",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": "https://github.com/w3c/csswg-drafts/blob/main/css-cascade-5/revert-rule-explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1193",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1358",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/618",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "HDR interactions with 2D canvas, WebGL and WebGPU",
+    "url": "https://github.com/w3c/ColorWeb-CG/blob/main/hdr-big-picture.md",
+    "github": "https://github.com/w3c/ColorWeb-CG",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1194",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1359",
+    "bugzilla": null,
+    "radar": null
   }
 ]
