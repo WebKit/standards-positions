@@ -3833,26 +3833,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/216",
-    "position": null,
-    "venues": [
-      "WHATWG"
-    ],
-    "concerns": [],
-    "topics": [
-      "html"
-    ],
-    "title": "HTML anchor attribute",
-    "url": "https://github.com/whatwg/html/pull/9144",
-    "github": "https://github.com/whatwg/html",
-    "issues": null,
-    "explainer": null,
-    "tag": "https://github.com/w3ctag/design-reviews/issues/848",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/836",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/218",
     "position": null,
     "venues": [
