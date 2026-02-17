@@ -10252,5 +10252,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1359",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/619",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "BeforeInstallPromptEvent API (for installing the \"current app\")",
+    "url": "https://www.w3.org/TR/appmanifest/",
+    "github": "https://github.com/w3c/manifest",
+    "issues": "https://github.com/w3c/manifest/issues",
+    "explainer": "https://pr-preview.s3.amazonaws.com/w3c/manifest/pull/1206.html#installation-events",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "- [Bug 193959](https://bugs.webkit.org/show_bug.cgi?id=193959) - Original BIP request (2019, RESOLVED WONTFIX)",
+    "radar": null
   }
 ]
