@@ -10268,5 +10268,21 @@
     "mozilla": null,
     "bugzilla": "- [Bug 193959](https://bugs.webkit.org/show_bug.cgi?id=193959) - Original BIP request (2019, RESOLVED WONTFIX)",
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/620",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Request.isReloadNavigation",
+    "url": "https://fetch.spec.whatwg.org/#dom-request-isreloadnavigation",
+    "github": "https://github.com/whatwg/fetch",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1360",
+    "bugzilla": null,
+    "radar": null
   }
 ]
