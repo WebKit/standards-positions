@@ -10257,7 +10257,12 @@
     "id": "https://github.com/WebKit/standards-positions/issues/619",
     "position": null,
     "venues": [],
-    "concerns": [],
+    "concerns": [
+      "complexity",
+      "usability",
+      "API design",
+      "annoyance"
+    ],
     "topics": [],
     "title": "BeforeInstallPromptEvent API (for installing the \"current app\")",
     "url": "https://www.w3.org/TR/appmanifest/",
@@ -10282,6 +10287,25 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1360",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/621",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [
+      "css",
+      "svg"
+    ],
+    "title": null,
+    "url": null,
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   }
