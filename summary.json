@@ -9738,14 +9738,14 @@
       "media"
     ],
     "title": "HTML Video Element Loading Attribute",
-    "url": "https://whatpr.org/html/11980/media.html#attr-video-loading",
+    "url": "https://whatpr.org/html/11980/media.html#the-video-element",
     "github": "https://github.com/whatwg/html/pull/11980",
     "issues": "https://github.com/whatwg/html/issues/10376",
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1325#issuecomment-3609183095",
-    "bugzilla": null,
-    "radar": null
+    "bugzilla": "[_No response_](https://bugs.webkit.org/show_bug.cgi?id=303995)",
+    "radar": "rdar://problem/166791801"
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/587",
@@ -10306,6 +10306,22 @@
     "explainer": null,
     "tag": null,
     "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/622",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CPU Performance API",
+    "url": "https://wicg.github.io/cpu-performance/",
+    "github": "https://github.com/WICG/cpu-performance",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1198",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1364",
     "bugzilla": null,
     "radar": null
   }
