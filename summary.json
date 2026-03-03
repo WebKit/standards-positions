@@ -10328,5 +10328,37 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1364",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/624",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": null,
+    "url": null,
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/625",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "[css-borders-4] border-shape property",
+    "url": "https://drafts.csswg.org/css-borders-4/#border-shape",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/noamr/explainers/blob/main/border-shape-explainer.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1365",
+    "bugzilla": null,
+    "radar": null
   }
 ]
