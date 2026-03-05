@@ -9690,7 +9690,7 @@
     "github": "https://github.com/WICG/connection-allowlists",
     "issues": null,
     "explainer": null,
-    "tag": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1173",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1322",
     "bugzilla": null,
     "radar": null
@@ -10358,6 +10358,22 @@
     "explainer": "https://github.com/noamr/explainers/blob/main/border-shape-explainer.md",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1365",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/626",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Import Bytes",
+    "url": "https://tc39.es/proposal-import-bytes/",
+    "github": "https://github.com/tc39/proposal-import-bytes",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1367",
     "bugzilla": null,
     "radar": null
   }
