@@ -10397,5 +10397,37 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1366",
     "bugzilla": "https://webkit.org/b/276463",
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/628",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Out of order streaming (`<template for>`)",
+    "url": "https://github.com/whatwg/html/issues/11542#issuecomment-4026131872",
+    "github": "https://github.com/whatwg/html",
+    "issues": "https://github.com/whatwg/html/issues",
+    "explainer": "https://github.com/WICG/declarative-partial-updates/blob/main/patching-explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1134",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1369",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/629",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "HTML streaming & revamped DOM parsing",
+    "url": "https://github.com/whatwg/html/issues/11669",
+    "github": "https://github.com/whatwg/html",
+    "issues": "https://github.com/whatwg/html/issues",
+    "explainer": "https://github.com/WICG/declarative-partial-updates/blob/main/dynamic-markup-revamped-explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1134",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1370",
+    "bugzilla": null,
+    "radar": null
   }
 ]
