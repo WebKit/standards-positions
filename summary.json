@@ -6759,30 +6759,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/403",
-    "position": null,
-    "venues": [
-      "WHATWG",
-      "Other"
-    ],
-    "concerns": [
-      "complexity",
-      "API design"
-    ],
-    "topics": [
-      "graphics"
-    ],
-    "title": "Canvas place element",
-    "url": "https://html.spec.whatwg.org/",
-    "github": "https://github.com/WICG/canvas-place-element",
-    "issues": null,
-    "explainer": null,
-    "tag": "https://github.com/w3ctag/design-reviews/issues/997",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/1076",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/404",
     "position": "support",
     "venues": [
@@ -10427,6 +10403,22 @@
     "explainer": "https://github.com/WICG/declarative-partial-updates/blob/main/dynamic-markup-revamped-explainer.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/1134",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1370",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/630",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "html-in-canvas",
+    "url": "https://html.spec.whatwg.org/",
+    "github": "https://github.com/WICG/html-in-canvas",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1204",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1076",
     "bugzilla": null,
     "radar": null
   }
