@@ -10409,9 +10409,15 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/630",
     "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
+    "venues": [
+      "Other"
+    ],
+    "concerns": [
+      "venue"
+    ],
+    "topics": [
+      "html"
+    ],
     "title": "html-in-canvas",
     "url": "https://html.spec.whatwg.org/",
     "github": "https://github.com/WICG/html-in-canvas",
@@ -10419,6 +10425,86 @@
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/1204",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1076",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/631",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "HTML `shadowrootslotassignment` attribute",
+    "url": "https://github.com/whatwg/html/pull/12267",
+    "github": "https://github.com/whatwg/html",
+    "issues": "https://bugs.webkit.org/show_bug.cgi?id=310090",
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/632",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Global timeline scope",
+    "url": "https://drafts.csswg.org/scroll-animations-1/#timeline-scoping",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1373",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/633",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "The 'all' keyword for timeline-scope",
+    "url": "https://drafts.csswg.org/scroll-animations-1/#valdef-timeline-scope-all",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1374",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/634",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Add quality constraint to SpeechRecognitionOptions for on-device recognition",
+    "url": "https://webaudio.github.io/web-speech-api/",
+    "github": "https://github.com/WebAudio/web-speech-api",
+    "issues": "https://github.com/WebAudio/web-speech-api/issues/182",
+    "explainer": "https://github.com/WebAudio/web-speech-api/blob/main/explainers/quality-levels.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1189",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1375",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/635",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "6.1. Inline-Axis (or Main-Axis) Self-Alignment: the justify-self property",
+    "url": "https://www.w3.org/TR/css-align-3/",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   }
