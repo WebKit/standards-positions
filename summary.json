@@ -10571,5 +10571,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1379",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/641",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Modern Algorithms in the Web Cryptography API",
+    "url": "https://wicg.github.io/webcrypto-modern-algos/",
+    "github": "https://github.com/WICG/webcrypto-modern-algos/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1282",
+    "bugzilla": null,
+    "radar": null
   }
 ]
