@@ -10587,5 +10587,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1282",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/642",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Platform-provided behaviors for custom elements",
+    "url": "https://github.com/whatwg/html/issues/12150 (proposal)",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/PlatformProvidedBehaviors/explainer.md",
+    "tag": "Not filed yet",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1380",
+    "bugzilla": null,
+    "radar": null
   }
 ]
