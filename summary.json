@@ -10603,5 +10603,53 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1380",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/643",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "can streams be transferred via postMessage()?",
+    "url": "https://streams.spec.whatwg.org",
+    "github": "https://github.com/whatwg/streams",
+    "issues": null,
+    "explainer": "https://github.com/whatwg/streams/blob/master/transferable-streams-explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/551",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/430",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/644",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Compression Dictionary support for cross-origin no-cors requests",
+    "url": "https://fetch.spec.whatwg.org/",
+    "github": "https://github.com/whatwg/fetch",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1203",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1381",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/645",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Device Memory",
+    "url": "https://www.w3.org/TR/device-memory/",
+    "github": "https://github.com/w3c/device-memory/",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/190",
+    "mozilla": "https://groups.google.com/g/mozilla.dev.platform/c/cfydu35XdnY/m/3IqYn0oJAQAJ",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=199084",
+    "radar": null
   }
 ]
