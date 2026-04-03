@@ -10416,6 +10416,7 @@
       "venue"
     ],
     "topics": [
+      "accessibility",
       "html"
     ],
     "title": "html-in-canvas",
@@ -10640,7 +10641,9 @@
     "id": "https://github.com/WebKit/standards-positions/issues/645",
     "position": null,
     "venues": [],
-    "concerns": [],
+    "concerns": [
+      "privacy"
+    ],
     "topics": [],
     "title": "Device Memory",
     "url": "https://www.w3.org/TR/device-memory/",
