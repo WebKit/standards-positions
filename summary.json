@@ -5987,7 +5987,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/356",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
     "topics": [
       "accessibility",
@@ -8610,9 +8612,15 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/510",
     "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
+    "venues": [
+      "Other"
+    ],
+    "concerns": [
+      "venue"
+    ],
+    "topics": [
+      "device apis"
+    ],
     "title": "WebHID",
     "url": "https://wicg.github.io/webhid/#dom-hid",
     "github": "https://github.com/WICG/webhid/",
@@ -9382,9 +9390,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/559",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "forms"
+    ],
     "title": "Base appearance for list box select elements",
     "url": "https://github.com/whatwg/html/pull/11758",
     "github": "https://github.com/whatwg/html",
@@ -9413,10 +9425,14 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/564",
-    "position": null,
-    "venues": [],
+    "position": "support",
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "css-view-transitions-2: waitUntil() method",
     "url": "https://drafts.csswg.org/css-view-transitions-2/#dom-viewtransition-waituntil",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -9554,7 +9570,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/572",
-    "position": null,
+    "position": "support",
     "venues": [],
     "concerns": [],
     "topics": [
@@ -9992,9 +10008,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/604",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "html"
+    ],
     "title": "Support external <script type=speculationrules>",
     "url": "https://github.com/whatwg/html/pull/11697/changes",
     "github": "https://github.com/whatwg/html/",
@@ -10076,9 +10096,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/609",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "html",
+      "forms"
+    ],
     "title": "HTML Standards",
     "url": "https://github.com/whatwg/html/pull/12069",
     "github": "https://github.com/whatwg/html",
@@ -10292,8 +10317,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/622",
     "position": null,
-    "venues": [],
-    "concerns": [],
+    "venues": [
+      "Other"
+    ],
+    "concerns": [
+      "privacy",
+      "venue"
+    ],
     "topics": [],
     "title": "CPU Performance API",
     "url": "https://wicg.github.io/cpu-performance/",
@@ -10324,9 +10354,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/625",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "[css-borders-4] border-shape property",
     "url": "https://drafts.csswg.org/css-borders-4/#border-shape",
     "github": null,
@@ -10339,7 +10373,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/626",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG",
       "TC39"
@@ -10377,9 +10411,15 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/628",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG",
+      "IETF"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "html",
+      "markup"
+    ],
     "title": "Out of order streaming (`<template for>`)",
     "url": "https://github.com/whatwg/html/issues/11542#issuecomment-4026131872",
     "github": "https://github.com/whatwg/html",
@@ -10393,9 +10433,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/629",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "html"
+    ],
     "title": "HTML streaming & revamped DOM parsing",
     "url": "https://github.com/whatwg/html/issues/11669",
     "github": "https://github.com/whatwg/html",
@@ -10410,11 +10454,10 @@
     "id": "https://github.com/WebKit/standards-positions/issues/630",
     "position": null,
     "venues": [
+      "WHATWG",
       "Other"
     ],
-    "concerns": [
-      "venue"
-    ],
+    "concerns": [],
     "topics": [
       "accessibility",
       "html"
@@ -10431,10 +10474,14 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/631",
-    "position": null,
-    "venues": [],
+    "position": "support",
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "markup"
+    ],
     "title": "HTML `shadowrootslotassignment` attribute",
     "url": "https://github.com/whatwg/html/pull/12267",
     "github": "https://github.com/whatwg/html",
@@ -10496,9 +10543,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/635",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css",
+      "layout"
+    ],
     "title": "6.1. Inline-Axis (or Main-Axis) Self-Alignment: the justify-self property",
     "url": "https://www.w3.org/TR/css-align-3/",
     "github": null,
@@ -10544,9 +10596,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/638",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "fit-content(<length-percentage>) value of width/min-width/max-width property",
     "url": "https://drafts.csswg.org/css-sizing-3/#funcdef-width-fit-content",
     "github": null,
@@ -10560,9 +10616,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/639",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css",
+      "scrolling"
+    ],
     "title": "Programmatic scroll promise",
     "url": "https://drafts.csswg.org/cssom-view/#extension-to-the-element-interface",
     "github": "https://github.com/w3c/csswg-drafts/tree/main/cssom-view-1",
@@ -10640,11 +10701,16 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/645",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [
       "privacy"
     ],
-    "topics": [],
+    "topics": [
+      "web apis",
+      "device apis"
+    ],
     "title": "Device Memory",
     "url": "https://www.w3.org/TR/device-memory/",
     "github": "https://github.com/w3c/device-memory/",
@@ -10653,6 +10719,22 @@
     "tag": "https://github.com/w3ctag/design-reviews/issues/190",
     "mozilla": "https://groups.google.com/g/mozilla.dev.platform/c/cfydu35XdnY/m/3IqYn0oJAQAJ",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=199084",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/646",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "SpellCheckCustomDictionary",
+    "url": "https://github.com/Igalia/explainers/blob/main/spell-check-dictionary/README.md",
+    "github": "https://github.com/Igalia/explainers/",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1191",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1384",
+    "bugzilla": null,
     "radar": null
   }
 ]
