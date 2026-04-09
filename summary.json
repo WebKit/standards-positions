@@ -2998,7 +2998,9 @@
       "WHATWG",
       "Other"
     ],
-    "concerns": [],
+    "concerns": [
+      "device independence"
+    ],
     "topics": [
       "accessibility",
       "html",
@@ -10321,8 +10323,17 @@
       "Other"
     ],
     "concerns": [
+      "duplication",
+      "compatibility",
+      "performance",
       "privacy",
-      "venue"
+      "integration",
+      "use cases",
+      "portability",
+      "API design",
+      "power",
+      "annoyance",
+      "device independence"
     ],
     "topics": [],
     "title": "CPU Performance API",
@@ -10700,7 +10711,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/645",
-    "position": null,
+    "position": "oppose",
     "venues": [
       "W3C"
     ],
@@ -10734,6 +10745,27 @@
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/1191",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1384",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/647",
+    "position": null,
+    "venues": [
+      "W3C",
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "web apis"
+    ],
+    "title": "Gamepad Event-Driven Input API",
+    "url": "https://w3c.github.io/gamepad/",
+    "github": null,
+    "issues": null,
+    "explainer": "https://microsoftedge.github.io/MSEdgeExplainers/GamepadEventDrivenInputAPI/explainer.html",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1389",
     "bugzilla": null,
     "radar": null
   }
