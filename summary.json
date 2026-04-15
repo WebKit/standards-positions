@@ -10768,5 +10768,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1389",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/648",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Unblock BFCache for pages with active WebSockets by disconnecting on entry.",
+    "url": "https://github.com/whatwg/html/pull/12349 (Draft)",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1390",
+    "bugzilla": null,
+    "radar": null
   }
 ]
