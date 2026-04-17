@@ -10647,8 +10647,10 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/641",
-    "position": null,
-    "venues": [],
+    "position": "neutral",
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Modern Algorithms in the Web Cryptography API",
