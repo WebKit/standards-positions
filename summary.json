@@ -10318,7 +10318,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/622",
-    "position": null,
+    "position": "oppose",
     "venues": [
       "Other"
     ],
@@ -10784,6 +10784,22 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1390",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/649",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "WebMCP",
+    "url": "https://github.com/webmachinelearning/webmcp/blob/main/docs/proposal.md",
+    "github": "https://github.com/webmachinelearning/webmcp",
+    "issues": null,
+    "explainer": "https://github.com/webmachinelearning/webmcp/blob/main/declarative-api-explainer.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1391",
     "bugzilla": null,
     "radar": null
   }
