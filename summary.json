@@ -10802,5 +10802,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1391",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/650",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS `path()` and `shape()` basic shape functions in `shape-outside` property",
+    "url": "https://drafts.csswg.org/css-shapes/#shape-outside-property",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   }
 ]
