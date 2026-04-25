@@ -762,7 +762,9 @@
       "Other"
     ],
     "concerns": [
+      "usability",
       "portability",
+      "annoyance",
       "device independence"
     ],
     "topics": [
@@ -10811,6 +10813,38 @@
     "topics": [],
     "title": "CSS `path()` and `shape()` basic shape functions in `shape-outside` property",
     "url": "https://drafts.csswg.org/css-shapes/#shape-outside-property",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/651",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Media Capture Elements",
+    "url": "https://github.com/w3c/mediacapture-extensions/pull/168",
+    "github": "https://github.com/w3c/mediacapture-extensions/",
+    "issues": null,
+    "explainer": "https://github.com/w3c/mediacapture-extensions/pull/168",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1392",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/652",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "JPEG-XL animation",
+    "url": "https://jpeg.org/jpegxl/workplan.html",
     "github": null,
     "issues": null,
     "explainer": null,
