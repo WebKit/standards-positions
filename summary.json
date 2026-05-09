@@ -9136,7 +9136,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/541",
-    "position": null,
+    "position": "support",
     "venues": [
       "WHATWG"
     ],
@@ -10948,6 +10948,54 @@
     "explainer": null,
     "tag": null,
     "mozilla": "Mozilla already ship it in https://bugzilla.mozilla.org/show_bug.cgi?id=2023569",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/659",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Comma-separated @container queries",
+    "url": "https://drafts.csswg.org/css-conditional-5/#container-rule",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/660",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS Flexible Box Layout Module Level 2",
+    "url": "https://drafts.csswg.org/css-flexbox-2/",
+    "github": "https://github.com/w3c/csswg-drafts/tree/main/css-flexbox-2",
+    "issues": null,
+    "explainer": "https://github.com/bfgeek/flex-wrap-balance/blob/main/README.md#flex-wrapbalance-explainer",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1227",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1405",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=314423",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/661",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS Overscroll Behavior Level 1",
+    "url": "https://drafts.csswg.org/css-overscroll-1/#propdef-overscroll-behavior",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": "https://github.com/vmpstr/htmldemos/blob/master/gestures/overscroll-behavior-chain.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1228",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1406",
     "bugzilla": null,
     "radar": null
   }
