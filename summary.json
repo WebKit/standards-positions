@@ -10439,15 +10439,14 @@
     "id": "https://github.com/WebKit/standards-positions/issues/628",
     "position": null,
     "venues": [
-      "WHATWG",
-      "IETF"
+      "WHATWG"
     ],
     "concerns": [],
     "topics": [
       "html",
       "markup"
     ],
-    "title": "Out of order streaming (`<template for>`)",
+    "title": "HTML out-of-order streaming (`<template for>`)",
     "url": "https://github.com/whatwg/html/issues/11542#issuecomment-4026131872",
     "github": "https://github.com/whatwg/html",
     "issues": "https://github.com/whatwg/html/issues",
@@ -10682,9 +10681,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/642",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG",
+      "Other"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "web components"
+    ],
     "title": "Platform-provided behaviors for custom elements",
     "url": "https://github.com/whatwg/html/issues/12150 (proposal)",
     "github": "https://github.com/whatwg/html",
@@ -10698,7 +10702,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/643",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
     "topics": [],
     "title": "can streams be transferred via postMessage()?",
@@ -10790,9 +10796,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/649",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "artificial intelligence (AI)"
+    ],
     "title": "WebMCP",
     "url": "https://github.com/webmachinelearning/webmcp/blob/main/docs/proposal.md",
     "github": "https://github.com/webmachinelearning/webmcp",
@@ -10822,9 +10832,15 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/651",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "media",
+      "webrtc",
+      "permissions"
+    ],
     "title": "Media Capture Elements",
     "url": "https://github.com/w3c/mediacapture-extensions/pull/168",
     "github": "https://github.com/w3c/mediacapture-extensions/",
@@ -10840,7 +10856,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "images"
+    ],
     "title": "JPEG-XL animation",
     "url": "https://jpeg.org/jpegxl/workplan.html",
     "github": null,
@@ -10890,9 +10908,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/655",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "payments"
+    ],
     "title": "Payment Request - Allow payment handlers to report back internal errors",
     "url": "https://github.com/w3c/payment-request/pull/1050",
     "github": "https://github.com/w3c/payment-request/",
@@ -10906,9 +10928,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/656",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "Request URL Modifiers",
     "url": "https://drafts.csswg.org/css-values-5/#request-url-modifiers",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -10922,9 +10948,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/657",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "Relative Alpha Colors",
     "url": "https://drafts.csswg.org/css-color-5/#relative-alpha",
     "github": null,
@@ -10938,9 +10968,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/658",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS light-dark() with image values",
     "url": "https://drafts.csswg.org/css-color-5/#light-dark",
     "github": null,
@@ -10954,9 +10988,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/659",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "Comma-separated @container queries",
     "url": "https://drafts.csswg.org/css-conditional-5/#container-rule",
     "github": null,
@@ -10970,9 +11008,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/660",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css",
+      "layout"
+    ],
     "title": "CSS Flexible Box Layout Module Level 2",
     "url": "https://drafts.csswg.org/css-flexbox-2/",
     "github": "https://github.com/w3c/csswg-drafts/tree/main/css-flexbox-2",
@@ -10986,9 +11029,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/661",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css",
+      "scrolling"
+    ],
     "title": "CSS Overscroll Behavior Level 1",
     "url": "https://drafts.csswg.org/css-overscroll-1/#propdef-overscroll-behavior",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -10996,6 +11044,99 @@
     "explainer": "https://github.com/vmpstr/htmldemos/blob/master/gestures/overscroll-behavior-chain.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/1228",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1406",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/662",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "WebAudio Configurable Render Quantum",
+    "url": "https://webaudio.github.io/web-audio-api/#render-quantum-sizes",
+    "github": "https://webaudio.github.io/web-audio-api",
+    "issues": null,
+    "explainer": "https://github.com/WebAudio/web-audio-api/blob/main/explainer/user-selectable-render-size.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/895",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1407",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/665",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "svg"
+    ],
+    "title": null,
+    "url": null,
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/666",
+    "position": null,
+    "venues": [
+      "Other"
+    ],
+    "concerns": [],
+    "topics": [
+      "privacy",
+      "advertising"
+    ],
+    "title": "Attribution",
+    "url": "https://w3c.github.io/attribution/",
+    "github": "https://github.com/w3c/attribution",
+    "issues": null,
+    "explainer": "https://w3c.github.io/attribution/",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1229",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1408",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/667",
+    "position": null,
+    "venues": [
+      "WHATWG"
+    ],
+    "concerns": [],
+    "topics": [],
+    "title": "Compression",
+    "url": "https://compression.spec.whatwg.org/",
+    "github": "https://github.com/whatwg/compression/",
+    "issues": "https://github.com/whatwg/compression/issues/ (https://github.com/whatwg/compression/issues/54 specifically)",
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/668",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [],
+    "title": "window-drag",
+    "url": "https://drafts.csswg.org/css-ui-4/#window-drag",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1409",
     "bugzilla": null,
     "radar": null
   }
