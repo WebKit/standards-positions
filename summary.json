@@ -2514,7 +2514,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/138",
-    "position": null,
+    "position": "neutral",
     "venues": [
       "Other"
     ],
@@ -7832,7 +7832,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/463",
-    "position": null,
+    "position": "oppose",
     "venues": [],
     "concerns": [],
     "topics": [
@@ -8351,7 +8351,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/495",
-    "position": null,
+    "position": "oppose",
     "venues": [
       "Other"
     ],
@@ -10278,7 +10278,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/619",
-    "position": null,
+    "position": "oppose",
     "venues": [],
     "concerns": [
       "complexity",
