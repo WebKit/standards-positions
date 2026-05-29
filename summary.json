@@ -10473,7 +10473,7 @@
     "explainer": "https://github.com/WICG/declarative-partial-updates/blob/main/dynamic-markup-revamped-explainer.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/1134",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1370",
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=315741",
     "radar": null
   },
   {
@@ -10790,26 +10790,6 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1390",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/649",
-    "position": null,
-    "venues": [
-      "W3C"
-    ],
-    "concerns": [],
-    "topics": [
-      "artificial intelligence (AI)"
-    ],
-    "title": "WebMCP",
-    "url": "https://github.com/webmachinelearning/webmcp/blob/main/docs/proposal.md",
-    "github": "https://github.com/webmachinelearning/webmcp",
-    "issues": null,
-    "explainer": "https://github.com/webmachinelearning/webmcp/blob/main/declarative-api-explainer.md",
-    "tag": null,
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/1391",
     "bugzilla": null,
     "radar": null
   },
@@ -11137,6 +11117,42 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1409",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/670",
+    "position": null,
+    "venues": [
+      "W3C"
+    ],
+    "concerns": [],
+    "topics": [
+      "artificial intelligence (AI)"
+    ],
+    "title": "WebMCP",
+    "url": "https://webmachinelearning.github.io/webmcp/",
+    "github": "https://github.com/webmachinelearning/webmcp",
+    "issues": "https://github.com/webmachinelearning/webmcp/issues",
+    "explainer": "https://github.com/webmachinelearning/webmcp/blob/main/README.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1412",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/671",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "RTP Header Extension Encryption",
+    "url": "https://w3c.github.io/webrtc-extensions/#rtp-header-extension-encryption",
+    "github": null,
+    "issues": null,
+    "explainer": "https://datatracker.ietf.org/doc/rfc9335/",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1413",
     "bugzilla": null,
     "radar": null
   }
