@@ -5183,22 +5183,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/307",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
-    "title": "Attribution Reporting",
-    "url": "https://wicg.github.io/attribution-reporting-api/#cross-app-and-web",
-    "github": "https://github.com/WICG/attribution-reporting-api",
-    "issues": null,
-    "explainer": "https://github.com/WICG/attribution-reporting-api/blob/main/app_to_web.md",
-    "tag": "https://github.com/w3ctag/design-reviews/issues/724#issuecomment-1908353938",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/791#issuecomment-1908359889",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/308",
     "position": "support",
     "venues": [
@@ -7850,7 +7834,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/464",
-    "position": "oppose",
+    "position": null,
     "venues": [
       "WHATWG",
       "Other"
@@ -11126,9 +11110,21 @@
     "venues": [
       "W3C"
     ],
-    "concerns": [],
+    "concerns": [
+      "duplication",
+      "internationalization",
+      "privacy",
+      "security",
+      "venue",
+      "use cases",
+      "portability",
+      "API design"
+    ],
     "topics": [
-      "artificial intelligence (AI)"
+      "artificial intelligence (AI)",
+      "web apis",
+      "meaningful user consent",
+      "forms"
     ],
     "title": "WebMCP",
     "url": "https://webmachinelearning.github.io/webmcp/",
