@@ -11167,5 +11167,53 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/678",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Web Speech API: Unspoken Punctuation",
+    "url": "https://webaudio.github.io/web-speech-api/#dom-speechrecognition-unspokenpunctuation",
+    "github": "https://github.com/WebAudio/web-speech-api",
+    "issues": "https://github.com/WebAudio/web-speech-api/issues/187",
+    "explainer": "https://github.com/WebAudio/web-speech-api/blob/main/explainers/unspoken-punctuation.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1416",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/679",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "MediaStreamTrackProcessor frame counters",
+    "url": "https://w3c.github.io/mediacapture-transform/#ref-for-dom-mediastreamtrackprocessor-discardedframes",
+    "github": "https://github.com/w3c/mediacapture-transform/pull/125/changes",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1417",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/680",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Single-axis scroll containers",
+    "url": "https://github.com/w3c/csswg-drafts/pull/13903",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": "https://github.com/explainers-by-googlers/single-axis-scroll-containers",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1222",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1418",
+    "bugzilla": null,
+    "radar": null
   }
 ]
