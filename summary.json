@@ -11215,5 +11215,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1418",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/681",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "[css-ruby] ruby-overhang:none is too agressive",
+    "url": "https://drafts.csswg.org/css-ruby-1/#ruby-overhang",
+    "github": "https://github.com/w3c/csswg-drafts/issues/5912",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1372",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=315905",
+    "radar": "rdar://problem/178314432"
   }
 ]
