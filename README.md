@@ -38,8 +38,4 @@ To add a "position: _X_" label where _X_ is one of the positions documented abov
 2. After the deadline has passed, if there were no requests for more time, no objections, and ideally you had some support through thumbs up or comments with additional context, your suggested "position: _X_" label can be added.
 3. You did it! 🎉
 
-## Helpful links for triaging standards position requests
 
-- [Open issues not tracked in the backlog project](https://github.com/WebKit/standards-positions/issues?q=is%3Aopen+is%3Aissue+-project%3Awebkit%2F1+)
-- [Open issues without a position label](https://github.com/WebKit/standards-positions/issues?q=is%3Aopen+is%3Aissue+-label%3A%22position%3A+neutral%22+-label%3A%22position%3A+not+considering%22+-label%3A%22position%3A+oppose%22+-label%3A%22position%3A+support%22+-label%3A%22position%3A+under+consideration%22+-label%3Ameta)
-- [Open issues with a position label](https://github.com/WebKit/standards-positions/issues?q=is%3Aopen+is%3Aissue+label%3A%22position%3A+neutral%22%2C%22position%3A+not+considering%22%2C%22position%3A+oppose%22%2C%22position%3A+support%22%2C%22position%3A+under+consideration%22)
