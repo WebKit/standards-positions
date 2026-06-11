@@ -6830,7 +6830,7 @@
       "dom",
       "web components"
     ],
-    "title": "Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute",
+    "title": "Declarative Shadow DOM `adoptedstylesheets` attribute",
     "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ShadowDOM/explainer.md",
     "github": null,
     "issues": null,
@@ -9371,7 +9371,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/558",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -11106,7 +11106,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/670",
-    "position": null,
+    "position": "oppose",
     "venues": [
       "W3C"
     ],
@@ -11131,7 +11131,7 @@
     "github": "https://github.com/webmachinelearning/webmcp",
     "issues": "https://github.com/webmachinelearning/webmcp/issues",
     "explainer": "https://github.com/webmachinelearning/webmcp/blob/main/README.md",
-    "tag": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1238",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1412",
     "bugzilla": null,
     "radar": null
@@ -11231,5 +11231,69 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1372",
     "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=315905",
     "radar": "rdar://problem/178314432"
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/684",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "HTML standard",
+    "url": "https://github.com/whatwg/html/pull/12430",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1420",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/685",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "[css-image-animation-1] CSS Image Animation",
+    "url": "https://drafts.csswg.org/css-image-animation-1/",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": "https://drafts.csswg.org/css-image-animation-1/explainer",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1421",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/686",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "aria-actions addition to the ARIA spec",
+    "url": "https://github.com/w3c/aria/pull/1805",
+    "github": "https://github.com/w3c/aria",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=306476",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/687",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Soft Navigations and Interaction Contentful Paint",
+    "url": "https://wicg.github.io/soft-navigations/",
+    "github": "https://github.com/WICG/soft-navigations",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1235",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1423",
+    "bugzilla": null,
+    "radar": null
   }
 ]
