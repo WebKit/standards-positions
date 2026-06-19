@@ -8455,7 +8455,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/502",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -9607,7 +9607,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/578",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Email Verification Protocol",
@@ -11293,6 +11295,38 @@
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/1235",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1423",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/688",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Wheel event momentum",
+    "url": "https://w3c.github.io/pointerevents/#dom-wheelevent-momentum",
+    "github": "https://github.com/w3c/pointerevents/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1425",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/689",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Enable Responsive Images and Alternative Text for HTML Video Poster Images",
+    "url": "https://github.com/whatwg/html/pull/12585",
+    "github": "https://github.com/Squarespace/html/tree/video-poster-responsive",
+    "issues": "https://github.com/whatwg/html/issues/10378",
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   }
