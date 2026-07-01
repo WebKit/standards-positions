@@ -11329,5 +11329,37 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/691",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Linking <a>",
+    "url": "https://w3c.github.io/mathml-core/#the-a-element",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1429",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/692",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": null,
+    "url": null,
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   }
 ]
