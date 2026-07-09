@@ -1,21 +1,5 @@
 [
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/353",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
-    "title": null,
-    "url": null,
-    "github": null,
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": null,
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/1",
     "position": "support",
     "venues": [
@@ -10046,22 +10030,6 @@
     "radar": "## Anything else we need to know"
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/606",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
-    "title": null,
-    "url": null,
-    "github": null,
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": null,
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/607",
     "position": null,
     "venues": [
@@ -10300,25 +10268,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/621",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [
-      "css",
-      "svg"
-    ],
-    "title": null,
-    "url": null,
-    "github": null,
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": null,
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/622",
     "position": "oppose",
     "venues": [
@@ -10345,22 +10294,6 @@
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/1198",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1364",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/624",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
-    "title": null,
-    "url": null,
-    "github": null,
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
@@ -11030,26 +10963,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/665",
-    "position": null,
-    "venues": [
-      "W3C"
-    ],
-    "concerns": [],
-    "topics": [
-      "svg"
-    ],
-    "title": null,
-    "url": null,
-    "github": null,
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": null,
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/666",
     "position": null,
     "venues": [
@@ -11271,7 +11184,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "accessibility"
+    ],
     "title": "aria-actions addition to the ARIA spec",
     "url": "https://github.com/w3c/aria/pull/1805",
     "github": "https://github.com/w3c/aria",
@@ -11317,9 +11232,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/689",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "html",
+      "media"
+    ],
     "title": "Enable Responsive Images and Alternative Text for HTML Video Poster Images",
     "url": "https://github.com/whatwg/html/pull/12585",
     "github": "https://github.com/Squarespace/html/tree/video-poster-responsive",
@@ -11333,9 +11253,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/691",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "mathml"
+    ],
     "title": "MathML `<a>`",
     "url": "https://w3c.github.io/mathml-core/#the-a-element",
     "github": null,
@@ -11343,22 +11267,6 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1429",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
-    "id": "https://github.com/WebKit/standards-positions/issues/692",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
-    "title": null,
-    "url": null,
-    "github": null,
-    "issues": null,
-    "explainer": null,
-    "tag": null,
-    "mozilla": null,
     "bugzilla": null,
     "radar": null
   },
