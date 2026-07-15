@@ -11271,18 +11271,18 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/693",
+    "id": "https://github.com/WebKit/standards-positions/issues/695",
     "position": null,
     "venues": [],
     "concerns": [],
     "topics": [],
-    "title": "handle_links member of the Web App Manifest",
-    "url": "https://github.com/WICG/pwa-url-handler/blob/main/handle_links/explainer.md",
-    "github": "https://github.com/WICG/pwa-url-handler",
-    "issues": "https://github.com/WICG/pwa-url-handler/issues",
-    "explainer": null,
+    "title": "remoteClientDataJSON WebAuthn extension",
+    "url": "https://w3c.github.io/webauthn/#sctn-remote-client-data-json-extension",
+    "github": "https://github.com/w3c/webauthn",
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/WebAuthnRemoteClientDataJSON/explainer.md",
     "tag": null,
-    "mozilla": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1432",
     "bugzilla": null,
     "radar": null
   }
