@@ -11292,5 +11292,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1432",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/696",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Audio Selection Preference for getDisplayMedia",
+    "url": "https://w3c.github.io/mediacapture-screen-share/#dom-audioselectionpreferenceenum",
+    "github": "https://github.com/w3c/mediacapture-screen-share/",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1433",
+    "bugzilla": null,
+    "radar": null
   }
 ]
