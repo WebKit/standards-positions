@@ -11308,5 +11308,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1433",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/698",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS scroll-axis-lock",
+    "url": "https://drafts.csswg.org/css-overflow-5/",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": "https://github.com/explainers-by-googlers/scroll-axis-lock",
+    "tag": "[TAG design-reviews issue 1248](https://github.com/w3ctag/design-reviews/issues/1248)",
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   }
 ]
