@@ -11267,7 +11267,7 @@
     "url": "https://w3c.github.io/mathml-core/#the-a-element",
     "github": null,
     "issues": null,
-    "explainer": null,
+    "explainer": "https://people.igalia.com/fwang/mathml-a-href/",
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1429",
     "bugzilla": null,
