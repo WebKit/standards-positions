@@ -11324,5 +11324,37 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/699",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "WebRTC Diagnostic Logging",
+    "url": "https://wicg.github.io/webrtc-diagnostic-logging/",
+    "github": "https://github.com/WICG/webrtc-diagnostic-logging",
+    "issues": null,
+    "explainer": "https://github.com/WICG/webrtc-diagnostic-logging/blob/main/explainer.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1436",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/700",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Immersive Audio Model and Formats",
+    "url": "https://aomediacodec.github.io/iamf/latest-approved.html",
+    "github": "https://github.com/AOMediaCodec/iamf",
+    "issues": null,
+    "explainer": "https://github.com/SyedAbuTalib/iamf-explainer/blob/main/explainer.md",
+    "tag": "N/A",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1437",
+    "bugzilla": null,
+    "radar": null
   }
 ]
