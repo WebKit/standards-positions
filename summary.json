@@ -11356,5 +11356,37 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1437",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/701",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Permissions policy for workers",
+    "url": "https://github.com/explainers-by-googlers/workers-permissions-policy/blob/main/README.md",
+    "github": "https://github.com/explainers-by-googlers/workers-permissions-policy",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1439",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/702",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS Navigation Matching",
+    "url": "https://drafts.csswg.org/css-navigation-1/",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": "https://github.com/w3c/csswg-drafts",
+    "explainer": "https://github.com/WICG/declarative-partial-updates/blob/main/route-matching-explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1253",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1440",
+    "bugzilla": null,
+    "radar": null
   }
 ]
