@@ -11312,9 +11312,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/698",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css",
+      "scrolling"
+    ],
     "title": "CSS scroll-axis-lock",
     "url": "https://drafts.csswg.org/css-overflow-5/",
     "github": "https://github.com/w3c/csswg-drafts",
@@ -11386,6 +11391,54 @@
     "explainer": "https://github.com/WICG/declarative-partial-updates/blob/main/route-matching-explainer.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/1253",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1440",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/703",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Cross-Origin Storage (COS)",
+    "url": "https://wicg.github.io/cross-origin-storage/",
+    "github": "https://github.com/WICG/cross-origin-storage",
+    "issues": null,
+    "explainer": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1254",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1427",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/704",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Web Crypto: Hybrid KEMs",
+    "url": "https://github.com/WICG/webcrypto-modern-algos/pull/67",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1441",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/705",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Web Crypto: streaming hashing",
+    "url": "https://github.com/w3c/webcrypto/pull/390",
+    "github": "https://github.com/w3c/webcrypto",
+    "issues": "https://github.com/w3c/webcrypto/issues/73",
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1442",
     "bugzilla": null,
     "radar": null
   }
