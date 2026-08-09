@@ -11397,7 +11397,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/703",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Cross-Origin Storage (COS)",
