@@ -11443,5 +11443,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1442",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/706",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Apps",
+    "url": "Slots",
+    "github": "Jilivs",
+    "issues": "Ta777",
+    "explainer": "Casino link",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   }
 ]
