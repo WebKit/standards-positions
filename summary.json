@@ -11459,5 +11459,21 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/707",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "User Agent Initiated (Automatic) Picture-in-Picture",
+    "url": "https://pr-preview.s3.amazonaws.com/bpkeen/picture-in-picture/pull/241.html#automatic-picture-in-picture-request",
+    "github": "https://github.com/w3c/picture-in-picture",
+    "issues": null,
+    "explainer": "https://developer.chrome.com/blog/automatic-picture-in-picture-initiated-by-the-browser",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1434",
+    "bugzilla": null,
+    "radar": null
   }
 ]
