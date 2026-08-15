@@ -11475,5 +11475,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1434",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/708",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Supporting options bag in WebSocket constructor",
+    "url": "https://github.com/whatwg/websockets/pull/76",
+    "github": "https://github.com/whatwg/websockets",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   }
 ]
