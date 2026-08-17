@@ -11491,5 +11491,21 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/709",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "RFC 10008: The HTTP QUERY Method",
+    "url": "https://www.rfc-editor.org/rfc/rfc10008.html",
+    "github": "https://github.com/httpwg/http-extensions",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1430",
+    "bugzilla": null,
+    "radar": null
   }
 ]
