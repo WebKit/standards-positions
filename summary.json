@@ -9214,7 +9214,9 @@
     "id": "https://github.com/WebKit/standards-positions/issues/546",
     "position": null,
     "venues": [],
-    "concerns": [],
+    "concerns": [
+      "venue"
+    ],
     "topics": [],
     "title": "Preventing User Dictionary Leaks via ::spelling-error and ::grammar-error CSS Pseudo-Elements",
     "url": null,
@@ -9434,7 +9436,9 @@
     "position": null,
     "venues": [],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS AtRule",
     "url": "https://www.w3.org/TR/css-conditional/",
     "github": "https://github.com/MicrosoftEdge/MSEdgeExplainers/tree/main/AtRuleFeatureDetection",
@@ -11505,6 +11509,38 @@
     "explainer": null,
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1430",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/710",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS text-overflow: <string> value",
+    "url": "https://www.w3.org/TR/css-overflow-4/#text-overflow",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://webkit.org/b/27545",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/711",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Fetch API: Forward abort reason to Response",
+    "url": "https://fetch.spec.whatwg.org/",
+    "github": "https://github.com/whatwg/fetch",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   }
