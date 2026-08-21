@@ -4088,24 +4088,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/235",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
-    "concerns": [],
-    "topics": [],
-    "title": "Soft Navigations",
-    "url": "https://wicg.github.io/soft-navigations",
-    "github": "https://github.com/WICG/soft-navigations",
-    "issues": null,
-    "explainer": null,
-    "tag": "https://github.com/w3ctag/design-reviews/issues/879",
-    "mozilla": "https://github.com/mozilla/standards-positions/issues/854",
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/237",
     "position": null,
     "venues": [
@@ -6814,7 +6796,7 @@
       "dom",
       "web components"
     ],
-    "title": "Declarative Shadow DOM `adoptedstylesheets` attribute",
+    "title": "Style Module Imports via Elements",
     "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ShadowDOM/explainer.md",
     "github": null,
     "issues": null,
@@ -7837,7 +7819,7 @@
     "github": "https://github.com/whatwg/html",
     "issues": null,
     "explainer": "https://open-ui.org/components/interest-invokers.explainer/",
-    "tag": null,
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1058",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1181",
     "bugzilla": null,
     "radar": null
@@ -9439,7 +9421,7 @@
     "topics": [
       "css"
     ],
-    "title": "CSS AtRule",
+    "title": "CSS AtRule supports feature detection",
     "url": "https://www.w3.org/TR/css-conditional/",
     "github": "https://github.com/MicrosoftEdge/MSEdgeExplainers/tree/main/AtRuleFeatureDetection",
     "issues": "https://github.com/MicrosoftEdge/MSEdgeExplainers/issues?q=state%3Aopen%20label%3AAtRuleFeatureDetection",
@@ -11207,7 +11189,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/687",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
     "topics": [],
     "title": "Soft Navigations and Interaction Contentful Paint",
@@ -11449,22 +11433,6 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/706",
-    "position": null,
-    "venues": [],
-    "concerns": [],
-    "topics": [],
-    "title": "Apps",
-    "url": "Slots",
-    "github": "Jilivs",
-    "issues": "Ta777",
-    "explainer": "Casino link",
-    "tag": null,
-    "mozilla": null,
-    "bugzilla": null,
-    "radar": null
-  },
-  {
     "id": "https://github.com/WebKit/standards-positions/issues/707",
     "position": null,
     "venues": [],
@@ -11483,9 +11451,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/708",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "networking"
+    ],
     "title": "Supporting options bag in WebSocket constructor",
     "url": "https://github.com/whatwg/websockets/pull/76",
     "github": "https://github.com/whatwg/websockets",
@@ -11529,16 +11501,16 @@
     "radar": null
   },
   {
-    "id": "https://github.com/WebKit/standards-positions/issues/711",
+    "id": "https://github.com/WebKit/standards-positions/issues/712",
     "position": null,
     "venues": [],
     "concerns": [],
     "topics": [],
-    "title": "Fetch API: Forward abort reason to Response",
-    "url": "https://fetch.spec.whatwg.org/",
-    "github": "https://github.com/whatwg/fetch",
+    "title": "[css-scroll-snap-1] Support scroll snap for single-axis scroll containers",
+    "url": "https://github.com/w3c/csswg-drafts/pull/14354",
+    "github": null,
     "issues": null,
-    "explainer": null,
+    "explainer": "https://github.com/explainers-by-googlers/single-axis-scroll-snap",
     "tag": null,
     "mozilla": null,
     "bugzilla": null,
