@@ -11699,5 +11699,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1257",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/721",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "HTML: Allow activation of a checked radio button to clear it",
+    "url": "https://github.com/whatwg/html/pull/12480",
+    "github": "https://github.com/whatwg/html",
+    "issues": "https://github.com/whatwg/html/pull/12480",
+    "explainer": "https://github.com/whatwg/html/pull/12480",
+    "tag": "None.",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1452",
+    "bugzilla": "Not yet filed.",
+    "radar": "None."
   }
 ]
