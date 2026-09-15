@@ -60899,8 +60899,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/361/reactions",
-      "total_count": 6,
-      "+1": 5,
+      "total_count": 7,
+      "+1": 6,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -79139,6 +79139,17 @@
     },
     "labels": [
       {
+        "id": 4278053585,
+        "node_id": "LA_kwDOHk513M7-_erR",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20security",
+        "name": "concerns: security",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "This proposal may cause security risk if implemented",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4278536872,
         "node_id": "LA_kwDOHk513M7_BUqo",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20device%20apis",
@@ -79146,6 +79157,17 @@
         "color": "5bcefa",
         "default": false,
         "description": "Spec relates to device APIs: access to device-specific hardware, sensors, and interfaces",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
+        "id": 4281595369,
+        "node_id": "LA_kwDOHk513M7_M_Xp",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20app-like%20capabilities",
+        "name": "topic: app-like capabilities",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to native app style capabilities (e.g. things under the \"PWA\" or \"Fugu\" brands)",
         "archived_at": null,
         "archived_by": null
       },
@@ -79161,13 +79183,13 @@
         "archived_by": null
       },
       {
-        "id": 4488289418,
-        "node_id": "LA_kwDOHk513M8AAAABC4Xcig",
-        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20venue",
-        "name": "concerns: venue",
+        "id": 4575489249,
+        "node_id": "LA_kwDOHk513M8AAAABELhs4Q",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20use%20cases",
+        "name": "concerns: use cases",
         "color": "f5a9b8",
         "default": false,
-        "description": "This proposal is in the wrong standards/incubation venue, or it's not in a venue at all",
+        "description": "The use case for this proposal are not stated or are unclear",
         "archived_at": null,
         "archived_by": null
       },
@@ -79209,9 +79231,9 @@
       }
     ],
     "milestone": null,
-    "comments": 0,
+    "comments": 2,
     "created_at": "2025-06-10T23:51:31Z",
-    "updated_at": "2026-05-26T23:55:07Z",
+    "updated_at": "2026-09-14T06:37:18Z",
     "closed_at": null,
     "assignee": {
       "login": "marcoscaceres",
@@ -87377,6 +87399,39 @@
     },
     "labels": [
       {
+        "id": 4278043765,
+        "node_id": "LA_kwDOHk513M7-_cR1",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20oppose",
+        "name": "position: oppose",
+        "color": "e40303",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
+        "id": 4278053339,
+        "node_id": "LA_kwDOHk513M7-_enb",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20privacy",
+        "name": "concerns: privacy",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "This proposal may cause privacy risk if implemented",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
+        "id": 4278053585,
+        "node_id": "LA_kwDOHk513M7-_erR",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20security",
+        "name": "concerns: security",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "This proposal may cause security risk if implemented",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4278536872,
         "node_id": "LA_kwDOHk513M7_BUqo",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20device%20apis",
@@ -87419,16 +87474,27 @@
         "description": "Proposed, edited, or co-edited by Intel.",
         "archived_at": null,
         "archived_by": null
+      },
+      {
+        "id": 4627972685,
+        "node_id": "LA_kwDOHk513M8AAAABE9lCTQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20device%20independence",
+        "name": "concerns: device independence",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "Proposal is hardware- or OS-specific, in a way that may risk the device independence of the Web",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2025-12-03T11:02:36Z",
-    "updated_at": "2026-05-21T19:20:15Z",
-    "closed_at": null,
+    "updated_at": "2026-09-14T06:55:03Z",
+    "closed_at": "2026-09-14T06:55:03Z",
     "assignee": null,
     "author_association": "MEMBER",
     "issue_field_values": [],
@@ -87446,7 +87512,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n@annevk\n\n### Title of the proposal\n\nWeb NFC\n\n### URL to the spec\n\nhttps://w3c.github.io/web-nfc/\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/web-nfc/\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/461\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/238\n\n### WebKit Bugzilla URL\n\nhttps://bugs.webkit.org/show_bug.cgi?id=163196\n\n### Radar URL\n\n_No response_\n\n### Description\n\nOpening this because the linked WebKit bugzilla points to (it's a dead link but can be found here https://lists.webkit.org/archives/list/webkit-dev@lists.webkit.org/thread/XMMDAMMJJ7K23ZNZOI5V2N4MU5AS3GLM/#XMMDAMMJJ7K23ZNZOI5V2N4MU5AS3GLM) a negative position, but it doesn't show up in https://webkit.org/standards-positions/ as that's the base for these positions going forwards I think it would be good to show this API (and any other of device capability APIs that are explicitly negative there)",
-    "closed_by": null,
+    "closed_by": {
+      "login": "marcoscaceres",
+      "id": 870154,
+      "node_id": "MDQ6VXNlcjg3MDE1NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/870154?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marcoscaceres",
+      "html_url": "https://github.com/marcoscaceres",
+      "followers_url": "https://api.github.com/users/marcoscaceres/followers",
+      "following_url": "https://api.github.com/users/marcoscaceres/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marcoscaceres/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marcoscaceres/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marcoscaceres/subscriptions",
+      "organizations_url": "https://api.github.com/users/marcoscaceres/orgs",
+      "repos_url": "https://api.github.com/users/marcoscaceres/repos",
+      "events_url": "https://api.github.com/users/marcoscaceres/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marcoscaceres/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/584/reactions",
       "total_count": 0,
@@ -87461,7 +87547,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/584/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -99382,7 +99468,7 @@
     "milestone": null,
     "comments": 6,
     "created_at": "2026-08-05T11:13:28Z",
-    "updated_at": "2026-08-24T12:59:58Z",
+    "updated_at": "2026-09-14T11:30:02Z",
     "closed_at": null,
     "assignee": {
       "login": "annevk",
@@ -99420,7 +99506,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### WebKittens\n\n@annevk @hober @marcoscaceres\n\n### Title of the proposal\n\nCross-Origin Storage (COS)\n\n### URL to the spec\n\nhttps://wicg.github.io/cross-origin-storage/\n\n### URL to the spec's repository\n\nhttps://github.com/WICG/cross-origin-storage\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1254\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1427\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\n#### Public Hash List\n\nCompanion design document for the Public Hash List (PHL), the mechanism this proposal leans on\nfor its main cross-site-disclosure mitigation:\nhttps://github.com/WICG/cross-origin-storage/blob/main/public-hash-list/phl-explainer.md\n\n#### Public Hash List implementation\n\nA [prototype implementation of the Public Hash List](https://github.com/WICG/cross-origin-storage/tree/main/public-hash-list/implementation) is available. The [actual Public Hash List](https://media.githubusercontent.com/media/WICG/cross-origin-storage/refs/heads/main/public-hash-list/implementation/data/public-hash-list.dat) is created on a weekly basis based on a [GitHub Action](https://github.com/WICG/cross-origin-storage/blob/main/.github/workflows/public-hash-list.yml).\n\n#### Browser extensions\n\nBrowser extensions that implement the API (including Public Hash List gating) exist for all browsers:\n\n* [Chrome](https://chromewebstore.google.com/detail/cross-origin-storage/denpnpcgjgikjpoglpjefakmdcbmlgih)\n* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cross-origin-storage)\n* [Safari](https://apps.apple.com/app/cross-origin-storage/id6788319695)\n\n#### Developer interest\n\nDeveloper interest is tracked in the [Web / Framework developer views notes](https://chromestatus.com/feature/5163371507875840#:~:text=Web%20/%20Framework%20developer%20views%20notes) section of the ChromeStatus entry.\n\n#### Awesome Cross-Origin Storage\n\nMore demos and resources are tracked on the [Awesome Cross-Origin Storage](https://github.com/tomayac/awesome-cross-origin-storage) list.\n\n#### Web Engines Hackfest\n\nThis proposal was discussed at the Web Engines Hackfest 2026 (and 2025): https://github.com/Igalia/webengineshackfest/issues/85\n\n* [Notes](https://hackmd.io/FEHrk-JETySTQyl8ooCRZw)\n* [Slides](https://docs.google.com/presentation/d/1wGjZ1nWBfb9hJrB49Cg822VOaMxqIe2nsA_Rc94ZktQ/preview)",
+    "body": "### WebKittens\n\n@annevk @hober @marcoscaceres\n\n### Title of the proposal\n\nCross-Origin Storage (COS)\n\n### URL to the spec\n\nhttps://wicg.github.io/cross-origin-storage/\n\n### URL to the spec's repository\n\nhttps://github.com/WICG/cross-origin-storage\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1254\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1427\n\n### WebKit Bugzilla URL\n\nhttps://bugs.webkit.org/show_bug.cgi?id=324017\n\n### Radar URL\n\n_No response_\n\n### Description\n\n#### Public Hash List\n\nCompanion design document for the Public Hash List (PHL), the mechanism this proposal leans on\nfor its main cross-site-disclosure mitigation:\nhttps://github.com/WICG/cross-origin-storage/blob/main/public-hash-list/phl-explainer.md\n\n#### Public Hash List implementation\n\nA [prototype implementation of the Public Hash List](https://github.com/WICG/cross-origin-storage/tree/main/public-hash-list/implementation) is available. The [actual Public Hash List](https://media.githubusercontent.com/media/WICG/cross-origin-storage/refs/heads/main/public-hash-list/implementation/data/public-hash-list.dat) is created on a weekly basis based on a [GitHub Action](https://github.com/WICG/cross-origin-storage/blob/main/.github/workflows/public-hash-list.yml).\n\n#### Browser extensions\n\nBrowser extensions that implement the API (including Public Hash List gating) exist for all browsers:\n\n* [Chrome](https://chromewebstore.google.com/detail/cross-origin-storage/denpnpcgjgikjpoglpjefakmdcbmlgih)\n* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cross-origin-storage)\n* [Safari](https://apps.apple.com/app/cross-origin-storage/id6788319695)\n\n#### Developer interest\n\nDeveloper interest is tracked in the [Web / Framework developer views notes](https://chromestatus.com/feature/5163371507875840#:~:text=Web%20/%20Framework%20developer%20views%20notes) section of the ChromeStatus entry.\n\n#### Awesome Cross-Origin Storage\n\nMore demos and resources are tracked on the [Awesome Cross-Origin Storage](https://github.com/tomayac/awesome-cross-origin-storage) list.\n\n#### Web Engines Hackfest\n\nThis proposal was discussed at the Web Engines Hackfest 2026 (and 2025): https://github.com/Igalia/webengineshackfest/issues/85\n\n* [Notes](https://hackmd.io/FEHrk-JETySTQyl8ooCRZw)\n* [Slides](https://docs.google.com/presentation/d/1wGjZ1nWBfb9hJrB49Cg822VOaMxqIe2nsA_Rc94ZktQ/preview)",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/703/reactions",

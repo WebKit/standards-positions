@@ -8584,10 +8584,12 @@
       "Other"
     ],
     "concerns": [
-      "venue"
+      "security",
+      "use cases"
     ],
     "topics": [
-      "device apis"
+      "device apis",
+      "app-like capabilities"
     ],
     "title": "WebHID",
     "url": "https://wicg.github.io/webhid/#dom-hid",
@@ -9663,9 +9665,13 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/584",
-    "position": null,
+    "position": "oppose",
     "venues": [],
-    "concerns": [],
+    "concerns": [
+      "privacy",
+      "security",
+      "device independence"
+    ],
     "topics": [
       "device apis",
       "app-like capabilities"
@@ -11429,7 +11435,7 @@
     "explainer": null,
     "tag": "https://github.com/w3ctag/design-reviews/issues/1254",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1427",
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=324017",
     "radar": null
   },
   {
