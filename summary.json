@@ -152,7 +152,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/8",
-    "position": "support",
+    "position": null,
     "venues": [
       "W3C"
     ],
@@ -7200,9 +7200,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/428",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "payments"
+    ],
     "title": "Payment link type in HTML",
     "url": "No spec yet; please see the explainer",
     "github": "https://github.com/WICG/paymentlink",
@@ -7327,7 +7331,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/435",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -7365,7 +7369,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/437",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -7447,9 +7451,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/442",
     "position": null,
-    "venues": [],
+    "venues": [
+      "Other"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "performance"
+    ],
     "title": "Container Timing API",
     "url": "https://github.com/bloomberg/container-timing",
     "github": "https://github.com/bloomberg/container-timing",
@@ -7634,7 +7642,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/453",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -8874,7 +8882,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/527",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -9196,8 +9204,11 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/546",
-    "position": null,
-    "venues": [],
+    "position": "support",
+    "venues": [
+      "WHATWG",
+      "W3C"
+    ],
     "concerns": [
       "venue"
     ],
@@ -10665,10 +10676,10 @@
     "concerns": [],
     "topics": [],
     "title": "SpellCheckCustomDictionary",
-    "url": "https://github.com/Igalia/explainers/blob/main/spell-check-dictionary/README.md",
+    "url": "https://github.com/whatwg/html/pull/12590",
     "github": "https://github.com/Igalia/explainers/",
-    "issues": null,
-    "explainer": null,
+    "issues": "https://github.com/whatwg/html/issues/12388",
+    "explainer": "https://github.com/Igalia/explainers/blob/main/spell-check-dictionary/README.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/1191",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1384",
     "bugzilla": null,
@@ -10845,7 +10856,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/657",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -10865,7 +10876,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/658",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -11072,7 +11083,9 @@
     "venues": [
       "W3C"
     ],
-    "concerns": [],
+    "concerns": [
+      "API design"
+    ],
     "topics": [
       "css"
     ],
@@ -11202,7 +11215,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/686",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
     "topics": [
       "accessibility"
@@ -11346,7 +11361,7 @@
     "explainer": "https://github.com/explainers-by-googlers/scroll-axis-lock",
     "tag": "[TAG design-reviews issue 1248](https://github.com/w3ctag/design-reviews/issues/1248)",
     "mozilla": null,
-    "bugzilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=324326",
     "radar": null
   },
   {
@@ -11473,7 +11488,9 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/707",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
     "topics": [],
     "title": "User Agent Initiated (Automatic) Picture-in-Picture",

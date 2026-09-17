@@ -1396,17 +1396,6 @@
     },
     "labels": [
       {
-        "id": 4278041383,
-        "node_id": "LA_kwDOHk513M7-_bsn",
-        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
-        "name": "position: support",
-        "color": "008026",
-        "default": false,
-        "description": "",
-        "archived_at": null,
-        "archived_by": null
-      },
-      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -1477,9 +1466,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2022-06-29T01:20:08Z",
-    "updated_at": "2023-06-22T16:20:29Z",
+    "updated_at": "2026-09-16T15:55:09Z",
     "closed_at": null,
     "assignee": {
       "login": "smfr",
@@ -12632,13 +12621,13 @@
     },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/68/reactions",
-      "total_count": 6,
+      "total_count": 7,
       "+1": 0,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
-      "heart": 6,
+      "heart": 7,
       "rocket": 0,
       "eyes": 0
     },
@@ -14567,7 +14556,7 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [
       {
@@ -14616,8 +14605,8 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2022-10-21T16:53:50Z",
-    "updated_at": "2026-09-10T23:25:21Z",
-    "closed_at": null,
+    "updated_at": "2026-09-16T15:51:04Z",
+    "closed_at": "2026-09-16T15:51:04Z",
     "assignee": {
       "login": "litherum",
       "id": 918903,
@@ -14655,7 +14644,27 @@
       "total_blocking": 0
     },
     "body": "## Request for position on an emerging web specification\r\n\r\n* WebKittens who can provide input: @litherum  \r\n\r\n### Information about the spec\r\n\r\n* Spec Title: CSS Text level 4\r\n* Spec URL: https://w3c.github.io/csswg-drafts/css-text-4/#hyphenate-char-limits\r\n* GitHub repository: https://github.com/w3c/csswg-drafts\r\n\r\n### Design reviews and vendor positions\r\n\r\n* Mozilla standards-positions issue: https://bugzilla.mozilla.org/show_bug.cgi?id=1521723\r\n\r\n### Bugs tracking this feature\r\n\r\n* WebKit Bugzilla: https://bugs.webkit.org/show_bug.cgi?id=67786\r\n\r\n### Anything else we need to know\r\n\r\nBlink plans to ship this property. [Intent to ship thread](https://groups.google.com/a/chromium.org/g/blink-dev/c/TjuGJ-8TeXk/m/X8gUvSejAwAJ).\r\n",
-    "closed_by": null,
+    "closed_by": {
+      "login": "lukewarlow",
+      "id": 32498324,
+      "node_id": "MDQ6VXNlcjMyNDk4MzI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32498324?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lukewarlow",
+      "html_url": "https://github.com/lukewarlow",
+      "followers_url": "https://api.github.com/users/lukewarlow/followers",
+      "following_url": "https://api.github.com/users/lukewarlow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lukewarlow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lukewarlow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lukewarlow/subscriptions",
+      "organizations_url": "https://api.github.com/users/lukewarlow/orgs",
+      "repos_url": "https://api.github.com/users/lukewarlow/repos",
+      "events_url": "https://api.github.com/users/lukewarlow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lukewarlow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/79/reactions",
       "total_count": 0,
@@ -14670,7 +14679,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/79/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -22498,9 +22507,9 @@
       }
     ],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2023-01-18T20:04:07Z",
-    "updated_at": "2023-03-30T20:38:32Z",
+    "updated_at": "2026-09-16T18:51:58Z",
     "closed_at": null,
     "assignee": {
       "login": "grorg",
@@ -37400,8 +37409,8 @@
     },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/199/reactions",
-      "total_count": 4,
-      "+1": 4,
+      "total_count": 5,
+      "+1": 5,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -54335,6 +54344,17 @@
         "description": "",
         "archived_at": null,
         "archived_by": null
+      },
+      {
+        "id": 4575979221,
+        "node_id": "LA_kwDOHk513M8AAAABEL_m1Q",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Igalia",
+        "name": "from: Igalia",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Igalia.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
@@ -54384,9 +54404,9 @@
       }
     ],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2024-02-08T17:31:27Z",
-    "updated_at": "2025-09-29T19:54:25Z",
+    "updated_at": "2026-09-16T15:41:32Z",
     "closed_at": null,
     "assignee": {
       "login": "fantasai",
@@ -56367,7 +56387,7 @@
     "id": 2183798113,
     "node_id": "I_kwDOHk513M6CKh1h",
     "number": 330,
-    "title": "CSS: Media Queries Level 5 `Custom Media Queries`",
+    "title": "CSS @custom-media",
     "user": {
       "login": "nileshprajapati",
       "id": 70016290,
@@ -56441,7 +56461,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2024-03-13T11:45:43Z",
-    "updated_at": "2026-01-17T16:13:58Z",
+    "updated_at": "2026-09-16T19:19:10Z",
     "closed_at": null,
     "assignee": {
       "login": "fantasai",
@@ -56666,8 +56686,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/331/reactions",
-      "total_count": 2,
-      "+1": 2,
+      "total_count": 3,
+      "+1": 3,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -61682,9 +61702,9 @@
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2024-06-26T12:26:42Z",
-    "updated_at": "2024-08-20T12:07:03Z",
+    "updated_at": "2026-09-16T15:38:24Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
@@ -65633,15 +65653,15 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/399/reactions",
-      "total_count": 4,
+      "total_count": 6,
       "+1": 1,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
-      "heart": 2,
+      "heart": 3,
       "rocket": 0,
-      "eyes": 1
+      "eyes": 2
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/399/timeline",
     "performed_via_github_app": null,
@@ -67853,7 +67873,7 @@
     "updated_at": "2025-10-17T15:31:30Z",
     "closed_at": null,
     "assignee": null,
-    "author_association": "CONTRIBUTOR",
+    "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
@@ -69398,14 +69418,37 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278049261,
+        "node_id": "LA_kwDOHk513M7-_dnt",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20payments",
+        "name": "topic: payments",
+        "color": "5bcefa",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
+        "id": 4281722881,
+        "node_id": "LA_kwDOHk513M7_NegB",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WICG",
+        "name": "venue: WICG",
+        "color": "0052cc",
+        "default": false,
+        "description": "Proposal is incubated in the Web Incubator Community Group",
+        "archived_at": null,
+        "archived_by": null
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 3,
+    "comments": 4,
     "created_at": "2024-11-15T00:06:55Z",
-    "updated_at": "2026-06-08T20:27:20Z",
+    "updated_at": "2026-09-16T15:35:15Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
@@ -70151,6 +70194,17 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -70173,7 +70227,7 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [
       {
@@ -70222,8 +70276,8 @@
     "milestone": null,
     "comments": 5,
     "created_at": "2024-12-10T19:48:56Z",
-    "updated_at": "2025-04-10T18:43:21Z",
-    "closed_at": null,
+    "updated_at": "2026-09-16T19:17:41Z",
+    "closed_at": "2026-09-16T19:17:41Z",
     "assignee": {
       "login": "fantasai",
       "id": 725717,
@@ -70261,7 +70315,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nCSS advanced attr() function\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-values-5/#attr-notation\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts/tree/main/css-values-5\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/tursunova/web-platform-explainer/blob/main/advanced-attr-explainer.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/513\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1143\n\n### WebKit Bugzilla URL\n\nhttps://bugs.webkit.org/show_bug.cgi?id=26609\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThe augmentation to `attr()` specified in CSS Level 5, which allows types besides `<string>` and usage in all CSS properties (besides pseudo-element `content`).",
-    "closed_by": null,
+    "closed_by": {
+      "login": "nt1m",
+      "id": 1795135,
+      "node_id": "MDQ6VXNlcjE3OTUxMzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1795135?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nt1m",
+      "html_url": "https://github.com/nt1m",
+      "followers_url": "https://api.github.com/users/nt1m/followers",
+      "following_url": "https://api.github.com/users/nt1m/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nt1m/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nt1m/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nt1m/subscriptions",
+      "organizations_url": "https://api.github.com/users/nt1m/orgs",
+      "repos_url": "https://api.github.com/users/nt1m/repos",
+      "events_url": "https://api.github.com/users/nt1m/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nt1m/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/435/reactions",
       "total_count": 7,
@@ -70276,7 +70350,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/435/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -70350,9 +70424,9 @@
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 4,
     "created_at": "2024-12-13T02:52:01Z",
-    "updated_at": "2025-04-09T16:13:27Z",
+    "updated_at": "2026-09-16T16:08:21Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
@@ -70399,7 +70473,7 @@
     "id": 2748731516,
     "node_id": "I_kwDOHk513M6j1lB8",
     "number": 437,
-    "title": "CSS Functions and Mixins 1 (@function)",
+    "title": "CSS @function",
     "user": {
       "login": "andruud",
       "id": 77163,
@@ -70423,6 +70497,17 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -70445,7 +70530,7 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [
       {
@@ -70557,8 +70642,8 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-18T20:54:03Z",
-    "updated_at": "2025-03-17T22:04:54Z",
-    "closed_at": null,
+    "updated_at": "2026-09-16T19:16:37Z",
+    "closed_at": "2026-09-16T19:16:37Z",
     "assignee": {
       "login": "nt1m",
       "id": 1795135,
@@ -70596,7 +70681,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n@mdubet ?\n\n### Title of the proposal\n\nCSS Functions and Mixins 1 (@function)\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-mixins-1/ (lacks intro, but see explainer)\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts/tree/main/css-mixins-1\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://css.oddbird.net/sasslike/mixins-functions/\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1148\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\n - The request is for custom functions _only_  (`@function`), since the mixins part has no spec yet.\r\n - https://github.com/w3c/csswg-drafts/issues/10954 is an issue being discussed that may impact the spec quite a bit.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "nt1m",
+      "id": 1795135,
+      "node_id": "MDQ6VXNlcjE3OTUxMzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1795135?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nt1m",
+      "html_url": "https://github.com/nt1m",
+      "followers_url": "https://api.github.com/users/nt1m/followers",
+      "following_url": "https://api.github.com/users/nt1m/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nt1m/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nt1m/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nt1m/subscriptions",
+      "organizations_url": "https://api.github.com/users/nt1m/orgs",
+      "repos_url": "https://api.github.com/users/nt1m/repos",
+      "events_url": "https://api.github.com/users/nt1m/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nt1m/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/437/reactions",
       "total_count": 2,
@@ -70611,7 +70716,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/437/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -71177,14 +71282,37 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278049437,
+        "node_id": "LA_kwDOHk513M7-_dqd",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20performance",
+        "name": "topic: performance",
+        "color": "5bcefa",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
+        "id": 4281722881,
+        "node_id": "LA_kwDOHk513M7_NegB",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WICG",
+        "name": "venue: WICG",
+        "color": "0052cc",
+        "default": false,
+        "description": "Proposal is incubated in the Web Incubator Community Group",
+        "archived_at": null,
+        "archived_by": null
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignees": [],
     "milestone": null,
     "comments": 0,
     "created_at": "2025-01-07T12:07:57Z",
-    "updated_at": "2025-01-07T12:09:19Z",
+    "updated_at": "2026-09-16T01:11:33Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "MEMBER",
@@ -71413,9 +71541,9 @@
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2025-01-07T22:10:51Z",
-    "updated_at": "2026-04-22T16:57:22Z",
+    "updated_at": "2026-09-16T15:33:43Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
@@ -72421,6 +72549,17 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -72454,7 +72593,7 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [
       {
@@ -72503,8 +72642,8 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2025-01-26T01:37:12Z",
-    "updated_at": "2025-03-17T22:05:22Z",
-    "closed_at": null,
+    "updated_at": "2026-09-16T19:16:12Z",
+    "closed_at": "2026-09-16T19:16:12Z",
     "assignee": {
       "login": "jensimmons",
       "id": 108474,
@@ -72542,11 +72681,31 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nCSS if() function\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-values-5/#if-notation\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1167\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nCSS if() function, specified in [CSS Values and Units Module Level 5](https://drafts.csswg.org/css-values-5), which provides a concise way to represent conditional values.\nOpen spec issues: https://github.com/w3c/csswg-drafts/issues/11500",
-    "closed_by": null,
+    "closed_by": {
+      "login": "nt1m",
+      "id": 1795135,
+      "node_id": "MDQ6VXNlcjE3OTUxMzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1795135?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nt1m",
+      "html_url": "https://github.com/nt1m",
+      "followers_url": "https://api.github.com/users/nt1m/followers",
+      "following_url": "https://api.github.com/users/nt1m/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nt1m/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nt1m/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nt1m/subscriptions",
+      "organizations_url": "https://api.github.com/users/nt1m/orgs",
+      "repos_url": "https://api.github.com/users/nt1m/repos",
+      "events_url": "https://api.github.com/users/nt1m/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nt1m/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/453/reactions",
-      "total_count": 19,
-      "+1": 18,
+      "total_count": 18,
+      "+1": 17,
       "-1": 1,
       "laugh": 0,
       "hooray": 0,
@@ -72557,7 +72716,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/453/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -78317,14 +78476,14 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [],
     "milestone": null,
     "comments": 3,
     "created_at": "2025-05-30T15:52:09Z",
-    "updated_at": "2026-06-17T13:47:53Z",
-    "closed_at": null,
+    "updated_at": "2026-09-16T15:57:23Z",
+    "closed_at": "2026-09-16T15:57:23Z",
     "assignee": null,
     "author_association": "NONE",
     "issue_field_values": [],
@@ -78342,7 +78501,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nScrollIntoViewOptions container attribute\n\n### URL to the spec\n\nhttps://drafts.csswg.org/cssom-view/#dictdef-scrollintoviewoptions\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/w3c/csswg-drafts/issues/9452\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1105\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1237\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThere are many advantages of using scrollIntoView, it is an ergonomically simple way for a developer to request that a particular element is made visible, aligning it within the scroll padding of the scroller and snapping as appropriate.\n\nHowever, in many circumstances it can be counter-intuitive that a scroll into view call scrolls all ancestor scrollers. E.g. If a slideshow or carousel uses a scrolling box for slides and uses scrollIntoView to advance to the next slide, this will also force the top level scroller to scroll the slideshow into view.\n\nThe [container](https://drafts.csswg.org/cssom-view/#dom-scrollintoviewoptions-container) attribute on the [ScrollIntoViewOptions](https://drafts.csswg.org/cssom-view/#dictdef-scrollintoviewoptions) dictionary allows a developer to use scrollIntoView without forcibly scrolling all of the ancestor scrolling containers.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "lukewarlow",
+      "id": 32498324,
+      "node_id": "MDQ6VXNlcjMyNDk4MzI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32498324?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lukewarlow",
+      "html_url": "https://github.com/lukewarlow",
+      "followers_url": "https://api.github.com/users/lukewarlow/followers",
+      "following_url": "https://api.github.com/users/lukewarlow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lukewarlow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lukewarlow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lukewarlow/subscriptions",
+      "organizations_url": "https://api.github.com/users/lukewarlow/orgs",
+      "repos_url": "https://api.github.com/users/lukewarlow/repos",
+      "events_url": "https://api.github.com/users/lukewarlow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lukewarlow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/502/reactions",
       "total_count": 1,
@@ -78357,7 +78536,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/502/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -79275,8 +79454,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/510/reactions",
-      "total_count": 0,
-      "+1": 0,
+      "total_count": 1,
+      "+1": 1,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -81154,6 +81333,17 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -81176,7 +81366,7 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [
       {
@@ -81246,8 +81436,8 @@
     "milestone": null,
     "comments": 3,
     "created_at": "2025-07-11T12:25:13Z",
-    "updated_at": "2026-07-09T00:00:52Z",
-    "closed_at": null,
+    "updated_at": "2026-09-16T19:15:05Z",
+    "closed_at": "2026-09-16T19:15:05Z",
     "assignee": {
       "login": "fantasai",
       "id": 725717,
@@ -81285,7 +81475,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nRange syntax for style container queries and if()\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-conditional-5/#typedef-style-range\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1270\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nExtends style queries beyond exact value matching (e.g., `style(--theme: dark)`) to allow developers use comparison operators (`>`, `<`, `<=`, `>=`, etc.) to compare custom properties, literal values (like `10px` or `25%`), and values from substitution functions like `attr()`, `var()`, etc. For a comparison to be valid, both sides must resolve to the same data type. This is limited to the following numeric types: `<length>`, `<number>`, `<percentage>`, `<angle>`, `<time>`, `<frequency>`, and `<resolution>`.\n\nOpen spec issues: https://github.com/w3c/csswg-drafts/issues/12410.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "nt1m",
+      "id": 1795135,
+      "node_id": "MDQ6VXNlcjE3OTUxMzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1795135?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nt1m",
+      "html_url": "https://github.com/nt1m",
+      "followers_url": "https://api.github.com/users/nt1m/followers",
+      "following_url": "https://api.github.com/users/nt1m/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nt1m/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nt1m/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nt1m/subscriptions",
+      "organizations_url": "https://api.github.com/users/nt1m/orgs",
+      "repos_url": "https://api.github.com/users/nt1m/repos",
+      "events_url": "https://api.github.com/users/nt1m/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nt1m/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/527/reactions",
       "total_count": 0,
@@ -81300,7 +81510,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/527/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -81709,7 +81919,7 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [
       {
@@ -81758,8 +81968,8 @@
     "milestone": null,
     "comments": 4,
     "created_at": "2025-07-23T17:29:39Z",
-    "updated_at": "2025-07-29T14:37:49Z",
-    "closed_at": null,
+    "updated_at": "2026-09-16T19:18:41Z",
+    "closed_at": "2026-09-16T19:18:41Z",
     "assignee": {
       "login": "fantasai",
       "id": 725717,
@@ -81797,7 +82007,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\n@custom-media\n\n### URL to the spec\n\nhttps://www.w3.org/TR/mediaqueries-5/#custom-mq\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1275\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\n`@custom-media` at-rule allows developers to create named aliases for their media query conditions, making responsive stylesheets more readable and easier to maintain.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "nt1m",
+      "id": 1795135,
+      "node_id": "MDQ6VXNlcjE3OTUxMzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1795135?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nt1m",
+      "html_url": "https://github.com/nt1m",
+      "followers_url": "https://api.github.com/users/nt1m/followers",
+      "following_url": "https://api.github.com/users/nt1m/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nt1m/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nt1m/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nt1m/subscriptions",
+      "organizations_url": "https://api.github.com/users/nt1m/orgs",
+      "repos_url": "https://api.github.com/users/nt1m/repos",
+      "events_url": "https://api.github.com/users/nt1m/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nt1m/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/533/reactions",
       "total_count": 3,
@@ -81812,7 +82042,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/533/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "duplicate",
     "pinned_comment": null
   },
   {
@@ -83431,6 +83661,39 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
+        "id": 4281727357,
+        "node_id": "LA_kwDOHk513M7_Nfl9",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20CSS%20WG",
+        "name": "venue: W3C CSS WG",
+        "color": "0052cc",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4488289418,
         "node_id": "LA_kwDOHk513M8AAAABC4Xcig",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20venue",
@@ -83442,14 +83705,14 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2025-09-08T11:11:34Z",
-    "updated_at": "2026-08-18T14:11:04Z",
-    "closed_at": null,
+    "updated_at": "2026-09-16T15:14:09Z",
+    "closed_at": "2026-09-16T15:10:14Z",
     "assignee": null,
     "author_association": "NONE",
     "issue_field_values": [],
@@ -83467,7 +83730,27 @@
       "total_blocking": 0
     },
     "body": "### Proposal author(s)\n\n@arichiv, @arturjanc, @ladankhamnian\n\n### Title of the proposal\n\nPreventing User Dictionary Leaks via ::spelling-error and ::grammar-error CSS Pseudo-Elements\n\n### URL to the spec's repository\n\nhttps://github.com/explainers-by-googlers/user-dictionary-leaks\n\n### Issue Tracker URL\n\nhttps://crbug.com/415712674\n\n### Explainer URL\n\nhttps://explainers-by-googlers.github.io/user-dictionary-leaks/\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1148\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1294\n\n### Description\n\nWe want to prevent websites from extracting information about a user\u2019s dictionary using CSS spelling/grammar hint highlights. This is currently possible by making a text field with a repeated (misspelled) word autofocus and monitoring rendering performance to notice when highlighting occurs.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "annevk",
+      "id": 1544111,
+      "node_id": "MDQ6VXNlcjE1NDQxMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annevk",
+      "html_url": "https://github.com/annevk",
+      "followers_url": "https://api.github.com/users/annevk/followers",
+      "following_url": "https://api.github.com/users/annevk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/annevk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/annevk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/annevk/subscriptions",
+      "organizations_url": "https://api.github.com/users/annevk/orgs",
+      "repos_url": "https://api.github.com/users/annevk/repos",
+      "events_url": "https://api.github.com/users/annevk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/annevk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/546/reactions",
       "total_count": 0,
@@ -83482,7 +83765,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/546/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -84575,7 +84858,7 @@
     "updated_at": "2025-12-11T03:12:44Z",
     "closed_at": null,
     "assignee": null,
-    "author_association": "CONTRIBUTOR",
+    "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
@@ -86029,7 +86312,7 @@
     "updated_at": "2025-12-03T06:27:36Z",
     "closed_at": "2025-12-02T07:50:03Z",
     "assignee": null,
-    "author_association": "CONTRIBUTOR",
+    "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
@@ -86869,9 +87152,9 @@
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 2,
+    "comments": 3,
     "created_at": "2025-11-12T06:32:03Z",
-    "updated_at": "2026-06-17T08:50:53Z",
+    "updated_at": "2026-09-15T20:17:26Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
@@ -90418,9 +90701,9 @@
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2026-02-10T14:35:16Z",
-    "updated_at": "2026-02-18T12:59:07Z",
+    "updated_at": "2026-09-16T15:19:58Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
@@ -93070,9 +93353,9 @@
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2026-03-24T15:27:07Z",
-    "updated_at": "2026-04-03T21:46:40Z",
+    "updated_at": "2026-09-16T19:04:31Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
@@ -93198,14 +93481,14 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [],
     "milestone": null,
     "comments": 2,
     "created_at": "2026-03-24T19:55:18Z",
-    "updated_at": "2026-04-09T17:40:24Z",
-    "closed_at": null,
+    "updated_at": "2026-09-16T15:02:26Z",
+    "closed_at": "2026-09-16T15:02:26Z",
     "assignee": null,
     "author_association": "NONE",
     "issue_field_values": [],
@@ -93223,7 +93506,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n@smfr \n\n### Title of the proposal\n\nProgrammatic scroll promise\n\n### URL to the spec\n\nhttps://drafts.csswg.org/cssom-view/#extension-to-the-element-interface\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts/tree/main/cssom-view-1\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/explainers-by-googlers/promisify-scroll/blob/main/README.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1210\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1379\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nWeb developers currently have no way to know when a programmatic [smooth-scroll](https://drafts.csswg.org/cssom-view/#concept-smooth-scroll) has completed. A solution to the problem that has already been resolved in the CSS WG: make the programmatic scroll methods return Promise objects that get resolved on scroll completion.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "lukewarlow",
+      "id": 32498324,
+      "node_id": "MDQ6VXNlcjMyNDk4MzI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32498324?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lukewarlow",
+      "html_url": "https://github.com/lukewarlow",
+      "followers_url": "https://api.github.com/users/lukewarlow/followers",
+      "following_url": "https://api.github.com/users/lukewarlow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lukewarlow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lukewarlow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lukewarlow/subscriptions",
+      "organizations_url": "https://api.github.com/users/lukewarlow/orgs",
+      "repos_url": "https://api.github.com/users/lukewarlow/repos",
+      "events_url": "https://api.github.com/users/lukewarlow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lukewarlow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/639/reactions",
       "total_count": 0,
@@ -93238,7 +93541,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/639/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -94032,7 +94335,7 @@
     "milestone": null,
     "comments": 8,
     "created_at": "2026-04-03T14:48:57Z",
-    "updated_at": "2026-09-01T16:17:51Z",
+    "updated_at": "2026-09-16T15:50:10Z",
     "closed_at": null,
     "assignee": {
       "login": "marcoscaceres",
@@ -94055,7 +94358,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "author_association": "CONTRIBUTOR",
+    "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
@@ -94070,7 +94373,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### WebKittens\n\n@annevk @marcoscaceres\n\n### Title of the proposal\n\nSpellCheckCustomDictionary\n\n### URL to the spec\n\nhttps://github.com/Igalia/explainers/blob/main/spell-check-dictionary/README.md\n\n### URL to the spec's repository\n\nhttps://github.com/Igalia/explainers/\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1191\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1384\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\n@ziransun has a prototype in chromium for Igalia, work sponsored by Bloomberg Tech.  We want to get a good sense of positions from WebKit and Mozilla.",
+    "body": "### WebKittens\n\n@annevk @marcoscaceres\n\n### Title of the proposal\n\nSpellCheckCustomDictionary\n\n### URL to the spec\n\nhttps://github.com/whatwg/html/pull/12590\n\n### URL to the spec's repository\n\nhttps://github.com/Igalia/explainers/\n\n### Issue Tracker URL\n\nhttps://github.com/whatwg/html/issues/12388\n\n### Explainer URL\n\nhttps://github.com/Igalia/explainers/blob/main/spell-check-dictionary/README.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1191\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1384\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\n@ziransun has a prototype in chromium for Igalia, work sponsored by Bloomberg Tech.  We want to get a good sense of positions from WebKit and Mozilla.",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/646/reactions",
@@ -95172,6 +95475,17 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -95194,14 +95508,14 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [],
     "milestone": null,
     "comments": 3,
     "created_at": "2026-04-29T20:51:20Z",
-    "updated_at": "2026-08-21T14:02:47Z",
-    "closed_at": null,
+    "updated_at": "2026-09-16T15:38:21Z",
+    "closed_at": "2026-09-16T15:38:21Z",
     "assignee": null,
     "author_association": "MEMBER",
     "issue_field_values": [],
@@ -95219,7 +95533,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nCSS: Relative Alpha Colors\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-color-5/#relative-alpha\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1396\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nRelative alpha colors refer to an origin color, and only change the alpha channel. The meaning of alpha channels is defined in CSS Color 4 \u00a7\u202f4.2 Representing Transparency in Colors: the <alpha-value> syntax.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "lukewarlow",
+      "id": 32498324,
+      "node_id": "MDQ6VXNlcjMyNDk4MzI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32498324?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lukewarlow",
+      "html_url": "https://github.com/lukewarlow",
+      "followers_url": "https://api.github.com/users/lukewarlow/followers",
+      "following_url": "https://api.github.com/users/lukewarlow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lukewarlow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lukewarlow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lukewarlow/subscriptions",
+      "organizations_url": "https://api.github.com/users/lukewarlow/orgs",
+      "repos_url": "https://api.github.com/users/lukewarlow/repos",
+      "events_url": "https://api.github.com/users/lukewarlow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lukewarlow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/657/reactions",
       "total_count": 1,
@@ -95234,7 +95568,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/657/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -95271,6 +95605,17 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -95293,14 +95638,14 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [],
     "milestone": null,
     "comments": 1,
     "created_at": "2026-04-29T21:02:45Z",
-    "updated_at": "2026-06-02T17:24:39Z",
-    "closed_at": null,
+    "updated_at": "2026-09-16T19:00:26Z",
+    "closed_at": "2026-09-16T19:00:26Z",
     "assignee": null,
     "author_association": "MEMBER",
     "issue_field_values": [],
@@ -95318,7 +95663,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nCSS light-dark() with image values\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-color-5/#light-dark\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nMozilla already ship it in https://bugzilla.mozilla.org/show_bug.cgi?id=2023569\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nExtends the CSS light-dark() function to accept image values (url(), image-set(), none) in author stylesheets, allowing image properties like background-image, list-style-image, border-image-source, cursor, and content to automatically switch between images based on the user's preferred color scheme. Previously this was only allowed in UA stylesheets. This aligns with the CSS Color 5 spec and matches Firefox's existing implementation.\n\n",
-    "closed_by": null,
+    "closed_by": {
+      "login": "fantasai",
+      "id": 725717,
+      "node_id": "MDQ6VXNlcjcyNTcxNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/725717?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fantasai",
+      "html_url": "https://github.com/fantasai",
+      "followers_url": "https://api.github.com/users/fantasai/followers",
+      "following_url": "https://api.github.com/users/fantasai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fantasai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fantasai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fantasai/subscriptions",
+      "organizations_url": "https://api.github.com/users/fantasai/orgs",
+      "repos_url": "https://api.github.com/users/fantasai/repos",
+      "events_url": "https://api.github.com/users/fantasai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fantasai/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/658/reactions",
       "total_count": 2,
@@ -95333,7 +95698,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/658/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -96641,8 +97006,8 @@
     },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/670/reactions",
-      "total_count": 4,
-      "+1": 2,
+      "total_count": 5,
+      "+1": 3,
       "-1": 2,
       "laugh": 0,
       "hooray": 0,
@@ -96693,9 +97058,9 @@
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2026-05-28T13:32:47Z",
-    "updated_at": "2026-05-28T13:32:47Z",
+    "updated_at": "2026-09-15T18:50:38Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
@@ -96786,15 +97151,26 @@
         "description": "",
         "archived_at": null,
         "archived_by": null
+      },
+      {
+        "id": 4575501795,
+        "node_id": "LA_kwDOHk513M8AAAABELid4w",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20API%20design",
+        "name": "concerns: API design",
+        "color": "f5a9b8",
+        "default": false,
+        "description": "The API for this is error-prone, poorly named, or inconsistent with the platform",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2026-05-30T21:25:39Z",
-    "updated_at": "2026-09-01T16:17:25Z",
+    "updated_at": "2026-09-16T18:59:14Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "MEMBER",
@@ -97277,7 +97653,7 @@
     "updated_at": "2026-07-08T13:43:25Z",
     "closed_at": "2026-06-09T17:59:28Z",
     "assignee": null,
-    "author_association": "CONTRIBUTOR",
+    "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
@@ -97373,7 +97749,7 @@
     "updated_at": "2026-06-09T17:59:27Z",
     "closed_at": "2026-06-09T17:59:27Z",
     "assignee": null,
-    "author_association": "CONTRIBUTOR",
+    "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
@@ -97697,15 +98073,26 @@
         "description": "Spec relates to accessibility",
         "archived_at": null,
         "archived_by": null
+      },
+      {
+        "id": 12224613508,
+        "node_id": "LA_kwDOHk513M8AAAAC2KTMhA",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20ARIA%20WG",
+        "name": "venue: W3C ARIA WG",
+        "color": "0052cc",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2026-06-10T20:47:38Z",
-    "updated_at": "2026-07-07T14:51:38Z",
+    "updated_at": "2026-09-16T15:15:50Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
@@ -98554,14 +98941,14 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 3,
+    "comments": 4,
     "created_at": "2026-07-08T13:43:11Z",
-    "updated_at": "2026-08-04T17:32:14Z",
-    "closed_at": null,
+    "updated_at": "2026-09-16T16:01:50Z",
+    "closed_at": "2026-09-16T16:01:34Z",
     "assignee": null,
     "author_association": "CONTRIBUTOR",
     "issue_field_values": [],
@@ -98579,7 +98966,27 @@
       "total_blocking": 0
     },
     "body": "Should we have a triage meeting every 3 months? It seems reasonable to me, though finding an agreeable time might be tricky.\n\n@bkardell suggested this in #682.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "bkardell",
+      "id": 870501,
+      "node_id": "MDQ6VXNlcjg3MDUwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/870501?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bkardell",
+      "html_url": "https://github.com/bkardell",
+      "followers_url": "https://api.github.com/users/bkardell/followers",
+      "following_url": "https://api.github.com/users/bkardell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bkardell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bkardell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bkardell/subscriptions",
+      "organizations_url": "https://api.github.com/users/bkardell/orgs",
+      "repos_url": "https://api.github.com/users/bkardell/repos",
+      "events_url": "https://api.github.com/users/bkardell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bkardell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/694/reactions",
       "total_count": 3,
@@ -98594,7 +99001,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/694/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -98975,7 +99382,7 @@
     "milestone": null,
     "comments": 2,
     "created_at": "2026-07-21T15:16:17Z",
-    "updated_at": "2026-09-04T09:03:45Z",
+    "updated_at": "2026-09-16T10:05:01Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
@@ -98993,7 +99400,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nCSS scroll-axis-lock\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-overflow-5/\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/explainers-by-googlers/scroll-axis-lock\n\n### TAG Design Review URL\n\n[TAG design-reviews issue 1248](https://github.com/w3ctag/design-reviews/issues/1248)\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis proposal describes `scroll-axis-lock`: a CSS property which authors can use to instruct web pages not to apply scroll \"locking\" (constraining the scroll to a single axis) heuristics when a user scrolls an element via a gesture, e.g. touch scroll.\n\nThe spec link give above is to the general css-overflow-5 spec. It will be updated when the [PR](https://github.com/w3c/csswg-drafts/pull/14152) describing `scroll-axis-lock` lands",
+    "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nCSS scroll-axis-lock\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-overflow-5/\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/explainers-by-googlers/scroll-axis-lock\n\n### TAG Design Review URL\n\n[TAG design-reviews issue 1248](https://github.com/w3ctag/design-reviews/issues/1248)\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\nhttps://bugs.webkit.org/show_bug.cgi?id=324326\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis proposal describes `scroll-axis-lock`: a CSS property which authors can use to instruct web pages not to apply scroll \"locking\" (constraining the scroll to a single axis) heuristics when a user scrolls an element via a gesture, e.g. touch scroll.\n\nThe spec link give above is to the general css-overflow-5 spec. It will be updated when the [PR](https://github.com/w3c/csswg-drafts/pull/14152) describing `scroll-axis-lock` lands",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/698/reactions",
@@ -99510,8 +99917,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/703/reactions",
-      "total_count": 2,
-      "+1": 2,
+      "total_count": 3,
+      "+1": 3,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -99965,14 +100372,26 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4474639105,
+        "node_id": "LA_kwDOHk513M8AAAABCrWTAQ",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20W3C%20Media%20WG",
+        "name": "venue: W3C Media WG",
+        "color": "0052cc",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignees": [],
     "milestone": null,
     "comments": 0,
     "created_at": "2026-08-12T22:07:27Z",
-    "updated_at": "2026-08-12T22:07:27Z",
+    "updated_at": "2026-09-16T15:48:19Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
