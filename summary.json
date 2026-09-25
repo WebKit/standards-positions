@@ -5830,7 +5830,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/348",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -6681,7 +6681,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/401",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -7179,7 +7179,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/427",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -8822,7 +8822,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/524",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -10896,7 +10896,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/659",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -11597,7 +11597,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/714",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -11637,7 +11637,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/716",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -11673,7 +11673,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/718",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -11710,9 +11710,14 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/720",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css",
+      "fonts and/or text"
+    ],
     "title": "CSS Mobile Text Size Adjustment Module Level 1",
     "url": "https://drafts.csswg.org/css-size-adjust/#adjustment-control",
     "github": null,
@@ -11742,9 +11747,13 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/723",
     "position": null,
-    "venues": [],
+    "venues": [
+      "W3C"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "css"
+    ],
     "title": "CSS Align: `flow-start` and `flow-end` as alignment keywords to indicate the start and end of content placement",
     "url": "w3c/csswg-drafts#14052",
     "github": null,
@@ -11753,6 +11762,22 @@
     "tag": "N/A - it's aliasing `flex-start/end` so API for this already exists",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1455",
     "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/724",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "OfflineAudioContext Incremental Rendering",
+    "url": "https://webaudio.github.io/web-audio-api/#dom-offlineaudiocontext-startrendering",
+    "github": "https://github.com/WebAudio/web-audio-api",
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/OfflineAudioContext/explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1282",
+    "mozilla": null,
+    "bugzilla": "https://github.com/mozilla/standards-positions/issues/1456",
     "radar": null
   }
 ]
