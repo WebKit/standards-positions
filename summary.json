@@ -6644,8 +6644,7 @@
       "Other"
     ],
     "concerns": [
-      "portability",
-      "device independence"
+      "venue"
     ],
     "topics": [
       "security",
