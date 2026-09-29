@@ -11778,5 +11778,21 @@
     "mozilla": null,
     "bugzilla": "https://github.com/mozilla/standards-positions/issues/1456",
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/725",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Declarative Performance Observer",
+    "url": "https://github.com/explainers-by-googlers/declarative-performance-observer/",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/explainers-by-googlers/declarative-performance-observer",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1285",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1458",
+    "bugzilla": null,
+    "radar": null
   }
 ]
