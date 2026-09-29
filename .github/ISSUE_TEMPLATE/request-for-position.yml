@@ -28,6 +28,11 @@ body:
     validations:
       required: true
   - type: input
+    id: spec-authors
+    attributes:
+      label: "Spec author(s)"
+      placeholder: "Comma-separated list of GitHub accounts"
+  - type: input
     id: spec-repo
     attributes:
       label: "URL to the spec's repository"
