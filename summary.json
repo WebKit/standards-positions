@@ -5301,7 +5301,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/316",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -7490,7 +7490,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/444",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -8586,10 +8586,8 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/510",
-    "position": null,
-    "venues": [
-      "Other"
-    ],
+    "position": "oppose",
+    "venues": [],
     "concerns": [
       "security",
       "use cases"
@@ -10170,7 +10168,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/615",
-    "position": null,
+    "position": "support",
     "venues": [],
     "concerns": [],
     "topics": [],
@@ -11213,7 +11211,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/686",
-    "position": null,
+    "position": "support",
     "venues": [
       "W3C"
     ],
@@ -11792,6 +11790,54 @@
     "explainer": "https://github.com/explainers-by-googlers/declarative-performance-observer",
     "tag": "https://github.com/w3ctag/design-reviews/issues/1285",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1458",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/726",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS Images Module Level 3",
+    "url": "http://www.w3.org/TR/css3-images",
+    "github": "https://github.com/w3c/csswg-drafts/labels/css-images-3",
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=317804",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/727",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS-Mixins-1",
+    "url": "https://www.w3.org/TR/css-mixins-1/",
+    "github": "https://github.com/w3c/csswg-drafts/tree/main/css-mixins-1",
+    "issues": null,
+    "explainer": "https://css.oddbird.net/sasslike/mixins-functions/",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1459",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/728",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "CSS Pseudo-Elements Module Level 4",
+    "url": "https://drafts.csswg.org/css-pseudo-4/#typedef-highlight-name-selector",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": "https://github.com/mozilla/standards-positions/issues/1460",
+    "explainer": null,
+    "tag": null,
+    "mozilla": null,
     "bugzilla": null,
     "radar": null
   }

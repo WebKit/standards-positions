@@ -16729,9 +16729,9 @@
       }
     ],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2022-11-17T15:36:32Z",
-    "updated_at": "2023-03-30T20:36:42Z",
+    "updated_at": "2026-09-29T11:59:52Z",
     "closed_at": null,
     "assignee": {
       "login": "marcoscaceres",
@@ -54324,6 +54324,17 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -54357,7 +54368,7 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [
       {
@@ -54404,10 +54415,10 @@
       }
     ],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2024-02-08T17:31:27Z",
-    "updated_at": "2026-09-16T15:41:32Z",
-    "closed_at": null,
+    "updated_at": "2026-09-29T16:12:23Z",
+    "closed_at": "2026-09-29T16:12:23Z",
     "assignee": {
       "login": "fantasai",
       "id": 725717,
@@ -54445,7 +54456,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n@fantasai @heycam\n\n### Title of the spec\n\n`line-clamp` CSS property (collapse variant)\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-overflow-4/#suppressing-excess\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts/\n\n### Issue Tracker URL\n\nhttps://github.com/w3c/csswg-drafts/issues\n\n### Explainer URL\n\nhttps://github.com/Igalia/explainers/blob/main/css/line-clamp/README.md\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nmozilla/standards-positions#984\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nCSS Overflow Level 4 defines `line-clamp` based on fragmentation (https://drafts.csswg.org/css-overflow-4/#line-clamp), but that is not feasible for Gecko or WebKit to implement anytime soon. Due to that, @emilio opened https://github.com/w3c/csswg-drafts/issues/7708 to discuss a variant of `line-clamp` that is based on hiding lines and boxes from paint instead (\"the collapse variant\"). There is no spec text written for this variant yet, but the CSSWG decided to greenlight both variants for prototyping, and in Chromium we are currently planning to prototype it, rather than the fragmentation-based variant.\n\n**Update September 2025:** Since this issue was opened, the CSSWG decided to make this collapse variant the default behavior of `line-clamp`. Both behaviors are currently defined in the spec, and can be toggled based on the value of the `continue` property (which is one of the longhands for `line-clamp`), but w3c/csswg-drafts#12795 recently marked `continue: discard` (the previous fragmentation-based version) as \"at risk\".",
-    "closed_by": null,
+    "closed_by": {
+      "login": "bkardell",
+      "id": 870501,
+      "node_id": "MDQ6VXNlcjg3MDUwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/870501?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bkardell",
+      "html_url": "https://github.com/bkardell",
+      "followers_url": "https://api.github.com/users/bkardell/followers",
+      "following_url": "https://api.github.com/users/bkardell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bkardell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bkardell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bkardell/subscriptions",
+      "organizations_url": "https://api.github.com/users/bkardell/orgs",
+      "repos_url": "https://api.github.com/users/bkardell/repos",
+      "events_url": "https://api.github.com/users/bkardell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bkardell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/316/reactions",
       "total_count": 2,
@@ -54460,7 +54491,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/316/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -65726,15 +65757,15 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/399/reactions",
-      "total_count": 6,
-      "+1": 1,
+      "total_count": 9,
+      "+1": 2,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
-      "heart": 3,
+      "heart": 4,
       "rocket": 0,
-      "eyes": 2
+      "eyes": 3
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/399/timeline",
     "performed_via_github_app": null,
@@ -71639,6 +71670,17 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4278046366,
         "node_id": "LA_kwDOHk513M7-_c6e",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20css",
@@ -71672,14 +71714,14 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 2,
+    "comments": 3,
     "created_at": "2025-01-07T22:10:51Z",
-    "updated_at": "2026-09-16T15:33:43Z",
-    "closed_at": null,
+    "updated_at": "2026-09-29T16:19:57Z",
+    "closed_at": "2026-09-29T16:19:57Z",
     "assignee": null,
     "author_association": "NONE",
     "issue_field_values": [],
@@ -71697,7 +71739,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\r\n\r\n_No response_\r\n\r\n### Title of the proposal\r\n\r\nCSS Gap Decorations\r\n\r\n### URL to the spec\r\n\r\nhttps://drafts.csswg.org/css-gaps-1/\r\n\r\n### URL to the spec's repository\r\n\r\n_No response_\r\n\r\n### Issue Tracker URL\r\n\r\n_No response_\r\n\r\n### Explainer URL\r\n\r\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/CSSGapDecorations/explainer.md\r\n\r\n### TAG Design Review URL\r\n\r\nhttps://github.com/w3ctag/design-reviews/issues/1035\r\n\r\n### Mozilla standards-positions issue URL\r\n\r\nhttps://github.com/mozilla/standards-positions/issues/1158\r\n\r\n### WebKit Bugzilla URL\r\n\r\n_No response_\r\n\r\n### Radar URL\r\n\r\n_No response_\r\n\r\n### Description\r\n\r\nCSS multi-column containers allow for [rules](https://drafts.csswg.org/css-multicol-1/#cr) to be drawn between columns. Applying similar styling to other container layouts such as grid and flex has been widely sought after, as seen in the discussion for CSS Working Group issue [#2748](https://github.com/w3c/csswg-drafts/issues/2748) and in several StackOverflow questions ( [[1]](https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps) [[2]](https://stackoverflow.com/questions/59899641/is-it-possible-to-draw-all-css-grid-lines-as-dotted-borders-or-outlines-if-js-i) [[3]](https://stackoverflow.com/questions/47882924/preventing-double-borders-in-css-grid) [[4]](https://stackoverflow.com/questions/67479163/css-border-doubling-with-flex) ). Currently, developers seeking to draw such decorations must resort to non-ergonomic workarounds such as these examples:\r\n\r\n* https://www.smashingmagazine.com/2017/09/css-grid-gotchas-stumbling-blocks/#how-do-i-add-backgrounds-and-borders-to-grid-areas\r\n* https://x.com/geddski/status/1004731709764534274\r\n\r\nThis proposal seeks to:\r\n\r\n* Extend CSS [column rule properties](https://drafts.csswg.org/css-multicol-1/#column-gaps-and-rules) to apply to container layout types beyond multi-column.\r\n* Introduce row-direction gap decorations on CSS container layouts.\r\n* Allow gap decorations to vary over a given container to handle cases such as alternating row separators.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "bkardell",
+      "id": 870501,
+      "node_id": "MDQ6VXNlcjg3MDUwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/870501?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bkardell",
+      "html_url": "https://github.com/bkardell",
+      "followers_url": "https://api.github.com/users/bkardell/followers",
+      "following_url": "https://api.github.com/users/bkardell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bkardell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bkardell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bkardell/subscriptions",
+      "organizations_url": "https://api.github.com/users/bkardell/orgs",
+      "repos_url": "https://api.github.com/users/bkardell/repos",
+      "events_url": "https://api.github.com/users/bkardell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bkardell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/444/reactions",
       "total_count": 7,
@@ -71712,7 +71774,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/444/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -79453,6 +79515,17 @@
     },
     "labels": [
       {
+        "id": 4278043765,
+        "node_id": "LA_kwDOHk513M7-_cR1",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20oppose",
+        "name": "position: oppose",
+        "color": "e40303",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4278053585,
         "node_id": "LA_kwDOHk513M7-_erR",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20security",
@@ -79486,17 +79559,6 @@
         "archived_by": null
       },
       {
-        "id": 4281722881,
-        "node_id": "LA_kwDOHk513M7_NegB",
-        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WICG",
-        "name": "venue: WICG",
-        "color": "0052cc",
-        "default": false,
-        "description": "Proposal is incubated in the Web Incubator Community Group",
-        "archived_at": null,
-        "archived_by": null
-      },
-      {
         "id": 4575489249,
         "node_id": "LA_kwDOHk513M8AAAABELhs4Q",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/concerns:%20use%20cases",
@@ -79519,7 +79581,7 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [
       {
@@ -79547,8 +79609,8 @@
     "milestone": null,
     "comments": 2,
     "created_at": "2025-06-10T23:51:31Z",
-    "updated_at": "2026-09-14T06:37:18Z",
-    "closed_at": null,
+    "updated_at": "2026-09-29T10:37:44Z",
+    "closed_at": "2026-09-29T10:37:44Z",
     "assignee": {
       "login": "marcoscaceres",
       "id": 870154,
@@ -79586,7 +79648,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n@marcoscaceres\n\n### Title of the proposal\n\nWebHID\n\n### URL to the spec\n\nhttps://wicg.github.io/webhid/#dom-hid\n\n### URL to the spec's repository\n\nhttps://github.com/WICG/webhid/\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/459\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nProvides access to HID devices from the web.\n\nFrom the Explainer:\n\n> The inability to access uncommon or unusual HID devices is particularly painful when it comes to gamepad support. Gamepads designed for PC often use HID for gamepad inputs (buttons, joysticks, triggers) and outputs (LEDs, rumble). However, gamepads inputs and outputs are not well standardized and web browsers often require custom logic for specific devices. This is unsustainable and results in poor support for the long tail of older and uncommon devices. It also causes the browser to depend on quirks present in the behavior of specific devices. A HID standard for the web platform would allow the device-specific logic to be moved into javascript for devices that lack support in the browser.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "marcoscaceres",
+      "id": 870154,
+      "node_id": "MDQ6VXNlcjg3MDE1NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/870154?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marcoscaceres",
+      "html_url": "https://github.com/marcoscaceres",
+      "followers_url": "https://api.github.com/users/marcoscaceres/followers",
+      "following_url": "https://api.github.com/users/marcoscaceres/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marcoscaceres/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marcoscaceres/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marcoscaceres/subscriptions",
+      "organizations_url": "https://api.github.com/users/marcoscaceres/orgs",
+      "repos_url": "https://api.github.com/users/marcoscaceres/repos",
+      "events_url": "https://api.github.com/users/marcoscaceres/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marcoscaceres/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/510/reactions",
       "total_count": 1,
@@ -79601,7 +79683,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/510/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -90862,15 +90944,27 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
-    "state": "open",
+    "labels": [
+      {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      }
+    ],
+    "state": "closed",
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2026-02-10T14:35:16Z",
-    "updated_at": "2026-09-16T15:19:58Z",
-    "closed_at": null,
+    "updated_at": "2026-09-29T16:18:51Z",
+    "closed_at": "2026-09-29T16:18:51Z",
     "assignee": null,
     "author_association": "NONE",
     "issue_field_values": [],
@@ -90888,7 +90982,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n@annevk\n\n### Title of the proposal\n\nXSLT deprecation\n\n### URL to the spec\n\nhttps://www.w3.org/TR/xslt/\n\n### URL to the spec's repository\n\n_No response_\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\n[WHATWG discussion on XSLT deprecation](https://github.com/whatwg/html/issues/11523)\n\nIn improving security of XML parsing in Chrome and moving to Rust based XML parsing, we found that there is a niche option to generate SVG from raw XML data by means of inline XSLT.\n\nExamples:\nhttps://rtsh.es/test/xml/svg_xslt_img.html\nhttps://rtsh.es/test/xml/svg_xslt.svg\nEdit: https://rtsh.es/test/xml/svg_xslt.xml\n\nAt the moment, WebKit supports both. So does Chrome, but plans to deprecate it. Firefox supports the XSLT processing only for the SVG standalone case, not for the externally referenced image.\n\nIn Chrome, we are planning to deprecate this before deprecating XSLT as a whole, as usage seems virtually non-existant. \n\nChrome previously deprecated usage of external XSLT referenced from SVG images. \n\nWe started tracking telemetry metrics for when we discover an XSLT processing instruction in SVG image, or in an SVG standalone document (loaded as main document):\nhttps://chromestatus.com/metrics/feature/timeline/popularity/5777\nhttps://chromestatus.com/metrics/feature/timeline/popularity/5778\nThe graphs show 0 data. \n\n\n",
-    "closed_by": null,
+    "closed_by": {
+      "login": "bkardell",
+      "id": 870501,
+      "node_id": "MDQ6VXNlcjg3MDUwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/870501?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bkardell",
+      "html_url": "https://github.com/bkardell",
+      "followers_url": "https://api.github.com/users/bkardell/followers",
+      "following_url": "https://api.github.com/users/bkardell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bkardell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bkardell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bkardell/subscriptions",
+      "organizations_url": "https://api.github.com/users/bkardell/orgs",
+      "repos_url": "https://api.github.com/users/bkardell/repos",
+      "events_url": "https://api.github.com/users/bkardell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bkardell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/615/reactions",
       "total_count": 0,
@@ -90903,7 +91017,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/615/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -91271,8 +91385,8 @@
     },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/619/reactions",
-      "total_count": 58,
-      "+1": 30,
+      "total_count": 59,
+      "+1": 31,
       "-1": 0,
       "laugh": 0,
       "hooray": 3,
@@ -98261,6 +98375,17 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4278044526,
         "node_id": "LA_kwDOHk513M7-_cdu",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20accessibility",
@@ -98283,14 +98408,14 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2026-06-10T20:47:38Z",
-    "updated_at": "2026-09-16T15:15:50Z",
-    "closed_at": null,
+    "updated_at": "2026-09-29T16:14:19Z",
+    "closed_at": "2026-09-29T16:14:19Z",
     "assignee": null,
     "author_association": "NONE",
     "issue_field_values": [],
@@ -98308,7 +98433,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n@cookiecrook\n\n### Title of the proposal\n\naria-actions addition to the ARIA spec\n\n### URL to the spec\n\nhttps://github.com/w3c/aria/pull/1805\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/aria\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\nhttps://bugs.webkit.org/show_bug.cgi?id=306476\n\n### Radar URL\n\n_No response_\n\n### Description\n\nA new aria attribute that references a list of elements that should be exposed as secondary actions.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "bkardell",
+      "id": 870501,
+      "node_id": "MDQ6VXNlcjg3MDUwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/870501?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bkardell",
+      "html_url": "https://github.com/bkardell",
+      "followers_url": "https://api.github.com/users/bkardell/followers",
+      "following_url": "https://api.github.com/users/bkardell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bkardell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bkardell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bkardell/subscriptions",
+      "organizations_url": "https://api.github.com/users/bkardell/orgs",
+      "repos_url": "https://api.github.com/users/bkardell/repos",
+      "events_url": "https://api.github.com/users/bkardell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bkardell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/686/reactions",
       "total_count": 0,
@@ -98323,7 +98468,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/686/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -102597,6 +102742,234 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/725/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/726",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/726/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/726/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/726/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/726",
+    "id": 5629598532,
+    "node_id": "I_kwDOHk513M8AAAABT4zbRA",
+    "number": 726,
+    "title": "Apply object-fit and object-position to SVG in object/embed tags",
+    "user": {
+      "login": "felipeerias",
+      "id": 1412060,
+      "node_id": "MDQ6VXNlcjE0MTIwNjA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1412060?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felipeerias",
+      "html_url": "https://github.com/felipeerias",
+      "followers_url": "https://api.github.com/users/felipeerias/followers",
+      "following_url": "https://api.github.com/users/felipeerias/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felipeerias/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felipeerias/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felipeerias/subscriptions",
+      "organizations_url": "https://api.github.com/users/felipeerias/orgs",
+      "repos_url": "https://api.github.com/users/felipeerias/repos",
+      "events_url": "https://api.github.com/users/felipeerias/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felipeerias/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2026-09-29T11:13:22Z",
+    "updated_at": "2026-09-29T11:13:22Z",
+    "closed_at": null,
+    "assignee": null,
+    "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nCSS Images Module Level 3\n\n### URL to the spec\n\nhttp://www.w3.org/TR/css3-images\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts/labels/css-images-3\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\nhttps://bugs.webkit.org/show_bug.cgi?id=317804\n\n### Radar URL\n\n_No response_\n\n### Description\n\nSVG documents loaded through `<object>` or `<embed>` are sized and positioned inside the element's content box according to the CSS `object-fit` and `object-position` properties, the same way `<img>` content is.\n\nThis is currently an Interop gap, as both Chromium and Firefox implement this functionality. See for example:\n- https://wpt.fyi/results/css/css-images/object-fit-contain-svg-001e.html\n- https://wpt.fyi/results/css/css-images/object-fit-contain-svg-001o.html\n- \u2026 and many other similar tests in the same folder.",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/726/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/726/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/727",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/727/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/727/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/727/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/727",
+    "id": 5638712140,
+    "node_id": "I_kwDOHk513M8AAAABUBfrTA",
+    "number": 727,
+    "title": "CSS-Mixins-1",
+    "user": {
+      "login": "thejohnjansen",
+      "id": 2119039,
+      "node_id": "MDQ6VXNlcjIxMTkwMzk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2119039?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejohnjansen",
+      "html_url": "https://github.com/thejohnjansen",
+      "followers_url": "https://api.github.com/users/thejohnjansen/followers",
+      "following_url": "https://api.github.com/users/thejohnjansen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejohnjansen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejohnjansen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejohnjansen/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejohnjansen/orgs",
+      "repos_url": "https://api.github.com/users/thejohnjansen/repos",
+      "events_url": "https://api.github.com/users/thejohnjansen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejohnjansen/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2026-09-29T23:58:57Z",
+    "updated_at": "2026-09-29T23:58:57Z",
+    "closed_at": null,
+    "assignee": null,
+    "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nCSS-Mixins-1\n\n### URL to the spec\n\nhttps://www.w3.org/TR/css-mixins-1/\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts/tree/main/css-mixins-1\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://css.oddbird.net/sasslike/mixins-functions/\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1459\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nDefines a reusable, parameterized block of style declarations and nested style rules with the @mixin rule, then expands them in place within a style rule via @apply as if the mixin's contents had been written there directly. The mixin body puts the declarations and rules to emit inside an @result block, while any local custom properties used to compute them stay private and never reach the element; parameters can be typed and given defaults, and @result can contain conditional rules such as @supports and @media. This lets authors package consistent patterns \u2013 component styles, effects like gradient text, responsive shorthands \u2013 once and reuse them across a stylesheet without a CSS pre-processor.",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/727/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/727/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
+    "url": "https://api.github.com/repos/WebKit/standards-positions/issues/728",
+    "repository_url": "https://api.github.com/repos/WebKit/standards-positions",
+    "labels_url": "https://api.github.com/repos/WebKit/standards-positions/issues/728/labels{/name}",
+    "comments_url": "https://api.github.com/repos/WebKit/standards-positions/issues/728/comments",
+    "events_url": "https://api.github.com/repos/WebKit/standards-positions/issues/728/events",
+    "html_url": "https://github.com/WebKit/standards-positions/issues/728",
+    "id": 5642659487,
+    "node_id": "I_kwDOHk513M8AAAABUFQmnw",
+    "number": 728,
+    "title": "CSS Custom Highlight Universal Selector ::highlight(*)",
+    "user": {
+      "login": "DevSDK",
+      "id": 18409763,
+      "node_id": "MDQ6VXNlcjE4NDA5NzYz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18409763?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DevSDK",
+      "html_url": "https://github.com/DevSDK",
+      "followers_url": "https://api.github.com/users/DevSDK/followers",
+      "following_url": "https://api.github.com/users/DevSDK/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DevSDK/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DevSDK/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DevSDK/subscriptions",
+      "organizations_url": "https://api.github.com/users/DevSDK/orgs",
+      "repos_url": "https://api.github.com/users/DevSDK/repos",
+      "events_url": "https://api.github.com/users/DevSDK/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DevSDK/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2026-09-30T07:20:33Z",
+    "updated_at": "2026-09-30T07:22:22Z",
+    "closed_at": null,
+    "assignee": null,
+    "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nCSS Pseudo-Elements Module Level 4\nCSS Custom Highlight API Module Level 1\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-pseudo-4/#typedef-highlight-name-selector\nhttps://drafts.csswg.org/css-highlight-api-1/#custom-highlight-pseudo\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts\n\n### Issue Tracker URL\n\nhttps://github.com/mozilla/standards-positions/issues/1460\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nIntroduces a universal selector for custom highlights, ::highlight(*), which matches the highlight pseudo-elements of all custom highlights regardless of their name. \n\nChromium Feature Entry: https://chromestatus.com/feature/5174965228929024",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/WebKit/standards-positions/issues/728/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/728/timeline",
     "performed_via_github_app": null,
     "state_reason": null,
     "pinned_comment": null
