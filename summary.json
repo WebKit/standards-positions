@@ -11840,5 +11840,21 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/729",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "WebAuthn Conditional UI without autofill",
+    "url": "https://www.w3.org/TR/webauthn-3",
+    "github": "https://github.com/w3c/webauthn",
+    "issues": null,
+    "explainer": "https://github.com/w3c/webauthn/blob/main/explainers/conditional-ui-without-autofill.md",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   }
 ]
