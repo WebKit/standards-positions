@@ -11856,5 +11856,21 @@
     "mozilla": null,
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/730",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Sealed form fields (`<sealedinput>` and the `sealed-fields` CSP directive)",
+    "url": "https://github.com/WICG/proposals/issues/307",
+    "github": "https://github.com/madeit-build/koschei",
+    "issues": null,
+    "explainer": "https://github.com/madeit-build/koschei/blob/main/docs/specs/explainer.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1468",
+    "bugzilla": null,
+    "radar": null
   }
 ]
