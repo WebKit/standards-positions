@@ -94565,6 +94565,17 @@
     },
     "labels": [
       {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
         "id": 4281709419,
         "node_id": "LA_kwDOHk513M7_NbNr",
         "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
@@ -94587,7 +94598,7 @@
         "archived_by": null
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignees": [
       {
@@ -94613,10 +94624,10 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 11,
     "created_at": "2026-04-03T14:48:57Z",
-    "updated_at": "2026-10-08T13:29:17Z",
-    "closed_at": null,
+    "updated_at": "2026-10-15T14:48:36Z",
+    "closed_at": "2026-10-15T14:48:36Z",
     "assignee": {
       "login": "marcoscaceres",
       "id": 870154,
@@ -94654,7 +94665,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n@annevk @marcoscaceres\n\n### Title of the proposal\n\nSpellCheckCustomDictionary\n\n### URL to the spec\n\nhttps://github.com/whatwg/html/pull/12590\n\n### URL to the spec's repository\n\nhttps://github.com/Igalia/explainers/\n\n### Issue Tracker URL\n\nhttps://github.com/whatwg/html/issues/12388\n\n### Explainer URL\n\nhttps://github.com/Igalia/explainers/blob/main/spell-check-dictionary/README.md\n\n### TAG Design Review URL\n\nhttps://github.com/w3ctag/design-reviews/issues/1191\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1384\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\n@ziransun has a prototype in chromium for Igalia, work sponsored by Bloomberg Tech.  We want to get a good sense of positions from WebKit and Mozilla.",
-    "closed_by": null,
+    "closed_by": {
+      "login": "bkardell",
+      "id": 870501,
+      "node_id": "MDQ6VXNlcjg3MDUwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/870501?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bkardell",
+      "html_url": "https://github.com/bkardell",
+      "followers_url": "https://api.github.com/users/bkardell/followers",
+      "following_url": "https://api.github.com/users/bkardell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bkardell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bkardell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bkardell/subscriptions",
+      "organizations_url": "https://api.github.com/users/bkardell/orgs",
+      "repos_url": "https://api.github.com/users/bkardell/repos",
+      "events_url": "https://api.github.com/users/bkardell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bkardell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/646/reactions",
       "total_count": 0,
@@ -94669,7 +94700,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/646/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
@@ -95291,8 +95322,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/652/reactions",
-      "total_count": 0,
-      "+1": 0,
+      "total_count": 1,
+      "+1": 1,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
