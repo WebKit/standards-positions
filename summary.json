@@ -11872,5 +11872,53 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1468",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/731",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "SVG Paths-Mixin SVGPathData",
+    "url": "https://w3c.github.io/svgwg/specs/paths/#InterfaceSVGPathData",
+    "github": "https://github.com/w3c/svgwg",
+    "issues": "https://github.com/w3c/svgwg/issues",
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/SVG/SVGPathDataAPI/explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1292",
+    "mozilla": "https://bugzilla.mozilla.org/show_bug.cgi?id=1934525",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=328103",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/732",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "The `focusreset` event",
+    "url": "https://github.com/whatwg/html/pull/13050",
+    "github": "https://github.com/whatwg/html",
+    "issues": "https://github.com/whatwg/html/issues/12842",
+    "explainer": "https://github.com/noamr/explainers/blob/main/focusreset-explainer.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1469",
+    "bugzilla": "https://bugs.webkit.org/show_bug.cgi?id=327387",
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/733",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "display-mode: application",
+    "url": "https://drafts.csswg.org/mediaqueries-5/#display-modes",
+    "github": null,
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/DisplayModeApplication/explainer.md",
+    "tag": null,
+    "mozilla": null,
+    "bugzilla": null,
+    "radar": null
   }
 ]
