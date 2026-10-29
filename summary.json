@@ -11936,5 +11936,21 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1472",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/735",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Service Worker Capability Delegation for Pop-ups",
+    "url": "https://htmlpreview.github.io/?https://github.com/dmurph/capability-delegation/blob/popup-delegation-spec/spec.html",
+    "github": "https://github.com/WICG/capability-delegation",
+    "issues": null,
+    "explainer": "https://github.com/WICG/capability-delegation/blob/main/explainers/popup-delegation.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1295",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1474",
+    "bugzilla": null,
+    "radar": null
   }
 ]
