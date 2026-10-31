@@ -12115,8 +12115,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/65/reactions",
-      "total_count": 115,
-      "+1": 110,
+      "total_count": 116,
+      "+1": 111,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -31929,13 +31929,13 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/171/reactions",
-      "total_count": 12,
-      "+1": 8,
+      "total_count": 14,
+      "+1": 9,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
-      "heart": 4,
+      "heart": 5,
       "rocket": 0,
       "eyes": 0
     },
@@ -56209,9 +56209,9 @@
       }
     ],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2024-03-06T16:39:13Z",
-    "updated_at": "2026-09-22T20:28:38Z",
+    "updated_at": "2026-10-29T16:22:42Z",
     "closed_at": null,
     "assignee": {
       "login": "jensimmons",
@@ -99929,8 +99929,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/700/reactions",
-      "total_count": 1,
-      "+1": 1,
+      "total_count": 2,
+      "+1": 2,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -100786,8 +100786,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/707/reactions",
-      "total_count": 0,
-      "+1": 0,
+      "total_count": 1,
+      "+1": 1,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -102961,15 +102961,27 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
-    "state": "open",
+    "labels": [
+      {
+        "id": 4278041383,
+        "node_id": "LA_kwDOHk513M7-_bsn",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/position:%20support",
+        "name": "position: support",
+        "color": "008026",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      }
+    ],
+    "state": "closed",
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2026-09-30T07:20:33Z",
-    "updated_at": "2026-09-30T07:22:22Z",
-    "closed_at": null,
+    "updated_at": "2026-10-30T21:40:35Z",
+    "closed_at": "2026-10-30T21:40:15Z",
     "assignee": null,
     "author_association": "NONE",
     "issue_field_values": [],
@@ -102987,7 +102999,27 @@
       "total_blocking": 0
     },
     "body": "### WebKittens\n\n_No response_\n\n### Title of the proposal\n\nCSS Pseudo-Elements Module Level 4\nCSS Custom Highlight API Module Level 1\n\n### URL to the spec\n\nhttps://drafts.csswg.org/css-pseudo-4/#typedef-highlight-name-selector\nhttps://drafts.csswg.org/css-highlight-api-1/#custom-highlight-pseudo\n\n### URL to the spec's repository\n\nhttps://github.com/w3c/csswg-drafts\n\n### Issue Tracker URL\n\nhttps://github.com/mozilla/standards-positions/issues/1460\n\n### Explainer URL\n\n_No response_\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nIntroduces a universal selector for custom highlights, ::highlight(*), which matches the highlight pseudo-elements of all custom highlights regardless of their name. \n\nChromium Feature Entry: https://chromestatus.com/feature/5174965228929024",
-    "closed_by": null,
+    "closed_by": {
+      "login": "nt1m",
+      "id": 1795135,
+      "node_id": "MDQ6VXNlcjE3OTUxMzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1795135?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nt1m",
+      "html_url": "https://github.com/nt1m",
+      "followers_url": "https://api.github.com/users/nt1m/followers",
+      "following_url": "https://api.github.com/users/nt1m/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nt1m/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nt1m/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nt1m/subscriptions",
+      "organizations_url": "https://api.github.com/users/nt1m/orgs",
+      "repos_url": "https://api.github.com/users/nt1m/repos",
+      "events_url": "https://api.github.com/users/nt1m/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nt1m/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/728/reactions",
       "total_count": 0,
@@ -103002,7 +103034,7 @@
     },
     "timeline_url": "https://api.github.com/repos/WebKit/standards-positions/issues/728/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
+    "state_reason": "completed",
     "pinned_comment": null
   },
   {
