@@ -263,7 +263,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/14",
-    "position": null,
+    "position": "oppose",
     "venues": [
       "Other"
     ],
@@ -11950,6 +11950,38 @@
     "explainer": "https://github.com/WICG/capability-delegation/blob/main/explainers/popup-delegation.md",
     "tag": "https://github.com/w3ctag/design-reviews/issues/1295",
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1474",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/736",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Better Responsive Image Knobs",
+    "url": "https://github.com/whatwg/html/pull/13053",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": "https://github.com/noamr/explainers/blob/main/responsive-images-explainer.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1477",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/737",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Creating Always-On-Top Windows (Window Management)",
+    "url": "https://github.com/w3c/window-management/pull/170",
+    "github": "https://github.com/w3c/window-management",
+    "issues": null,
+    "explainer": "https://github.com/w3c/window-management/blob/main/EXPLAINER_always_on_top.md",
+    "tag": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1478",
     "bugzilla": null,
     "radar": null
   }
