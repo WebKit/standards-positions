@@ -5032,7 +5032,7 @@
   },
   {
     "id": "https://github.com/WebKit/standards-positions/issues/292",
-    "position": "support",
+    "position": null,
     "venues": [
       "Other"
     ],
@@ -11983,6 +11983,22 @@
     "tag": null,
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1478",
     "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/739",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Audio Worklet Global Scope port",
+    "url": "https://www.w3.org/TR/webaudio-1.1/#dom-audioworkletglobalscope-port",
+    "github": null,
+    "issues": null,
+    "explainer": null,
+    "tag": null,
+    "mozilla": "Mozilla shipped this feature in Firefox 138 https://developer.mozilla.org/en-US/docs/Web/API/AudioWorkletGlobalScope/port",
+    "bugzilla": "https://webkit.org/b/299386",
     "radar": null
   }
 ]
