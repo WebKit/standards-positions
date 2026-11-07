@@ -12000,5 +12000,21 @@
     "mozilla": "Mozilla shipped this feature in Firefox 138 https://developer.mozilla.org/en-US/docs/Web/API/AudioWorkletGlobalScope/port",
     "bugzilla": "https://webkit.org/b/299386",
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/740",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Custom Highlight API Extensions",
+    "url": "https://github.com/w3c/csswg-drafts/issues/14613",
+    "github": "https://github.com/w3c/csswg-drafts",
+    "issues": null,
+    "explainer": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/highlight-v2/explainer.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1304",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1480",
+    "bugzilla": null,
+    "radar": null
   }
 ]
