@@ -12016,5 +12016,37 @@
     "mozilla": "https://github.com/mozilla/standards-positions/issues/1480",
     "bugzilla": null,
     "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/741",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Extend window.open() to split tabs, and add declarative equivalents for window.open() generally",
+    "url": "https://html.spec.whatwg.org/",
+    "github": "https://github.com/whatwg/html",
+    "issues": null,
+    "explainer": "https://github.com/mfreed7/split-tabs",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1309",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1481",
+    "bugzilla": null,
+    "radar": null
+  },
+  {
+    "id": "https://github.com/WebKit/standards-positions/issues/742",
+    "position": null,
+    "venues": [],
+    "concerns": [],
+    "topics": [],
+    "title": "Web Speech API: SpeechRecognitionResult Timestamps",
+    "url": "https://webaudio.github.io/web-speech-api/#dom-speechrecognitionresult-speechstarttime",
+    "github": "https://github.com/WebAudio/web-speech-api",
+    "issues": null,
+    "explainer": "https://github.com/WebAudio/web-speech-api/blob/main/explainers/speech-recognition-result-timestamps.md",
+    "tag": "https://github.com/w3ctag/design-reviews/issues/1267",
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1483",
+    "bugzilla": null,
+    "radar": null
   }
 ]
