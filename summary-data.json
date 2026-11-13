@@ -43260,13 +43260,13 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/243/reactions",
-      "total_count": 41,
-      "+1": 23,
+      "total_count": 43,
+      "+1": 24,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
-      "heart": 18,
+      "heart": 19,
       "rocket": 0,
       "eyes": 0
     },
@@ -46604,9 +46604,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2023-10-14T21:15:43Z",
-    "updated_at": "2025-11-01T06:56:49Z",
+    "updated_at": "2026-11-12T14:03:22Z",
     "closed_at": "2023-11-14T19:02:21Z",
     "assignee": {
       "login": "marcoscaceres",
@@ -50534,9 +50534,9 @@
       }
     ],
     "milestone": null,
-    "comments": 24,
+    "comments": 25,
     "created_at": "2023-12-23T11:01:19Z",
-    "updated_at": "2026-11-06T01:17:06Z",
+    "updated_at": "2026-11-12T17:15:37Z",
     "closed_at": null,
     "assignee": {
       "login": "Constellation",
@@ -86396,14 +86396,70 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 4278046994,
+        "node_id": "LA_kwDOHk513M7-_dES",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20html",
+        "name": "topic: html",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to HTML (Hypertext Markup Language)",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
+        "id": 4278047893,
+        "node_id": "LA_kwDOHk513M7-_dSV",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/topic:%20javascript",
+        "name": "topic: javascript",
+        "color": "5bcefa",
+        "default": false,
+        "description": "Spec relates to the JavaScript programming language",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
+        "id": 4281709419,
+        "node_id": "LA_kwDOHk513M7_NbNr",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20WHATWG%20HTML%20Workstream",
+        "name": "venue: WHATWG HTML Workstream",
+        "color": "0052cc",
+        "default": false,
+        "description": "",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
+        "id": 4299438344,
+        "node_id": "LA_kwDOHk513M8AAAABAEQ5CA",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/venue:%20Ecma%20TC39",
+        "name": "venue: Ecma TC39",
+        "color": "0052cc",
+        "default": false,
+        "description": "Spec is developed in Ecma TC39, which standardizes ECMAScript (aka JavaScript)",
+        "archived_at": null,
+        "archived_by": null
+      },
+      {
+        "id": 4575979221,
+        "node_id": "LA_kwDOHk513M8AAAABEL_m1Q",
+        "url": "https://api.github.com/repos/WebKit/standards-positions/labels/from:%20Igalia",
+        "name": "from: Igalia",
+        "color": "ffffff",
+        "default": false,
+        "description": "Proposed, edited, or co-edited by Igalia.",
+        "archived_at": null,
+        "archived_by": null
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2025-11-03T12:21:01Z",
-    "updated_at": "2025-11-03T12:21:01Z",
+    "updated_at": "2026-11-11T18:03:10Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
@@ -86421,7 +86477,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### WebKittens\n\n@Constellation @annevk\n\n### Title of the proposal\n\nAsyncContext\n\n### URL to the spec\n\nhttps://tc39.es/proposal-async-context/\n\n### URL to the spec's repository\n\nhttps://github.com/tc39/proposal-async-context/\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/tc39/proposal-async-context/blob/master/WEB-INTEGRATION.md (web integration explainer/document)\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\n_No response_\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis is a Stage 2 TC39 proposal, but it's being held at that stage largely because of the complexity of the web integration (see https://github.com/tc39/proposal-async-context/blob/master/WEB-INTEGRATION.md). The web integration is going through the WHATWG stages process (see whatwg/html#10432), currently still at stage 0.",
+    "body": "### WebKittens\n\n@Constellation @annevk\n\n### Title of the proposal\n\nAsyncContext\n\n### URL to the spec\n\nhttps://tc39.es/proposal-async-context/\n\n### URL to the spec's repository\n\nhttps://github.com/tc39/proposal-async-context/\n\n### Issue Tracker URL\n\n_No response_\n\n### Explainer URL\n\nhttps://github.com/tc39/proposal-async-context/blob/master/WEB-INTEGRATION.md (web integration explainer/document)\n\n### TAG Design Review URL\n\n_No response_\n\n### Mozilla standards-positions issue URL\n\nhttps://github.com/mozilla/standards-positions/issues/1187\n\n### WebKit Bugzilla URL\n\n_No response_\n\n### Radar URL\n\n_No response_\n\n### Description\n\nThis is a Stage 2 TC39 proposal, but it's being held at that stage largely because of the complexity of the web integration (see https://github.com/tc39/proposal-async-context/blob/master/WEB-INTEGRATION.md). The web integration is going through the WHATWG stages process (see whatwg/html#10432), currently at stage 1.",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/WebKit/standards-positions/issues/569/reactions",

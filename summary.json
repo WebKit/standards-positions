@@ -9496,16 +9496,22 @@
   {
     "id": "https://github.com/WebKit/standards-positions/issues/569",
     "position": null,
-    "venues": [],
+    "venues": [
+      "WHATWG",
+      "TC39"
+    ],
     "concerns": [],
-    "topics": [],
+    "topics": [
+      "html",
+      "javascript"
+    ],
     "title": "AsyncContext",
     "url": "https://tc39.es/proposal-async-context/",
     "github": "https://github.com/tc39/proposal-async-context/",
     "issues": null,
     "explainer": "https://github.com/tc39/proposal-async-context/blob/master/WEB-INTEGRATION.md (web integration explainer/document)",
     "tag": null,
-    "mozilla": null,
+    "mozilla": "https://github.com/mozilla/standards-positions/issues/1187",
     "bugzilla": null,
     "radar": null
   },
